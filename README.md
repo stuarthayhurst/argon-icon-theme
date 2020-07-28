@@ -1,7 +1,7 @@
 # argon-icon-theme
   - A minimalistic icon theme to run on top of Yaru, to provide a couple tweaks, including:
-   - Icons that Yaru refuses to theme
-   - Icons already themed by Yaru
+    - Icons that Yaru refuses to theme
+    - Icons already themed by Yaru
 
 ## Building / Installing:
   - `make build`
