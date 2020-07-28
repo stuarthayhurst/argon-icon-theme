@@ -1,0 +1,6 @@
+[Icon Theme]
+Name=Argon
+Comment=Minimalist, material theme to go on top of Yaru
+Inherits=Yaru
+
+Directories=
