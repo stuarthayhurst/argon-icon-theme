@@ -2,11 +2,13 @@ SHELL=bash
 BUILD_DIR=build
 ICON_RESOLUTIONS=8 14 16 22 24 32 36 42 48 64 72 96 128 192 256 512
 
-.PHONY: build install uninstall clean icons index refresh
+SVG_OBJS = $(wildcard ./argon/icons/*.svg)
+PNG_LIST = $(subst .svg,.png,$(SVG_OBJS))
+PNG_OBJS = $(subst ./argon/icons,./build/resolution/apps,$(PNG_LIST))
 
-build:
-	make icons
-	make index
+.PHONY: build install uninstall clean index refresh
+
+build: $(PNG_OBJS) index
 install:
 	mkdir -p "/usr/share/icons/argon"
 	cp -r ./build/* /usr/share/icons/argon/
@@ -14,30 +16,27 @@ uninstall:
 	rm -rf "/usr/share/icons/argon"
 clean:
 	rm -rf $(BUILD_DIR)
-icons:
+$(PNG_OBJS): ./build/resolution/apps/%.png: ./argon/icons/%.svg
 	mkdir -p $(BUILD_DIR)
-	for resolution in $(ICON_RESOLUTIONS); do \
-	  mkdir -p "./build/"$$resolution"x"$$resolution; \
-	  mkdir -p "./build/"$$resolution"x"$$resolution"/apps"; \
-	  for filename in ./argon/icons/*.svg; do \
-	    inkscape --export-filename=$${filename//.svg/.png} -w $$resolution -h $$resolution $$filename > /dev/null 2>&1; \
-	    mv $${filename//.svg/.png} "./build/"$$resolution"x"$$resolution"/apps"; \
-	  done; \
-	done
-	mkdir -p "./build/scalable"
 	mkdir -p "./build/scalable/apps"
-	cp "./argon/icons/"* "./build/scalable/apps"
 	for resolution in $(ICON_RESOLUTIONS); do \
-	  for filename in "./build/"$$resolution"x"$$resolution"/apps/*.png"; do \
-	    optipng -o7 -strip all $$filename; \
-	  done; \
-	done
+	  filename=$@; \
+	  inputFile="argon/icons$${filename/build\/resolution\/apps}"; \
+	  inputFile="$${inputFile//.png/.svg}"; \
+	  outputFile="$${filename//resolution/$$resolution\x$$resolution}"; \
+	  echo "$$inputFile -> $$outputFile"; \
+	  mkdir -p "./build/"$$resolution"x"$$resolution"/apps"; \
+	  inkscape --export-filename=$$outputFile -w $$resolution -h $$resolution $$inputFile > /dev/null 2>&1; \
+	  optipng -strip all $$outputFile; \
+	done; \
+	cp "$$inputFile" "./build/scalable/apps/"
 index:
 	mkdir -p $(BUILD_DIR)
 	cp "./argon/index.theme" $(BUILD_DIR)
-	for dirname in $$(ls build| sort -n); do \
-	  if [[ ! "$$dirname" =~ "index" ]]; then \
-	    resolution="$${dirname//'build/'}"; \
+	for resolution in $(ICON_RESOLUTIONS) scalable; do \
+	    if [[ "$$resolution" != "scalable" ]]; then \
+	      resolution="$${resolution}x$${resolution}"; \
+	    fi; \
 	    sed "s|^Directories=.*|&$$resolution/apps,|" ./build/index.theme > ./build/index.theme.temp; \
 	    echo "" >> ./build/index.theme.temp; \
 	    fileContent="$$(cat ./argon/directory.template)"; \
@@ -46,7 +45,6 @@ index:
 	    fileContent="$${fileContent//Type=/Type=Threshold}"; \
 	    echo "$$fileContent" >> ./build/index.theme.temp; \
 	    mv ./build/index.theme.temp ./build/index.theme; \
-	  fi; \
 	done
 	sed 's/,$$//' ./build/index.theme > ./build/index.theme.temp
 	mv ./build/index.theme.temp ./build/index.theme
