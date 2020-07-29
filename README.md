@@ -17,7 +17,9 @@
   - Psensor (Upstreamed, kept for older versions)
 
 ## Planned icons:
-  - Minecraft-launcher
+  - Audacity
   - Gnome-tweaks
   - Gparted
+  - Minecraft-launcher
+  - Retroarch
   - Steam
