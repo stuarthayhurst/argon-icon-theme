@@ -15,11 +15,11 @@
 
 ## Themed Icons:
   - Gnome-tweaks
+  - Minecraft-launcher
   - Psensor (Upstreamed, kept for older versions)
 
 ## Planned icons:
   - Audacity
   - Gparted
-  - Minecraft-launcher
   - Retroarch
   - Steam
