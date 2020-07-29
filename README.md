@@ -14,11 +14,11 @@
   - optipng
 
 ## Themed Icons:
+  - Gnome-tweaks
   - Psensor (Upstreamed, kept for older versions)
 
 ## Planned icons:
   - Audacity
-  - Gnome-tweaks
   - Gparted
   - Minecraft-launcher
   - Retroarch
