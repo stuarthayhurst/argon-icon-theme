@@ -50,6 +50,6 @@ index:
 	mv ./build/index.theme.temp ./build/index.theme
 refresh:
 	if command -v gtk-update-icon-cache > /dev/null; then \
-	  echo "Updating gtk-update-icon-cache"; touch /usr/share/icons/argon > /dev/null; \
-	  gtk-update-icon-cache -f /usr/share/icons/argon/; \
+	  echo "Updating gtk-update-icon-cache"; touch /usr/share/icons/Argon > /dev/null; \
+	  gtk-update-icon-cache -f /usr/share/icons/Argon/; \
 	fi \
