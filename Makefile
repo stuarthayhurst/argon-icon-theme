@@ -10,10 +10,10 @@ PNG_OBJS = $(subst ./argon/icons,./build/resolution/apps,$(PNG_LIST))
 
 build: $(PNG_OBJS) index
 install:
-	mkdir -p "/usr/share/icons/argon"
-	cp -r ./build/* /usr/share/icons/argon/
+	mkdir -p "/usr/share/icons/Argon"
+	cp -r ./build/* /usr/share/icons/Argon/
 uninstall:
-	rm -rf "/usr/share/icons/argon"
+	rm -rf "/usr/share/icons/Argon"
 clean:
 	rm -rf $(BUILD_DIR)
 $(PNG_OBJS): ./build/resolution/apps/%.png: ./argon/icons/%.svg
