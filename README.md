@@ -18,12 +18,12 @@
   - Gnome-tweaks
   - Minecraft-launcher
   - Psensor (Upstreamed, kept for older versions)
+  - Retroarch
   - Steam
 
 ## Planned icons:
   - Audacity
   - Gparted
-  - Retroarch
 
 ## Papirus icons:
   - Htop
