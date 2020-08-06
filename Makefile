@@ -38,11 +38,16 @@ index:
 	      resolution="$${resolution}x$${resolution}"; \
 	    fi; \
 	    sed "s|^Directories=.*|&$$resolution/apps,|" ./build/index.theme > ./build/index.theme.temp; \
+	    resolution="$${resolution%%x*}"; \
 	    echo "" >> ./build/index.theme.temp; \
 	    fileContent="$$(cat ./argon/directory.template)"; \
 	    fileContent="$${fileContent//resolution/$$resolution}"; \
 	    fileContent="$${fileContent//Size=/Size=$$resolution}"; \
-	    fileContent="$${fileContent//Type=/Type=Threshold}"; \
+	    if [[ "$$resolution" != "scalable" ]]; then \
+	      fileContent="$${fileContent//Type=/Type=Threshold}"; \
+	    else
+	      fileContent="$${fileContent//Type=/Type=Scalable}"; \
+	    fi; \
 	    echo "$$fileContent" >> ./build/index.theme.temp; \
 	    mv ./build/index.theme.temp ./build/index.theme; \
 	done
