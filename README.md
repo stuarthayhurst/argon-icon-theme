@@ -16,6 +16,7 @@
 
 ## Themed Icons:
   - Gnome-tweaks
+  - Gparted
   - Minecraft-launcher
   - Psensor (Upstreamed, kept for older versions)
   - Retroarch
@@ -23,7 +24,6 @@
 
 ## Planned icons:
   - Audacity
-  - Gparted
 
 ## Papirus icons:
   - Htop
