@@ -12,6 +12,7 @@ build: $(PNG_OBJS) index
 install:
 	mkdir -p "/usr/share/icons/Argon"
 	cp -r ./build/* /usr/share/icons/Argon/
+	make refresh
 uninstall:
 	rm -rf "/usr/share/icons/Argon"
 clean:
