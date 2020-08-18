@@ -15,6 +15,7 @@
   - optipng
 
 ## Themed Icons:
+  - GNU Image Manipulation Program (GIMP)
   - Gnome-tweaks
   - Gparted
   - Minecraft-launcher
