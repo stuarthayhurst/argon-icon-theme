@@ -6,11 +6,8 @@ SVG_OBJS = $(wildcard ./argon/*/*/*.svg)
 PNG_LIST = $(subst .svg,.png,$(SVG_OBJS))
 PNG_OBJS = $(subst ./argon,./build/resolution,$(PNG_LIST))
 
-.PHONY: build install uninstall clean index refresh test
+.PHONY: build install uninstall clean index refresh
 
-test:
-	#$(SVG_OBJS)
-	#$(PNG_OBJS)
 build: $(PNG_OBJS) index
 install:
 	mkdir -p "/usr/share/icons/Argon"
