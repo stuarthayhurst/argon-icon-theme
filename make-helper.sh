@@ -2,10 +2,14 @@
 generateImage() {
   filename="$1"
   read -ra iconResolutions <<< "$2"
+  filterList=("Argon/" "Papirus/")
   for resolution in "${iconResolutions[@]}"; do
     inputFile="argon${filename/build\/resolution}"
     inputFile="${inputFile//.png/.svg}"
     outputFile="${filename//resolution/$resolution\x$resolution}"
+    for filter in "${filterList[@]}"; do
+      outputFile="${outputFile//$filter}"
+    done
     iconType="${outputFile%/*}"
     iconType="${iconType##*/}"
     echo "$inputFile -> $outputFile"

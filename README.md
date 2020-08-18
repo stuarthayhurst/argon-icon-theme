@@ -2,7 +2,7 @@
   - A minimalistic icon theme to run on top of Yaru, to provide a couple tweaks, including:
     - Icons that Yaru refuses to theme
     - Icons already themed by Yaru
-  - This project contains some assets from [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme), which are listed at the end of this file
+  - Icons in directories titled 'Papirus' are from [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 
 ## Building / Installing:
   - `make build` OR `make build -j4`

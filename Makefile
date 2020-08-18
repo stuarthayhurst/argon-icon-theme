@@ -2,7 +2,7 @@ SHELL=bash
 BUILD_DIR=build
 ICON_RESOLUTIONS=8 14 16 22 24 32 36 42 48 64 72 96 128 192 256 512
 
-SVG_OBJS = $(wildcard ./argon/*/*.svg)
+SVG_OBJS = $(wildcard ./argon/*/*/*.svg)
 PNG_LIST = $(subst .svg,.png,$(SVG_OBJS))
 PNG_OBJS = $(subst ./argon,./build/resolution,$(PNG_LIST))
 
