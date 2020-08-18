@@ -22,9 +22,6 @@
   - Retroarch
   - Steam
 
-## Planned icons:
-  - Audacity
-
 ## Papirus icons:
   - Htop
   - Inkscape
