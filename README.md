@@ -7,7 +7,6 @@
 ## Building / Installing:
   - `make build` OR `make build -j4`
   - `sudo make install`
-  - `sudo make refresh`
   - Set the icon theme using gnome-tweaks, or `gsettings set org.gnome.desktop.interface icon-theme Argon`
 
 ## Build Dependencies:
