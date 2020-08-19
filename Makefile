@@ -10,7 +10,6 @@ PNG_LIST = $(wildcard ./$(BUILD_DIR)/*/*/*.png)
 .PHONY: build regen install uninstall clean autoclean index refresh
 
 build:
-	echo "WIP"; exit 1
 	make autoclean
 	./make-helper.sh -g
 	make index
@@ -30,7 +29,11 @@ clean:
 	  rm $(BUILD_DIR)/index.theme; \
 	fi
 autoclean:
+	find ./$(BUILD_DIR) -type d -empty -delete
 	./make-helper.sh -a "$(BUILD_DIR)"
+	if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
+	  rm $(BUILD_DIR)/index.theme; \
+	fi
 $(PNG_OBJS): ./$(BUILD_DIR)/resolution/%.png: ./$(BUILD_DIR)/%.svg
 	mkdir -p $(BUILD_DIR)
 	./make-helper.sh "-i" "$@" "$(ICON_RESOLUTIONS)" "$(BUILD_DIR)"

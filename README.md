@@ -12,7 +12,7 @@
   - `make build` will only generate changed icons (automatically uses multiple cores)
   - `make regen -j4` will regenerate all icons, whether they have been changed or not
   - `make clean` will delete all generated icons and index.theme
-  - `make autoclean` will only delete icons missing a corresponding svg
+  - `make autoclean` will delete icons missing a corresponding svg, index.theme and empty directories
   - `make index` will generate index.theme, done automatically by `build` and `regen`
 
 ## Contributing:
