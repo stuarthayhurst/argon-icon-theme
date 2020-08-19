@@ -25,6 +25,7 @@
   - coreutils
   - git
   - inkscape
+  - make
   - optipng
   - sed
 
