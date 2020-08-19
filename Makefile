@@ -11,7 +11,7 @@ PNG_LIST = $(wildcard ./$(BUILD_DIR)/*/*/*.png)
 
 build:
 	make autoclean
-	./make-helper.sh -g
+	./make-helper.sh -g "$(ICON_RESOLUTIONS)" "$(BUILD_DIR)"
 	make index
 regen: $(PNG_OBJS) index
 install:

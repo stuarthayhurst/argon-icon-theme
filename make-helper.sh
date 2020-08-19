@@ -1,9 +1,42 @@
 #!/bin/bash
 generateNewImages() {
-  true
-  #Fail if git isn't present
-  #Get all the svgs that have changed, or have their pngs missing in scalable
-  #Run `make build outputPath(s) index -jcoreCount`
+  read -ra iconResolutions <<< "$1"
+  buildDir="$2"
+
+  #Check that git is present and .git is also present
+  if ! git status > /dev/null 2>&1; then
+    echo "Either git isn't installed, or .git missing"
+    echo "This feature isn't available on releases"
+    exit 1
+  fi
+
+  #Add any new svgs, svgs with missing pngs, or svgs with modifications to list
+  for iconType in "$buildDir/scalable/"*; do
+    for svgIcon in "$iconType/"*; do
+      rebuildIcon="false"
+      if ! git diff --exit-code -s "$svgIcon" > /dev/null 2>&1; then
+        rebuildIcon="true"
+      fi
+      if ! git ls-files --error-unmatch "$svgIcon" > /dev/null 2>&1; then
+        rebuildIcon="true"
+      fi
+      for resolution in "${iconResolutions[@]}"; do
+        pngIcon="${svgIcon/"$buildDir/scalable"/"$buildDir/${resolution}x${resolution}"}"
+        pngIcon="${pngIcon/svg/png}"
+        if [[ ! -f "$pngIcon" ]]; then
+          rebuildIcon="true"
+        fi
+      done
+      if [[ "$rebuildIcon" == "true" ]]; then
+        pngIcon="${svgIcon/svg/png}"
+        pngIcon="./${pngIcon/"$buildDir/scalable"/"$buildDir/resolution/scalable"}"
+        rebuildList+=("$pngIcon")
+      fi
+    done
+  done
+
+  #Generate the new icons
+  #make "${rebuildList[@]}" "-j$(nproc)"
 }
 
 generateImage() {
@@ -95,7 +128,7 @@ autoclean() {
 
 case $1 in
   -a|--autoclean) autoclean "$2"; exit;;
-  -g|--generate) generateNewImages; exit;;
+  -g|--generate) generateNewImages "$2" "$3"; exit;;
   -i|--images) generateImage "$2" "$3" "$4"; exit;;
   -t|--theme-index) createIndex "$2" "$3"; exit;;
 esac
