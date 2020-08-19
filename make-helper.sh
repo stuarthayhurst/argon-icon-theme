@@ -13,7 +13,7 @@ generateImage() {
     iconType="${outputFile%/*}"
     iconType="${iconType##*/}"
     echo "$inputFile -> $outputFile"
-    mkdir -p "./${outputFile%/*}"
+    mkdir -p "${outputFile%/*}"
     inkscape "--export-filename=$outputFile" -w "$resolution" -h "$resolution" "$inputFile" > /dev/null 2>&1
     optipng -strip all "$outputFile"
   done
@@ -23,8 +23,8 @@ generateImage() {
 
 createIndex() {
   read -ra iconResolutions <<< "$2"
-  cp "./argon/index.theme" "$1/"
-  for iconType in ./build/8x8/*; do
+  cp "./templates/index.theme.template" "$buildDir/index.theme"
+  for iconType in "./$buildDir/8x8/"*; do
     iconType="${iconType##*/}"
     for resolution in "${iconResolutions[@]}" scalable; do
       if [[ "$resolution" != "scalable" ]]; then

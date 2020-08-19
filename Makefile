@@ -2,10 +2,10 @@ SHELL=bash
 BUILD_DIR=build
 ICON_RESOLUTIONS=8 14 16 22 24 32 36 42 48 64 72 96 128 192 256 512
 
-SVG_OBJS_ORIG = $(wildcard ./argon/*/*/*/*.svg)
-SVG_OBJS = $(SVG_OBJS_ORIG) $(wildcard ./argon/*/*/*.svg)
-PNG_LIST = $(subst .svg,.png,$(SVG_OBJS))
-PNG_OBJS = $(subst ./argon,./build/resolution,$(PNG_LIST))
+SVG_OBJS_ORIG = $(wildcard ./$(BUILD_DIR)/scalable/*/*.svg)
+SVG_OBJS = $(SVG_OBJS_ORIG) $(wildcard ./$(BUILD_DIR)/scalable/*/*/*.svg)
+PNG_OBJS = $(subst ./$(BUILD_DIR),./$(BUILD_DIR)/resolution,$(subst .svg,.png,$(SVG_OBJS)))
+PNG_LIST = $(wildcard ./$(BUILD_DIR)/*/*/*.png)
 
 .PHONY: build install uninstall clean index refresh
 
