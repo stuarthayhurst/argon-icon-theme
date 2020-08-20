@@ -35,8 +35,10 @@ generateNewImages() {
     done
   done
 
-  #Generate the new icons
-  make "${rebuildList[@]}" "-j$(nproc)"
+  #Generate any new icons
+  if [[ "${rebuildList[*]}" != "" ]]; then
+    make "${rebuildList[@]}" "-j$(nproc)"
+  fi
 }
 
 generateImage() {
