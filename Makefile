@@ -15,9 +15,13 @@ build:
 	make index
 regen: $(PNG_OBJS) index
 install:
-	mkdir -p "/usr/share/icons/Argon"
-	cp -r ./$(BUILD_DIR)/* /usr/share/icons/Argon/
-	make refresh
+	if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
+	  mkdir -p "/usr/share/icons/Argon"; \
+	  cp -r ./$(BUILD_DIR)/* /usr/share/icons/Argon/; \
+	  make refresh; \
+	else \
+	  echo "WARNING: $(BUILD_DIR)/index.theme is missing, run 'make index' and try again"; \
+	fi
 uninstall:
 	rm -rf "/usr/share/icons/Argon"
 clean:
