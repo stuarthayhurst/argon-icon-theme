@@ -30,6 +30,7 @@
   - sed
 
 ## Themed Icons:
+  - Audacity
   - GNU Image Manipulation Program (GIMP)
   - Gnome-tweaks
   - Gparted
