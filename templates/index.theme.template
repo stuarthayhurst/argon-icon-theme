@@ -1,6 +1,6 @@
 [Icon Theme]
 Name=Argon
-Comment=Minimalist, material theme to go on top of Yaru
+Comment=A minimal, material icon theme for Linux, designed to run with Yaru
 Inherits=Yaru,hicolor
 
 Directories=
