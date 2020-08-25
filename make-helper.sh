@@ -12,7 +12,7 @@ generateNewImages() {
 
   #Add any new svgs, svgs with missing pngs, or svgs with modifications to list
   for iconType in "$buildDir/scalable/"*; do
-    for svgIcon in "$iconType/"*; do
+    for svgIcon in "$iconType/"*.svg; do
       rebuildIcon="false"
       if ! git diff --exit-code -s "$svgIcon" > /dev/null 2>&1; then
         rebuildIcon="true"
