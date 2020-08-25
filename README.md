@@ -18,7 +18,7 @@
 ## Contributing:
   - Create / modify the appropriate .svg file
   - Run `make build` if the change is minor
-  - If many icons were changed, run `make clean; make regen -j8`
+  - If many icons were changed, or if an icon that's symlinked to was modified, run `make clean; make regen -j8`
   - Submit a pull request with the changes
 
 ## Build Dependencies:
