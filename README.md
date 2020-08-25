@@ -35,6 +35,7 @@
   - Gnome-tweaks
   - Gparted
   - Minecraft-launcher
+  - Nvidia-settings
   - Psensor (Upstreamed, kept for older versions)
   - Retroarch
   - Steam
