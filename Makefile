@@ -16,6 +16,7 @@ build:
 regen: $(PNG_OBJS) index
 install:
 	if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
+	  make uninstall; \
 	  mkdir -p "/usr/share/icons/Argon"; \
 	  cp -r ./$(BUILD_DIR)/* /usr/share/icons/Argon/; \
 	  make refresh; \
