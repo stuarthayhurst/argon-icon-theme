@@ -5,7 +5,7 @@ ICON_RESOLUTIONS=8 16 22 24 32 48 64 128 256
 SVG_OBJS_ORIG = $(wildcard ./$(BUILD_DIR)/scalable/*/*.svg)
 SVG_OBJS = $(SVG_OBJS_ORIG) $(wildcard ./$(BUILD_DIR)/scalable/*/*/*.svg)
 PNG_OBJS = $(subst ./$(BUILD_DIR),./$(BUILD_DIR)/resolution,$(subst .svg,.png,$(SVG_OBJS)))
-PNG_LIST = $(wildcard ./$(BUILD_DIR)/*/*/*.png)
+PNG_LIST = $(wildcard ./$(BUILD_DIR)/*/*/*.png*)
 
 .PHONY: build regen install uninstall clean autoclean index refresh
 

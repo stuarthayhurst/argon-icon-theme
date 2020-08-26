@@ -42,25 +42,32 @@ generateNewImages() {
 }
 
 generateImage() {
-  inputFile="$1"
+  outputFile="$1"
   read -ra iconResolutions <<< "$2"
   buildDir="$3"
 
-  #Filter authors out of the path, generate outputFile
-  outputFile="$inputFile"
-
   #Generate $inputFile
-  inputFile="${inputFile//png/svg}"
+  inputFile="${outputFile//png/svg}"
   inputFile="${inputFile/resolution\/}"
 
   origOutputFile="$outputFile"
   for resolution in "${iconResolutions[@]}"; do
-    outputFile="${outputFile//resolution\/scalable/$resolution\x$resolution}"
-    echo "$inputFile -> $outputFile"
-    mkdir -p "${outputFile%/*}"
-    inkscape "--export-filename=$outputFile" -w "$resolution" -h "$resolution" "$inputFile" > /dev/null 2>&1
-    optipng -strip all "$outputFile"
-    outputFile="$origOutputFile"
+    outputFile="${origOutputFile//resolution\/scalable/$resolution\x$resolution}"
+    if [[ -L "./$inputFile" ]]; then
+      iconTarget="$(readlink "$inputFile")"
+      iconTarget="${iconTarget/svg/png}"
+      echo "Symlink: $inputFile -> $iconTarget"
+      mkdir -p "${outputFile%/*}"
+      if [[ -f "$outputFile" ]]; then
+        rm "./$outputFile"
+      fi
+      ln -s "$iconTarget" "$outputFile"
+    else
+      echo "$inputFile -> $outputFile"
+      mkdir -p "${outputFile%/*}"
+      inkscape "--export-filename=$outputFile" -w "$resolution" -h "$resolution" "$inputFile" > /dev/null 2>&1
+      optipng -strip all "$outputFile"
+    fi
   done
 }
 
@@ -117,6 +124,9 @@ autoclean() {
           resolution="${resolution/"./$buildDir/"}"
           svgIcon="${pngIcon/$resolution/scalable}"
           svgIcon="${svgIcon/png/svg}"
+          if [[ ! -e "$pngIcon" ]]; then
+            rm -rv "$pngIcon"
+          fi
           if [[ ! -f "$svgIcon" ]]; then
             if [[ -f "$pngIcon" ]]; then
               rm -rv "$pngIcon"

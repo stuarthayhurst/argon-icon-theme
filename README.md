@@ -9,16 +9,16 @@
 
 ## Building:
   - It's not necessary to rebuild the theme to install, only if modifications have been made
-  - `make build` will only generate changed icons (automatically uses multiple cores)
+  - `make build` will only generate changed icons (automatically uses multiple cores) - this means it will act like `make regen -jX`, if `make clean` was run immediately before `make build`
   - `make regen -j4` will regenerate all icons, whether they have been changed or not
   - `make clean` will delete all generated icons and index.theme
-  - `make autoclean` will delete icons missing a corresponding svg, index.theme and empty directories
+  - `make autoclean` will delete icons missing a corresponding svg, broken symlinks, index.theme and empty directories
   - `make index` will generate index.theme, done automatically by `build` and `regen`
 
 ## Contributing:
-  - Create / modify the appropriate .svg file
-  - Run `make build` if the change is minor
-  - If many icons were changed, or if an icon that's symlinked to was modified, run `make clean; make regen -j8`
+  - Create / modify / delete the appropriate .svg file(s)
+  - Run `make build` if no icons were deleted
+  - If icons were deleted, run `make clean; make regen -j8`
   - Submit a pull request with the changes
 
 ## Build Dependencies:
