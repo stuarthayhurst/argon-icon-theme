@@ -36,6 +36,7 @@
   - Gparted
   - Minecraft-launcher
   - Nvidia-settings
+  - OBS Studio
   - Psensor (Upstreamed, kept for older versions)
   - Retroarch
   - Steam
