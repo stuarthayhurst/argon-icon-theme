@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="61.748501"
-     inkscape:cy="157.63675"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="128.00182"
+     inkscape:cy="133.05611"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer3"
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -178,26 +178,6 @@
      id="layer3"
      inkscape:label="Eyes"
      style="display:inline">
-    <g
-       inkscape:groupmode="layer"
-       id="layer8"
-       inkscape:label="Shadow"
-       style="display:inline">
-      <ellipse
-         ry="9.3728008"
-         rx="9.372797"
-         cy="31.488792"
-         cx="39.244301"
-         id="ellipse1203"
-         style="display:inline;fill:#1a1a1a;stroke-width:0.0312418" />
-      <ellipse
-         ry="6.2485404"
-         rx="6.2485375"
-         cy="33.374687"
-         cx="22.99243"
-         id="ellipse1205"
-         style="display:inline;fill:#1a1a1a;stroke-width:0.0312418" />
-    </g>
     <ellipse
        style="fill:#ffffff;stroke-width:0.0312418"
        id="path1075"
@@ -235,7 +215,8 @@
     <g
        inkscape:groupmode="layer"
        id="layer10"
-       inkscape:label="Paintbrush">
+       inkscape:label="Paintbrush"
+       style="display:inline">
       <g
          id="g1362"
          style="fill:#974611;fill-opacity:1">
