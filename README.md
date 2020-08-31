@@ -32,12 +32,13 @@
 ## Themed Icons:
   - Audacity
   - GNU Image Manipulation Program (GIMP)
-  - Gnome-tweaks
-  - Gparted
-  - Minecraft-launcher
-  - Nvidia-settings
+  - Gnome Tweaks
+  - GParted
+  - Minecraft Launcher
+  - Nvidia Settings
   - OBS Studio
   - Psensor (Upstreamed, kept for older versions)
+  - Remmina
   - Retroarch
   - Steam
 
