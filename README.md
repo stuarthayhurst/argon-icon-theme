@@ -34,6 +34,7 @@
   - GNU Image Manipulation Program (GIMP)
   - Gnome Tweaks
   - GParted
+  - Kernel Notify (Upstreamed, kept for older versions)
   - Minecraft Launcher
   - Nvidia Settings
   - OBS Studio
