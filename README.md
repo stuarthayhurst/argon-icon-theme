@@ -32,6 +32,7 @@
 ## Themed Icons:
   - Audacity
   - GNU Image Manipulation Program (GIMP)
+  - Gnome Calculator
   - Gnome Tweaks
   - GParted
   - Kernel Notify (Upstreamed, kept for older versions)
