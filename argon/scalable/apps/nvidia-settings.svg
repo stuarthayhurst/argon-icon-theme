@@ -8,7 +8,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="nvidia-settings.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    id="svg8"
    version="1.1"
    viewBox="0 0 67.733332 67.733335"
@@ -25,11 +25,11 @@
      units="px"
      showgrid="false"
      inkscape:document-rotation="0"
-     inkscape:current-layer="layer10"
+     inkscape:current-layer="layer2"
      inkscape:document-units="px"
-     inkscape:cy="98.624036"
-     inkscape:cx="156.18992"
-     inkscape:zoom="2.8284273"
+     inkscape:cy="100.37421"
+     inkscape:cx="97.284973"
+     inkscape:zoom="2.0000001"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -85,10 +85,11 @@
       <g
          inkscape:groupmode="layer"
          id="layer2"
-         inkscape:label="Highlight">
+         inkscape:label="Highlight"
+         style="opacity:0.1">
         <path
            d="m 9.2257931,4.2333333 c -2.7655986,0 -4.9924598,2.2268608 -4.9924598,4.9924598 v 1.0583329 c 0,-2.7655979 2.2268612,-4.9924597 4.9924598,-4.9924597 H 58.50754 c 2.765599,0 4.99246,2.2268618 4.99246,4.9924597 V 9.2257931 c 0,-2.765599 -2.226861,-4.9924598 -4.99246,-4.9924598 z"
-           style="display:inline;opacity:0.1;fill:#ffffff;fill-opacity:1;stroke-width:0.0246944;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+           style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:0.0246944;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
            id="path955" />
       </g>
     </g>
