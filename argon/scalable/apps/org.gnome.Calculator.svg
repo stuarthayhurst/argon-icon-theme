@@ -27,9 +27,9 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer8"
      inkscape:document-units="px"
-     inkscape:cy="153.65577"
-     inkscape:cx="97.150027"
-     inkscape:zoom="1.4142136"
+     inkscape:cy="134.70778"
+     inkscape:cx="116.1594"
+     inkscape:zoom="2"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -109,14 +109,14 @@
          width="11.90625"
          height="2.3812499"
          x="42.730209"
-         y="29.983906" />
+         y="29.997135" />
       <rect
          style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.355524;paint-order:stroke fill markers"
          id="rect891-3"
          width="11.90625"
          height="2.3812499"
          x="42.730209"
-         y="35.341713" />
+         y="35.354942" />
     </g>
     <g
        inkscape:groupmode="layer"
@@ -127,7 +127,7 @@
          id="rect891-5"
          width="11.90625"
          height="2.3812499"
-         x="12.832292"
+         x="13.096875"
          y="46.434376" />
     </g>
     <g
@@ -138,7 +138,7 @@
       <path
          id="rect891-6"
          style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.355523;paint-order:stroke fill markers"
-         d="m 17.594792,12.832293 v 4.762499 h -4.7625 v 2.38125 h 4.7625 v 4.7625 h 2.38125 v -4.7625 h 4.7625 v -2.38125 h -4.7625 v -4.762499 z" />
+         d="m 17.859375,13.096875 v 4.762499 h -4.7625 v 2.38125 h 4.7625 v 4.7625 h 2.38125 v -4.7625 h 4.7625 v -2.38125 h -4.7625 v -4.762499 z" />
     </g>
   </g>
 </svg>
