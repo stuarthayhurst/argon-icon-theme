@@ -31,9 +31,11 @@
 
 ## Themed Icons:
   - Audacity
+  - Chromium
   - GNU Image Manipulation Program (GIMP)
   - Gnome Calculator
   - Gnome Tweaks
+  - Google Chrome
   - GParted
   - Kernel Notify (Upstreamed, kept for older versions)
   - Minecraft Launcher
