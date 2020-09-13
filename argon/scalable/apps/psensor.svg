@@ -12,7 +12,7 @@
    viewBox="0 0 67.733332 67.733336"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    sodipodi:docname="psensor.svg"
    inkscape:export-filename="/home/ratus5/Downloads/Projects/Code/psensor/icons/hicolor/48x48/psensor.png"
    inkscape:export-xdpi="36"
@@ -26,11 +26,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.8729399"
-     inkscape:cx="107.41834"
-     inkscape:cy="136.27898"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="122.24152"
+     inkscape:cy="162.74957"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer2"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1836"
@@ -66,16 +66,17 @@
          style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke-width:0.0246944;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          id="path906" />
     </g>
-    <path
-       d="M 67.281361,34.294057 V 58.93514 c 0,2.765599 2.226653,4.99225 4.992252,4.99225 h 49.282167 c 2.7656,0 4.99225,-2.226651 4.99225,-4.99225 V 34.294057 Z"
-       style="display:inline;opacity:1;fill:#3b3b3b;fill-opacity:1;stroke-width:0.0246944;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
-       id="rect1168"
-       transform="translate(-63.048029,-0.42738964)" />
-    <path
-       d="m 72.273613,4.660723 c -2.765599,0 -4.992252,2.2266525 -4.992252,4.9922509 V 34.294056 H 126.54803 V 9.6529739 c 0,-2.7655984 -2.22665,-4.9922509 -4.99225,-4.9922509 z"
-       style="display:inline;opacity:1;fill:#323232;fill-opacity:1;stroke-width:0.0246944;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
-       id="rect1172-5"
-       transform="translate(-63.048029,-0.42738964)" />
+    <g
+       id="g858">
+      <path
+         d="M 4.233332,33.866667 V 58.50775 c 0,2.765599 2.226653,4.99225 4.992252,4.99225 h 49.282167 c 2.7656,0 4.99225,-2.226651 4.99225,-4.99225 V 33.866667 Z"
+         style="display:inline;fill:#3b3b3b;fill-opacity:1;stroke-width:0.0246944;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         id="rect1168" />
+      <path
+         d="m 9.225584,4.2333334 c -2.765599,0 -4.992252,2.2266525 -4.992252,4.9922509 V 33.866666 H 63.500001 V 9.2255843 c 0,-2.7655984 -2.22665,-4.9922509 -4.99225,-4.9922509 z"
+         style="display:inline;fill:#323232;fill-opacity:1;stroke-width:0.0246944;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         id="rect1172-5" />
+    </g>
     <g
        inkscape:groupmode="layer"
        id="layer7"

@@ -25,10 +25,10 @@
      units="px"
      showgrid="false"
      inkscape:document-rotation="0"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="g1174"
      inkscape:document-units="px"
-     inkscape:cy="100.37421"
-     inkscape:cx="97.284973"
+     inkscape:cy="141.55027"
+     inkscape:cx="127.80166"
      inkscape:zoom="2.0000001"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -73,14 +73,17 @@
          inkscape:label="Colour"
          id="g1174"
          inkscape:groupmode="layer">
-        <path
-           d="M 4.2333333,33.866667 V 58.50775 c 0,2.765599 2.2266527,4.99225 4.9922512,4.99225 H 58.50775 C 61.273349,63.5 63.5,61.273349 63.5,58.50775 V 33.866667 Z"
-           style="display:inline;fill:#3b3b3b;fill-opacity:1;stroke-width:0.0246944;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
-           id="rect1168" />
-        <path
-           d="m 9.2255845,4.2333333 c -2.7655985,0 -4.9922512,2.2266525 -4.9922512,4.9922509 V 33.866666 H 63.5 V 9.2255842 c 0,-2.7655984 -2.226651,-4.9922509 -4.99225,-4.9922509 z"
-           style="display:inline;fill:#323232;fill-opacity:1;stroke-width:0.0246944;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
-           id="rect1172" />
+        <g
+           id="g844">
+          <path
+             d="M 4.2333333,33.866667 V 58.50775 c 0,2.765599 2.2266527,4.99225 4.9922512,4.99225 H 58.50775 C 61.273349,63.5 63.5,61.273349 63.5,58.50775 V 33.866667 Z"
+             style="display:inline;fill:#3b3b3b;fill-opacity:1;stroke-width:0.0246944;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+             id="rect1168" />
+          <path
+             d="m 9.2255845,4.2333333 c -2.7655985,0 -4.9922512,2.2266525 -4.9922512,4.9922509 V 33.866666 H 63.5 V 9.2255842 c 0,-2.7655984 -2.226651,-4.9922509 -4.99225,-4.9922509 z"
+             style="display:inline;fill:#323232;fill-opacity:1;stroke-width:0.0246944;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+             id="rect1172" />
+        </g>
       </g>
       <g
          inkscape:groupmode="layer"

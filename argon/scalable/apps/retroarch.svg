@@ -9,7 +9,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    enable-background="new"
    sodipodi:docname="retroarch.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    id="SVGRoot"
    version="1.1"
    viewBox="0 0 256 256"
@@ -60,11 +60,11 @@
      inkscape:window-height="1016"
      inkscape:window-width="1836"
      showgrid="false"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="layer2"
      inkscape:document-units="px"
-     inkscape:cy="113.32916"
-     inkscape:cx="167.09321"
-     inkscape:zoom="2"
+     inkscape:cy="140.06472"
+     inkscape:cx="153.88308"
+     inkscape:zoom="2.8284271"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -103,31 +103,32 @@
        inkscape:label="Colour"
        id="layer2"
        inkscape:groupmode="layer">
-      <ellipse
-         ry="118.12489"
-         rx="118.12494"
-         cy="128"
-         cx="127.99994"
-         id="path11"
-         style="fill:#00ffbe;fill-opacity:1;stroke-width:1.26675" />
-      <circle
-         transform="matrix(0.92285156,0,0,0.9228512,9.8750005,9.8750959)"
-         clip-path="url(#clipPath1200)"
-         r="128"
-         style="display:inline;fill:#00ffff;fill-opacity:1;stroke-width:1.37269"
-         id="circle1176"
-         cx="128"
-         cy="128" />
-      <path
-         d="M 127.69605,8.0001929 A 120,119.99991 0 0 0 8.0000005,128.00009 120,119.99991 0 0 0 128,248 120,119.99991 0 0 0 248,128.00009 120,119.99991 0 0 0 128,8.0001929 a 120,119.99991 0 0 0 -0.30395,0 z M 128,31.437674 A 96.5625,96.562424 0 0 1 224.5625,128.00009 96.5625,96.562424 0 0 1 128,224.56252 96.5625,96.562424 0 0 1 31.4375,128.00009 96.5625,96.562424 0 0 1 128,31.437674 Z"
-         style="display:inline;opacity:1;fill:#333333;stroke-width:0.107241"
-         id="path357" />
+      <g
+         id="g870">
+        <path
+           id="path11"
+           style="fill:#00ffbe;fill-opacity:1;stroke-width:1.26675"
+           d="M 127.97852 9.875 A 118.12494 118.12489 0 0 0 9.875 128 L 246.125 128 A 118.12494 118.12489 0 0 0 128 9.875 A 118.12494 118.12489 0 0 0 127.97852 9.875 z " />
+        <circle
+           transform="matrix(0.92285156,0,0,0.9228512,9.8750005,9.8750959)"
+           clip-path="url(#clipPath1200)"
+           r="128"
+           style="display:inline;fill:#00ffff;fill-opacity:1;stroke-width:1.37269"
+           id="circle1176"
+           cx="128"
+           cy="128" />
+      </g>
     </g>
     <g
        style="display:inline"
        inkscape:label="Border"
        id="layer4"
-       inkscape:groupmode="layer" />
+       inkscape:groupmode="layer">
+      <path
+         d="M 127.69605,8.0001929 A 120,119.99991 0 0 0 8.0000005,128.00009 120,119.99991 0 0 0 128,248 120,119.99991 0 0 0 248,128.00009 120,119.99991 0 0 0 128,8.0001929 a 120,119.99991 0 0 0 -0.30395,0 z M 128,31.437674 A 96.5625,96.562424 0 0 1 224.5625,128.00009 96.5625,96.562424 0 0 1 128,224.56252 96.5625,96.562424 0 0 1 31.4375,128.00009 96.5625,96.562424 0 0 1 128,31.437674 Z"
+         style="display:inline;opacity:1;fill:#333333;stroke-width:0.107241"
+         id="path357" />
+    </g>
     <g
        inkscape:groupmode="layer"
        id="layer5"

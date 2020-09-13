@@ -25,7 +25,7 @@
      units="px"
      showgrid="false"
      inkscape:document-rotation="0"
-     inkscape:current-layer="layer8"
+     inkscape:current-layer="g1174"
      inkscape:document-units="px"
      inkscape:cy="134.70778"
      inkscape:cx="116.1594"
@@ -68,20 +68,23 @@
        inkscape:label="Colour"
        id="g1174"
        inkscape:groupmode="layer">
-      <path
-         id="path853"
-         style="display:inline;fill:#3b3b3b;fill-opacity:1;stroke-width:0.0933332;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
-         d="M 34.869141 16 C 24.416483 16 16 24.416489 16 34.869141 L 16 128 L 128 128 L 128 16 L 34.869141 16 z "
-         transform="scale(0.26458333)" />
-      <path
-         id="path840"
-         style="display:inline;fill:#ff8c08;fill-opacity:1;stroke-width:0.0246944;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
-         d="M 33.866666,4.2333333 V 63.499999 h 24.640873 c 2.7656,0 4.99246,-2.22686 4.99246,-4.99246 V 33.866666 9.2257934 c 0,-2.7655985 -2.22686,-4.9924601 -4.99246,-4.9924601 z" />
-      <path
-         id="path882"
-         style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.0933332;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
-         d="M 16 128 L 16 221.13086 C 16 231.58352 24.416483 240 34.869141 240 L 128 240 L 128 128 L 16 128 z "
-         transform="scale(0.26458333)" />
+      <g
+         id="g849">
+        <path
+           id="path853"
+           style="display:inline;fill:#3b3b3b;fill-opacity:1;stroke-width:0.0933332;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+           d="M 34.869141,16 C 24.416483,16 16,24.416489 16,34.869141 V 128 H 128 V 16 Z"
+           transform="scale(0.26458333)" />
+        <path
+           id="path840"
+           style="display:inline;fill:#ff8c08;fill-opacity:1;stroke-width:0.0246944;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+           d="M 33.866666,4.2333333 V 63.499999 h 24.640873 c 2.7656,0 4.99246,-2.22686 4.99246,-4.99246 V 33.866666 9.2257934 c 0,-2.7655985 -2.22686,-4.9924601 -4.99246,-4.9924601 z" />
+        <path
+           id="path882"
+           style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke-width:0.0933332;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+           d="m 16,128 v 93.13086 C 16,231.58352 24.416483,240 34.869141,240 H 128 V 128 Z"
+           transform="scale(0.26458333)" />
+      </g>
     </g>
     <g
        inkscape:groupmode="layer"
