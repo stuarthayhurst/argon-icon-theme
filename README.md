@@ -44,6 +44,7 @@
   - Psensor (Upstreamed, kept for older versions)
   - Remmina
   - Retroarch
+  - Spotify
   - Steam
 
 ## Papirus icons:
