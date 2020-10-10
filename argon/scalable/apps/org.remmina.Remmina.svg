@@ -8,7 +8,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="org.remmina.Remmina.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    id="svg4705"
    version="1.1"
    viewBox="0 0 67.733332 67.733332"
@@ -52,11 +52,11 @@
      fit-margin-left="0"
      fit-margin-top="0"
      showgrid="false"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer7"
      inkscape:document-units="px"
-     inkscape:cy="137.81838"
-     inkscape:cx="86.181217"
-     inkscape:zoom="1.979899"
+     inkscape:cy="118.46443"
+     inkscape:cx="101.12485"
+     inkscape:zoom="2.8"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -71,7 +71,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -121,16 +121,16 @@
      id="layer6"
      inkscape:groupmode="layer">
     <g
-       style="display:inline"
+       style="display:inline;opacity:0.4"
        inkscape:label="Shadow"
        id="layer7"
        inkscape:groupmode="layer">
       <g
          id="g1040"
          transform="matrix(0.66107097,0,0,0.66107097,8.4666665,9.5249998)"
-         style="display:inline;fill:#1a1a1a;fill-opacity:1;stroke-width:1.00019;stroke-miterlimit:4;stroke-dasharray:none">
+         style="display:inline;fill:#000000;fill-opacity:1;stroke-width:1.00019;stroke-miterlimit:4;stroke-dasharray:none">
         <polygon
-           style="fill:#1a1a1a;fill-opacity:1;stroke-width:1.00019;stroke-miterlimit:4;stroke-dasharray:none"
+           style="fill:#000000;fill-opacity:1;stroke-width:1.00019;stroke-miterlimit:4;stroke-dasharray:none"
            class="st1"
            points="20.618,17.742 20.618,26.923 29.549,32.877 20.618,38.831 20.618,48.012 43.32,32.877 "
            id="polygon1038" />
@@ -138,12 +138,12 @@
       <g
          id="g1046"
          transform="matrix(0.66107097,0,0,0.66107097,8.4666665,9.5249998)"
-         style="display:inline;fill:#1a1a1a;fill-opacity:1">
+         style="display:inline;fill:#000000;fill-opacity:1">
         <g
            id="g1044"
-           style="fill:#1a1a1a;fill-opacity:1">
+           style="fill:#000000;fill-opacity:1">
           <polygon
-             style="fill:#1a1a1a;fill-opacity:1"
+             style="fill:#000000;fill-opacity:1"
              class="st2"
              points="55.388,59.232 55.388,50.051 46.457,44.097 55.388,38.143 55.388,28.962 32.685,44.097 "
              id="polygon1042" />
@@ -152,9 +152,9 @@
       <g
          id="g1050"
          transform="matrix(0.66107097,0,0,0.66107097,8.4666665,9.5249998)"
-         style="display:inline;fill:#1a1a1a;fill-opacity:1">
+         style="display:inline;fill:#000000;fill-opacity:1">
         <path
-           style="fill:#1a1a1a;fill-opacity:1"
+           style="fill:#000000;fill-opacity:1"
            inkscape:connector-curvature="0"
            class="st1"
            d="m 64.776,23.074 c 2.632,4.509 4.147,9.75 4.147,15.348 0,16.845 -13.656,30.5 -30.5,30.5 -9.922,0 -18.734,-4.741 -24.304,-12.077 L 7.53,61.238 c 7.005,9.461 18.243,15.607 30.892,15.607 21.186,0 38.423,-17.236 38.423,-38.423 0,-7.215 -2.002,-13.97 -5.476,-19.744 z"
@@ -163,9 +163,9 @@
       <g
          id="g1054"
          transform="matrix(0.66107097,0,0,0.66107097,8.4666665,9.5249998)"
-         style="display:inline;fill:#1a1a1a;fill-opacity:1">
+         style="display:inline;fill:#000000;fill-opacity:1">
         <path
-           style="fill:#1a1a1a;fill-opacity:1"
+           style="fill:#000000;fill-opacity:1"
            inkscape:connector-curvature="0"
            class="st2"
            d="m 7.922,38.423 c 0,-16.845 13.656,-30.5 30.5,-30.5 9.826,0 18.561,4.652 24.139,11.868 l 6.596,-4.397 C 62.142,6.053 50.976,0 38.423,0 17.236,0 0,17.236 0,38.423 0,45.543 1.954,52.212 5.343,57.936 L 11.937,53.54 C 9.387,49.083 7.922,43.925 7.922,38.423 Z"
