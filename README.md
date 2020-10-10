@@ -32,9 +32,10 @@
 ## Themed Icons:
   - Audacity
   - Chromium
+  - Discord
   - GNU Image Manipulation Program (GIMP)
-  - Gnome Calculator
-  - Gnome Tweaks
+  - GNOME Calculator
+  - GNOME Tweaks
   - Google Chrome + Beta + Unstable
   - GParted
   - Kernel Notify (Upstreamed, kept for older versions)
