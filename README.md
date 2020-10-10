@@ -34,6 +34,7 @@
   - Chromium
   - Discord
   - GNU Image Manipulation Program (GIMP)
+  - GNOME Boxes
   - GNOME Calculator
   - GNOME Tweaks
   - Google Chrome + Beta + Unstable
