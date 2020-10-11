@@ -43,7 +43,7 @@ $(PNG_OBJS): ./$(BUILD_DIR)/resolution/%.png: ./$(BUILD_DIR)/%.svg
 	mkdir -p $(BUILD_DIR)
 	./make-helper.sh "-i" "$@" "$(ICON_RESOLUTIONS)" "$(BUILD_DIR)"
 index:
-	./make-helper.sh "-t" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)"
+	./make-helper.sh "-t" "$(BUILD_DIR)"
 refresh:
 	if command -v gtk-update-icon-cache > /dev/null; then \
 	  echo "Updating gtk-update-icon-cache"; touch /usr/share/icons/Argon > /dev/null; \

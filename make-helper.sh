@@ -1,5 +1,5 @@
 #!/bin/bash
-generateNewImages() {
+generateChangedImages() {
   read -ra iconResolutions <<< "$1"
   buildDir="$2"
 
@@ -71,46 +71,61 @@ generateImage() {
   done
 }
 
-createIndex() {
+generateIndex() {
   buildDir="$1"
-  read -ra iconResolutions <<< "$2"
+  #Generate list of resolutions, as directories
+  read -ra resolutionDirs <<< "$(echo argon/*/ | tr " " "\n" | sort -V | tr "\n" " ")"
+  read -ra resolutionDirs <<< "${resolutionDirs[*]%'/'}"
+  read -ra resolutionDirs <<< "${resolutionDirs[*]//"$buildDir/"}"
+
   cp "./templates/index.theme.template" "$buildDir/index.theme"
-  for iconType in "./$buildDir/8x8/"*; do
-    iconType="${iconType##*/}"
-    for resolution in "${iconResolutions[@]}" scalable; do
-      if [[ "$resolution" != "scalable" ]]; then
-        resolution="${resolution}x${resolution}"
+
+  #Iterate through each resolution directory
+  for iconResolution in "${resolutionDirs[@]}"; do
+    #Get list of directories
+    dirList=()
+    for iconDir in "./$buildDir/$iconResolution/"*; do
+      if [[ -d "$iconDir" ]]; then
+        dirList+=("${iconDir##*/}")
       fi
-      sed "s|^Directories=.*|&$resolution/$iconType,|" "./$buildDir/index.theme" > "./$buildDir/index.theme.temp"
-      resolution="${resolution%%x*}"
-      echo "" >> "./$buildDir/index.theme.temp"
-      fileContent="$(cat ./templates/directory.template)"
-      fileContent="${fileContent//icontype/$iconType}"
-      if [[ "$resolution" != "scalable" ]]; then
-        fileContent="${fileContent//Size=/Size=$resolution}"
-        fileContent="${fileContent//resolution/$resolution\x$resolution}"
-        fileContent="${fileContent//Type=/Type=Threshold}"
+    done
+    #Iterate through each subdirectory, get info about it, and write to theme.index
+    for iconDir in "${dirList[@]}"; do
+      #Generate iconSize and iconType
+      if [[ "$iconResolution" == "scalable" ]] || [[ "$iconResolution" == "symbolic" ]]; then
+        iconSize="256"
+        iconType="Scalable"
       else
-        fileContent="${fileContent//Size=/Size=256}"
-        fileContent="${fileContent//resolution/$resolution}"
-        fileContent="${fileContent//Type=/Type=Scalable}"
+        iconSize="${iconResolution%x*}"
+        iconType="Threshold"
       fi
+
+      while read -r line; do
+        if [[ "${line%,*}" == "$iconDir" ]]; then
+          iconContext="${line#*,}"
+        fi
+      done < templates/context.csv
+      if [[ "$iconContext" == "" ]]; then
+        echo "No entry in context.csv for '$iconDir', please report this"
+        exit
+      fi
+
+      #Fill in template
+      fileContent="$(cat ./templates/directory.template)"
+      fileContent="${fileContent/"resolution/iconDir"/"$iconResolution/$iconDir"}"
+      fileContent="${fileContent/"Size="/"Size=$iconSize"}"
+      fileContent="${fileContent/"Context="/"Context=$iconContext"}"
+      fileContent="${fileContent/"Type="/"Type=$iconType"}"
+
+      #Write info to file
+      sed "s|^Directories=.*|&$iconResolution/$iconDir,|" "./$buildDir/index.theme" > "./$buildDir/index.theme.temp"
+      echo "" >> "./$buildDir/index.theme.temp"
       echo "$fileContent" >> "./$buildDir/index.theme.temp"
       mv "./$buildDir/index.theme.temp" "./$buildDir/index.theme"
     done
   done
 
-  sed "s|^Directories=.*|&symbolic/actions,|" "./$buildDir/index.theme" > "./$buildDir/index.theme.temp"
-  fileContent="$(cat ./templates/directory.template)"
-  fileContent="${fileContent//resolution/symbolic}"
-  fileContent="${fileContent//icontype/actions}"
-  fileContent="${fileContent//Size=/Size=256}"
-  fileContent="${fileContent//Context=Applications/Context=Actions}"
-  fileContent="${fileContent//Type=/Type=Scalable}"
-  echo "" >> "./$buildDir/index.theme.temp"
-  echo "$fileContent" >> "./$buildDir/index.theme.temp"
-  mv "./$buildDir/index.theme.temp" "./$buildDir/index.theme"
-
+  #Remove trailing comma from directory list
   sed 's/,$//' "./$buildDir/index.theme" > "./$buildDir/index.theme.temp"
   mv "./$buildDir/index.theme.temp" "./$buildDir/index.theme"
 }
@@ -140,7 +155,7 @@ autoclean() {
 
 case $1 in
   -a|--autoclean) autoclean "$2"; exit;;
-  -g|--generate) generateNewImages "$2" "$3"; exit;;
+  -g|--generate) generateChangedImages "$2" "$3"; exit;;
   -i|--images) generateImage "$2" "$3" "$4"; exit;;
-  -t|--theme-index) createIndex "$2" "$3"; exit;;
+  -t|--theme-index) generateIndex "$2"; exit;;
 esac
