@@ -22,6 +22,7 @@
 
 ## Build Dependencies:
   - coreutils
+  - findutils
   - git
   - inkscape
   - make
