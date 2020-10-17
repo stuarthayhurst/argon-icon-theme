@@ -118,16 +118,13 @@ generateIndex() {
       fileContent="${fileContent/"Type="/"Type=$iconType"}"
 
       #Write info to file
-      sed "s|^Directories=.*|&$iconResolution/$iconDir,|" "./$buildDir/index.theme" > "./$buildDir/index.theme.temp"
-      echo "" >> "./$buildDir/index.theme.temp"
-      echo "$fileContent" >> "./$buildDir/index.theme.temp"
-      mv "./$buildDir/index.theme.temp" "./$buildDir/index.theme"
+      sed -i "s|^Directories=.*|&$iconResolution/$iconDir,|" "./$buildDir/index.theme"
+      echo -e "\n$fileContent" >> "./$buildDir/index.theme"
     done
   done
 
   #Remove trailing comma from directory list
-  sed 's/,$//' "./$buildDir/index.theme" > "./$buildDir/index.theme.temp"
-  mv "./$buildDir/index.theme.temp" "./$buildDir/index.theme"
+  sed -i 's/,$//' "./$buildDir/index.theme"
 }
 
 autoclean() {
