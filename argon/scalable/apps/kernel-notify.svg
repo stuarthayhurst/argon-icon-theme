@@ -16,41 +16,7 @@
    sodipodi:docname="kernel-notify.svg"
    enable-background="new">
   <defs
-     id="defs3885">
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath1200">
-      <rect
-         style="fill:#ff00ff;fill-opacity:1"
-         id="rect1202"
-         width="256"
-         height="128"
-         x="0"
-         y="128" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath537">
-      <rect
-         style="fill:#ff00ff;fill-opacity:1;stroke-width:1.17475688"
-         id="rect539"
-         width="256"
-         height="128"
-         x="0"
-         y="0" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath537-2">
-      <rect
-         style="fill:#ff00ff;fill-opacity:1;stroke-width:1.17475688"
-         id="rect539-9"
-         width="256"
-         height="128"
-         x="0"
-         y="0" />
-    </clipPath>
-  </defs>
+     id="defs3885" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"

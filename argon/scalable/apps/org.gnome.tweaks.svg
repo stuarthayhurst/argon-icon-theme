@@ -5,7 +5,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    viewBox="0 0 256 256"
@@ -35,61 +34,12 @@
      inkscape:window-x="2004"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1-3" />
+     inkscape:current-layer="layer1-3"
+     inkscape:document-rotation="0" />
   <title
      id="title4162">Adwaita Icon Template</title>
   <defs
-     id="defs3">
-    <linearGradient
-       id="linearGradient974">
-      <stop
-         style="stop-color:#babdb6;stop-opacity:1"
-         offset="0"
-         id="stop962" />
-      <stop
-         id="stop964"
-         offset="0.04166667"
-         style="stop-color:#f6f5f4;stop-opacity:1" />
-      <stop
-         style="stop-color:#d5d3cf;stop-opacity:1"
-         offset="0.08333334"
-         id="stop966" />
-      <stop
-         id="stop968"
-         offset="0.91666669"
-         style="stop-color:#deddda;stop-opacity:1" />
-      <stop
-         style="stop-color:#f6f5f4;stop-opacity:1"
-         offset="0.95833331"
-         id="stop970" />
-      <stop
-         style="stop-color:#babdb6;stop-opacity:1"
-         offset="1"
-         id="stop972" />
-    </linearGradient>
-    <linearGradient
-       y2="44"
-       x2="464"
-       y1="44"
-       x1="48"
-       gradientTransform="matrix(0.25,0,0,0.25,-110,225)"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient1747"
-       xlink:href="#linearGradient974" />
-    <clipPath
-       id="clipPath1784"
-       clipPathUnits="userSpaceOnUse">
-      <rect
-         ry="14"
-         rx="14"
-         y="202"
-         x="36"
-         height="28"
-         width="59.999996"
-         id="rect1786"
-         style="opacity:1;vector-effect:none;fill:#3584e4;fill-opacity:1;stroke:none;stroke-width:0.853913;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    </clipPath>
-  </defs>
+     id="defs3" />
   <metadata
      id="metadata4">
     <rdf:RDF>

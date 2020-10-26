@@ -7,7 +7,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="spotify-new.svg"
+   sodipodi:docname="spotify-client.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    id="svg4705"
    version="1.1"
@@ -15,30 +15,7 @@
    height="256"
    width="256">
   <defs
-     id="defs4699">
-    <linearGradient
-       id="linearGradient954">
-      <stop
-         id="stop948"
-         offset="0"
-         style="stop-color:#faf8f6;stop-opacity:1" />
-      <stop
-         id="stop951"
-         offset="1"
-         style="stop-color:#f1f0e9;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient954-3">
-      <stop
-         style="stop-color:#faf8f6;stop-opacity:1"
-         offset="0"
-         id="stop950" />
-      <stop
-         style="stop-color:#f1f0e9;stop-opacity:1"
-         offset="1"
-         id="stop952" />
-    </linearGradient>
-  </defs>
+     id="defs4699" />
   <sodipodi:namedview
      units="px"
      inkscape:document-rotation="0"

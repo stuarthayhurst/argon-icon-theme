@@ -19,14 +19,6 @@
      id="defs2">
     <clipPath
        clipPathUnits="userSpaceOnUse"
-       id="clipPath967">
-      <path
-         d="m 10.746995,0 h 46.239339 c 5.953837,0 10.746997,4.7931599 10.746997,10.746995 v 46.239339 c 0,5.953837 -4.79316,10.746997 -10.746997,10.746997 H 10.746995 C 4.7931599,67.733331 0,62.940171 0,56.986334 V 10.746995 C 0,4.7931599 4.7931599,0 10.746995,0 Z"
-         style="display:inline;opacity:1;fill:#ff00ff;fill-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
-         id="path969" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
        id="clipPath2505">
       <rect
          style="fill:#ff00ff;stroke-width:0"

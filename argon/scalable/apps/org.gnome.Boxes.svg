@@ -5,10 +5,9 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="org.gnome.Boxes (copy).svg"
+   sodipodi:docname="org.gnome.Boxes.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    id="svg8"
    version="1.1"
@@ -16,103 +15,7 @@
    height="256"
    width="256">
   <defs
-     id="defs2">
-    <linearGradient
-       id="a">
-      <stop
-         offset="0"
-         stop-color="#fff"
-         id="stop2838" />
-      <stop
-         offset=".4"
-         stop-color="#fff"
-         id="stop2840" />
-      <stop
-         offset="1"
-         stop-color="#f6f5f4"
-         id="stop2842" />
-    </linearGradient>
-    <radialGradient
-       xlink:href="#a"
-       id="i"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(4 0 0 4 -492.799 -641.952)"
-       cx="134.2"
-       cy="222.988"
-       fx="134.2"
-       fy="222.988"
-       r="2" />
-    <radialGradient
-       xlink:href="#a"
-       id="h"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(4 0 0 4 -492.799 -681.952)"
-       cx="134.2"
-       cy="222.988"
-       fx="134.2"
-       fy="222.988"
-       r="2" />
-    <radialGradient
-       xlink:href="#a"
-       id="g"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(6 0 0 6 -785.198 -1065.928)"
-       cx="134.2"
-       cy="222.988"
-       fx="134.2"
-       fy="222.988"
-       r="2" />
-    <radialGradient
-       xlink:href="#a"
-       id="f"
-       cx="134.2"
-       cy="222.988"
-       fx="134.2"
-       fy="222.988"
-       r="2"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(6 0 0 6 -785.198 -1153.928)" />
-    <radialGradient
-       xlink:href="#a"
-       id="e"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(4 0 0 4 -452.799 -681.952)"
-       cx="134.2"
-       cy="222.988"
-       fx="134.2"
-       fy="222.988"
-       r="2" />
-    <radialGradient
-       xlink:href="#a"
-       id="d"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(4 0 0 4 -452.799 -641.952)"
-       cx="134.2"
-       cy="222.988"
-       fx="134.2"
-       fy="222.988"
-       r="2" />
-    <radialGradient
-       xlink:href="#a"
-       id="c"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(6 0 0 6 -697.198 -1065.928)"
-       cx="134.2"
-       cy="222.988"
-       fx="134.2"
-       fy="222.988"
-       r="2" />
-    <radialGradient
-       xlink:href="#a"
-       id="b"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(6 0 0 6 -697.198 -1153.928)"
-       cx="134.2"
-       cy="222.988"
-       fx="134.2"
-       fy="222.988"
-       r="2" />
-  </defs>
+     id="defs2" />
   <sodipodi:namedview
      inkscape:window-maximized="1"
      inkscape:window-y="27"

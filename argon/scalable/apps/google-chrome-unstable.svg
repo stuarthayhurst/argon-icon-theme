@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -36,17 +36,6 @@
          style="stop-color:#000000;stop-opacity:1;"
          offset="0"
          id="stop3268" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient954">
-      <stop
-         id="stop948"
-         offset="0"
-         style="stop-color:#faf8f6;stop-opacity:1" />
-      <stop
-         id="stop951"
-         offset="1"
-         style="stop-color:#f1f0e9;stop-opacity:1" />
     </linearGradient>
   </defs>
   <sodipodi:namedview

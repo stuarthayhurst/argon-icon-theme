@@ -28,28 +28,6 @@
          id="rect1202"
          style="fill:#ff00ff;fill-opacity:1" />
     </clipPath>
-    <clipPath
-       id="clipPath537"
-       clipPathUnits="userSpaceOnUse">
-      <rect
-         y="0"
-         x="0"
-         height="128"
-         width="256"
-         id="rect539"
-         style="fill:#ff00ff;fill-opacity:1;stroke-width:1.17475688" />
-    </clipPath>
-    <clipPath
-       id="clipPath537-2"
-       clipPathUnits="userSpaceOnUse">
-      <rect
-         y="0"
-         x="0"
-         height="128"
-         width="256"
-         id="rect539-9"
-         style="fill:#ff00ff;fill-opacity:1;stroke-width:1.17475688" />
-    </clipPath>
   </defs>
   <sodipodi:namedview
      inkscape:document-rotation="0"
