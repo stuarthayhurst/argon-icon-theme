@@ -1,5 +1,5 @@
 apps,Applications,256
-actions,Actions,32
+actions,Actions,128
 legacy,Legacy,128
 mimetypes,MimeTypes,128
-status,Status,32
+status,Status,128
