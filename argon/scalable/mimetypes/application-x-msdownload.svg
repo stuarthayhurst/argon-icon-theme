@@ -27,9 +27,9 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="g1156"
      inkscape:document-units="px"
-     inkscape:cy="134.16291"
-     inkscape:cx="159.52576"
-     inkscape:zoom="2.0000001"
+     inkscape:cy="113.78702"
+     inkscape:cx="201.95946"
+     inkscape:zoom="1.4142136"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -153,28 +153,28 @@
       </g>
     </g>
     <g
-       id="g865">
+       id="g857"
+       transform="matrix(1.0000119,0,0,1.0000119,5.8208333,42.333333)">
       <rect
-         style="display:inline;fill:#702d00;fill-opacity:1;stroke:none;stroke-width:6.90766;stroke-linecap:round;paint-order:stroke fill markers"
+         style="display:inline;fill:#702d00;fill-opacity:1;stroke:none;stroke-width:7.5466;stroke-linecap:round;paint-order:stroke fill markers"
          id="rect1013"
-         width="25.4"
-         height="8.8554688"
-         x="6.3499999"
-         y="43.65625"
-         ry="2.7094791" />
+         width="26.458019"
+         height="10.14677"
+         x="0"
+         y="0"
+         ry="3.1045744" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:13.606px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.340152"
-         x="10.898414"
-         y="53.231369"
+         style="font-style:normal;font-weight:normal;font-size:16.8869px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.422174"
+         x="3.3200746"
+         y="9.5805626"
          id="text1018"
-         transform="scale(1.0371234,0.96420542)"><tspan
+         transform="scale(1.0371258,0.96420321)"><tspan
            sodipodi:role="line"
            id="tspan1016"
-           x="10.898414"
-           y="53.231369"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.2045px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#ffffff;stroke-width:0.340152"
-           dy="0">Win</tspan></text>
+           x="3.3200746"
+           y="9.5805626"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.6652px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#ffffff;stroke-width:0.422174">dll</tspan></text>
     </g>
   </g>
 </svg>
