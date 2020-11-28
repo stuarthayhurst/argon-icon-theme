@@ -1,4 +1,5 @@
-apps,Applications
-actions,Actions
-legacy,Legacy
-mimetypes,MimeTypes
+apps,Applications,256
+actions,Actions,32
+legacy,Legacy,128
+mimetypes,MimeTypes,128
+status,Status,32

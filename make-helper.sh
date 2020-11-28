@@ -1,6 +1,5 @@
 #!/bin/bash
 generateChangedImages() {
-  read -ra iconResolutions <<< "$1"
   buildDir="$2"
 
   #Check that git is present and .git is also present
@@ -20,6 +19,10 @@ generateChangedImages() {
       if ! git ls-files --error-unmatch "$svgIcon" > /dev/null 2>&1; then
         rebuildIcon="true"
       fi
+
+      #Generate list of icon resolutions to check for
+      getMaxResolution "${iconType##*/}" "$1"
+
       for resolution in "${iconResolutions[@]}"; do
         pngIcon="${svgIcon/"$buildDir/scalable"/"$buildDir/${resolution}x${resolution}"}"
         pngIcon="${pngIcon/svg/png}"
@@ -41,14 +44,47 @@ generateChangedImages() {
   fi
 }
 
+#Create an array containing all the resolutions to build icon for
+#Need iconType and a list of resolutions
+getMaxResolution() {
+  iconType="$1"
+  iconResolutions=()
+  #Loop through context.csv contents
+  for line in "${contextData[@]}"; do
+    #If the icon type and context type match, continue
+    if [[ "$iconType" == "${line%%,*}" ]]; then
+      match="true"
+      maxResolution="${line##*,}"
+      #Loop through all resolutions, and create an array of resolutions equal to or below $maxResolution
+      for resolution in $2; do
+        if [[ "$resolution" -le "$maxResolution" ]]; then
+          iconResolutions+=("$resolution")
+        fi
+      done
+      break
+    fi
+  done
+  if [[ "$match" != "true" ]]; then
+    echo "No entry in context.csv for '$iconType', please report this"
+    exit 1
+  else
+    match="false"
+  fi
+}
+
 generateImage() {
   outputFile="$1"
-  read -ra iconResolutions <<< "$2"
   buildDir="$3"
 
   #Generate $inputFile
   inputFile="${outputFile//png/svg}"
   inputFile="${inputFile/resolution\/}"
+
+  iconType="${inputFile##*argon/scalable/}"
+  iconType="${iconType%%/*}"
+
+  #Create array with resolutions to generate images for
+  getMaxResolution "$iconType" "$2"
 
   origOutputFile="$outputFile"
   for resolution in "${iconResolutions[@]}"; do
@@ -56,11 +92,11 @@ generateImage() {
     if [[ -L "./$inputFile" ]]; then
       iconTarget="$(readlink "$inputFile")"
       iconTarget="${iconTarget/svg/png}"
-      echo "Symlink: $inputFile -> $iconTarget"
       mkdir -p "${outputFile%/*}"
       if [[ -f "$outputFile" ]]; then
         rm "./$outputFile"
       fi
+      echo "Symlink: $outputFile -> $iconTarget"
       ln -s "$iconTarget" "$outputFile"
     else
       echo "$inputFile -> $outputFile"
@@ -100,14 +136,19 @@ generateIndex() {
         iconType="Threshold"
       fi
 
-      while read -r line; do
-        if [[ "${line%,*}" == "$iconDir" ]]; then
+      for line in "${contextData[@]}"; do
+        if [[ "${line%%,*}" == "$iconDir" ]]; then
           iconContext="${line#*,}"
+          iconContext="${iconContext%,*}"
+          match="true"
+          break
         fi
-      done < templates/context.csv
-      if [[ "$iconContext" == "" ]]; then
+      done
+      if [[ "$match" != "true" ]]; then
         echo "No entry in context.csv for '$iconDir', please report this"
-        exit
+        exit 1
+      else
+        match="false"
       fi
 
       #Fill in template
@@ -149,6 +190,12 @@ autoclean() {
     fi
   done
 }
+
+i="0"
+while read -r line; do
+  i=$(( i + 1 ))
+  contextData[i]="$line"
+done < templates/context.csv
 
 case $1 in
   -a|--autoclean) autoclean "$2"; exit;;
