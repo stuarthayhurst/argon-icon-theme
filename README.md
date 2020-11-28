@@ -1,6 +1,6 @@
 # argon-icon-theme
   - A minimalistic, material icon theme, designed to run on GNOME with Yaru
-  - This project contains some assets from [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+  - This project contains some assets from [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) and [Yaru](https://github.com/ubuntu/yaru)
 
 ## Installing:
   - `make index`, or if modifications have been made: `make build`
