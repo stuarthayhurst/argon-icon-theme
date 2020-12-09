@@ -133,7 +133,7 @@ generateIndex() {
         iconType="Scalable"
       else
         iconSize="${iconResolution%x*}"
-        iconType="Threshold"
+        iconType="Fixed"
       fi
 
       for line in "${contextData[@]}"; do
