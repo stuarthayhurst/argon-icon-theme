@@ -30,6 +30,15 @@ generateChangedImages() {
           rebuildIcon="true"
         fi
       done
+      #If the icon is a symlink, check it's not broken
+      if [[ -L "$svgIcon" ]]; then
+        #Get the path to the target, and append the target
+        linkTarget="${svgIcon%/*}/$(readlink "$svgIcon")"
+        if [[ ! -f "$linkTarget" ]]; then
+          echo "$svgIcon: broken symlink, ignoring"
+          rebuildIcon="false"
+        fi
+      fi
       if [[ "$rebuildIcon" == "true" ]]; then
         pngIcon="${svgIcon/svg/png}"
         pngIcon="./${pngIcon/"$buildDir/scalable"/"$buildDir/resolution/scalable"}"
