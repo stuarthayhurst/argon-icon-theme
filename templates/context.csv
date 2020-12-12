@@ -2,4 +2,5 @@ apps,Applications,256
 actions,Actions,128
 legacy,Legacy,128
 mimetypes,MimeTypes,128
+places,Places,128
 status,Status,128
