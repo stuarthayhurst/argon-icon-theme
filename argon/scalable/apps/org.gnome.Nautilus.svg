@@ -15,19 +15,7 @@
    height="256"
    width="256">
   <defs
-     id="defs2">
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath943">
-      <rect
-         style="opacity:1;fill:#000000;fill-opacity:1;stroke-width:17.625;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
-         id="rect945"
-         width="255.99998"
-         height="140.67105"
-         x="0"
-         y="115.32893" />
-    </clipPath>
-  </defs>
+     id="defs2" />
   <sodipodi:namedview
      inkscape:window-maximized="1"
      inkscape:window-y="27"
@@ -39,8 +27,8 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer4"
      inkscape:document-units="px"
-     inkscape:cy="136.11872"
-     inkscape:cx="135.29847"
+     inkscape:cy="127.81098"
+     inkscape:cx="134.98747"
      inkscape:zoom="2"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -56,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -150,10 +138,10 @@
        d="m 4.2333333,21.332825 v 9.260416 h 3.7041666 z m 59.2666657,0 -3.704166,9.260416 h 3.704166 z" />
     <path
        id="path934"
+       clip-path="none"
        style="display:inline;fill:#666666;fill-opacity:1;stroke-width:0.0933332;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
-       d="M 34.869141,16 C 24.416485,16 16,24.416485 16,34.869141 V 128 221.13086 C 16,231.58352 24.416485,240 34.869141,240 H 221.13086 C 231.58352,240 240,231.58352 240,221.13086 V 128 34.869141 C 240,24.416485 231.58352,16 221.13086,16 Z"
-       transform="scale(0.26458333)"
-       clip-path="url(#clipPath943)" />
+       d="M 16 115.32812 L 16 128 L 16 221.13086 C 16 231.58352 24.416485 240 34.869141 240 L 221.13086 240 C 231.58352 240 240 231.58352 240 221.13086 L 240 128 L 240 115.32812 L 16 115.32812 z "
+       transform="scale(0.26458333)" />
     <g
        id="g949">
       <rect
