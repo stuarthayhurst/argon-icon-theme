@@ -3,7 +3,7 @@
   - This project contains some assets from [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) and [Yaru](https://github.com/ubuntu/yaru)
 
 <a align='center'>
-  <img align='left' src='https://raw.githubusercontent.com/Dragon8oy/argon-icon-theme/master/argon/Preview.png' alt="Icon Preview">
+  <img align='top' src='https://raw.githubusercontent.com/Dragon8oy/argon-icon-theme/master/Preview.png' alt="Icon Preview">
 </a>
 
 ## Installing:
