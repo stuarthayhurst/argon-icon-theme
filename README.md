@@ -2,9 +2,9 @@
   - A minimalistic, material icon theme, designed to run on GNOME with Yaru
   - This project contains some assets from [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) and [Yaru](https://github.com/ubuntu/yaru)
 
-<a align='center'>
-  <img align='top' src='https://raw.githubusercontent.com/Dragon8oy/argon-icon-theme/master/Preview.png' alt="Icon Preview">
-</a>
+<p align='center'>
+  <img src='https://raw.githubusercontent.com/Dragon8oy/argon-icon-theme/master/Preview.png' alt="Icon Preview"/>
+</p>
 
 ## Installing:
   - `make index`, or if modifications have been made: `make build`
