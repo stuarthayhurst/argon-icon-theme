@@ -17,12 +17,15 @@
 
 ## Contributing:
   - Create / modify / delete the appropriate .svg file(s)
-  - Run `make autoclean; make build` to clean up left over files and generate new icons
+  - Run `make build` to clean up left over files and generate new icons
   - Submit a pull request with the changes
   - Guides to make icons can be found in `guides/`
 
+## Install Dependencies:
+  - make
+  - sed
+
 ## Build Dependencies:
-  - coreutils
   - findutils
   - git
   - inkscape
