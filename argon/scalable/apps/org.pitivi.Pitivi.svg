@@ -52,8 +52,8 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="g1174"
      inkscape:document-units="px"
-     inkscape:cy="121.15019"
-     inkscape:cx="112.31619"
+     inkscape:cy="129.50684"
+     inkscape:cx="151.90368"
      inkscape:zoom="4"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -305,8 +305,9 @@
        id="circle1663" />
     <path
        id="path1811"
-       style="opacity:0.05;fill:#ffffff;fill-opacity:1;stroke-width:7.36208;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       style="opacity:0.05;fill:#ffffff;fill-opacity:1;stroke-width:27.8252;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        inkscape:transform-center-y="-6.3500795"
-       d="m 63.5,23.283333 v 38.1 H 4.2333333 Z" />
+       d="M 240 88 L 22.785156 227.63867 C 26.05463 230.36182 30.262644 232 34.869141 232 L 221.13086 232 C 231.58352 232 240 223.58352 240 213.13086 L 240 168 L 240 120 L 240 88 z "
+       transform="scale(0.26458333)" />
   </g>
 </svg>
