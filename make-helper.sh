@@ -82,6 +82,7 @@ getMaxResolution() {
 }
 
 generateImage() {
+  echo "$@"
   outputFile="$1"
   buildDir="$3"
 
@@ -108,10 +109,13 @@ generateImage() {
       echo "Symlink: $outputFile -> $iconTarget"
       ln -s "$iconTarget" "$outputFile"
     else
-      echo "$inputFile -> $outputFile"
+      tempFile="$$.png"
+      echo "$inputFile -> $outputFile ($tempFile)"
       mkdir -p "${outputFile%/*}"
-      inkscape "--export-filename=$outputFile" -w "$resolution" -h "$resolution" "$inputFile" > /dev/null 2>&1
-      optipng -strip all "$outputFile"
+      echo "inkscape \"--export-filename=$tempFile\" -w \"$resolution\" -h \"$resolution\" \"$inputFile\" > /dev/null 2>&1"
+      inkscape "--export-filename=$tempFile" -w "$resolution" -h "$resolution" "$inputFile" > /dev/null 2>&1
+      optipng -strip all "$tempFile"
+      mv "$tempFile" "$outputFile"
     fi
   done
 }
