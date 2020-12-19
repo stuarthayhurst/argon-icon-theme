@@ -82,7 +82,6 @@ getMaxResolution() {
 }
 
 generateImage() {
-  echo "$@"
   outputFile="$1"
   buildDir="$3"
 
@@ -112,7 +111,6 @@ generateImage() {
       tempFile="$$.png"
       echo "$inputFile -> $outputFile ($tempFile)"
       mkdir -p "${outputFile%/*}"
-      echo "inkscape \"--export-filename=$tempFile\" -w \"$resolution\" -h \"$resolution\" \"$inputFile\" > /dev/null 2>&1"
       inkscape "--export-filename=$tempFile" -w "$resolution" -h "$resolution" "$inputFile" > /dev/null 2>&1
       optipng -strip all "$tempFile"
       mv "$tempFile" "$outputFile"
