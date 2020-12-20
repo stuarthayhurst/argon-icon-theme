@@ -21,7 +21,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -40,29 +40,29 @@
      inkscape:window-height="1016"
      id="namedview10"
      showgrid="false"
-     inkscape:zoom="26.9375"
-     inkscape:cx="1.6877117"
-     inkscape:cy="3.9157073"
+     inkscape:zoom="22.627417"
+     inkscape:cx="7.5237891"
+     inkscape:cy="2.3859087"
      inkscape:window-x="2004"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg8"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0" />
   <g
-     fill="gray"
-     id="g6"
-     style="fill:#ffffff">
-    <path
-       d="M9.399 6.918c-1.349.002-2.494.832-3.041 2.02l-.04.08-.085.008C4.986 9.116 4 10.194 4 11.506 4 12.876 5.072 14 6.4 14h5.8c.995 0 1.8-.843 1.8-1.867a1.85 1.85 0 00-1.13-1.71l-.086-.036-.01-.092C12.69 8.425 11.223 6.92 9.4 6.918zm0 1c1.272.002 2.316 1.05 2.378 2.422v.031l.076.705.627.268c.305.13.52.413.52.789 0 .5-.37.867-.799.867H6.398C5.638 13 5 12.355 5 11.506c0-.81.591-1.432 1.303-1.485l.672-.046.289-.616v-.004c.399-.866 1.193-1.435 2.13-1.437z"
-       style="line-height:normal;-inkscape-font-specification:sans-serif;text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;marker:none;fill:#ffffff"
-       color="#000"
-       font-weight="400"
-       font-family="sans-serif"
-       overflow="visible"
-       id="path2" />
-    <path
-       d="M9.5 1a3.5 3.5 0 00-3.166 2.018 3.5 3.5 0 00-3.803 3.04A2 2 0 003.001 10h.269a3.5 3.25 0 01.71-1h-.982c-.564 0-1-.436-1-1a.99.99 0 01.766-.97l.67-.163.088-.683a2.488 2.488 0 012.71-2.172l.706.072.3-.643A2.496 2.496 0 019.498 2a2.485 2.485 0 012.498 2.498V4.5a2.3 2.3 0 01-.033.379l-.16.969.965.18A1.489 1.489 0 0113.997 7.5c0 .84-.66 1.5-1.5 1.5h-.498v1h.5a2.5 2.5 0 00.453-4.957c.03-.18.045-.361.047-.543a3.5 3.5 0 00-3.5-3.5z"
-       id="path4"
-       style="fill:#ffffff" />
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Icon"
+     style="display:inline">
+    <g
+       id="g836">
+      <path
+         id="path4"
+         style="fill:#cccccc"
+         d="M 9.4980469,1 A 3.5,3.5 0 0 0 6.3339844,3.0175781 3.5,3.5 0 0 0 2.53125,6.0585938 2,2 0 0 0 3.0019531,10 h 0.1113281 0.15625 8.7285158 0.5 a 2.5,2.5 0 0 0 0.453125,-4.9570312 c 0.03,-0.18 0.04488,-0.3609688 0.04687,-0.5429688 A 3.5,3.5 0 0 0 9.5,1 Z" />
+      <path
+         id="path875"
+         style="line-height:normal;-inkscape-font-specification:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-transform:none;display:inline;fill:#b3b3b3;stroke-width:0.994192;marker:none"
+         d="M 10.398438,7 C 9.049438,7.00198 7.9044219,7.8218996 7.3574219,8.996139 L 7.3183589,9.07529 7.2324219,9.08301 C 5.9854219,9.1719691 5,10.237945 5,11.534748 5,12.88888 6.0723906,14 7.4003906,14 H 13.199219 C 14.194219,14 15,13.166578 15,12.154439 a 1.85,1.8285714 0 0 0 -1.130859,-1.689188 l -0.08594,-0.03668 -0.0098,-0.09073 C 13.689437,8.4894981 12.223391,7.0019767 10.400391,7 Z" />
+    </g>
   </g>
 </svg>

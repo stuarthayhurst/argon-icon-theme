@@ -21,7 +21,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -40,21 +40,28 @@
      inkscape:window-height="1016"
      id="namedview6"
      showgrid="false"
-     inkscape:zoom="19.047689"
-     inkscape:cx="1.1488045"
-     inkscape:cy="9.4340904"
+     inkscape:zoom="38.095378"
+     inkscape:cx="9.5781138"
+     inkscape:cy="9.5784691"
      inkscape:window-x="2004"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg4"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0" />
-  <path
-     d="M8.642.668C6.484.67 4.65 1.999 3.774 3.9l-.061.13-.139.01C1.58 4.184.002 5.91.002 8.008c0 .727.201 1.403.531 1.992h1.201a3.057 3.057 0 01-.732-1.992c0-1.597 1.184-2.866 2.644-2.973l.723-.05.31-.663v-.004c.729-1.58 2.213-2.649 3.961-2.65 2.368.002 4.292 1.952 4.405 4.447v.01l.05.776.704.296a1.944 1.944 0 011.195 1.815c.01 1.114-.846 1.988-1.871 1.988H0v1h13.122c1.591 0 2.877-1.35 2.877-2.988a2.958 2.958 0 00-1.805-2.735l-.137-.058-.01-.149C13.912 3.077 11.561.67 8.643.668zM.002 13v1h16v-1zm0 2v1h16v-1z"
-     fill="gray"
-     font-family="sans-serif"
-     font-weight="400"
-     overflow="visible"
-     style="line-height:normal;-inkscape-font-specification:sans-serif;text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;marker:none;fill:#ffffff"
-     color="#000"
-     id="path2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Icon">
+    <g
+       id="g867">
+      <path
+         id="path834"
+         style="line-height:normal;-inkscape-font-specification:sans-serif;text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;marker:none;fill:#cccccc"
+         d="M 0 11 L 0 12 L 7.7167969 12 L 7.7167969 11 L 0 11 z M 0.001953125 13 L 0.001953125 14 L 16.001953 14 L 16.001953 13 L 0.001953125 13 z M 0.001953125 15 L 0.001953125 16 L 16.001953 16 L 16.001953 15 L 0.001953125 15 z " />
+      <path
+         id="path2-5"
+         style="line-height:normal;-inkscape-font-specification:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-transform:none;fill:#ffffff;marker:none"
+         d="m 8.6425782,0.6679688 c -2.158,0.002 -3.9931406,1.3314218 -4.8691406,3.2324218 l -0.060547,0.1289063 -0.1386719,0.00977 C 1.5802188,4.1830625 0.0019532,5.9098125 0.0019532,8.0078128 0.0019532,10.200813 1.7178438,12 3.8398438,12 h 9.2832032 c 1.592001,0 2.878906,-1.350281 2.878906,-2.9882812 a 2.958,2.958 0 0 0 -1.804687,-2.734375 l -0.136719,-0.058594 -0.0098,-0.1484375 C 13.915747,3.0773123 11.56345,0.6699686 8.6464504,0.6679686 Z" />
+    </g>
+  </g>
 </svg>

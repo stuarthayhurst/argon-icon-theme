@@ -40,29 +40,30 @@
      inkscape:window-height="1016"
      id="namedview10"
      showgrid="false"
-     inkscape:zoom="26.9375"
-     inkscape:cx="1.6877117"
-     inkscape:cy="3.9157073"
+     inkscape:zoom="22.627417"
+     inkscape:cx="11.542706"
+     inkscape:cy="5.2514533"
      inkscape:window-x="2004"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg8"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0" />
   <g
-     fill="gray"
-     id="g6"
-     style="fill:#000000">
-    <path
-       d="M9.399 6.918c-1.349.002-2.494.832-3.041 2.02l-.04.08-.085.008C4.986 9.116 4 10.194 4 11.506 4 12.876 5.072 14 6.4 14h5.8c.995 0 1.8-.843 1.8-1.867a1.85 1.85 0 00-1.13-1.71l-.086-.036-.01-.092C12.69 8.425 11.223 6.92 9.4 6.918zm0 1c1.272.002 2.316 1.05 2.378 2.422v.031l.076.705.627.268c.305.13.52.413.52.789 0 .5-.37.867-.799.867H6.398C5.638 13 5 12.355 5 11.506c0-.81.591-1.432 1.303-1.485l.672-.046.289-.616v-.004c.399-.866 1.193-1.435 2.13-1.437z"
-       style="line-height:normal;-inkscape-font-specification:sans-serif;text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;marker:none;fill:#000000"
-       color="#000"
-       font-weight="400"
-       font-family="sans-serif"
-       overflow="visible"
-       id="path2" />
-    <path
-       d="M9.5 1a3.5 3.5 0 00-3.166 2.018 3.5 3.5 0 00-3.803 3.04A2 2 0 003.001 10h.269a3.5 3.25 0 01.71-1h-.982c-.564 0-1-.436-1-1a.99.99 0 01.766-.97l.67-.163.088-.683a2.488 2.488 0 012.71-2.172l.706.072.3-.643A2.496 2.496 0 019.498 2a2.485 2.485 0 012.498 2.498V4.5a2.3 2.3 0 01-.033.379l-.16.969.965.18A1.489 1.489 0 0113.997 7.5c0 .84-.66 1.5-1.5 1.5h-.498v1h.5a2.5 2.5 0 00.453-4.957c.03-.18.045-.361.047-.543a3.5 3.5 0 00-3.5-3.5z"
-       id="path4"
-       style="fill:#000000" />
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Icon"
+     style="display:inline">
+    <g
+       id="g903">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="M 10.49684,7 C 9.1420684,7.001978 7.9096737,7.7829656 7.3313808,9.0060005 4.1215462,9.2277975 4.2741834,13.98377 7.4916573,14.000001 H 13.00116 c 2.049368,-0.0047 2.770526,-2.714551 0.993714,-3.734 C 13.871504,8.4280204 12.342125,7.0000885 10.49684,7 Z"
+         id="path894" />
+      <path
+         id="path4"
+         style="fill:#000000"
+         d="M 9.4980469,1 C 8.1414866,1.0025179 6.908553,1.7887033 6.3339844,3.0175781 4.4534649,2.8389764 2.7705057,4.1848252 2.53125,6.0585938 0.24469789,6.624473 0.6464473,9.9884993 3.0019531,10 h 0.1113281 0.15625 1.0566407 C 4.4444155,9.7363738 4.5845865,9.4810914 4.7734375,9.2480469 5.2446213,8.6666002 5.9839914,8.2897339 6.828125,8.1269531 7.651384,6.8706315 8.9671095,6.0022324 10.496094,6 c 1.867482,8.96e-5 3.445811,1.1744166 4.111328,2.8261719 0.93418,-1.4924535 0.07402,-3.457222 -1.65625,-3.7832031 0.03,-0.18 0.04489,-0.3609688 0.04687,-0.5429688 C 12.998047,2.5677658 11.432234,1.0010782 9.5,1 Z"
+         sodipodi:nodetypes="cccccccscccccsc" />
+    </g>
   </g>
 </svg>

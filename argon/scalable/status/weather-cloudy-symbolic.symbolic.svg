@@ -41,20 +41,20 @@
      id="namedview6"
      showgrid="false"
      inkscape:zoom="19.047689"
-     inkscape:cx="7.0506805"
-     inkscape:cy="6.9276658"
+     inkscape:cx="14.662033"
+     inkscape:cy="10.902842"
      inkscape:window-x="2004"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg4"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0" />
-  <path
-     d="M8.64 1.668C6.482 1.67 4.648 2.999 3.772 4.9l-.061.13-.139.01C1.578 5.184 0 6.91 0 9.008 0 11.201 1.716 13 3.838 13h9.284C14.714 13 16 11.65 16 10.012a2.958 2.958 0 00-1.805-2.735l-.137-.058-.01-.149c-.135-2.993-2.487-5.4-5.404-5.402zm0 1c2.368.002 4.292 1.952 4.405 4.447v.01l.051.776.703.297a1.944 1.944 0 011.195 1.814c.01 1.114-.845 1.988-1.87 1.988H3.837C2.281 12 .999 10.68.999 9.008c0-1.597 1.185-2.866 2.645-2.973l.723-.05.31-.662v-.004c.728-1.58 2.213-2.65 3.961-2.65z"
-     fill="gray"
-     font-family="sans-serif"
-     font-weight="400"
-     overflow="visible"
-     style="line-height:normal;-inkscape-font-specification:sans-serif;text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;marker:none;fill:#000000"
-     color="#000"
-     id="path2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Icon">
+    <path
+       id="path2"
+       style="line-height:normal;-inkscape-font-specification:sans-serif;text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;marker:none;fill:#000000"
+       d="M 8.640625 1.6679688 C 6.482625 1.6699688 4.6474844 2.9993906 3.7714844 4.9003906 L 3.7109375 5.0292969 L 3.5722656 5.0390625 C 1.5782656 5.1830625 5.9211895e-16 6.9098125 0 9.0078125 C 0 11.200813 1.7158906 13 3.8378906 13 L 13.121094 13 C 14.713094 13 16 11.649719 16 10.011719 A 2.958 2.958 0 0 0 14.195312 7.2773438 L 14.058594 7.21875 L 14.048828 7.0703125 C 13.913828 4.0773125 11.561531 1.6699688 8.6445312 1.6679688 L 8.640625 1.6679688 z " />
+  </g>
 </svg>
