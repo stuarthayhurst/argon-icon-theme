@@ -1,5 +1,5 @@
 # argon-icon-theme
-  - A minimalistic, material icon theme, designed to run on GNOME with Yaru
+  - A minimalistic, material icon theme, designed for GNOME with Yaru
   - This project contains some assets from [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) and [Yaru](https://github.com/ubuntu/yaru)
 
 <p align='center'>
@@ -7,17 +7,16 @@
 </p>
 
 ## Installing:
-  - `make index`, or if modifications have been made: `make build`
-  - `sudo make install`
+  - `make build; sudo make install`
   - Set the icon theme using gnome-tweaks, or `gsettings set org.gnome.desktop.interface icon-theme Argon`
 
 ## Building:
   - It's not necessary to rebuild the theme to install, only if modifications have been made
-  - `make build` will only generate changed icons (automatically uses multiple cores) - faster alternative to `make clean && make regen -jX`
+  - `make build` will generate changed icons and `index.theme`, automatically using multiple cores
   - `make regen -jX` will regenerate all icons, whether they have been changed or not
   - `make clean` will delete all generated icons and index.theme
-  - `make autoclean` will delete icons missing a corresponding svg, broken symlinks, index.theme and empty directories
-  - `make index` will generate index.theme, done automatically by `build` and `regen`
+  - `make autoclean` will delete icons missing a corresponding svg, broken symlinks, `index.theme` and empty directories
+  - `make index` will generate `index.theme` (Done automatically by `build` and `regen`)
 
 ## Contributing:
   - Create / modify / delete the appropriate .svg file(s)
@@ -25,11 +24,11 @@
   - Submit a pull request with the changes
   - Guides to make icons can be found in `guides/`
 
-## Install Dependencies:
+## Install Dependencies: (Required to install with no modifications)
   - make
   - sed
 
-## Build Dependencies:
+## Build Dependencies: (Required when icon .svgs have been modified)
   - findutils
   - git
   - inkscape
