@@ -108,12 +108,14 @@ generateImage() {
       echo "Symlink: $outputFile -> $iconTarget"
       ln -s "$iconTarget" "$outputFile"
     else
-      tempFile="$$.png"
-      echo "$inputFile -> $outputFile ($tempFile)"
-      mkdir -p "${outputFile%/*}"
+      outputDir="${outputFile%/*}"
+      tempFile="$outputDir/$$.png"
+      echo "Processing $inputFile -> $outputFile ($tempFile)"
+      mkdir -p "$outputDir"
       inkscape "--export-filename=$tempFile" -w "$resolution" -h "$resolution" "$inputFile" > /dev/null 2>&1
-      optipng -strip all "$tempFile"
-      mv "$tempFile" "$outputFile"
+      echo "Compressing $outputFile..."
+      optipng -quiet -strip all -out "$outputFile" "$tempFile"
+      rm "$tempFile"
     fi
   done
 }
