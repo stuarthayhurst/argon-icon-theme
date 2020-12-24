@@ -114,8 +114,8 @@ generateImage() {
       mkdir -p "$outputDir"
       inkscape "--export-filename=$tempFile" -w "$resolution" -h "$resolution" "$inputFile" > /dev/null 2>&1
       echo "Compressing $outputFile..."
-      optipng -quiet -strip all -out "$outputFile" "$tempFile"
-      rm "$tempFile"
+      optipng -quiet -strip all "$tempFile"
+      mv "$tempFile" "$outputFile"
     fi
   done
 }
