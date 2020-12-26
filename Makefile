@@ -13,7 +13,8 @@ build:
 	make autoclean
 	./make-helper.sh -g "$(ICON_RESOLUTIONS)" "$(BUILD_DIR)"
 	make index
-regen: $(PNG_OBJS) index
+regen: clean
+	$(MAKE) $(PNG_OBJS) index
 install:
 	if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
 	  make uninstall; \
