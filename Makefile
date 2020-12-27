@@ -19,7 +19,7 @@ install:
 	if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
 	  make uninstall; \
 	  mkdir -p "/usr/share/icons/Argon"; \
-	  cp -r ./$(BUILD_DIR)/* /usr/share/icons/Argon/; \
+	  cp -r "./$(BUILD_DIR)/"* /usr/share/icons/Argon/; \
 	  make refresh; \
 	else \
 	  echo "WARNING: $(BUILD_DIR)/index.theme is missing, run 'make index' and try again"; \
@@ -28,20 +28,20 @@ uninstall:
 	rm -rf "/usr/share/icons/Argon"
 clean:
 	if [[ "$(PNG_LIST)" != "" ]]; then \
-	  rm -r $(PNG_LIST); \
-	  find ./$(BUILD_DIR) -type d -empty -delete; \
+	  rm -r "$(PNG_LIST)"; \
+	  find "./$(BUILD_DIR)" -type d -empty -delete; \
 	fi
 	if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
-	  rm $(BUILD_DIR)/index.theme; \
+	  rm "$(BUILD_DIR)/index.theme"; \
 	fi
 autoclean:
-	find ./$(BUILD_DIR) -type d -empty -delete
+	find "./$(BUILD_DIR)" -type d -empty -delete
 	./make-helper.sh -a "$(BUILD_DIR)"
 	if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
-	  rm $(BUILD_DIR)/index.theme; \
+	  rm "$(BUILD_DIR)/index.theme"; \
 	fi
 $(PNG_OBJS): ./$(BUILD_DIR)/resolution/%.png: ./$(BUILD_DIR)/%.svg
-	mkdir -p $(BUILD_DIR)
+	mkdir -p "$(BUILD_DIR)"
 	./make-helper.sh "-i" "$@" "$(ICON_RESOLUTIONS)" "$(BUILD_DIR)"
 index:
 	./make-helper.sh "-t" "$(BUILD_DIR)"
