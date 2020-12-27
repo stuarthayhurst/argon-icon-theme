@@ -7,14 +7,15 @@
 </p>
 
 ## Installing:
-  - `make build; sudo make install`
+  - `make build -j$(nproc); sudo make install`
+    - `$(nproc)` can be replaced with a specific number, if necessary
   - Set the icon theme using gnome-tweaks, or `gsettings set org.gnome.desktop.interface icon-theme Argon`
 
 ## Building:
   - It's not necessary to rebuild the theme to install, only if modifications have been made
-  - `make build` will generate changed icons and `index.theme`, automatically using multiple cores
+  - `make build -jX` will generate changed icons and `index.theme`
   - `make regen -jX` will regenerate all icons, whether they have been changed or not
-  - `make clean` will delete all generated icons and index.theme
+  - `make clean` will delete all generated icons and `index.theme`
   - `make autoclean` will delete icons missing a corresponding svg, broken symlinks, `index.theme` and empty directories
   - `make index` will generate `index.theme` (Done automatically by `build` and `regen`)
 

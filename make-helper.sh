@@ -1,6 +1,7 @@
 #!/bin/bash
 generateChangedImages() {
   buildDir="$2"
+  makeCommand="$3"
 
   #Check that git is present and .git is also present
   if ! git status > /dev/null 2>&1; then
@@ -47,10 +48,9 @@ generateChangedImages() {
     done
   done
 
-  #Generate any new icons
-  if [[ "${rebuildList[*]}" != "" ]]; then
-    make "${rebuildList[@]}" "-j$(nproc)"
-  fi
+  #Generate any new icons and index.theme
+  rebuildList+=("index")
+  $makeCommand "${rebuildList[@]}"
 }
 
 #Create an array containing all the resolutions to build icon for
@@ -212,7 +212,7 @@ done < templates/context.csv
 
 case $1 in
   -a|--autoclean) autoclean "$2"; exit;;
-  -g|--generate) generateChangedImages "$2" "$3"; exit;;
+  -g|--generate) generateChangedImages "$2" "$3" "$4"; exit;;
   -i|--images) generateImage "$2" "$3" "$4"; exit;;
   -t|--theme-index) generateIndex "$2"; exit;;
 esac

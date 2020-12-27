@@ -9,10 +9,8 @@ PNG_LIST = $(wildcard ./$(BUILD_DIR)/*/*/*.png*)
 
 .PHONY: build regen install uninstall clean autoclean index refresh
 
-build:
-	make autoclean
-	./make-helper.sh -g "$(ICON_RESOLUTIONS)" "$(BUILD_DIR)"
-	make index
+build: autoclean
+	./make-helper.sh -g "$(ICON_RESOLUTIONS)" "$(BUILD_DIR)" "$(MAKE)"
 regen: clean
 	$(MAKE) $(PNG_OBJS) index
 install:
