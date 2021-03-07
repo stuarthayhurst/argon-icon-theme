@@ -8,7 +8,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="Icon Template Horizontal.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    id="svg8"
    version="1.1"
    viewBox="0 0 67.733332 67.733335"
@@ -19,17 +19,17 @@
   <sodipodi:namedview
      inkscape:window-maximized="1"
      inkscape:window-y="0"
-     inkscape:window-x="84"
-     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-height="1016"
      inkscape:window-width="1836"
      units="px"
      showgrid="false"
      inkscape:document-rotation="0"
-     inkscape:current-layer="g1156"
+     inkscape:current-layer="layer3"
      inkscape:document-units="px"
-     inkscape:cy="259.5757"
-     inkscape:cx="-60.712147"
-     inkscape:zoom="1"
+     inkscape:cy="154.28191"
+     inkscape:cx="174.63232"
+     inkscape:zoom="2"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -70,7 +70,7 @@
        inkscape:groupmode="layer">
       <path
          id="rect1168"
-         style="display:inline;fill:#3b3b3b;fill-opacity:1;stroke-width:0.0246944;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="display:inline;fill:#323232;fill-opacity:1;stroke-width:0.0246944;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 9.2257934,14.816667 c -2.7655985,0 -4.9924601,2.22686 -4.9924601,4.99246 V 31.75 44.45 56.390873 c 0,2.765599 2.2268616,4.99246 4.9924601,4.99246 H 58.507539 c 2.7656,0 4.99246,-2.226861 4.99246,-4.99246 V 44.45 31.75 19.809127 c 0,-2.7656 -2.22686,-4.99246 -4.99246,-4.99246 z" />
     </g>
     <g
@@ -89,4 +89,14 @@
      id="g1156"
      inkscape:groupmode="layer"
      style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Large Highlight">
+    <path
+       id="path1811"
+       style="display:inline;opacity:0.05;fill:#ffffff;fill-opacity:1;stroke-width:7.36208;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       inkscape:transform-center-y="-6.3500795"
+       d="M 63.499958,23.283333 6.0285313,60.229397 c 0.865049,0.7205 1.978419,1.153936 3.197221,1.153936 H 58.507498 c 2.7656,0 4.99246,-2.226861 4.99246,-4.99246 V 44.449999 31.75 Z" />
+  </g>
 </svg>
