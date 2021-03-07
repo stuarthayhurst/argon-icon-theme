@@ -8,7 +8,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="org.pitivi.Pitivi.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    id="svg8"
    version="1.1"
    viewBox="0 0 67.733332 67.733335"
@@ -43,18 +43,18 @@
   </defs>
   <sodipodi:namedview
      inkscape:window-maximized="1"
-     inkscape:window-y="27"
-     inkscape:window-x="2004"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
      inkscape:window-height="1016"
      inkscape:window-width="1836"
      units="px"
      showgrid="false"
      inkscape:document-rotation="0"
-     inkscape:current-layer="g1174"
+     inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="129.50684"
-     inkscape:cx="151.90368"
-     inkscape:zoom="4"
+     inkscape:cy="102.92881"
+     inkscape:cx="112.69515"
+     inkscape:zoom="2"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -303,9 +303,14 @@
        style="stroke-width:0.529167;marker:none"
        fill="#f6f5f4"
        id="circle1663" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Large Highlight">
     <path
        id="path1811"
-       style="opacity:0.05;fill:#ffffff;fill-opacity:1;stroke-width:27.8252;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       style="display:inline;opacity:0.05;fill:#ffffff;fill-opacity:1;stroke-width:27.8252;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        inkscape:transform-center-y="-6.3500795"
        d="M 240 88 L 22.785156 227.63867 C 26.05463 230.36182 30.262644 232 34.869141 232 L 221.13086 232 C 231.58352 232 240 223.58352 240 213.13086 L 240 168 L 240 120 L 240 88 z "
        transform="scale(0.26458333)" />
