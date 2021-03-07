@@ -28,7 +28,7 @@
 
 ## Install Dependencies: (Required to install with no modifications)
   - make
-  - sed
+  - python3
 
 ## Build Dependencies: (Required when icon .svgs have been modified)
   - findutils
@@ -36,4 +36,4 @@
   - inkscape
   - make
   - optipng
-  - sed
+  - python3

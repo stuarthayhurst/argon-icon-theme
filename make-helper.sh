@@ -120,67 +120,6 @@ generateImage() {
   done
 }
 
-generateIndex() {
-  buildDir="$1"
-  #Generate list of resolutions, as directories
-  read -ra resolutionDirs <<< "$(echo argon/*/ | tr " " "\n" | sort -V | tr "\n" " ")"
-  read -ra resolutionDirs <<< "${resolutionDirs[*]%'/'}"
-  read -ra resolutionDirs <<< "${resolutionDirs[*]//"$buildDir/"}"
-
-  cp "./templates/index.theme.template" "$buildDir/index.theme"
-
-  #Iterate through each resolution directory
-  for iconResolution in "${resolutionDirs[@]}"; do
-    #Get list of directories
-    dirList=()
-    for iconDir in "./$buildDir/$iconResolution/"*; do
-      if [[ -d "$iconDir" ]]; then
-        dirList+=("${iconDir##*/}")
-      fi
-    done
-    #Iterate through each subdirectory, get info about it, and write to theme.index
-    for iconDir in "${dirList[@]}"; do
-      #Generate iconSize and iconType
-      if [[ "$iconResolution" == "scalable" ]] || [[ "$iconResolution" == "symbolic" ]]; then
-        iconSize="256"
-        iconType="Scalable"
-      else
-        iconSize="${iconResolution%x*}"
-        iconType="Fixed"
-      fi
-
-      for line in "${contextData[@]}"; do
-        if [[ "${line%%,*}" == "$iconDir" ]]; then
-          iconContext="${line#*,}"
-          iconContext="${iconContext%,*}"
-          match="true"
-          break
-        fi
-      done
-      if [[ "$match" != "true" ]]; then
-        echo "No entry in context.csv for '$iconDir', please report this"
-        exit 1
-      else
-        match="false"
-      fi
-
-      #Fill in template
-      fileContent="$(cat ./templates/directory.template)"
-      fileContent="${fileContent/"resolution/iconDir"/"$iconResolution/$iconDir"}"
-      fileContent="${fileContent/"Size="/"Size=$iconSize"}"
-      fileContent="${fileContent/"Context="/"Context=$iconContext"}"
-      fileContent="${fileContent/"Type="/"Type=$iconType"}"
-
-      #Write info to file
-      sed -i "s|^Directories=.*|&$iconResolution/$iconDir,|" "./$buildDir/index.theme"
-      echo -e "\n$fileContent" >> "./$buildDir/index.theme"
-    done
-  done
-
-  #Remove trailing comma from directory list
-  sed -i 's/,$//' "./$buildDir/index.theme"
-}
-
 autoclean() {
   buildDir="$1"
   for resolution in "./$buildDir/"*"x"*; do
@@ -208,11 +147,10 @@ i="0"
 while read -r line; do
   i=$(( i + 1 ))
   contextData[i]="$line"
-done < templates/context.csv
+done < index/context.csv
 
 case $1 in
   -a|--autoclean) autoclean "$2"; exit;;
   -g|--generate) generateChangedImages "$2" "$3" "$4"; exit;;
   -i|--images) generateImage "$2" "$3" "$4"; exit;;
-  -t|--theme-index) generateIndex "$2"; exit;;
 esac
