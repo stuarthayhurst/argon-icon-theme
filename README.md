@@ -8,8 +8,7 @@
 </p>
 
 ## Installing:
-  - `make build -j$(nproc); sudo make install`
-    - `$(nproc)` can be replaced with a specific number, if necessary
+  - `sudo make install`
   - Set the icon theme using gnome-tweaks, or `gsettings set org.gnome.desktop.interface icon-theme Argon`
 
 ## Building:
@@ -22,13 +21,12 @@
 
 ## Contributing:
   - Create / modify / delete the appropriate .svg file(s)
-  - Run `make build` to clean up left over files and generate new icons
+  - Run `make build` to clean up left over files, generate new icons and index
   - Submit a pull request with the changes
   - Guides to make icons can be found in `guides/`
 
 ## Install Dependencies: (Required to install with no modifications)
   - make
-  - python3
 
 ## Build Dependencies: (Required when icon .svgs have been modified)
   - findutils
