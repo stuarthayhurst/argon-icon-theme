@@ -1,58 +1,4 @@
 #!/bin/bash
-generateChangedImages() {
-  buildDir="$2"
-  makeCommand="$3"
-
-  #Check that git is present and .git is also present
-  if ! git status > /dev/null 2>&1; then
-    echo "Either git isn't installed, or .git missing"
-    echo "This feature isn't available on releases"
-    exit 1
-  fi
-
-  #Add any new svgs, svgs with missing pngs, or svgs with modifications to list
-  for iconType in "$buildDir/scalable/"*; do
-    for svgIcon in "$iconType/"*.svg; do
-      rebuildIcon="false"
-      if ! git diff --exit-code -s "$svgIcon" > /dev/null 2>&1; then
-        rebuildIcon="true"
-      fi
-      if ! git ls-files --error-unmatch "$svgIcon" > /dev/null 2>&1; then
-        rebuildIcon="true"
-      fi
-
-      #Generate list of icon resolutions to check for
-      getMaxResolution "${iconType##*/}" "$1"
-
-      for resolution in "${iconResolutions[@]}"; do
-        pngIcon="${svgIcon/"$buildDir/scalable"/"$buildDir/${resolution}x${resolution}"}"
-        pngIcon="${pngIcon/svg/png}"
-        if [[ ! -f "$pngIcon" ]]; then
-          rebuildIcon="true"
-        fi
-      done
-      #If the icon is a symlink, check it's not broken
-      if [[ -L "$svgIcon" ]]; then
-        #Get the path to the target, and append the target
-        linkTarget="${svgIcon%/*}/$(readlink "$svgIcon")"
-        if [[ ! -f "$linkTarget" ]]; then
-          echo "$svgIcon: broken symlink, ignoring"
-          rebuildIcon="false"
-        fi
-      fi
-      if [[ "$rebuildIcon" == "true" ]]; then
-        pngIcon="${svgIcon/svg/png}"
-        pngIcon="./${pngIcon/"$buildDir/scalable"/"$buildDir/resolution/scalable"}"
-        rebuildList+=("$pngIcon")
-      fi
-    done
-  done
-
-  #Generate any new icons and index.theme
-  rebuildList+=("index")
-  $makeCommand "${rebuildList[@]}"
-}
-
 #Create an array containing all the resolutions to build icon for
 #Need iconType and a list of resolutions
 getMaxResolution() {
@@ -151,6 +97,5 @@ done < index/context.csv
 
 case $1 in
   -a|--autoclean) autoclean "$2"; exit;;
-  -g|--generate) generateChangedImages "$2" "$3" "$4"; exit;;
   -i|--images) generateImage "$2" "$3" "$4"; exit;;
 esac

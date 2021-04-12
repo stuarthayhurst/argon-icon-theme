@@ -11,7 +11,7 @@ PNG_LIST = $(wildcard ./$(BUILD_DIR)/*/*/*.png*)
 
 build: autoclean
 	#Generate a list of icons to build, then call make with all the icon svgs
-	./make-helper.sh -g "$(ICON_RESOLUTIONS)" "$(BUILD_DIR)" "$(MAKE)"
+	./icon-builder.py --list "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$(MAKE)"
 regen: clean
 	#Clean all built file first, then generate each icon and the index
 	$(MAKE) $(PNG_OBJS) index
