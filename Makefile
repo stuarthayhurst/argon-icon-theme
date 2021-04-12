@@ -10,8 +10,10 @@ PNG_LIST = $(wildcard ./$(BUILD_DIR)/*/*/*.png*)
 .PHONY: build regen install uninstall clean autoclean index refresh
 
 build: autoclean
+	#Generate a list of icons to build, then call make with all the icon svgs
 	./make-helper.sh -g "$(ICON_RESOLUTIONS)" "$(BUILD_DIR)" "$(MAKE)"
 regen: clean
+	#Clean all built file first, then generate each icon and the index
 	$(MAKE) $(PNG_OBJS) index
 install:
 	if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
@@ -25,6 +27,7 @@ install:
 uninstall:
 	rm -rf "/usr/share/icons/Argon"
 clean:
+	#Delete every generated icon and the index
 	if [[ "$(PNG_LIST)" != "" ]]; then \
 	  rm -r "$(PNG_LIST)"; \
 	  find "./$(BUILD_DIR)" -type d -empty -delete; \
@@ -33,6 +36,7 @@ clean:
 	  rm "$(BUILD_DIR)/index.theme"; \
 	fi
 autoclean:
+	#Delete broken symlinks, left over pngs and the index
 	find "./$(BUILD_DIR)" -type d -empty -delete
 	./make-helper.sh -a "$(BUILD_DIR)"
 	if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
@@ -44,6 +48,7 @@ $(PNG_OBJS): ./$(BUILD_DIR)/resolution/%.png: ./$(BUILD_DIR)/%.svg
 index:
 	./generate-index.py "--index" "$(BUILD_DIR)"
 refresh:
+	#Refresh icon cache
 	if command -v gtk-update-icon-cache > /dev/null; then \
 	  echo "Updating gtk-update-icon-cache"; touch /usr/share/icons/Argon > /dev/null; \
 	  gtk-update-icon-cache -f /usr/share/icons/Argon/; \
