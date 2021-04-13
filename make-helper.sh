@@ -66,29 +66,6 @@ generateImage() {
   done
 }
 
-autoclean() {
-  buildDir="$1"
-  for resolution in "./$buildDir/"*"x"*; do
-    if [[ -d "$resolution" ]]; then
-      for iconType in "$resolution"/*; do
-        for pngIcon in "$iconType"/*; do
-          resolution="${resolution/"./$buildDir/"}"
-          svgIcon="${pngIcon/$resolution/scalable}"
-          svgIcon="${svgIcon/png/svg}"
-          if [[ ! -e "$pngIcon" ]]; then
-            rm -rv "$pngIcon"
-          fi
-          if [[ ! -f "$svgIcon" ]]; then
-            if [[ -f "$pngIcon" ]]; then
-              rm -rv "$pngIcon"
-            fi
-          fi
-        done
-      done
-    fi
-  done
-}
-
 i="0"
 while read -r line; do
   i=$(( i + 1 ))
@@ -96,6 +73,5 @@ while read -r line; do
 done < index/context.csv
 
 case $1 in
-  -a|--autoclean) autoclean "$2"; exit;;
   -i|--images) generateImage "$2" "$3" "$4"; exit;;
 esac

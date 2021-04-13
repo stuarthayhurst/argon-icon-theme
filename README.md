@@ -16,7 +16,7 @@
   - `make build -jX` will generate changed icons and `index.theme`
   - `make regen -jX` will regenerate all icons, whether they have been changed or not
   - `make clean` will delete all generated icons and `index.theme`
-  - `make autoclean` will delete icons missing a corresponding svg, broken symlinks, `index.theme` and empty directories
+  - `make autoclean` will delete icons missing a corresponding svg, broken symlinks and empty directories
   - `make index` will generate `index.theme` (Done automatically by `build` and `regen`)
 
 ## Contributing:
@@ -29,7 +29,6 @@
   - make
 
 ## Build Dependencies: (Required when icon .svgs have been modified)
-  - findutils
   - git
   - inkscape
   - make

@@ -30,18 +30,14 @@ clean:
 	#Delete every generated icon and the index
 	if [[ "$(PNG_LIST)" != "" ]]; then \
 	  rm -r "$(PNG_LIST)"; \
-	  find "./$(BUILD_DIR)" -type d -empty -delete; \
+	  $(MAKE) autoclean; \
 	fi
 	if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
 	  rm "$(BUILD_DIR)/index.theme"; \
 	fi
 autoclean:
-	#Delete broken symlinks, left over pngs and the index
-	find "./$(BUILD_DIR)" -type d -empty -delete
-	./make-helper.sh -a "$(BUILD_DIR)"
-	if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
-	  rm "$(BUILD_DIR)/index.theme"; \
-	fi
+	#Delete broken symlinks, left over pngs and empty directories
+	./autoclean.py "$(BUILD_DIR)"
 $(PNG_OBJS): ./$(BUILD_DIR)/resolution/%.png: ./$(BUILD_DIR)/%.svg
 	mkdir -p "$(BUILD_DIR)"
 	./make-helper.sh "-i" "$@" "$(ICON_RESOLUTIONS)" "$(BUILD_DIR)"
