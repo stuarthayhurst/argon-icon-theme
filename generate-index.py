@@ -15,7 +15,7 @@ def generateIndex(buildDir):
 
   #Function to return array of all subdirectories of searchDir
   def getDirList(searchDir):
-    dirList=[]
+    dirList = []
     for dir in os.listdir(searchDir):
       if os.path.isdir(searchDir + "/" + dir):
         dirList.append(dir)
@@ -25,8 +25,8 @@ def generateIndex(buildDir):
   resolutionDirs=os.popen("echo " + ' '.join(getDirList(buildDir)) + '| tr " " "\n" | sort -V | tr "\n" " "').read().split()
 
   #Arrays / variables for next loop
-  directoryAccumulator=[]
-  directoryInfo=[]
+  directoryAccumulator = []
+  directoryInfo = []
 
   #Iterate through each resolution and begin processing
   for iconResolution in resolutionDirs:
@@ -37,11 +37,11 @@ def generateIndex(buildDir):
       if iconDir in contextDict:
         #Generate values for index entry
         if iconResolution == "scalable":
-          iconSize=256
-          iconType="Scalable"
+          iconSize = 256
+          iconType = "Scalable"
         else:
-          iconSize=iconResolution.split('x')[0]
-          iconType="Fixed"
+          iconSize = iconResolution.split('x')[0]
+          iconType = "Fixed"
 
         #Keep running total of all dirs processed
         directoryAccumulator.append(iconResolution + "/" + iconDir)
