@@ -13,7 +13,7 @@ build: autoclean
 	#Generate a list of icons to build, then call make with all the icon svgs
 	./icon-builder.py --list "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$(MAKE)"
 regen: clean
-	#Clean all built file first, then generate each icon and the index
+	#Clean all built files first, then generate each icon and the index
 	$(MAKE) $(PNG_OBJS) index
 install:
 	if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
