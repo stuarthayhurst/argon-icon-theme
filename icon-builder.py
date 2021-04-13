@@ -59,6 +59,9 @@ def listChangedIcons(buildDir, iconResolutions, makeCommand):
       linkPath = str(svgFile.rsplit("/", 1)[0]) + "/" + str(os.readlink(svgFile))
       if os.path.isfile(linkPath) == False:
         print(svgFile + " is a broken symlink, ignoring")
+        print("Nothing is critically broken, but this shouldn't be the case, unless run under special circumstances")
+        print("Please run 'make autoclean', and then try again")
+        print("If the issue persists, please report it")
         rebuildIcon = False
 
     #Convert file into the string used to build
