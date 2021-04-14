@@ -25,6 +25,7 @@ def createContextDict(iconResolutions):
       contextDict[row[0]]=[row[1], getMaxResolutionList(row[2], iconResolutions)]
   return contextDict
 
+#Lists all changed, new and missing icons
 def listChangedIcons(buildDir, makeCommand):
   #Check git is present, and .git exists
   if getCommandExitCode(["git", "status"]):
@@ -84,9 +85,63 @@ def listChangedIcons(buildDir, makeCommand):
   #Combine make command and icons to start build
   subprocess.run(makeCommand + buildList, close_fds=False)
 
+#Generates the given icon for all required resolutions
+def generateIcon(buildDir, outputFile):
+  #Generate input file path by swapping to an svg and removing "resolution/"
+  inputFile = outputFile.replace("resolution/", "")
+  inputFile = inputFile.replace(".png", ".svg")
+
+  #Work out the icon context
+  iconContext = inputFile.split("scalable/", 1)[1]
+  iconContext = iconContext.split("/", 1)[0]
+
+  #Set iconResolutions to predetermined array of valid resolutions to build for
+  iconResolutions = contextDict[iconContext][1]
+
+  #Generate output file for each resolution allowed
+  outputFileOrig = outputFile
+  for resolution in iconResolutions:
+    #Generate path to outputFile for specific resolution
+    outputFile = outputFileOrig.replace("resolution/scalable", str(resolution) + "x" + str(resolution))
+
+    #Create the directories for the output file if missing
+    outputDir = os.path.dirname(outputFile)
+    if os.path.exists(outputDir) == False:
+      os.makedirs(outputDir, exist_ok=True)
+
+    #Get process ID for use as a temporary file, if required
+    tempFile = outputDir + "/" + str(os.getpid()) + ".png"
+
+    #For symlinks, delete the output, and create a symlink between the output file and the output symlink target
+    if os.path.islink(inputFile):
+      #If the output file exists, delete it
+      if (os.path.exists(outputFile)):
+        os.remove(outputFile)
+
+      #Generate output target based off of input symlink target
+      outputLinkTarget = os.readlink(inputFile)
+      outputLinkTarget = outputLinkTarget.replace(".svg", ".png")
+
+      #Make a symlink to link the output file to the output symlink target
+      print(f"Symlink: {outputFile} -> {outputLinkTarget}")
+      os.symlink(outputLinkTarget, outputFile)
+    else:
+      #Generate the icon
+      print(f"Processing {inputFile} -> {outputFile} ({tempFile})")
+      getCommandExitCode(["inkscape", f"--export-filename={tempFile}", "-w", resolution, "-h", resolution, inputFile])
+
+      #Compress the icon and move to final destination
+      print(f"Compressing {outputFile}...")
+      getCommandExitCode(["optipng", "-quiet", "-strip", "all", tempFile])
+      os.rename(tempFile, outputFile)
+
+#Create context dictionary for future reference
+contextDict = createContextDict(sys.argv[3].split())
+
 #Handle arguments
 if sys.argv[1] == "--list":
-  #Create context dictionary for future reference
-  contextDict = createContextDict(sys.argv[3].split())
   #Pass listChangedIcons() the build directory and make command
   listChangedIcons(str(sys.argv[2]), str(sys.argv[4]))
+elif sys.argv[1] == "--generate":
+  #Pass generateIcon() the build directory and icon to build
+  generateIcon(str(sys.argv[2]), str(sys.argv[4]))
