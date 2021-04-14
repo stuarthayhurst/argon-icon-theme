@@ -4,29 +4,34 @@ import sys, subprocess, glob, os, csv
 def getCommandExitCode(command):
   return subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL).returncode
 
-def getMaxResolutionList(iconContext, iconResolutions):
-  #Set max resolution from dictionary
-  maxResolution=contextDict[iconContext][1]
-  allowedResolutions = []
-
+def getMaxResolutionList(maxResolution, iconResolutions):
   #Loop through given resolutions, add to a return array if it's less than the max
+  allowedResolutions = []
   for resolution in iconResolutions:
-    if int(resolution) <= int(maxResolution): # Fix not adding
+    if int(resolution) <= int(maxResolution):
       allowedResolutions.append(resolution)
 
   #Return an array of valid resolutions to build for
   return allowedResolutions
 
-def listChangedIcons(buildDir, iconResolutions, makeCommand):
+def createContextDict(iconResolutions):
+  #Load info from index/context.csv into a dictionary
+  contextDict = {}
+  with open('index/context.csv', 'r') as file:
+    reader = csv.reader(file)
+    for row in reader:
+      #contextDict stores the pretty name and array of max resolutions for the context
+      #contextDict["context"]=["pretty name", ["allowed", "resolutions"]]
+      contextDict[row[0]]=[row[1], getMaxResolutionList(row[2], iconResolutions)]
+  return contextDict
+
+def listChangedIcons(buildDir, makeCommand):
   #Check git is present, and .git exists
   if getCommandExitCode(["git", "status"]):
     print("Either git isn't installed, or .git missing")
     print("This feature isn't available on releases, use 'sudo make install' to install")
     print("index.theme can be generated using 'make index'")
     exit(1)
-
-  #Create an untouched integer copy of iconResolutions to preserve values between each run
-  iconResolutionsOrig = [ int(x) for x in iconResolutions ]
 
   #Create an array with any new svgs, svgs with missing pngs, or svgs with modifications
   buildList = []
@@ -43,7 +48,9 @@ def listChangedIcons(buildDir, iconResolutions, makeCommand):
     #Work out the highest resolution to check for
     iconContext = svgFile.split("scalable/", 1)[1]
     iconContext = iconContext.split("/", 1)[0]
-    iconResolutions = getMaxResolutionList(iconContext, iconResolutionsOrig)
+
+    #Set iconResolutions to predetermined array of valid resolutions
+    iconResolutions = contextDict[iconContext][1]
 
     #Check all resolutions of the icon are present
     for resolution in iconResolutions:
@@ -77,15 +84,9 @@ def listChangedIcons(buildDir, iconResolutions, makeCommand):
   #Combine make command and icons to start build
   subprocess.run(makeCommand + buildList, close_fds=False)
 
-#Load info from index/context.csv into a dictionary
-contextDict = {}
-with open('index/context.csv', 'r') as file:
-  reader = csv.reader(file)
-  for row in reader:
-    #Create contextDict["context"]=["pretty name", "max resolution"]
-    contextDict[row[0]]=[row[1], row[2]]
-
 #Handle arguments
 if sys.argv[1] == "--list":
-  #Pass listChangedIcons() the build directory, resolutions and make command
-  listChangedIcons(str(sys.argv[2]), str(sys.argv[3]).split(), str(sys.argv[4]))
+  #Create context dictionary for future reference
+  contextDict = createContextDict(sys.argv[3].split())
+  #Pass listChangedIcons() the build directory and make command
+  listChangedIcons(str(sys.argv[2]), str(sys.argv[4]))
