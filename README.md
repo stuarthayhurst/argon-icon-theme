@@ -14,7 +14,7 @@
 ## Building:
   - It's not necessary to rebuild the theme to install, only if modifications have been made
   - `make build -jX` will generate changed icons and `index.theme`
-  - `make regen -jX` will regenerate all icons, whether they have been changed or not
+  - `make regen -jX` will regenerate all icons, whether they have been changed or not, and `index.theme`
   - `make clean` will delete all generated icons and `index.theme`
   - `make autoclean` will delete icons missing a corresponding svg, broken symlinks and empty directories
   - `make index` will generate `index.theme` (Done automatically by `build` and `regen`)
