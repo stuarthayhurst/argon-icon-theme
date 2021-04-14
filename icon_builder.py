@@ -19,10 +19,14 @@ def createContextDict(iconResolutions):
   contextDict = {}
   with open('index/context.csv', 'r') as file:
     reader = csv.reader(file)
-    for row in reader:
-      #contextDict stores the pretty name and array of max resolutions for the context
-      #contextDict["context"]=["pretty name", ["allowed", "resolutions"]]
-      contextDict[row[0]]=[row[1], getMaxResolutionList(row[2], iconResolutions)]
+    if iconResolutions != None:
+      for row in reader:
+        #contextDict stores the pretty name and array of max resolutions for the context
+        #contextDict["context"]=["pretty name", ["allowed", "resolutions"]]
+        contextDict[row[0]]=[row[1], getMaxResolutionList(row[2], iconResolutions)]
+    else:
+      for row in reader:
+        contextDict[row[0]]=[row[1]]
   return contextDict
 
 #Lists all changed, new and missing icons
@@ -135,13 +139,14 @@ def generateIcon(buildDir, outputFile):
       getCommandExitCode(["optipng", "-quiet", "-strip", "all", tempFile])
       os.rename(tempFile, outputFile)
 
-#Create context dictionary for future reference
-contextDict = createContextDict(sys.argv[3].split())
+if __name__ == '__main__':
+  #Create context dictionary for future reference
+  contextDict = createContextDict(sys.argv[3].split())
 
-#Handle arguments
-if sys.argv[1] == "--list":
-  #Pass listChangedIcons() the build directory and make command
-  listChangedIcons(str(sys.argv[2]), str(sys.argv[4]))
-elif sys.argv[1] == "--generate":
-  #Pass generateIcon() the build directory and icon to build
-  generateIcon(str(sys.argv[2]), str(sys.argv[4]))
+  #Handle arguments
+  if sys.argv[1] == "--list":
+    #Pass listChangedIcons() the build directory and make command
+    listChangedIcons(str(sys.argv[2]), str(sys.argv[4]))
+  elif sys.argv[1] == "--generate":
+    #Pass generateIcon() the build directory and icon to build
+    generateIcon(str(sys.argv[2]), str(sys.argv[4]))

@@ -1,14 +1,10 @@
 #!/usr/bin/python3
 import sys, shutil, os, csv
+from icon_builder import createContextDict
 
 def generateIndex(buildDir):
   #Load info from index/context.csv into a dictionary
-  contextDict = {}
-  with open('index/context.csv', 'r') as file:
-    reader = csv.reader(file)
-    for row in reader:
-      #Create contextDict["context"]=["pretty name", "max resolution"]
-      contextDict[row[0]]=[row[1], row[2]]
+  contextDict = createContextDict(None)
 
   #Copy index/index.theme.template to buildDir/index.theme
   shutil.copy("index/index.theme.template", buildDir + "/index.theme")

@@ -11,7 +11,7 @@ PNG_LIST = $(wildcard ./$(BUILD_DIR)/*/*/*.png*)
 
 build: autoclean
 	#Generate a list of icons to build, then call make with all the icon svgs
-	./icon-builder.py "--list" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$(MAKE)"
+	./icon_builder.py "--list" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$(MAKE)"
 regen: clean
 	#Clean all built files first, then generate each icon and the index
 	$(MAKE) $(PNG_OBJS) index
@@ -40,7 +40,7 @@ autoclean:
 	./autoclean.py "$(BUILD_DIR)"
 $(PNG_OBJS): ./$(BUILD_DIR)/resolution/%.png: ./$(BUILD_DIR)/%.svg
 	mkdir -p "$(BUILD_DIR)"
-	./icon-builder.py "--generate" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$@"
+	./icon_builder.py "--generate" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$@"
 index:
 	./generate-index.py "--index" "$(BUILD_DIR)"
 refresh:
