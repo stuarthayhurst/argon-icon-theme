@@ -139,6 +139,7 @@ def generateIcon(buildDir, outputFile):
       getCommandExitCode(["optipng", "-quiet", "-strip", "all", tempFile])
       os.rename(tempFile, outputFile)
 
+#Required, because generate-index.py imports createContextDict from this file, and this code breaks the other script
 if __name__ == '__main__':
   #Create context dictionary for future reference
   contextDict = createContextDict(sys.argv[3].split())
