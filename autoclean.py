@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import sys, glob, os
+from icon_builder import isSymlinkBroken
 
 buildDir = str(sys.argv[1])
 
@@ -20,20 +21,16 @@ for resolutionDir in resolutionDirs:
     svgFile = svgFile.replace(".png", ".svg")
     if os.path.exists(svgFile) == False:
       deletionList.append(file)
-
-    #Check if the file is actually a symlink, and schedule deletion if it's broken
-    if os.path.islink(file):
-      #Generate path to symlink target
-      linkPath = str(file.rsplit("/", 1)[0]) + "/" + str(os.readlink(file))
-      if os.path.isfile(linkPath) == False:
-        deletionList.append(file)
+    #If the file is a broken symlink, schedule deletion
+    elif isSymlinkBroken(file):
+      deletionList.append(file)
 
 #Delete everything marked for deletion
 for file in deletionList:
   print("  Delete " + file)
-  if os.path.isfile(file):
+  if (os.path.exists(file) or isSymlinkBroken(file)) and (os.path.isdir(file) == False):
     os.remove(file)
-  elif os.path.isdir(file):
+  elif (os.path.exists(file) or isSymlinkBroken(file)):
     os.rmdir(file)
 
 #Find empty directories and delete, repeat until no empty directories are found

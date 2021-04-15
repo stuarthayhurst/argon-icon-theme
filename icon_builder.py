@@ -1,6 +1,16 @@
 #!/usr/bin/python3
 import sys, subprocess, glob, os, csv
 
+def isSymlinkBroken(path):
+  if os.path.islink(path):
+    #Generate path to symlink target
+    linkPath = str(os.path.dirname(path)) + "/" + str(os.readlink(path))
+    if os.path.isfile(linkPath) == False:
+      #Symlink is broken
+      return True
+  #Either not a symlink, or not broken
+  return False
+
 def getCommandExitCode(command):
   return subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL).returncode
 
@@ -66,15 +76,12 @@ def listChangedIcons(buildDir, makeCommand):
         rebuildIcon = True
 
     #Check if the file is a broken symlink, and ignore
-    if os.path.islink(svgFile):
-      #Generate path to symlink target
-      linkPath = str(svgFile.rsplit("/", 1)[0]) + "/" + str(os.readlink(svgFile))
-      if os.path.isfile(linkPath) == False:
-        print(svgFile + " is a broken symlink, ignoring")
-        print("Nothing is critically broken, but this shouldn't be the case, unless run under special circumstances")
-        print("Please run 'make autoclean', and then try again")
-        print("If the issue persists, please report it")
-        rebuildIcon = False
+    if isSymlinkBroken(svgFile):
+      print(svgFile + " is a broken symlink, ignoring")
+      print("Nothing is critically broken, but this shouldn't be the case, unless run under special circumstances")
+      print("Please run 'make autoclean', and then try again")
+      print("If the issue persists, please report it")
+      rebuildIcon = False
 
     #Convert file into the string used to build
     if rebuildIcon == True:
