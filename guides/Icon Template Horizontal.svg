@@ -18,8 +18,8 @@
      id="defs2" />
   <sodipodi:namedview
      inkscape:window-maximized="1"
-     inkscape:window-y="0"
-     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-x="2004"
      inkscape:window-height="1016"
      inkscape:window-width="1836"
      units="px"
@@ -27,9 +27,9 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer3"
      inkscape:document-units="px"
-     inkscape:cy="154.28191"
-     inkscape:cx="174.63232"
-     inkscape:zoom="2"
+     inkscape:cy="150.19167"
+     inkscape:cx="164.04784"
+     inkscape:zoom="2.8284271"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -92,10 +92,11 @@
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="Large Highlight">
+     inkscape:label="Large Highlight"
+     style="opacity:0.055">
     <path
        id="path1811"
-       style="display:inline;opacity:0.05;fill:#ffffff;fill-opacity:1;stroke-width:7.36208;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:7.36208;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        inkscape:transform-center-y="-6.3500795"
        d="M 63.499958,23.283333 6.0285313,60.229397 c 0.865049,0.7205 1.978419,1.153936 3.197221,1.153936 H 58.507498 c 2.7656,0 4.99246,-2.226861 4.99246,-4.99246 V 44.449999 31.75 Z" />
   </g>

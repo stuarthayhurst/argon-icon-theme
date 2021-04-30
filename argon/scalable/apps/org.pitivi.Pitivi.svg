@@ -43,8 +43,8 @@
   </defs>
   <sodipodi:namedview
      inkscape:window-maximized="1"
-     inkscape:window-y="0"
-     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-x="2004"
      inkscape:window-height="1016"
      inkscape:window-width="1836"
      units="px"
@@ -307,10 +307,11 @@
   <g
      inkscape:groupmode="layer"
      id="layer1"
-     inkscape:label="Large Highlight">
+     inkscape:label="Large Highlight"
+     style="opacity:0.055">
     <path
        id="path1811"
-       style="display:inline;opacity:0.05;fill:#ffffff;fill-opacity:1;stroke-width:27.8252;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:27.8252;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        inkscape:transform-center-y="-6.3500795"
        d="M 240 88 L 22.785156 227.63867 C 26.05463 230.36182 30.262644 232 34.869141 232 L 221.13086 232 C 231.58352 232 240 223.58352 240 213.13086 L 240 168 L 240 120 L 240 88 z "
        transform="scale(0.26458333)" />

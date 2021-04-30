@@ -27,16 +27,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.0000001"
-     inkscape:cx="160.14804"
-     inkscape:cy="112.35192"
+     inkscape:cx="109.25513"
+     inkscape:cy="145.25738"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1836"
      inkscape:window-height="1016"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-x="2004"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      units="px" />
   <metadata
@@ -127,21 +127,11 @@
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Large Highlight">
-    <g
-       id="g869">
-      <g
-         inkscape:label="Graphic"
-         id="g1156-7"
-         style="display:inline" />
-      <g
-         id="layer3-0"
-         inkscape:label="Large Highlight">
-        <path
-           d="M 9.2255845,63.5 C 6.459986,63.5 4.2333333,61.273348 4.2333333,58.507749 V 33.866667 H 63.5 V 58.507749 C 63.5,61.273348 61.273349,63.5 58.50775,63.5 Z"
-           style="display:inline;opacity:0.055;fill:#ffffff;fill-opacity:1;stroke-width:0.0246944;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
-           id="path842" />
-      </g>
-    </g>
+     inkscape:label="Large Highlight"
+     style="opacity:0.055">
+    <path
+       d="M 9.2255845,63.5 C 6.459986,63.5 4.2333333,61.273348 4.2333333,58.507749 V 33.866667 H 63.5 V 58.507749 C 63.5,61.273348 61.273349,63.5 58.50775,63.5 Z"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:0.0246944;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="path842" />
   </g>
 </svg>
