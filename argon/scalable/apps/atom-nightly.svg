@@ -20,8 +20,8 @@
      units="px"
      inkscape:document-rotation="0"
      inkscape:window-maximized="1"
-     inkscape:window-y="0"
-     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-x="2004"
      inkscape:window-height="1016"
      inkscape:window-width="1836"
      fit-margin-bottom="0"
@@ -31,9 +31,9 @@
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="109.99335"
-     inkscape:cx="136.60441"
-     inkscape:zoom="1.4"
+     inkscape:cy="131.32837"
+     inkscape:cx="152.00507"
+     inkscape:zoom="2.8"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -76,11 +76,11 @@
        inkscape:groupmode="layer"
        inkscape:label="Colour">
       <circle
-         r="29.176069"
+         r="30.427082"
          cy="178.19211"
          cx="163.91829"
          id="path902"
-         style="display:inline;fill:#b726dc;fill-opacity:1;stroke:#ffffff;stroke-width:5.14773323;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+         style="display:inline;fill:#b726dc;fill-opacity:1;stroke:#ffffff;stroke-width:2.64583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
     </g>
     <g
        style="display:inline;opacity:0.1"
