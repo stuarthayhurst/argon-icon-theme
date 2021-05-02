@@ -20,8 +20,8 @@
      units="px"
      inkscape:document-rotation="0"
      inkscape:window-maximized="1"
-     inkscape:window-y="0"
-     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-x="2004"
      inkscape:window-height="1016"
      inkscape:window-width="1836"
      fit-margin-bottom="0"
@@ -29,11 +29,11 @@
      fit-margin-left="0"
      fit-margin-top="0"
      showgrid="false"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="77.070783"
-     inkscape:cx="162.66116"
-     inkscape:zoom="1.4142136"
+     inkscape:cy="105.5939"
+     inkscape:cx="146.55751"
+     inkscape:zoom="2.0000001"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -75,9 +75,8 @@
        inkscape:label="Colour">
       <path
          id="path902"
-         style="display:inline;fill:#808080;fill-opacity:1;stroke:#e6e6e6;stroke-width:19.4565;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
-         d="M 127.85938 17.728516 A 110.27174 110.27174 0 0 0 17.728516 128 A 110.27174 110.27174 0 0 0 128 238.27148 A 110.27174 110.27174 0 0 0 238.27148 128 A 110.27174 110.27174 0 0 0 128 17.728516 A 110.27174 110.27174 0 0 0 127.85938 17.728516 z M 127.92383 88 A 40 40 0 0 1 128 88 A 40 40 0 0 1 168 128 A 40 40 0 0 1 128 168 A 40 40 0 0 1 88 128 A 40 40 0 0 1 127.92383 88 z "
-         transform="matrix(0.26458333,0,0,0.26458333,130.05163,144.32544)" />
+         style="display:inline;fill:#808080;fill-opacity:1;stroke:#e6e6e6;stroke-width:2.64583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         d="m 163.87949,147.76502 a 30.427154,30.427154 0 0 0 -30.38828,30.42708 30.427154,30.427154 0 0 0 30.42708,30.42709 30.427154,30.427154 0 0 0 30.42709,-30.42709 30.427154,30.427154 0 0 0 -30.42709,-30.42708 30.427154,30.427154 0 0 0 -0.0388,0 z m 0.0178,19.38993 a 11.037154,11.037154 0 0 1 0.021,0 11.037154,11.037154 0 0 1 11.03716,11.03715 11.037154,11.037154 0 0 1 -11.03716,11.03716 11.037154,11.037154 0 0 1 -11.03715,-11.03716 11.037154,11.037154 0 0 1 11.01614,-11.03715 z" />
     </g>
     <g
        style="display:inline;opacity:0.1"
