@@ -14,7 +14,7 @@
    height="256"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="org.gnome.ArchiveManager.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -32,8 +32,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.0000001"
-     inkscape:cx="132.7743"
-     inkscape:cy="111.00646"
+     inkscape:cx="130.84887"
+     inkscape:cy="180.8468"
      inkscape:current-layer="layer4"
      showgrid="false"
      inkscape:grid-bbox="true"
@@ -101,7 +101,7 @@
          offset="0"
          id="stop976" />
       <stop
-         style="stop-color:#67ff67;stop-opacity:1"
+         style="stop-color:#1ed61e;stop-opacity:1"
          offset="1"
          id="stop978" />
     </linearGradient>
@@ -114,6 +114,19 @@
        x2="215.99954"
        y2="240.00002"
        gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter847"
+       x="-1.3636364e-06"
+       width="1.0000027"
+       y="-1.0714286e-06"
+       height="1.0000021">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.0001"
+         id="feGaussianBlur849" />
+    </filter>
   </defs>
   <metadata
      id="metadata4">
@@ -198,7 +211,7 @@
      inkscape:label="Icon"
      style="display:inline">
     <path
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient982);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999985;marker:none;enable-background:accumulate"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient982);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999985;marker:none;enable-background:accumulate;filter:url(#filter847)"
        d="m 177.07418,16.000007 c 35.29565,0 39.09341,3.625418 38.92042,38.99353 v 73.006473 73.00647 c 0.17299,35.36812 -3.62477,38.99353 -38.92042,38.99353 H 78.92043 C 43.624789,240.00001 40,236.37501 40,201.00648 V 128.00001 54.993537 c 0,-35.368533 3.624789,-38.99353 38.92043,-38.99353 z"
        id="rect4158"
        inkscape:connector-curvature="0"
@@ -232,7 +245,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Highlight"
-     style="display:inline;opacity:0.1">
+     style="display:none;opacity:0.1">
     <path
        style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999985;marker:none;enable-background:accumulate"
        d="M 128.0027,16.000007 V 240.00001 h 49.07077 c 35.29565,0 39.09366,-3.62602 38.92067,-38.99414 V 128.00001 54.994148 c 0.17299,-35.368112 -3.62502,-38.994141 -38.92067,-38.994141 z"
