@@ -12,9 +12,9 @@
    inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    id="svg8"
    version="1.1"
-   viewBox="0 0 77.258333 47.625001"
-   height="180"
-   width="292">
+   viewBox="0 0 88.9 58.737502"
+   height="222"
+   width="336">
   <defs
      id="defs2">
     <rect
@@ -33,11 +33,11 @@
      units="px"
      showgrid="false"
      inkscape:document-rotation="0"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="g1174"
      inkscape:document-units="px"
-     inkscape:cy="63.843774"
-     inkscape:cx="200.44495"
-     inkscape:zoom="2"
+     inkscape:cy="156.64221"
+     inkscape:cx="271.18041"
+     inkscape:zoom="1.4142136"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -52,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -68,8 +68,8 @@
        inkscape:groupmode="layer">
       <path
          id="rect1168"
-         style="display:inline;fill:#28282d;fill-opacity:1;stroke-width:0.0262712;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
-         d="m 0,0 c 0,7.795716 0,35.880428 0,47.624999 10.804094,0 66.719342,0 77.258334,0 V 0 C 60.840899,0 21.059812,0 0,0 Z"
+         style="display:inline;fill:#373737;fill-opacity:1;stroke:#2f2f2f;stroke-width:2.64583338;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="m 1.3244192,1.3244208 c 0,9.1816212 0,42.2591722 0,56.0916672 12.0621068,0 74.4880328,0 86.2541678,0 V 1.3244208 c -18.329054,0 -62.742186,0 -86.2541678,0 z"
          sodipodi:nodetypes="ccccc" />
       <image
          sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/openjdk-8.svg"
@@ -80,8 +80,8 @@
          height="8.4666672"
          style="image-rendering:optimizeQuality"
          id="image1653"
-         x="11.377083"
-         y="35.189579" />
+         x="11.641667"
+         y="48.154179" />
       <image
          sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/gnome-mines.svg"
          xlink:href="argon/scalable/apps/gnome-mines.svg"
@@ -91,8 +91,8 @@
          height="8.4666672"
          style="image-rendering:optimizeQuality"
          id="image1874"
-         x="19.84375"
-         y="35.189579" />
+         x="11.641666"
+         y="38.629181" />
     </g>
     <g
        inkscape:label="Shadow"
@@ -119,8 +119,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image2294"
-       x="2.9104166"
-       y="8.7312498" />
+       x="2.1166677"
+       y="10.05417" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/steam.svg"
        xlink:href="argon/scalable/apps/steam.svg"
@@ -130,8 +130,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image4386"
-       x="11.377083"
-       y="8.7312498" />
+       x="11.641666"
+       y="10.05417" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/spotify-client.svg"
        xlink:href="argon/scalable/apps/spotify-client.svg"
@@ -141,8 +141,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image4288"
-       x="19.843748"
-       y="8.7312498" />
+       x="21.166666"
+       y="10.05417" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/retroarch.svg"
        xlink:href="argon/scalable/apps/retroarch.svg"
@@ -152,8 +152,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image4178"
-       x="28.310413"
-       y="8.7312498" />
+       x="78.316666"
+       y="19.57918" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/google-chrome.svg"
        xlink:href="argon/scalable/apps/google-chrome.svg"
@@ -163,8 +163,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image1480"
-       x="36.777081"
-       y="8.7312498" />
+       x="30.691668"
+       y="10.05417" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/chromium.svg"
        xlink:href="argon/scalable/apps/chromium.svg"
@@ -174,8 +174,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image1034"
-       x="45.243748"
-       y="8.7312498" />
+       x="40.216667"
+       y="10.05417" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/audacity.svg"
        xlink:href="argon/scalable/apps/audacity.svg"
@@ -185,8 +185,8 @@
        height="8.4335928"
        style="display:inline;image-rendering:optimizeQuality"
        id="image924"
-       x="2.9104178"
-       y="17.230986" />
+       x="2.1166689"
+       y="29.137257" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.eog.svg"
        xlink:href="argon/scalable/apps/org.gnome.eog.svg"
@@ -196,8 +196,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image3016"
-       x="11.377084"
-       y="17.197914" />
+       x="11.641667"
+       y="29.104185" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.pitivi.Pitivi.svg"
        xlink:href="argon/scalable/apps/org.pitivi.Pitivi.svg"
@@ -207,8 +207,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image3508"
-       x="19.84375"
-       y="17.197914" />
+       x="21.166668"
+       y="29.104185" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.clocks.svg"
        xlink:href="argon/scalable/apps/org.gnome.clocks.svg"
@@ -218,8 +218,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image2830"
-       x="28.310413"
-       y="17.197914" />
+       x="68.791672"
+       y="19.57917" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Boxes.svg"
        xlink:href="argon/scalable/apps/org.gnome.Boxes.svg"
@@ -229,8 +229,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image2522"
-       x="36.777081"
-       y="17.197914" />
+       x="30.691669"
+       y="29.104185" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/qemu.svg"
        xlink:href="argon/scalable/apps/qemu.svg"
@@ -240,8 +240,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image4032"
-       x="0.36796865"
-       y="56.803188" />
+       x="40.216667"
+       y="19.57918" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/nvidia-settings.svg"
        xlink:href="argon/scalable/apps/nvidia-settings.svg"
@@ -251,8 +251,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image2163"
-       x="2.9104168"
-       y="26.722918" />
+       x="2.1166689"
+       y="38.629181" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Nautilus.svg"
        xlink:href="argon/scalable/apps/org.gnome.Nautilus.svg"
@@ -262,8 +262,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image3202"
-       x="45.243752"
-       y="35.189579" />
+       x="40.216671"
+       y="38.629173" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.tweaks.svg"
        xlink:href="argon/scalable/apps/org.gnome.tweaks.svg"
@@ -273,8 +273,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image3353"
-       x="19.84375"
-       y="26.722914" />
+       x="30.691671"
+       y="48.154179" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Calculator.svg"
        xlink:href="argon/scalable/apps/org.gnome.Calculator.svg"
@@ -284,8 +284,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image2694"
-       x="28.310417"
-       y="26.722914" />
+       x="30.691671"
+       y="38.629177" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/psensor.svg"
        xlink:href="argon/scalable/apps/psensor.svg"
@@ -295,8 +295,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image3886"
-       x="36.777084"
-       y="26.722914" />
+       x="49.741673"
+       y="48.154175" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/gimp.svg"
        xlink:href="argon/scalable/apps/gimp.svg"
@@ -306,8 +306,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image1366"
-       x="62.177082"
-       y="17.197914" />
+       x="59.266666"
+       y="29.104183" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.remmina.Remmina.svg"
        xlink:href="argon/scalable/apps/org.remmina.Remmina.svg"
@@ -317,8 +317,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image3718"
-       x="9.363802"
-       y="56.803188" />
+       x="21.166666"
+       y="19.57918" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/minecraft-launcher.svg"
        xlink:href="argon/scalable/apps/minecraft-launcher.svg"
@@ -328,8 +328,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image2083"
-       x="45.243752"
-       y="26.722914" />
+       x="59.266666"
+       y="38.629173" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/kernel-notify.svg"
        xlink:href="argon/scalable/apps/kernel-notify.svg"
@@ -339,8 +339,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image1913"
-       x="18.359636"
-       y="56.803192" />
+       x="30.691668"
+       y="19.57918" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/com.obsproject.Studio.svg"
        xlink:href="argon/scalable/apps/com.obsproject.Studio.svg"
@@ -350,8 +350,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image1162"
-       x="31.212502"
-       y="57.90033" />
+       x="11.641666"
+       y="19.57918" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/gparted.svg"
        xlink:href="argon/scalable/apps/gparted.svg"
@@ -361,8 +361,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image1618"
-       x="44.913536"
-       y="55.878025" />
+       x="68.791664"
+       y="38.629177" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/discord.svg"
        xlink:href="argon/scalable/apps/discord.svg"
@@ -372,8 +372,8 @@
        height="8.4666653"
        style="display:inline;image-rendering:optimizeQuality"
        id="image1265"
-       x="2.9104168"
-       y="35.189583" />
+       x="2.1166689"
+       y="48.154182" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.ArchiveManager.svg"
        xlink:href="argon/scalable/apps/org.gnome.ArchiveManager.svg"
@@ -383,8 +383,8 @@
        height="8.4666672"
        style="display:inline;opacity:1;image-rendering:optimizeQuality"
        id="image1642"
-       x="45.243748"
-       y="17.197914" />
+       x="40.216667"
+       y="29.104185" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/blender.svg"
        xlink:href="argon/scalable/apps/blender.svg"
@@ -394,13 +394,13 @@
        height="8.4666672"
        style="display:inline;opacity:1;image-rendering:optimizeQuality"
        id="image1765"
-       x="53.710415"
-       y="8.7312479" />
+       x="49.741669"
+       y="10.054168" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/mollusc-text-editor.svg"
        xlink:href="argon/scalable/apps/mollusc-text-editor.svg"
-       y="26.722912"
-       x="53.710419"
+       y="48.154179"
+       x="59.266666"
        id="image1682"
        style="image-rendering:optimizeQuality"
        height="8.4666662"
@@ -410,8 +410,8 @@
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Games.svg"
        xlink:href="argon/scalable/apps/org.gnome.Games.svg"
-       y="17.197914"
-       x="53.710415"
+       y="29.104185"
+       x="49.741669"
        id="image1832"
        style="image-rendering:optimizeQuality"
        height="8.4666662"
@@ -427,13 +427,13 @@
        height="8.4666672"
        style="image-rendering:optimizeQuality"
        id="image2261"
-       x="11.377083"
-       y="26.722916" />
+       x="21.166668"
+       y="48.154179" />
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/multimedia-volume-control.svg"
        xlink:href="argon/scalable/apps/multimedia-volume-control.svg"
-       y="35.189583"
-       x="91.28125"
+       y="19.57918"
+       x="2.1166668"
        id="image1793"
        style="image-rendering:optimizeQuality"
        height="8.4666672"
@@ -443,8 +443,8 @@
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/fr.handbrake.ghb.svg"
        xlink:href="argon/scalable/apps/fr.handbrake.ghb.svg"
-       y="8.7312479"
-       x="87.57708"
+       y="19.579182"
+       x="49.741669"
        id="image1971"
        style="image-rendering:optimizeQuality"
        height="8.4666672"
@@ -454,8 +454,8 @@
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/htop.svg"
        xlink:href="argon/scalable/apps/htop.svg"
-       y="35.189579"
-       x="36.777084"
+       y="48.154179"
+       x="40.216671"
        id="image2142"
        style="image-rendering:optimizeQuality"
        height="8.4666672"
@@ -465,8 +465,8 @@
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Photos.svg"
        xlink:href="argon/scalable/apps/org.gnome.Photos.svg"
-       y="47.625"
-       x="77.258331"
+       y="19.57918"
+       x="59.266666"
        id="image2290"
        style="image-rendering:optimizeQuality"
        height="8.4666672"
@@ -476,8 +476,8 @@
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/vlc.svg"
        xlink:href="argon/scalable/apps/vlc.svg"
-       y="17.197914"
-       x="87.57708"
+       y="48.154179"
+       x="68.791664"
        id="image2502"
        style="image-rendering:optimizeQuality"
        height="8.4666672"
@@ -487,8 +487,8 @@
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/vim.svg"
        xlink:href="argon/scalable/apps/vim.svg"
-       y="17.197914"
-       x="79.110413"
+       y="29.104181"
+       x="78.316666"
        id="image2599"
        style="image-rendering:optimizeQuality"
        height="8.4666672"
@@ -498,8 +498,8 @@
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/winetricks.svg"
        xlink:href="argon/scalable/apps/winetricks.svg"
-       y="35.189575"
-       x="53.710419"
+       y="38.629181"
+       x="49.741669"
        id="image2705"
        style="image-rendering:optimizeQuality"
        height="8.4666672"
@@ -509,8 +509,8 @@
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/com.leinardi.gwe.svg"
        xlink:href="argon/scalable/apps/com.leinardi.gwe.svg"
-       y="35.189579"
-       x="28.310417"
+       y="38.629173"
+       x="21.166668"
        id="image2865"
        style="image-rendering:optimizeQuality"
        height="8.4666672"
@@ -520,8 +520,8 @@
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/inkscape.svg"
        xlink:href="argon/scalable/apps/inkscape.svg"
-       y="17.197914"
-       x="70.643745"
+       y="29.104172"
+       x="68.791672"
        id="image2967"
        style="image-rendering:optimizeQuality"
        height="8.4666672"
@@ -531,8 +531,8 @@
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/io.atom.Atom.svg"
        xlink:href="argon/scalable/apps/io.atom.Atom.svg"
-       y="8.7312479"
-       x="62.177082"
+       y="10.054168"
+       x="59.266666"
        id="image3064"
        style="image-rendering:optimizeQuality"
        height="8.4666672"
@@ -542,8 +542,8 @@
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/atom-beta.svg"
        xlink:href="argon/scalable/apps/atom-beta.svg"
-       y="8.7312479"
-       x="70.643745"
+       y="10.054168"
+       x="68.791664"
        id="image3173"
        style="image-rendering:optimizeQuality"
        height="8.4666672"
@@ -553,8 +553,8 @@
     <image
        sodipodi:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/atom-nightly.svg"
        xlink:href="argon/scalable/apps/atom-nightly.svg"
-       y="8.7312479"
-       x="79.110413"
+       y="10.054167"
+       x="78.316666"
        id="image3282"
        style="image-rendering:optimizeQuality"
        height="8.4666672"
@@ -570,10 +570,15 @@
     <text
        xml:space="preserve"
        id="text843"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect845);display:inline;fill:#47feff;fill-opacity:1;stroke:none;"
-       transform="matrix(0.58697425,0,0,0.58697421,-4.8146565,-12.307058)"><tspan
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect845);display:inline;fill:#15fdff;fill-opacity:1;stroke:none;"
+       transform="matrix(0.58697425,0,0,0.58697421,-4.5500731,-12.033452)"><tspan
          x="13.076172"
          y="31.44111"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#47feff;fill-opacity:1">Argon Icons</tspan></tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#15fdff;fill-opacity:1">Argon Icons</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#ececec;stroke-width:0.800834;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1.3229167,8.5954166 H 39.683958 V 1.3229167"
+       id="path3407"
+       sodipodi:nodetypes="ccc" />
   </g>
 </svg>
