@@ -9,7 +9,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="chromium.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    id="svg4705"
    version="1.1"
    viewBox="0 0 67.733332 67.733332"
@@ -41,9 +41,9 @@
      showgrid="false"
      inkscape:current-layer="layer5"
      inkscape:document-units="px"
-     inkscape:cy="146.45836"
-     inkscape:cx="116.16179"
-     inkscape:zoom="2.0000001"
+     inkscape:cy="139.56486"
+     inkscape:cx="181.09919"
+     inkscape:zoom="1.4142136"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -80,12 +80,11 @@
      inkscape:label="Colour"
      style="display:inline">
     <g
-       id="g878">
+       id="g886">
       <path
          id="path1043"
-         style="display:inline;fill:#a2c3fa;fill-opacity:1;stroke-width:4.28572"
-         d="M 117.45312,49.728516 128.00195,68 h 103.74219 a 119.99849,119.99927 0 0 0 -6.51172,-10.078125 119.99849,119.99927 0 0 0 -6.47656,-8.193359 z M 128.00195,68 h -0.19336 c 0.0191,0 0.0314,0.01444 0.0488,0.01953 0.0493,-0.0057 0.0951,-0.014 0.14453,-0.01953 z m 0.13282,0.002 c -0.13282,0 19.04539,8.553023 27.13671,13.224609 9.17659,5.298211 14.69956,16.645403 18.01563,29.134771 h 73.36328 A 119.99849,119.99927 0 0 0 231.74414,68.001953 Z"
-         transform="scale(0.26458333)" />
+         style="display:inline;fill:#a2c3fa;fill-opacity:1;stroke-width:1.13393"
+         d="m 31.076138,13.157336 2.791044,4.83433 h 27.448454 a 31.7496,31.749806 0 0 0 -1.722892,-2.666503 31.7496,31.749806 0 0 0 -1.71359,-2.167827 z m 2.791044,4.83433 h -0.05116 c 0.0051,0 0.0083,0.0038 0.01291,0.0052 0.01304,-0.0015 0.02516,-0.0037 0.03824,-0.0052 z m 0.03514,5.3e-4 c -0.03514,0 5.039093,2.262987 7.179921,3.499011 2.427973,1.401818 3.889259,4.404096 4.766636,7.708574 H 65.259582 A 31.7496,31.749806 0 0 0 61.315636,17.992183 Z" />
       <g
          id="g864">
         <path
@@ -107,36 +106,32 @@
              sodipodi:nodetypes="ccccccccccccc" />
         </a>
       </g>
-      <a
-         id="a1053"
-         transform="matrix(1.0166666,0,0,1.0166666,-0.56444178,-0.56444262)">
+      <g
+         id="g940"
+         style="display:inline">
+        <circle
+           style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:0.764378;paint-order:stroke fill markers"
+           id="path1122"
+           cx="33.866665"
+           cy="33.866665"
+           r="15.875" />
         <g
-           id="g940"
+           id="g1145"
            style="display:inline">
           <circle
-             style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:0.764378;paint-order:stroke fill markers"
-             id="path1122"
+             style="display:inline;opacity:1;fill:#ffffff;stroke-width:1.58493;paint-order:stroke fill markers"
+             id="circle1141"
              cx="33.866665"
              cy="33.866665"
-             r="15.875" />
-          <g
-             id="g1145"
-             style="display:inline">
-            <circle
-               style="display:inline;opacity:1;fill:#ffffff;stroke-width:1.58493;paint-order:stroke fill markers"
-               id="circle1141"
-               cx="33.866665"
-               cy="33.866665"
-               r="14.287499" />
-            <circle
-               style="display:inline;opacity:1;fill:#4285f4;fill-opacity:1;stroke-width:1.2565;paint-order:stroke fill markers"
-               id="circle1143"
-               cx="33.866665"
-               cy="33.866665"
-               r="11.377083" />
-          </g>
+             r="14.287499" />
+          <circle
+             style="display:inline;opacity:1;fill:#4285f4;fill-opacity:1;stroke-width:1.2565;paint-order:stroke fill markers"
+             id="circle1143"
+             cx="33.866665"
+             cy="33.866665"
+             r="11.377083" />
         </g>
-      </a>
+      </g>
     </g>
   </g>
   <g
