@@ -19,6 +19,8 @@ jobs:
         python-version: 3.9
     - name: Install build dependencies
       run: |
+        # Add updated inkscape repository
+        sudo add-apt-repository ppa:inkscape.dev/stable
         sudo apt install git inkscape make optipng
     - name: Check differential build works, and all files are committed
       run: |
