@@ -18,6 +18,11 @@
  - If you are working on your own issue, use that report as a space to track information and progress relating to the issue
  - If any help is required, please make it known, instead of silently dropping the issue
 
+## Adding an icon:
+ - Icons are created via svg files in `argon/scalable/[context]/icon.svg`
+ - Icon templates can be found in `guides/`, and should be followed to match the style of the theme
+ - The icons need to be regenerated, as stated below
+
 ## Building and installing the icon theme:
   > Generating new icons:
    - If new icons have been added, or existing icons changed, the build system can handle updating only changed icons:
