@@ -3,7 +3,7 @@
   - Currently, this theme looks best if Yaru is installed before it
 
 <p align='center'>
-  <img src='https://raw.githubusercontent.com/stuarthayhurst/argon-icon-theme/master/Preview.png' alt="Icon Preview"/>
+  <img src='https://raw.githubusercontent.com/stuarthayhurst/argon-icon-theme/master/docs/Preview.png' alt="Icon Preview"/>
 </p>
 
 ## Installing:
