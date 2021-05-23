@@ -27,8 +27,8 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer3"
      inkscape:document-units="px"
-     inkscape:cy="150.19167"
-     inkscape:cx="164.04784"
+     inkscape:cy="146.55477"
+     inkscape:cx="148.94577"
      inkscape:zoom="2.8284271"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -95,9 +95,8 @@
      inkscape:label="Large Highlight"
      style="opacity:0.055">
     <path
-       id="path1811"
-       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:7.36208;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
-       inkscape:transform-center-y="-6.3500795"
-       d="M 63.499958,23.283333 6.0285313,60.229397 c 0.865049,0.7205 1.978419,1.153936 3.197221,1.153936 H 58.507498 c 2.7656,0 4.99246,-2.226861 4.99246,-4.99246 V 44.449999 31.75 Z" />
+       id="path974"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:0.0246944;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       d="M 61.8562,16.108098 33.869796,38.100037 5.8771896,60.091976 c 0.884888,0.800637 2.055956,1.291394 3.348633,1.291394 H 58.507568 c 2.765599,0 4.99246,-2.22686 4.99246,-4.99246 v -11.940873 -12.7 -11.940873 c 0,-1.472923 -0.635556,-2.78879 -1.643828,-3.701066 z" />
   </g>
 </svg>
