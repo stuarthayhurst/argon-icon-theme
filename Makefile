@@ -28,7 +28,8 @@ uninstall:
 	rm -rf "/usr/share/icons/Argon"
 clean:
 	#Delete every generated icon and the index
-	if [[ "$(PNG_LIST)" != "" ]]; then \
+	PNG_LIST="$(PNG_LIST)"
+	if [[ -z "$$PNG_LIST" ]]; then \
 	  rm -r $(PNG_LIST); \
 	  $(MAKE) autoclean; \
 	fi
