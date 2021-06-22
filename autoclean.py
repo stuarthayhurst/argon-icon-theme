@@ -8,7 +8,7 @@ buildDir = str(sys.argv[1])
 resolutionDirs = []
 for directory in glob.glob(buildDir + "/*x*"):
   directory = directory.replace(buildDir + "/", "")
-  if os.path.isfile(buildDir + "/" + directory) == False:
+  if os.path.isdir(buildDir + "/" + directory):
     resolutionDirs.append(directory)
 
 #Loop through every file in each resolution directory, and delete if it's missing a matching svg, or it's a broken symlink
