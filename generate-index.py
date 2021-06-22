@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-import sys, shutil, os, csv
-from icon_builder import createContextDict
+import sys, shutil, csv
+from icon_builder import createContextDict, getDirList, orderDirs
 
 def generateIndex(buildDir):
   #Load info from index/context.csv into a dictionary
@@ -9,16 +9,8 @@ def generateIndex(buildDir):
   #Copy index/index.theme.template to buildDir/index.theme
   shutil.copy("index/index.theme.template", buildDir + "/index.theme")
 
-  #Function to return array of all subdirectories of searchDir
-  def getDirList(searchDir):
-    dirList = []
-    for dir in os.listdir(searchDir):
-      if os.path.isdir(searchDir + "/" + dir):
-        dirList.append(dir)
-    return dirList
-
   #Create ordered array of resolution directories
-  resolutionDirs=os.popen("echo " + ' '.join(getDirList(buildDir)) + '| tr " " "\n" | sort -V | tr "\n" " "').read().split()
+  resolutionDirs = orderDirs(getDirList(buildDir))
 
   #Arrays / variables for next loop
   directoryAccumulator = []
@@ -27,7 +19,7 @@ def generateIndex(buildDir):
   #Iterate through each resolution and begin processing
   for iconResolution in resolutionDirs:
     #Get, sort and iterate through each icon category
-    iconDirs=getDirList(buildDir + "/" + iconResolution)
+    iconDirs = getDirList(buildDir + "/" + iconResolution)
     for iconDir in sorted(iconDirs):
       #Check icon category has a matching entry in index/context.csv
       if iconDir in contextDict:

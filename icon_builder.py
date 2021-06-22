@@ -1,6 +1,19 @@
 #!/usr/bin/python3
 import sys, subprocess, glob, os, csv
 
+#Function to return array of all subdirectories of searchDir
+def getDirList(searchDir):
+  dirList = []
+  for dir in os.listdir(searchDir):
+    if os.path.isdir(searchDir + "/" + dir):
+      dirList.append(dir)
+  return dirList
+
+def orderDirs(dirList):
+  process = os.popen("echo " + ' '.join(dirList) + '| tr " " "\n" | sort -V | tr "\n" " "')
+  output = process.read()
+  return output.split()
+
 def isSymlinkBroken(path):
   if os.path.islink(path):
     #Generate path to symlink target
