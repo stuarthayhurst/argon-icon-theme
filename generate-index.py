@@ -1,6 +1,14 @@
 #!/usr/bin/python3
 import sys, shutil, csv
-from icon_builder import createContextDict, getDirList, orderDirs
+from icon_builder import createContextDict, orderDirs
+
+#Function to return array of all subdirectories of searchDir
+def getDirList(searchDir):
+  dirList = []
+  for dir in os.listdir(searchDir):
+    if os.path.isdir(searchDir + "/" + dir):
+      dirList.append(dir)
+  return dirList
 
 def generateIndex(buildDir):
   #Load info from index/context.csv into a dictionary
