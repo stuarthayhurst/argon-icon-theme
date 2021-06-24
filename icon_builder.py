@@ -2,7 +2,7 @@
 import sys, subprocess, glob, os, csv
 
 def orderDirs(dirList):
-  process = os.popen("echo " + ' '.join(dirList) + '| tr " " "\n" | sort -V | tr "\n" " "')
+  process = os.popen("echo " + " ".join(dirList) + '| tr " " "\n" | sort -V | tr "\n" " "')
   output = process.read()
   return output.split()
 
@@ -42,7 +42,7 @@ def getMaxResolutionList(maxResolution, iconResolutions):
 def createContextDict(iconResolutions):
   #Load info from index/context.csv into a dictionary
   contextDict = {}
-  with open('index/context.csv', 'r') as file:
+  with open("index/context.csv", "r") as file:
     reader = csv.reader(file)
     if iconResolutions != None:
       for row in reader:
@@ -212,7 +212,7 @@ def makeSymlinks(buildDir, installDir):
       for symlinkObject in symlinkDict[contextDir]:
         os.symlink(path + symlinkObject["target"], path + symlinkObject["symlink"])
 
-if __name__ == '__main__':
+if __name__ == "__main__":
   #Create context dictionary for future reference
   if len(sys.argv) >= 4:
     contextDict = createContextDict(sys.argv[3].split())

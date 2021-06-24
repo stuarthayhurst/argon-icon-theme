@@ -36,7 +36,7 @@ def generateIndex(buildDir):
           iconSize = 256
           iconType = "Scalable"
         else:
-          iconSize = iconResolution.split('x')[0]
+          iconSize = iconResolution.split("x")[0]
           iconType = "Fixed"
 
         #Keep running total of all dirs processed
@@ -53,7 +53,7 @@ def generateIndex(buildDir):
   outputData = [""] + ["Directories=" + ",".join(directoryAccumulator)] + directoryInfo
 
   #Write outputData to buildDir/index.theme
-  with open(buildDir + "/index.theme", 'a') as file:
+  with open(buildDir + "/index.theme", "a") as file:
     for line in outputData:
       file.write(line + "\n")
 
