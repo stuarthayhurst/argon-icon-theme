@@ -1,5 +1,6 @@
 SHELL=bash
 BUILD_DIR=argon
+INSTALL_DIR=/usr/share/icons/Argon
 ICON_RESOLUTIONS=8 16 22 24 32 48 64 128 256
 
 SVG_OBJS_ORIG = $(wildcard ./$(BUILD_DIR)/scalable/*/*.svg)
@@ -18,14 +19,17 @@ regen: clean
 install:
 	if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
 	  make uninstall; \
-	  mkdir -p "/usr/share/icons/Argon"; \
-	  cp -r "./$(BUILD_DIR)/"* /usr/share/icons/Argon/; \
+	  mkdir -p "$(INSTALL_DIR)"; \
+	  cp -r "./$(BUILD_DIR)/"* "$(INSTALL_DIR)"; \
+	  #Install symlinks; \
+	  ./icon_builder.py "--install-symlinks" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$(INSTALL_DIR)"; \
+	  rm -rf "$(INSTALL_DIR)/symlinks"; \
 	  make refresh; \
 	else \
 	  echo "WARNING: $(BUILD_DIR)/index.theme is missing, run 'make index' and try again"; \
 	fi
 uninstall:
-	rm -rf "/usr/share/icons/Argon"
+	rm -rf "$(INSTALL_DIR)"
 clean:
 	#Delete every generated icon and the index
 	PNG_LIST="$(PNG_LIST)"
@@ -47,6 +51,6 @@ index:
 refresh:
 	#Refresh icon cache
 	if command -v gtk-update-icon-cache > /dev/null; then \
-	  echo "Updating gtk-update-icon-cache"; touch /usr/share/icons/Argon > /dev/null; \
-	  gtk-update-icon-cache -f /usr/share/icons/Argon/; \
+	  echo "Updating gtk-update-icon-cache"; touch "$(INSTALL_DIR)" > /dev/null; \
+	  gtk-update-icon-cache -f "$(INSTALL_DIR)"; \
 	fi

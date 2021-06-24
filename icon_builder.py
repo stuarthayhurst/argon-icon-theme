@@ -14,6 +14,16 @@ def orderDirs(dirList):
   output = process.read()
   return output.split()
 
+def getResolutionDirs(searchPath):
+  #Generate a list of directories matching searchPath/*x*
+  resolutionDirs = []
+  for directory in glob.glob(searchPath + "/*x*"):
+    directory = directory.replace(searchPath + "/", "")
+    if os.path.isdir(searchPath + "/" + directory):
+      resolutionDirs.append(directory)
+
+  return orderDirs(resolutionDirs)
+
 def isSymlinkBroken(path):
   if os.path.islink(path):
     #Generate path to symlink target
@@ -159,10 +169,62 @@ def generateIcon(buildDir, outputFile):
       getCommandExitCode(["optipng", "-quiet", "-strip", "all", tempFile])
       os.rename(tempFile, outputFile)
 
+def makeSymlinks(buildDir, installDir):
+  #Read all the symlinks to create into memory and create a data structure for them
+  #  symlinkDict["apps"][0]["symlink"] would return the name of a smylink to create
+  symlinkLists = glob.glob(buildDir + "/symlinks/*")
+  symlinkDict = {}
+
+  for listFile in symlinkLists:
+    contextDir = os.path.basename(listFile)
+    contextDir = "".join(contextDir.rsplit(".list", 1))
+
+    processedSymlinks = []
+    with open(listFile) as file:
+      for line in file.readlines():
+        line = line.replace("\n", "")
+
+        #Correct filename for non-svgs
+        if contextDir != "scalable":
+          line = line.replace(".svg", ".png")
+
+        line = line.split(" -> ")
+        line = {
+          "symlink": line[0],
+          "target": line[1]
+        }
+        processedSymlinks.append(line)
+
+    symlinkDict[contextDir] = processedSymlinks
+
+  #Check permissions for creating symlinks
+  if os.access(installDir, os.W_OK) == False:
+    print(f"No write permission for {installDir}, try running with root")
+    exit(1)
+
+  #Loop through resolutions
+  resolutionDirs = getResolutionDirs(installDir)
+
+  #Loop through contexts
+  for contextDir in symlinkDict:
+    #Get resolutions to generate symlinks for specific context
+    resolutionDirs = contextDict[contextDir][1]
+    #Loop through resolutionDirs
+    for resolutionDir in resolutionDirs:
+      path = (f"{installDir}/{resolutionDir}x{resolutionDir}/{contextDir}/")
+
+      #Create context dir if missing
+      if os.path.isdir(path) == False:
+        os.mkdir(path)
+
+      for symlinkObject in symlinkDict[contextDir]:
+        os.symlink(path + symlinkObject["target"], path + symlinkObject["symlink"])
+
 #Required, because generate-index.py imports createContextDict from this file, and this code breaks the other script
 if __name__ == '__main__':
   #Create context dictionary for future reference
-  contextDict = createContextDict(sys.argv[3].split())
+  if len(sys.argv) >= 4:
+    contextDict = createContextDict(sys.argv[3].split())
 
   #Handle arguments
   if sys.argv[1] == "--list":
@@ -171,3 +233,6 @@ if __name__ == '__main__':
   elif sys.argv[1] == "--generate":
     #Pass generateIcon() the build directory and icon to build
     generateIcon(str(sys.argv[2]), str(sys.argv[4]))
+  elif sys.argv[1] == "--install-symlinks":
+    #Pass makeSymlinks() the install directory
+    makeSymlinks(str(sys.argv[2]), str(sys.argv[4]))
