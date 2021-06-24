@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import sys, shutil, csv
+import os, sys, shutil, csv
 from icon_builder import createContextDict, orderDirs
 
 #Function to return array of all subdirectories of searchDir
