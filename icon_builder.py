@@ -220,7 +220,6 @@ def makeSymlinks(buildDir, installDir):
       for symlinkObject in symlinkDict[contextDir]:
         os.symlink(path + symlinkObject["target"], path + symlinkObject["symlink"])
 
-#Required, because generate-index.py imports createContextDict from this file, and this code breaks the other script
 if __name__ == '__main__':
   #Create context dictionary for future reference
   if len(sys.argv) >= 4:
