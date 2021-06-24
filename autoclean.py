@@ -1,15 +1,11 @@
 #!/usr/bin/python3
 import sys, glob, os
-from icon_builder import isSymlinkBroken
+from icon_builder import isSymlinkBroken, getResolutionDirs
 
 buildDir = str(sys.argv[1])
 
 #Generate a list of directories matching buildDir/*x*
-resolutionDirs = []
-for directory in glob.glob(buildDir + "/*x*"):
-  directory = directory.replace(buildDir + "/", "")
-  if os.path.isdir(buildDir + "/" + directory):
-    resolutionDirs.append(directory)
+resolutionDirs = getResolutionDirs(buildDir)
 
 #Loop through every file in each resolution directory, and delete if it's missing a matching svg, or it's a broken symlink
 deletionList = []
