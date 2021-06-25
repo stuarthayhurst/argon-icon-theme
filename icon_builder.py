@@ -92,7 +92,6 @@ def listChangedIcons(buildDir, makeCommand):
     #Check if the file is a broken symlink, and ignore
     if isSymlinkBroken(svgFile):
       print(svgFile + " is a broken symlink, ignoring")
-      print("Nothing is critically broken, but this shouldn't be the case, unless run under special circumstances")
       print("Please run 'make autoclean', and then try again")
       print("If the issue persists, please report it")
       rebuildIcon = False
@@ -139,28 +138,14 @@ def generateIcon(buildDir, outputFile):
     #Get process ID for use as a temporary file, if required
     tempFile = outputDir + "/" + str(os.getpid()) + ".png"
 
-    #For symlinks, delete the output, and create a symlink between the output file and the output symlink target
-    if os.path.islink(inputFile):
-      #If the output file exists, delete it
-      if (os.path.exists(outputFile)):
-        os.remove(outputFile)
+    #Generate the icon
+    print(f"Processing {inputFile} -> {outputFile} ({tempFile})")
+    getCommandExitCode(["inkscape", f"--export-filename={tempFile}", "-w", resolution.split("x")[0], "-h", resolution.split("x")[0], inputFile])
 
-      #Generate output target based off of input symlink target
-      outputLinkTarget = os.readlink(inputFile)
-      outputLinkTarget = outputLinkTarget.replace(".svg", ".png")
-
-      #Make a symlink to link the output file to the output symlink target
-      print(f"Symlink: {outputFile} -> {outputLinkTarget}")
-      os.symlink(outputLinkTarget, outputFile)
-    else:
-      #Generate the icon
-      print(f"Processing {inputFile} -> {outputFile} ({tempFile})")
-      getCommandExitCode(["inkscape", f"--export-filename={tempFile}", "-w", resolution.split("x")[0], "-h", resolution.split("x")[0], inputFile])
-
-      #Compress the icon and move to final destination
-      print(f"Compressing {outputFile}...")
-      getCommandExitCode(["optipng", "-quiet", "-strip", "all", tempFile])
-      os.rename(tempFile, outputFile)
+    #Compress the icon and move to final destination
+    print(f"Compressing {outputFile}...")
+    getCommandExitCode(["optipng", "-quiet", "-strip", "all", tempFile])
+    os.rename(tempFile, outputFile)
 
 def makeSymlinks(buildDir, installDir):
   #Read all the symlinks to create into memory and create a data structure for them
