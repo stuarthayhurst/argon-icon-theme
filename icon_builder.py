@@ -13,6 +13,7 @@ def getResolutionDirs(searchPath):
     directory = directory.replace(searchPath + "/", "")
     if os.path.isdir(searchPath + "/" + directory):
       resolutionDirs.append(directory)
+  resolutionDirs.append("scalable")
 
   return orderDirs(resolutionDirs)
 
