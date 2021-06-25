@@ -2,14 +2,6 @@
 import os, sys, shutil, csv
 from icon_builder import createContextDict, getResolutionDirs
 
-#Function to return array of all subdirectories of searchDir
-def getDirList(searchDir):
-  dirList = []
-  for dir in os.listdir(searchDir):
-    if os.path.isdir(searchDir + "/" + dir):
-      dirList.append(dir)
-  return dirList
-
 def generateIndex(buildDir):
   #Copy index/index.theme.template to buildDir/index.theme
   shutil.copy("index/index.theme.template", buildDir + "/index.theme")
