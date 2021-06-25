@@ -47,7 +47,7 @@ $(PNG_OBJS): ./$(BUILD_DIR)/resolution/%.png: ./$(BUILD_DIR)/%.svg
 	mkdir -p "$(BUILD_DIR)"
 	./icon_builder.py "--generate" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$@"
 index:
-	./generate-index.py "--index" "$(BUILD_DIR)"
+	./generate-index.py "--index" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)"
 refresh:
 	#Refresh icon cache
 	if command -v gtk-update-icon-cache > /dev/null; then \

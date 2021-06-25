@@ -11,9 +11,6 @@ def getDirList(searchDir):
   return dirList
 
 def generateIndex(buildDir):
-  #Load info from index/context.csv into a dictionary
-  contextDict = createContextDict(None)
-
   #Copy index/index.theme.template to buildDir/index.theme
   shutil.copy("index/index.theme.template", buildDir + "/index.theme")
 
@@ -59,5 +56,8 @@ def generateIndex(buildDir):
 
 #Handle arguments
 if sys.argv[1] == "--index":
+  #Load info from index/context.csv into a dictionary
+  contextDict = createContextDict(sys.argv[3].split())
+
   #Pass generateIndex() the build directory
   generateIndex(str(sys.argv[2]))
