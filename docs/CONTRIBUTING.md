@@ -31,10 +31,12 @@
    - If a new icon category / context was added, or values were changed for an existing one, run `make index`
   > Adding new symlinks:
    - If a new symlink is required, do the following:
-     - Change into the directory where the new symlink should go
-     - Symlink between the new icon and the target icon
-     - Example: `cd argon/scalable/apps; ln -s blender.svg new-blender.svg`
-     - If the symlink needs to link to an icon in a different directory, use a relative path
+     - Look in `argon/symlinks/` for the `.list` file corresponding to the icon's category
+     - Add a new line to the file, ensuring the alphabetical order is preserved
+     - Fill in the line with `newIcon.svg -> targetIcon.svg`
+     - `targetIcon.svg` should already exist, and `newIcon.svg` will be created at install time
+     - Example: `blender.svg -> new-blender.svg`
+     - Please use a relative path, as the symlinks are generated exactly with the given data in the install directory
   > Installing:
    - Install with `sudo make install`
    - Uninstall with `sudo make uninstall`
