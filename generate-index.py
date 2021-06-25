@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import os, sys, shutil, csv
-from icon_builder import createContextDict, orderDirs
+from icon_builder import createContextDict, getResolutionDirs
 
 #Function to return array of all subdirectories of searchDir
 def getDirList(searchDir):
@@ -15,36 +15,33 @@ def generateIndex(buildDir):
   shutil.copy("index/index.theme.template", buildDir + "/index.theme")
 
   #Create ordered array of resolution directories
-  resolutionDirs = orderDirs(getDirList(buildDir))
+  resolutionDirs = getResolutionDirs(buildDir)
 
   #Arrays / variables for next loop
   directoryAccumulator = []
   directoryInfo = []
 
-  #Iterate through each resolution and begin processing
-  for iconResolution in resolutionDirs:
-    #Get, sort and iterate through each icon category
-    iconDirs = getDirList(buildDir + "/" + iconResolution)
-    for iconDir in sorted(iconDirs):
-      #Check icon category has a matching entry in index/context.csv
-      if iconDir in contextDict:
-        #Generate values for index entry
-        if iconResolution == "scalable":
-          iconSize = 256
-          iconType = "Scalable"
-        else:
-          iconSize = iconResolution.split("x")[0]
-          iconType = "Fixed"
+  #Loop through all contexts
+  for iconDir in contextDict:
+    #Loop through all resolutions that apply to current context
+    for iconResolution in contextDict[iconDir][1]:
+      #Generate values for index entry
+      if iconResolution == "scalable":
+        iconSize = 256
+        iconType = "Scalable"
+      else:
+        iconSize = iconResolution.split("x")[0]
+        iconType = "Fixed"
 
-        #Keep running total of all dirs processed
-        directoryAccumulator.append(iconResolution + "/" + iconDir)
+      #Keep running total of all dirs processed
+      directoryAccumulator.append(iconResolution + "/" + iconDir)
 
-        #Fill in directory.template and index.theme
-        directoryInfo.append("")
-        directoryInfo.append("[" + iconResolution + "/" + iconDir + "]")
-        directoryInfo.append("Size=" + str(iconSize))
-        directoryInfo.append("Context=" + contextDict[iconDir][0])
-        directoryInfo.append("Type=" + iconType)
+      #Fill in directory.template and index.theme
+      directoryInfo.append("")
+      directoryInfo.append("[" + iconResolution + "/" + iconDir + "]")
+      directoryInfo.append("Size=" + str(iconSize))
+      directoryInfo.append("Context=" + contextDict[iconDir][0])
+      directoryInfo.append("Type=" + iconType)
 
   #Prepare arrays to be written to file
   outputData = [""] + ["Directories=" + ",".join(directoryAccumulator)] + directoryInfo
