@@ -35,7 +35,8 @@ def getMaxResolutionList(maxResolution, iconResolutions):
   allowedResolutions = []
   for resolution in iconResolutions:
     if int(resolution) <= int(maxResolution):
-      allowedResolutions.append(resolution)
+      allowedResolutions.append(f"{resolution}x{resolution}")
+  allowedResolutions.append("scalable")
 
   #Return an array of valid resolutions to build for
   return allowedResolutions
@@ -78,10 +79,11 @@ def listChangedIcons(buildDir, makeCommand):
 
     #Set iconResolutions to predetermined array of valid resolutions
     iconResolutions = contextDict[iconContext][1]
+    if "scalable" in iconResolutions:
+      iconResolutions.remove("scalable")
 
     #Check all resolutions of the icon are present
     for resolution in iconResolutions:
-      resolution = str(resolution) + "x" + str(resolution)
       pngFile = svgFile.replace(buildDir + "/scalable", buildDir + "/" + str(resolution))
       pngFile = pngFile.replace(".svg", ".png")
       if os.path.isfile(pngFile) == False:
@@ -120,12 +122,14 @@ def generateIcon(buildDir, outputFile):
 
   #Set iconResolutions to predetermined array of valid resolutions to build for
   iconResolutions = contextDict[iconContext][1]
+  if "scalable" in iconResolutions:
+    iconResolutions.remove("scalable")
 
   #Generate output file for each resolution allowed
   outputFileOrig = outputFile
   for resolution in iconResolutions:
     #Generate path to outputFile for specific resolution
-    outputFile = outputFileOrig.replace("resolution/scalable", str(resolution) + "x" + str(resolution))
+    outputFile = outputFileOrig.replace("resolution/scalable", str(resolution))
 
     #Create the directories for the output file if missing
     outputDir = os.path.dirname(outputFile)
@@ -151,7 +155,7 @@ def generateIcon(buildDir, outputFile):
     else:
       #Generate the icon
       print(f"Processing {inputFile} -> {outputFile} ({tempFile})")
-      getCommandExitCode(["inkscape", f"--export-filename={tempFile}", "-w", resolution, "-h", resolution, inputFile])
+      getCommandExitCode(["inkscape", f"--export-filename={tempFile}", "-w", resolution.split("x")[0], "-h", resolution.split("x")[0], inputFile])
 
       #Compress the icon and move to final destination
       print(f"Compressing {outputFile}...")
@@ -173,9 +177,8 @@ def makeSymlinks(buildDir, installDir):
       for line in file.readlines():
         line = line.replace("\n", "")
 
-        #Correct filename for non-svgs
-        if contextDir != "scalable":
-          line = line.replace(".svg", ".png")
+        #Remove file extensions (filled in later)
+        line = line.replace(".svg", "")
 
         line = line.split(" -> ")
         line = {
@@ -191,23 +194,23 @@ def makeSymlinks(buildDir, installDir):
     print(f"No write permission for {installDir}, try running with root")
     exit(1)
 
-  #Loop through resolutions
-  resolutionDirs = getResolutionDirs(installDir)
-
   #Loop through contexts
   for contextDir in symlinkDict:
     #Get resolutions to generate symlinks for specific context
     resolutionDirs = contextDict[contextDir][1]
     #Loop through resolutionDirs
     for resolutionDir in resolutionDirs:
-      path = (f"{installDir}/{resolutionDir}x{resolutionDir}/{contextDir}/")
+      path = (f"{installDir}/{resolutionDir}/{contextDir}/")
 
       #Create context dir if missing
       if os.path.isdir(path) == False:
         os.mkdir(path)
 
       for symlinkObject in symlinkDict[contextDir]:
-        os.symlink(path + symlinkObject["target"], path + symlinkObject["symlink"])
+        if resolutionDir == "scalable":
+          os.symlink(path + symlinkObject["target"] + ".svg", path + symlinkObject["symlink"] + ".svg")
+        else:
+          os.symlink(path + symlinkObject["target"] + ".png", path + symlinkObject["symlink"] + ".png")
 
 if __name__ == "__main__":
   #Create context dictionary for future reference
