@@ -48,8 +48,8 @@ def createContextDict(iconResolutions):
     reader = csv.reader(file)
     for row in reader:
       #contextDict stores the pretty name and array of max resolutions for the context
-      #contextDict["context"]=["pretty name", ["allowed", "resolutions"]]
-      contextDict[row[0]]=[row[1], getMaxResolutionList(row[2], iconResolutions)]
+      #contextDict["context"] = ["pretty name", ["allowed", "resolutions"]]
+      contextDict[row[0]] = [row[1], getMaxResolutionList(row[2], iconResolutions)]
   return contextDict
 
 #Lists all changed, new and missing icons
