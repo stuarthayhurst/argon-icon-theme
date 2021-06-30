@@ -30,6 +30,12 @@ def isSymlinkBroken(path):
 def getCommandExitCode(command):
   return subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL).returncode
 
+def getCommandOutput(command):
+  output = subprocess.run(command, capture_output=True).stdout.decode("utf-8").split("\n")
+  if "" in output:
+    output.remove("")
+  return output
+
 def getMaxResolutionList(maxResolution, iconResolutions):
   #Loop through given resolutions, add to a return array if it's less than the max
   allowedResolutions = []
@@ -61,17 +67,27 @@ def listChangedIcons(buildDir, makeCommand):
     print("index.theme can be generated using 'make index'")
     exit(1)
 
-  #Create an array with any new svgs, svgs with missing pngs, or svgs with modifications
   buildList = []
+
+  #Parse git status --porcelain to find any new or changed svgs
+  for line in getCommandOutput(["git", "status", "--porcelain"]):
+    splitLine = line.split(" ")
+
+    #Ignore deleted files
+    if splitLine[0] == "D" or splitLine[1] == "D":
+      continue
+
+    filename = splitLine[len(splitLine) - 1]
+    if filename.endswith(".svg"):
+      #Convert svg path to png path
+      filename = filename.replace(f"{buildDir}/scalable", f"{buildDir}/resolution/scalable")
+      filename = filename.replace(".svg", ".png")
+      #Add to rebuild list
+      buildList.append(filename)
+
+  #Add any svgs with missing pngs to rebuild list
   for svgFile in glob.glob(str(buildDir) + "/scalable/*/*.svg"):
-    #Add icon to array if the file has changes
-    if getCommandExitCode(["git", "diff", "--exit-code", "-s", svgFile]):
-      rebuildIcon = True
-    #Add the icon to the array if it's new / untracked
-    elif getCommandExitCode(["git", "ls-files", "--error-unmatch", svgFile]):
-      rebuildIcon = True
-    else:
-      rebuildIcon = False
+    rebuildIcon = False
 
     #Work out the highest resolution to check for
     iconContext = svgFile.split("scalable/", 1)[1]
@@ -100,7 +116,10 @@ def listChangedIcons(buildDir, makeCommand):
     if rebuildIcon == True:
       pngFile = svgFile.replace(buildDir + "/scalable", buildDir + "/resolution/scalable")
       pngFile = pngFile.replace(".svg", ".png")
-      buildList.append(pngFile)
+
+      #Avoid duplicates
+      if pngFile not in buildList:
+        buildList.append(pngFile)
 
   #Add index to the build list
   buildList.append("index")
