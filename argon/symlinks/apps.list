@@ -7,6 +7,7 @@ atom-symbolic.symbolic.svg -> io.atom.Atom-symbolic.symbolic.svg
 atom-beta-symbolic.symbolic.svg -> io.atom.Atom-symbolic.symbolic.svg
 atom-nightly-symbolic.symbolic.svg -> io.atom.Atom-symbolic.symbolic.svg
 com.discordapp.Discord.svg -> discord.svg
+com.discordapp.Discord-symbolic.symbolic.svg -> discord-symbolic.symbolic.svg
 com.github.Eloston.UngoogledChromium.svg -> chromium.svg
 com.google.Chrome.svg -> google-chrome.svg
 com.mojang.Minecraft.svg -> minecraft-launcher.svg
