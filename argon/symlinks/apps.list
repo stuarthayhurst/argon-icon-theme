@@ -3,6 +3,9 @@ accessories-calculator-symbolic.symbolic.svg -> org.gnome.Calculator-symbolic.sy
 applets-screenshooter.svg -> org.gnome.Screenshot.svg
 applets-screenshooter-symbolic.symbolic.svg -> org.gnome.Screenshot-symbolic.symbolic.svg
 atom.svg -> io.atom.Atom.svg
+atom-symbolic.symbolic.svg -> io.atom.Atom-symbolic.symbolic.svg
+atom-beta-symbolic.symbolic.svg -> io.atom.Atom-symbolic.symbolic.svg
+atom-nightly-symbolic.symbolic.svg -> io.atom.Atom-symbolic.symbolic.svg
 com.discordapp.Discord.svg -> discord.svg
 com.github.Eloston.UngoogledChromium.svg -> chromium.svg
 com.google.Chrome.svg -> google-chrome.svg
