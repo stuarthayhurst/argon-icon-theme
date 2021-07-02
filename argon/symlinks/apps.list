@@ -31,6 +31,14 @@ gvim.svg -> vim.svg
 hb-icon.svg -> fr.handbrake.ghb.svg
 inkscape-logo.svg -> inkscape.svg
 kernel-notify-app.svg -> kernel-notify.svg
+multimedia-audio-player.svg -> org.gnome.Music.svg
+multimedia-audio-player-symbolic.symbolic.svg -> org.gnome.Music-symbolic.symbolic.svg
+multimedia-photo-manager.svg -> org.gnome.Photos.svg
+multimedia-photo-manager-symbolic.symbolic.svg -> org.gnome.Photos-symbolic.symbolic.svg
+multimedia-photo-viewer.svg -> org.gnome.eog.svg
+multimedia-photo-viewer-symbolic.symbolic.svg -> org.gnome.eog-symbolic.symbolic.svg
+multimedia-video-player.svg -> org.gnome.Totem.svg
+multimedia-video-player-symbolic.symbolic.svg -> org.gnome.Totem-symbolic.symbolic.svg
 nautilus.svg -> org.gnome.Nautilus.svg
 nautilus-symbolic.symbolic.svg -> org.gnome.Nautilus-symbolic.symbolic.svg
 nvidia-current-settings.svg -> nvidia-settings.svg
