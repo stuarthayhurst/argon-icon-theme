@@ -18,6 +18,8 @@ eog.svg -> org.gnome.eog.svg
 eog-symbolic.symbolic.svg -> org.gnome.eog-symbolic.symbolic.svg
 gnome-calculator.svg -> org.gnome.Calculator.svg
 gnome-calculator-symbolic.symbolic.svg -> org.gnome.Calculator-symbolic.symbolic.svg
+gnome-calendar.svg -> org.gnome.Calendar.svg
+gnome-calendar-symbolic.symbolic.svg -> org.gnome.Calendar-symbolic.symbolic.svg
 gnome-mines.svg -> org.gnome.Mines.svg
 gnome-mines-symbolic.symbolic.svg -> org.gnome.Mines-symbolic.symbolic.svg
 gnome-photos.svg -> org.gnome.Photos.svg
@@ -72,3 +74,5 @@ org.libretro.RetroArch.svg -> retroarch.svg
 org.videolan.VLC.svg -> vlc.svg
 system-file-manager.svg -> org.gnome.Nautilus.svg
 system-file-manager-symbolic.symbolic.svg -> org.gnome.Nautilus-symbolic.symbolic.svg
+x-calendar-app.svg -> org.gnome.Calendar.svg
+x-calendar-app-symbolic.symbolic.svg -> org.gnome.Calendar-symbolic.symbolic.svg
