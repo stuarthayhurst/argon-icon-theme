@@ -29,10 +29,10 @@
 
 ## Install Dependencies: (Required to install with no modifications)
   - make
+  - python3
 
 ## Build Dependencies: (Required when icon .svgs have been modified)
+  - `Install dependencies`
   - git
   - inkscape
-  - make
   - optipng
-  - python3
