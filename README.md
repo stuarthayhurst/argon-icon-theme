@@ -19,6 +19,7 @@
   - `make clean` will delete all generated icons and `index.theme`
   - `make autoclean` will delete icons missing a corresponding svg, broken symlinks and empty directories
   - `make index` will generate `index.theme` (Done automatically by `build` and `regen`)
+  - `make check` will check all defined symlinks are valid
 
 ## Contributing:
   - Contribution guidelines can be found in `docs/CONTRIBUTING.md`, but summarised:

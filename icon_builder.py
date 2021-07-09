@@ -166,9 +166,9 @@ def generateIcon(buildDir, outputFile):
     getCommandExitCode(["optipng", "-quiet", "-strip", "all", tempFile])
     os.rename(tempFile, outputFile)
 
-def makeSymlinks(buildDir, installDir):
+def createSymlinkDict(buildDir):
   #Read all the symlinks to create into memory and create a data structure for them
-  #  symlinkDict["apps"][0]["symlink"] would return the name of a smylink to create
+  #  symlinkDict["apps"][0]["symlink"] would return the name of a symlink to create
   symlinkLists = glob.glob(buildDir + "/symlinks/*")
   symlinkDict = {}
 
@@ -192,6 +192,11 @@ def makeSymlinks(buildDir, installDir):
         processedSymlinks.append(line)
 
     symlinkDict[contextDir] = processedSymlinks
+  return symlinkDict
+
+def makeSymlinks(buildDir, installDir):
+  #Create dictionary with symlink information
+  symlinkDict = createSymlinkDict(buildDir)
 
   #Check permissions for creating symlinks
   if os.access(installDir, os.W_OK) == False:
@@ -216,6 +221,34 @@ def makeSymlinks(buildDir, installDir):
         else:
           os.symlink(path + symlinkObject["target"] + ".png", path + symlinkObject["symlink"] + ".png")
 
+def checkSymlinks(buildDir):
+  #Create dictionary with symlink information
+  symlinkDict = createSymlinkDict(buildDir)
+  failed = False
+
+  #Loop through every symlink info object, and validate the contents
+  for context in symlinkDict:
+    for symlinkObject in symlinkDict[context]:
+      contextPath = f"{buildDir}/scalable/{context}"
+      symlinkPath = f"{contextPath}/{symlinkObject['symlink']}.svg"
+      symlinkTarget = f"{contextPath}/{symlinkObject['target']}.svg"
+
+      #If the context would need to be created, generate an alternative path
+      if os.path.exists(f"{contextPath}/") == False:
+        symlinkTarget = symlinkTarget.replace(f"{contextPath}/../", f"{buildDir}/scalable/")
+
+      #Check the file to be created doesn't exist
+      if os.path.exists(symlinkPath):
+        print(f"  {symlinkPath} failed: File exists in place of symlink path")
+        failed = True
+      #Check the file to link to exists
+      if os.path.exists(symlinkTarget) == False:
+        print(f"  {symlinkTarget} failed: Symlink target doesn't exist")
+        failed = True
+
+  if failed == True:
+    exit(1)
+
 if __name__ == "__main__":
   #Create context dictionary for future reference
   if len(sys.argv) >= 4:
@@ -229,5 +262,8 @@ if __name__ == "__main__":
     #Pass generateIcon() the build directory and icon to build
     generateIcon(str(sys.argv[2]), str(sys.argv[4]))
   elif sys.argv[1] == "--install-symlinks":
-    #Pass makeSymlinks() the install directory
+    #Pass makeSymlinks() the build and install directory
     makeSymlinks(str(sys.argv[2]), str(sys.argv[4]))
+  elif sys.argv[1] == "--check-symlinks":
+    #Pass checkSymlinks() the build directory
+    checkSymlinks(str(sys.argv[2]))

@@ -8,15 +8,19 @@ SVG_OBJS = $(SVG_OBJS_ORIG) $(wildcard ./$(BUILD_DIR)/scalable/*/*/*.svg)
 PNG_OBJS = $(subst ./$(BUILD_DIR),./$(BUILD_DIR)/resolution,$(subst .svg,.png,$(SVG_OBJS)))
 PNG_LIST = $(wildcard ./$(BUILD_DIR)/*/*/*.png*)
 
-.PHONY: build regen install uninstall clean autoclean index refresh
+.PHONY: build regen check install uninstall clean autoclean index refresh
 
 build: autoclean
 	#Generate a list of icons to build, then call make with all the icon svgs
 	./icon_builder.py "--list" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$(MAKE)"
+	$(MAKE) check
 regen: clean
 	#Clean all built files first, then generate each icon and the index
 	$(MAKE) $(PNG_OBJS) index
-install:
+check:
+	#Check all symlinks are valid
+	./icon_builder.py "--check-symlinks" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)"
+install: check
 	if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
 	  make uninstall; \
 	  mkdir -p "$(INSTALL_DIR)"; \

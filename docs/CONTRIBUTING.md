@@ -35,6 +35,7 @@
      - Add a new line to the file, ensuring the alphabetical order is preserved
      - Fill in the line with `newIcon.svg -> targetIcon.svg`
      - `targetIcon.svg` should already exist, and `newIcon.svg` will be created at install time
+     - Run `make check`, to validate the symlinks
      - Example: `blender.svg -> new-blender.svg`
      - Please use a relative path, as the symlinks are generated exactly with the given data in the install directory
   > Installing:
