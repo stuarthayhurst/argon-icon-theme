@@ -8,7 +8,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="org.gnome.Boxes.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    id="svg8"
    version="1.1"
    viewBox="0 0 67.733332 67.733335"
@@ -19,9 +19,9 @@
   <sodipodi:namedview
      inkscape:window-maximized="1"
      inkscape:window-y="27"
-     inkscape:window-x="2004"
+     inkscape:window-x="1920"
      inkscape:window-height="1016"
-     inkscape:window-width="1836"
+     inkscape:window-width="1920"
      units="px"
      showgrid="false"
      inkscape:document-rotation="0"
@@ -76,7 +76,7 @@
        style="fill:#00ff00;stroke-width:1.20865;paint-order:stroke fill markers"
        d="m 16.263373,15.53174 c -2.953513,0 -5.331184,2.377671 -5.331184,5.33119 v 27.879447 c 0,2.953506 2.377671,5.3312 5.331184,5.3312 h 40.726669 c 2.953504,0 5.331819,-2.377694 5.331819,-5.3312 V 20.86293 c 0,-2.953519 -2.378315,-5.33119 -5.331819,-5.33119 z m 2.036145,1.927324 h 36.654377 c 2.658165,0 4.798002,2.139844 4.798002,4.798006 v 25.091175 c 0,2.658147 -2.139837,4.798644 -4.798002,4.798644 H 18.299518 c -2.65816,0 -4.798005,-2.140497 -4.798005,-4.798644 V 22.25707 c 0,-2.658162 2.139845,-4.798006 4.798005,-4.798006 z" />
     <rect
-       style="fill:#008000;stroke-width:1.33268;paint-order:stroke fill markers"
+       style="fill:#20a220;stroke-width:1.33268;paint-order:stroke fill markers;fill-opacity:1"
        id="rect5274"
        width="56.885418"
        height="42.333229"
