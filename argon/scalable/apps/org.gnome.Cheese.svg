@@ -25,17 +25,18 @@
      units="px"
      showgrid="false"
      inkscape:document-rotation="0"
-     inkscape:current-layer="g1174"
+     inkscape:current-layer="g1156"
      inkscape:document-units="px"
-     inkscape:cy="193.08338"
-     inkscape:cx="142.736"
-     inkscape:zoom="2"
+     inkscape:cy="135.1354"
+     inkscape:cx="96.261939"
+     inkscape:zoom="1"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
      bordercolor="#666666"
      pagecolor="#ffffff"
-     id="base" />
+     id="base"
+     showguides="false" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -95,11 +96,11 @@
        d="M 113.99805 77.996094 C 75.382085 77.996094 44.003906 109.38404 44.003906 148 C 44.003906 186.61596 75.382085 218.00195 113.99805 218.00195 C 152.61401 218.00195 184.00195 186.61596 184.00195 148 C 184.00195 109.38404 152.61401 77.996094 113.99805 77.996094 z "
        transform="scale(0.26458333)" />
     <circle
-       style="opacity:1;fill:#ff2121;stroke-width:0.0624757;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke;fill-opacity:1"
+       style="opacity:1;fill:#ff2121;fill-opacity:1;stroke-width:0.0833009;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
        id="circle841"
-       cx="54.901043"
-       cy="20.505201"
-       r="1.984375" />
+       cx="55.5625"
+       cy="22.754162"
+       r="2.6458333" />
     <g
        id="g887"
        transform="matrix(1.060606,0,0,1.060606,-0.70555518,-2.3090931)">
