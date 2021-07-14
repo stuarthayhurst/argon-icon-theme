@@ -1,2 +1,13 @@
 appointment-soon.svg -> ../apps/org.gnome.clocks.svg
+battery-caution-charging-symbolic.symbolic.svg -> ../status/battery-caution-charging-symbolic.symbolic.svg
+battery-caution-symbolic.symbolic.svg -> ../status/battery-caution-symbolic.symbolic.svg
+battery-empty-charging-symbolic.symbolic.svg -> ../status/battery-empty-charging-symbolic.symbolic.svg
+battery-empty-symbolic.symbolic.svg -> ../status/battery-empty-symbolic.symbolic.svg
+battery-full-charged-symbolic.symbolic.svg -> ../status/battery-full-charged-symbolic.symbolic.svg
+battery-full-charging-symbolic.symbolic.svg -> ../status/battery-full-charging-symbolic.symbolic.svg
+battery-full-symbolic.symbolic.svg -> ../status/battery-full-symbolic.symbolic.svg
+battery-good-charging-symbolic.symbolic.svg -> ../status/battery-good-charging-symbolic.symbolic.svg
+battery-good-symbolic.symbolic.svg -> ../status/battery-good-symbolic.symbolic.svg
+battery-low-charging-symbolic.symbolic.svg -> ../status/battery-low-charging-symbolic.symbolic.svg
+battery-low-symbolic.symbolic.svg -> ../status/battery-low-symbolic.symbolic.svg
 x-office-calendar.svg -> ../apps/org.gnome.Calendar.svg
