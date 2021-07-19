@@ -74,6 +74,9 @@ else:
 externalThemePath = str(sys.argv[1])
 if externalThemePath.endswith("/"):
   externalThemePath = externalThemePath.rsplit("/", 1)[0]
+if os.path.exists(externalThemePath) == False:
+  print(f"Path to theme is invalid ('{externalThemePath}')")
+  exit(1)
 
 #Get a full list of icons for the internal and external theme
 externalIconList = getIconList(externalThemePath)
