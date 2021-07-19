@@ -113,8 +113,7 @@ for context in list(externalIconList.keys()):
       print(f" - {icon}")
     missingIconCount += len(missingIcons)
   else:
-    #Remove context if it has no missing icons
-    del externalIconList[context]
+    print(f"No missing icons in '{context}'")
 
 for i in list(externalIconList.keys()):
   totalIconCount += len(list(externalIconList[i].keys()))
