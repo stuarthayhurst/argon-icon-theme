@@ -47,11 +47,17 @@ def getIconList(themePath):
 
   return iconList
 
+#Argument handling
 if len(sys.argv) <= 1:
   print("A path to a theme is required")
   exit(1)
+else:
+  if sys.argv[1] == "-h" or sys.argv[1] == "--help": #Display help page
+    print("Help:")
+    print("  -x | --exclude : Exclude certain context directories from comparison")
+    print("  -h | --help    : Display this help page")
+    exit(1)
 
-#Argument handling
 excludedContexts = []
 if len(sys.argv) >= 3:
   if sys.argv[2] == "-x" or sys.argv[2] == "--exclude": #Get contexts to exclude
@@ -61,16 +67,6 @@ if len(sys.argv) >= 3:
     else:
       for i in range(3, len(sys.argv)):
         excludedContexts.append(sys.argv[i])
-
-  elif sys.argv[2] == "-h" or sys.argv[2] == "--help": #Display help page
-    print("Help:")
-    print("  -x | --exclude : Exclude certain context directories from comparison")
-    print("  -h | --help    : Display this help page")
-    exit(1)
-
-  else:
-    print("Only additional arguments supported are '-x | --exclude' and '-h | --help'")
-    exit(1)
 else:
   excludeContext = False
 
