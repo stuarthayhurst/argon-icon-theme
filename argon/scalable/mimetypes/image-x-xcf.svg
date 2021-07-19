@@ -30,9 +30,9 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8284272"
-     inkscape:cx="122.41184"
-     inkscape:cy="162.51934"
-     inkscape:current-layer="layer8"
+     inkscape:cx="161.55374"
+     inkscape:cy="117.79524"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
@@ -204,7 +204,8 @@
       <path
          id="rect4158"
          style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient4226);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999985;marker:none;enable-background:accumulate"
-         d="m 78.926541,16 c -35.2957,0 -39.093667,3.626097 -38.920682,38.994141 V 128 201.00586 C 39.832874,236.37391 43.630841,240 78.926541,240 h 98.153239 c 35.29571,0 38.92068,-3.62568 38.92068,-38.99414 V 128 54.994141 c 0,-28.216502 -2.32611,-36.22369 -21.18098,-38.310547 18.85166,2.188347 21.17512,10.645889 21.17512,38.78125 v 0.537109 1 V 80 L 151.99656,16.003906 h 25.00119 c 0.4657,-0.0023 0.86552,0.0065 1.32028,0.0059 C 177.89088,16.008602 177.51658,16 177.07978,16 Z" />
+         d="m 78.926541,16 c -35.2957,0 -39.093667,3.626097 -38.920682,38.994141 V 201.00586 C 39.832874,236.37391 43.630841,240 78.926541,240 h 98.153239 c 35.29571,0 38.92068,-3.62568 38.92068,-38.99414 0,-89.94863 -0.006,-97.32157 -0.006,-121.00586 L 151.99656,16.003906 C 109.89423,16.003906 90.554012,16 78.926541,16 Z"
+         sodipodi:nodetypes="cccsscccc" />
     </g>
     <g
        inkscape:groupmode="layer"
@@ -297,9 +298,9 @@
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cccsc" />
       <path
-         id="path931"
          style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.6;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999979;marker:none;enable-background:accumulate"
-         d="M 78.925669,16 C 43.630334,16 39.832412,19.626097 40.005395,54.994141 v 2 C 39.832412,21.626096 43.630334,18 78.925669,18 h 75.067221 l -1.99601,-1.996094 h 25.00093 c 0.46361,-0.0023 0.86163,0.0065 1.3144,0.0059 C 177.88639,16.008609 177.51328,16 177.07789,16 Z m 115.930781,0.689453 c 18.81721,2.195186 21.1378,10.658597 21.1378,38.775391 v 0.537109 0.490235 c 1.9e-4,0.175502 0.004,0.324862 0.004,0.501953 v -2 c 0,-28.196891 -2.32305,-36.210885 -21.14171,-38.304688 z" />
+         d="M 78.925669,16 C 43.630334,16 39.832412,19.626097 40.005395,54.994141 v 2 C 39.832412,21.626096 43.630334,18 78.925669,18 h 75.067221 l -1.99601,-1.996094 h 25.00093 c 0.46361,-0.0023 0.86163,0.0065 1.3144,0.0059 C 177.88639,16.008609 177.51328,16 177.07789,16 Z"
+         id="path931" />
       <path
          id="path4231-3"
          style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.15;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999985;marker:none;enable-background:accumulate"
