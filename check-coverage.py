@@ -116,6 +116,9 @@ for context in list(externalIconList.keys()):
 for i in list(externalIconList.keys()):
   totalIconCount += len(list(externalIconList[i].keys()))
 
-print(f"\n{totalIconCount - missingIconCount}/{totalIconCount} icons themed")
-print(f"{missingIconCount}/{totalIconCount} icons missing")
-print(f"{round((((totalIconCount - missingIconCount) / totalIconCount) * 100), 2)}% theme coverage")
+if totalIconCount > 0:
+  print(f"\n{totalIconCount - missingIconCount}/{totalIconCount} icons themed")
+  print(f"{missingIconCount}/{totalIconCount} icons missing")
+  print(f"{round((((totalIconCount - missingIconCount) / totalIconCount) * 100), 2)}% theme coverage")
+else:
+  print("No icons found matching the requirements")
