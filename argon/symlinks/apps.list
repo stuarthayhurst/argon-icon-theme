@@ -29,6 +29,8 @@ gnome-screenshot-symbolic.symbolic.svg -> org.gnome.Screenshot-symbolic.symbolic
 gnome-sound-recorder.svg -> org.gnome.SoundRecorder.svg
 gnome-sound-recorder-symbolic.symbolic.svg -> org.gnome.SoundRecorder-symbolic.symbolic.svg
 google-chrome-beta.svg -> google-chrome-unstable.svg
+gtk3-demo.svg -> org.gtk.Demo4.svg
+gtk3-demo-symbolic.symbolic.svg -> org.gtk.Demo4-symbolic.symbolic.svg
 gvim.svg -> vim.svg
 hb-icon.svg -> fr.handbrake.ghb.svg
 inkscape-logo.svg -> inkscape.svg
