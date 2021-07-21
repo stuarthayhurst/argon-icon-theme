@@ -41,9 +41,10 @@ def getIconList(themePath):
 
       #List the icons in the context and strip down to icon name
       for file in listFiles(f"{contextDir}"):
-        icon = file.rsplit("/", 1)[1]
-        icon = processIcon(icon)
-        iconList[contextString][icon] = False
+        if file.endswith('.png') or file.endswith('.svg'):
+          icon = file.rsplit("/", 1)[1]
+          icon = processIcon(icon)
+          iconList[contextString][icon] = False
 
   return iconList
 
