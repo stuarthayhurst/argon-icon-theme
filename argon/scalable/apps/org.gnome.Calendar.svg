@@ -17,17 +17,17 @@
   <defs
      id="defs2">
     <rect
-       x="12.580595"
-       y="13.10335"
-       width="44.542564"
-       height="40.098472"
-       id="rect855" />
+       x="-46.874527"
+       y="-34.082471"
+       width="51.10786"
+       height="44.366597"
+       id="rect862" />
     <rect
-       x="12.580595"
-       y="13.10335"
-       width="44.542564"
-       height="40.098472"
-       id="rect935" />
+       x="-46.874527"
+       y="-34.082471"
+       width="51.10786"
+       height="44.366597"
+       id="rect870" />
   </defs>
   <sodipodi:namedview
      inkscape:window-maximized="1"
@@ -38,11 +38,11 @@
      units="px"
      showgrid="false"
      inkscape:document-rotation="0"
-     inkscape:current-layer="g1156"
+     inkscape:current-layer="layer4"
      inkscape:document-units="px"
-     inkscape:cy="178.04564"
-     inkscape:cx="104.12572"
-     inkscape:zoom="2.0000001"
+     inkscape:cy="99.766107"
+     inkscape:cx="140.80995"
+     inkscape:zoom="1.4142136"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -118,24 +118,23 @@
          transform="scale(0.26458333)" />
     </g>
     <g
-       id="g1151"
-       style="display:inline">
+       id="g876">
       <text
          xml:space="preserve"
-         id="text933"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8667px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell;white-space:pre;shape-inside:url(#rect935);display:inline;opacity:0.4;fill:#000000;stroke-width:0.999911;stroke-miterlimit:4;stroke-dasharray:none;"
-         transform="matrix(1.1610944,0,0,1.1610961,-0.91236716,-1.9566289)"><tspan
-           x="12.580078"
-           y="43.516237"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8667px;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#000000;stroke-width:0.999911;stroke-miterlimit:4;stroke-dasharray:none">19</tspan></tspan></text>
+         id="text868"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.1px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell;white-space:pre;shape-inside:url(#rect870);fill:#000000;opacity:0.4;"
+         transform="matrix(1.0320849,0,0,1.0320865,62.073271,48.433417)"><tspan
+           x="-46.875"
+           y="0.13224562"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.1px;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#000000">19</tspan></tspan></text>
       <text
          xml:space="preserve"
-         id="text853"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8667px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell;white-space:pre;shape-inside:url(#rect855);display:inline;fill:#f9f9f9;"
-         transform="matrix(1.1610944,0,0,1.1610961,-0.91236716,-3.0149623)"><tspan
-           x="12.580078"
-           y="43.516237"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8667px;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#f9f9f9">19</tspan></tspan></text>
+         id="text860"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.1px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell;white-space:pre;shape-inside:url(#rect862);fill:#ffffff;"
+         transform="matrix(1.0320849,0,0,1.0320865,62.073271,47.375083)"><tspan
+           x="-46.875"
+           y="0.13224562"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.1px;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#ffffff">19</tspan></tspan></text>
     </g>
   </g>
   <g

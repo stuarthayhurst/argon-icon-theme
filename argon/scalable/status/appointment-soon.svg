@@ -23,28 +23,28 @@
        height="16.561674"
        id="rect874" />
     <rect
-       x="12.580595"
-       y="13.10335"
-       width="44.542564"
-       height="40.098472"
-       id="rect855" />
+       x="-46.874527"
+       y="-34.08247"
+       width="51.107861"
+       height="44.366596"
+       id="rect870" />
     <rect
-       x="12.580595"
-       y="13.10335"
-       width="44.542564"
-       height="40.098472"
-       id="rect935" />
+       x="-46.874527"
+       y="-34.08247"
+       width="51.107861"
+       height="44.366596"
+       id="rect862" />
   </defs>
   <sodipodi:namedview
      inkscape:window-maximized="1"
-     inkscape:window-y="27"
-     inkscape:window-x="1920"
-     inkscape:window-height="1016"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="1043"
      inkscape:window-width="1920"
      units="px"
      showgrid="false"
      inkscape:document-rotation="0"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer4"
      inkscape:document-units="px"
      inkscape:cy="148.09808"
      inkscape:cx="162.48104"
@@ -124,24 +124,25 @@
          transform="scale(0.26458333)" />
     </g>
     <g
-       id="g1151"
-       style="display:inline">
+       id="g876"
+       style="display:inline"
+       transform="translate(-1.3224312e-7,-1.3187721e-4)">
       <text
          xml:space="preserve"
-         id="text933"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8667px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell;white-space:pre;shape-inside:url(#rect935);display:inline;opacity:0.4;fill:#000000;stroke-width:0.999911;stroke-miterlimit:4;stroke-dasharray:none;"
-         transform="matrix(1.1610944,0,0,1.1610961,-0.91236716,-1.9566289)"><tspan
-           x="12.580078"
-           y="43.516237"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8667px;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#000000;stroke-width:0.999911;stroke-miterlimit:4;stroke-dasharray:none">19</tspan></tspan></text>
+         id="text868"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.1px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell;white-space:pre;shape-inside:url(#rect870);opacity:0.4;fill:#000000;"
+         transform="matrix(1.0320849,0,0,1.0320865,62.073271,48.433417)"><tspan
+           x="-46.875"
+           y="0.13224562"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.1px;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#000000">19</tspan></tspan></text>
       <text
          xml:space="preserve"
-         id="text853"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8667px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell;white-space:pre;shape-inside:url(#rect855);display:inline;fill:#f9f9f9;"
-         transform="matrix(1.1610944,0,0,1.1610961,-0.91236716,-3.0149623)"><tspan
-           x="12.580078"
-           y="43.516237"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8667px;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#f9f9f9">19</tspan></tspan></text>
+         id="text860"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.1px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell;white-space:pre;shape-inside:url(#rect862);fill:#ffffff;"
+         transform="matrix(1.0320849,0,0,1.0320865,62.073271,47.375083)"><tspan
+           x="-46.875"
+           y="0.13224562"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.1px;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#ffffff">19</tspan></tspan></text>
     </g>
   </g>
   <g
