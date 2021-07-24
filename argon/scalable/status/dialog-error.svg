@@ -7,7 +7,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="gtk-remove.svg"
+   sodipodi:docname="dialog-error.svg"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    id="svg8"
    version="1.1"
@@ -27,9 +27,9 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer3"
      inkscape:document-units="px"
-     inkscape:cy="6.9414514"
-     inkscape:cx="14.366112"
-     inkscape:zoom="16"
+     inkscape:cy="8.2513419"
+     inkscape:cx="9.2216762"
+     inkscape:zoom="45.254834"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -60,10 +60,13 @@
        cx="2.1166668"
        cy="2.1166668"
        r="2.1166668" />
-    <path
-       id="rect837"
-       style="fill:#ffffff;fill-opacity:1;stroke-width:0.50129;stroke-linecap:round;stroke-miterlimit:1.6;paint-order:stroke markers fill"
-       d="m 0.79375,1.9182292 v 0.396875 c 0.8819445,0 1.763889,0 2.6458334,0 v -0.396875 c -0.8819444,0 -1.7638889,0 -2.6458334,0 z"
-       sodipodi:nodetypes="ccccc" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.39721;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       id="rect832"
+       width="2.6458333"
+       height="0.39687499"
+       x="0.79374999"
+       y="1.9182292"
+       ry="0.09755794" />
   </g>
 </svg>
