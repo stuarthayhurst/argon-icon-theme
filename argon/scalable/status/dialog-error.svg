@@ -27,9 +27,9 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer3"
      inkscape:document-units="px"
-     inkscape:cy="8.2513419"
-     inkscape:cx="9.2216762"
-     inkscape:zoom="45.254834"
+     inkscape:cy="11.915484"
+     inkscape:cx="7.6854838"
+     inkscape:zoom="16"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -55,18 +55,18 @@
      inkscape:label="Graphic"
      style="display:inline">
     <circle
-       style="fill:#da2214;fill-opacity:1;stroke-width:0.943848;stroke-linecap:round;stroke-miterlimit:1.6;paint-order:stroke markers fill"
+       style="fill:#da2214;fill-opacity:1;stroke-width:0.825867;stroke-linecap:round;stroke-miterlimit:1.6;paint-order:stroke markers fill"
        id="path835"
-       cx="2.1166668"
-       cy="2.1166668"
-       r="2.1166668" />
+       cx="2.1166666"
+       cy="2.1166666"
+       r="1.8520833" />
     <rect
-       style="fill:#ffffff;stroke-width:0.39721;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       style="fill:#ffffff;stroke-width:0.347559;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
        id="rect832"
-       width="2.6458333"
-       height="0.39687499"
-       x="0.79374999"
-       y="1.9182292"
-       ry="0.09755794" />
+       width="2.315104"
+       height="0.3472656"
+       x="0.95911455"
+       y="1.9430338"
+       ry="0.085363194" />
   </g>
 </svg>
