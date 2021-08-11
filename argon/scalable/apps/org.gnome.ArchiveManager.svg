@@ -20,8 +20,6 @@
    version="1.0"
    style="display:inline;enable-background:new"
    inkscape:export-filename="C:\Users\sblav\Pictures\vertical oblong template.png">
-  <title
-     id="title3004">Suru Icon Theme Template</title>
   <sodipodi:namedview
      stroke="#ef2929"
      fill="#f57900"
@@ -39,9 +37,9 @@
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="true"
-     inkscape:window-width="1836"
+     inkscape:window-width="1920"
      inkscape:window-height="1016"
-     inkscape:window-x="2004"
+     inkscape:window-x="1920"
      inkscape:window-y="27"
      width="400px"
      height="300px"
@@ -138,13 +136,13 @@
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <dc:creator>
           <cc:Agent>
-            <dc:title>Sam Hewitt</dc:title>
+            <dc:title></dc:title>
           </cc:Agent>
         </dc:creator>
         <dc:source />
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
-        <dc:title>Suru Icon Theme Template</dc:title>
+        <dc:title></dc:title>
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
