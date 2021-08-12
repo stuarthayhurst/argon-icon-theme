@@ -46,6 +46,10 @@ clean:
 autoclean:
 	#Delete broken symlinks, left over pngs and empty directories
 	./autoclean.py "$(BUILD_DIR)"
+	$(MAKE) prune
+prune:
+	#Clean up svgs
+	./clean-svgs.py > /dev/null
 $(PNG_OBJS): ./$(BUILD_DIR)/resolution/%.png: ./$(BUILD_DIR)/%.svg
 	mkdir -p "$(BUILD_DIR)"
 	./icon_builder.py "--generate" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$@"
