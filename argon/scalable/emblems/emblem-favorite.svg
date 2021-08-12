@@ -1,71 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="emblem-favorite.svg"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
-   id="svg8"
-   version="1.1"
-   viewBox="0 0 4.2333333 4.2333334"
-   height="16"
-   width="16">
-  <defs
-     id="defs2" />
-  <sodipodi:namedview
-     inkscape:window-maximized="1"
-     inkscape:window-y="27"
-     inkscape:window-x="1920"
-     inkscape:window-height="1016"
-     inkscape:window-width="1920"
-     units="px"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer3"
-     inkscape:document-units="px"
-     inkscape:cy="8.6530674"
-     inkscape:cx="10.167303"
-     inkscape:zoom="32"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
-     pagecolor="#ffffff"
-     id="base"
-     inkscape:lockguides="false"
-     showguides="false" />
-  <metadata
-     id="metadata5">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="Graphic"
-     style="display:inline">
-    <circle
-       style="fill:#ff0060;stroke-width:0.286946;stroke-linecap:round;paint-order:stroke markers fill;fill-opacity:1"
-       id="path832"
-       cx="2.1166666"
-       cy="2.1166666"
-       r="1.8520833" />
-    <path
-       id="path831"
-       style="fill:#ffffff;stroke:none;stroke-width:0.627703;stroke-linecap:round;paint-order:stroke markers fill"
-       inkscape:transform-center-y="0.39169381"
-       d="m 1.4552084,1.11125 c -0.3653133,5e-7 -0.6614584,0.3037455 -0.6614584,0.6784341 0,0.4530102 0.215359,0.6396076 0.3953246,0.8241913 C 1.4207233,2.8514705 1.7819684,3.1519249 2.1166667,3.3943396 2.4513651,3.1519247 2.8126093,2.85147 3.0442588,2.6138754 3.2242237,2.4292917 3.4395833,2.2426943 3.4395833,1.7896841 c 0,-0.3746886 -0.2961448,-0.6784338 -0.6614582,-0.6784341 -0.3653133,3e-7 -0.6614584,0.1940556 -0.6614584,0.5687445 0,-0.3746886 -0.2961451,-0.568744 -0.6614583,-0.5687445 z"
-       sodipodi:nodetypes="ssscssscs" />
-  </g>
-</svg>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" ns1:docname="emblem-favorite.svg" id="svg8" version="1.1" viewBox="0 0 4.2333333 4.2333334" height="16" width="16">
+  <ns0:defs id="defs2" />
+  <ns1:namedview ns2:window-maximized="1" ns2:window-y="27" ns2:window-x="1920" ns2:window-height="1016" ns2:window-width="1920" units="px" showgrid="false" ns2:document-rotation="0" ns2:current-layer="layer3" ns2:document-units="px" ns2:cy="8.6530674" ns2:cx="10.167303" ns2:zoom="32" ns2:pageshadow="2" ns2:pageopacity="0.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" ns2:lockguides="false" showguides="false" />
+  <ns0:g ns2:groupmode="layer" id="layer3" ns2:label="Graphic" style="display:inline">
+    <ns0:circle style="fill:#ff0060;stroke-width:0.286946;stroke-linecap:round;paint-order:stroke markers fill;fill-opacity:1" id="path832" cx="2.1166666" cy="2.1166666" r="1.8520833" />
+    <ns0:path id="path831" style="fill:#ffffff;stroke:none;stroke-width:0.627703;stroke-linecap:round;paint-order:stroke markers fill" ns2:transform-center-y="0.39169381" d="m 1.4552084,1.11125 c -0.3653133,5e-7 -0.6614584,0.3037455 -0.6614584,0.6784341 0,0.4530102 0.215359,0.6396076 0.3953246,0.8241913 C 1.4207233,2.8514705 1.7819684,3.1519249 2.1166667,3.3943396 2.4513651,3.1519247 2.8126093,2.85147 3.0442588,2.6138754 3.2242237,2.4292917 3.4395833,2.2426943 3.4395833,1.7896841 c 0,-0.3746886 -0.2961448,-0.6784338 -0.6614582,-0.6784341 -0.3653133,3e-7 -0.6614584,0.1940556 -0.6614584,0.5687445 0,-0.3746886 -0.2961451,-0.568744 -0.6614583,-0.5687445 z" ns1:nodetypes="ssscssscs" />
+  </ns0:g>
+</ns0:svg>

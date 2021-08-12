@@ -1,63 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="16"
-   height="16"
-   version="1.1"
-   id="svg6"
-   sodipodi:docname="edit-undo-symbolic.symbolic (copy).svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
-  <metadata
-     id="metadata12">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs10" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1836"
-     inkscape:window-height="1016"
-     id="namedview8"
-     showgrid="false"
-     inkscape:zoom="22.627417"
-     inkscape:cx="9.2442385"
-     inkscape:cy="9.2052226"
-     inkscape:window-x="2004"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg6"
-     inkscape:document-rotation="0" />
-  <path
-     d="M 5.567106,6.2 A -3.1636062,3.1635 0 0 0 2.417,9.35 c 0,1.7289 1.422048,3.15 3.150106,3.15 H 6.0171209 V 10.7 H 5.567106 C 4.81108,10.7 4.21706,10.106 4.21706,9.35 4.21706,8.594 4.81108,8 5.567106,8 h 5.850196 V 6.2 Z"
-     style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal;fill:#000000;stroke-width:0.900015;marker:none"
-     color="#000000"
-     font-weight="400"
-     font-family="sans-serif"
-     overflow="visible"
-     fill="#474747"
-     id="path2" />
-  <path
-     id="path4"
-     style="line-height:normal;-inkscape-font-specification:'Bitstream Vera Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-transform:none;fill:#000000;fill-opacity:1;stroke-width:0.900015;marker:none"
-     d="M 9.6172418,3.5 A -0.90003023,0.9 0 0 0 8.7172116,4.4 c 0,0.2313 0.1165539,0.474975 0.2812594,0.646875 L 11.051665,7.1 8.998471,9.153125 C 8.8337655,9.325025 8.7172116,9.5687 8.7172116,9.8 a -0.90003023,0.9 0 0 0 0.9000302,0.9 c 0.2790094,0 0.4968162,-0.08212 0.6750232,-0.253125 L 13.583,7.1 10.292265,3.753125 C 10.114058,3.582125 9.8962512,3.5 9.6172418,3.5 Z" />
-</svg>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" width="16" height="16" version="1.1" id="svg6" ns1:docname="edit-undo-symbolic.symbolic (copy).svg">
+  <ns0:defs id="defs10" />
+  <ns1:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" ns2:pageopacity="0" ns2:pageshadow="2" ns2:window-width="1836" ns2:window-height="1016" id="namedview8" showgrid="false" ns2:zoom="22.627417" ns2:cx="9.2442385" ns2:cy="9.2052226" ns2:window-x="2004" ns2:window-y="27" ns2:window-maximized="1" ns2:current-layer="svg6" ns2:document-rotation="0" />
+  <ns0:path d="M 5.567106,6.2 A -3.1636062,3.1635 0 0 0 2.417,9.35 c 0,1.7289 1.422048,3.15 3.150106,3.15 H 6.0171209 V 10.7 H 5.567106 C 4.81108,10.7 4.21706,10.106 4.21706,9.35 4.21706,8.594 4.81108,8 5.567106,8 h 5.850196 V 6.2 Z" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal;fill:#000000;stroke-width:0.900015;marker:none" color="#000000" font-weight="400" font-family="sans-serif" overflow="visible" fill="#474747" id="path2" />
+  <ns0:path id="path4" style="line-height:normal;-inkscape-font-specification:'Bitstream Vera Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-transform:none;fill:#000000;fill-opacity:1;stroke-width:0.900015;marker:none" d="M 9.6172418,3.5 A -0.90003023,0.9 0 0 0 8.7172116,4.4 c 0,0.2313 0.1165539,0.474975 0.2812594,0.646875 L 11.051665,7.1 8.998471,9.153125 C 8.8337655,9.325025 8.7172116,9.5687 8.7172116,9.8 a -0.90003023,0.9 0 0 0 0.9000302,0.9 c 0.2790094,0 0.4968162,-0.08212 0.6750232,-0.253125 L 13.583,7.1 10.292265,3.753125 C 10.114058,3.582125 9.8962512,3.5 9.6172418,3.5 Z" />
+</ns0:svg>

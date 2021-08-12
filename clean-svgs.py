@@ -34,7 +34,7 @@ def cleanFile(inputFile):
   et.write(inputFile)
 
 #Loop through all svgs
-for file in glob.glob(f"{buildDir}/scalable/*/*"):
+for file in glob.glob(f"{buildDir}/scalable/*/*") + glob.glob(f"./guides/*"):
   cleanFile(file)
 
 #cleanFile("argon/scalable/mimetypes/application-vnd.sqlite3.svg")
