@@ -3,7 +3,6 @@
 
 import glob
 import xml.etree.ElementTree as et
-from icon_builder import getResolutionDirs
 
 buildDir = "argon"
 et = et.ElementTree()
@@ -33,8 +32,13 @@ def cleanFile(inputFile):
 
   et.write(inputFile)
 
-#Loop through all svgs
-for file in glob.glob(f"{buildDir}/scalable/*/*") + glob.glob(f"./guides/*"):
+svgFiles = glob.glob(f"{buildDir}/scalable/*/*") + glob.glob(f"./guides/*")
+if svgFiles == []:
+  print("No svg files found to clean")
+  exit(1)
+
+#Loop through all svgs and optimise
+for file in svgFiles:
   cleanFile(file)
 
 print("Cleaned all files")
