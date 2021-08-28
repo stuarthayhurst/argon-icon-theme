@@ -37,6 +37,4 @@ def cleanFile(inputFile):
 for file in glob.glob(f"{buildDir}/scalable/*/*") + glob.glob(f"./guides/*"):
   cleanFile(file)
 
-#cleanFile("argon/scalable/mimetypes/application-vnd.sqlite3.svg")
-
 print("Cleaned all files")
