@@ -71,11 +71,15 @@ org.gimp.GIMP.svg -> gimp.svg
 org.gnome.Calculator.Devel-symbolic.symbolic.svg -> org.gnome.Calculator-symbolic.symbolic.svg
 org.gnome.Clocks.svg -> org.gnome.clocks.svg
 org.gnome.Clocks-symbolic.symbolic.svg -> org.gnome.clocks-symbolic.symbolic.svg
+org.gnome.FontManager.svg -> org.gnome.font-viewer.svg
+org.gnome.FontManager-symbolic.symbolic.svg -> org.gnome.font-viewer-symbolic.symbolic.svg
 org.gnome.glade.svg -> org.gnome.Glade.svg
 org.gnome.glade-symbolic.symbolic.svg -> org.gnome.Glade-symbolic.symbolic.svg
 org.inkscape.Inkscape.svg -> inkscape.svg
 org.libretro.RetroArch.svg -> retroarch.svg
 org.videolan.VLC.svg -> vlc.svg
+preferences-desktop-font.svg -> org.gnome.font-viewer.svg
+preferences-desktop-font-symbolic.symbolic.svg -> org.gnome.font-viewer-symbolic.symbolic.svg
 system-file-manager.svg -> org.gnome.Nautilus.svg
 system-file-manager-symbolic.symbolic.svg -> org.gnome.Nautilus-symbolic.symbolic.svg
 x-calendar-app.svg -> org.gnome.Calendar.svg

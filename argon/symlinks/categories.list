@@ -1,2 +1,4 @@
 applications-games.svg -> ../apps/preferences-desktop-gaming.svg
 applications-games-symbolic.symbolic.svg -> ../apps/preferences-desktop-gaming-symbolic.symbolic.svg
+preferences-desktop-font.svg -> ../apps/org.gnome.font-viewer.svg
+preferences-desktop-font-symbolic.symbolic.svg -> ../apps/org.gnome.font-viewer-symbolic.symbolic.svg
