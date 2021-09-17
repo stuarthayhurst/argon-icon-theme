@@ -22,6 +22,7 @@
  - Icons are created via svg files in `argon/scalable/[context]/icon.svg`
  - Icon templates can be found in `guides/`, and should be followed to match the style of the theme
  - The icons need to be regenerated, as stated below
+ - Any text used should be converted from text to a path
 
 ## Building and installing the icon theme:
   > Generating new icons:
