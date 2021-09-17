@@ -32,7 +32,7 @@ def cleanFile(inputFile):
 
   et.write(inputFile)
 
-svgFiles = glob.glob(f"{buildDir}/scalable/*/*") + glob.glob(f"./guides/*")
+svgFiles = glob.glob(f"{buildDir}/scalable/*/*") + glob.glob(f"./guides/*") + glob.glob(f"./docs/*.svg")
 if svgFiles == []:
   print("No svg files found to clean")
   exit(1)
