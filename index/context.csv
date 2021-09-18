@@ -1,5 +1,6 @@
 apps,Applications,256
 actions,Actions,128
+devices,Devices,128
 emblems,Emblems,128
 legacy,Legacy,128
 mimetypes,MimeTypes,128
