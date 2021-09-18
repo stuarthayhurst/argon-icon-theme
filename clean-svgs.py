@@ -26,6 +26,9 @@ def cleanFile(inputFile):
       if namespace in attribute:
         delKeys.append(attribute)
 
+  if delKeys == []:
+    return
+
   #Remove the marked keys
   for key in delKeys:
     root.attrib.pop(key)
