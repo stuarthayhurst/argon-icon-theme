@@ -31,7 +31,7 @@
         </ns0:g>
       </ns0:g>
     </ns0:g>
-    <ns0:g ns2:groupmode="layer" id="layer5" ns2:label="Highlights" style="display:none">
+    <ns0:g ns2:groupmode="layer" id="layer5" ns2:label="Highlights" style="display:inline">
       <ns0:path style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999984;marker:none;enable-background:accumulate" d="m 128.0027,16 v 223.99957 h 49.0766 c 35.29565,0 38.00246,-3.63654 38.9207,-38.99309 V 127.99979 54.99309 C 216,19.624624 212.37495,16 177.0793,16 Z" id="path4231" ns2:connector-curvature="0" ns1:nodetypes="ccsscssc" />
       <ns0:path ns2:connector-curvature="0" style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.2;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999984;marker:none;enable-background:accumulate" d="m 40.005395,127.99979 v 73.00669 c -0.172985,35.36805 3.625044,38.99309 38.920685,38.99309 h 98.15322 c 35.29565,0 38.00246,-3.63654 38.9207,-38.99309 v -73.00669 z" id="path4255" ns1:nodetypes="ccssscc" />
       <ns0:path style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.6;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.99987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" d="M 156.00183,239.99957 216,179.99969 v 22.48383 c -0.0523,33.99575 -3.80257,37.51605 -38.17293,37.51605 z" id="path4254" ns2:connector-curvature="0" ns1:nodetypes="cccsc" />
