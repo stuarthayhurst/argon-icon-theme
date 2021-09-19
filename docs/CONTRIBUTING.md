@@ -19,6 +19,7 @@
  - If any help is required, please make it known, instead of silently dropping the issue
 
 ## Adding an icon:
+ - **Icons should follow the guidelines in `docs/DESIGN_GUIDELINES.md`**
  - Icons are created via svg files in `argon/scalable/[context]/icon.svg`
  - Icon templates can be found in `guides/`, and should be followed to match the style of the theme
  - The icons need to be regenerated, as stated below
