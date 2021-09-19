@@ -12,10 +12,12 @@ def cleanFile(inputFile):
   #Find metadata tag in document
   root = et.parse(inputFile)
   metadata = root.find("{http://www.w3.org/2000/svg}metadata")
+  fileChanged = False
 
   #Remove if present
   if metadata != None:
     root.remove(metadata)
+    fileChanged = True
   else:
     print(f"{inputFile} has no metadata tag")
 
@@ -26,7 +28,7 @@ def cleanFile(inputFile):
       if namespace in attribute:
         delKeys.append(attribute)
 
-  if delKeys == []:
+  if delKeys == [] and fileChanged == False:
     return
 
   #Remove the marked keys
