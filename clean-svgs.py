@@ -18,8 +18,6 @@ def cleanFile(inputFile):
   if metadata != None:
     root.remove(metadata)
     fileChanged = True
-  else:
-    print(f"{inputFile} has no metadata tag")
 
   #Find all attributes matching namespaces to remove
   delKeys = []
@@ -29,13 +27,14 @@ def cleanFile(inputFile):
         delKeys.append(attribute)
 
   if delKeys == [] and fileChanged == False:
-    return
+    return 0 #File not changed
 
   #Remove the marked keys
   for key in delKeys:
     root.attrib.pop(key)
 
   et.write(inputFile)
+  return 1 #File changed
 
 svgFiles = glob.glob(f"{buildDir}/scalable/*/*") + glob.glob(f"./guides/*") + glob.glob(f"./docs/*.svg")
 if svgFiles == []:
@@ -43,7 +42,8 @@ if svgFiles == []:
   exit(1)
 
 #Loop through all svgs and optimise
+changedFiles = 0
 for file in svgFiles:
-  cleanFile(file)
+  changedFiles += cleanFile(file)
 
-print("Cleaned all files")
+print(f"Cleaned {changedFiles} file(s)")
