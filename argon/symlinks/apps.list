@@ -77,6 +77,7 @@ org.gnome.FontManager.svg -> org.gnome.font-viewer.svg
 org.gnome.FontManager-symbolic.symbolic.svg -> org.gnome.font-viewer-symbolic.symbolic.svg
 org.gnome.glade.svg -> org.gnome.Glade.svg
 org.gnome.glade-symbolic.symbolic.svg -> org.gnome.Glade-symbolic.symbolic.svg
+org.gtk.PrintEditor4.Devel-symbolic.symbolic.svg -> org.gtk.PrintEditor4-symbolic.symbolic.svg
 org.inkscape.Inkscape.svg -> inkscape.svg
 org.libretro.RetroArch.svg -> retroarch.svg
 org.videolan.VLC.svg -> vlc.svg
