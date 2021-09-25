@@ -84,5 +84,7 @@ preferences-desktop-font.svg -> org.gnome.font-viewer.svg
 preferences-desktop-font-symbolic.symbolic.svg -> org.gnome.font-viewer-symbolic.symbolic.svg
 system-file-manager.svg -> org.gnome.Nautilus.svg
 system-file-manager-symbolic.symbolic.svg -> org.gnome.Nautilus-symbolic.symbolic.svg
+utilities-terminal.svg -> org.gnome.Terminal.svg
+utilities-terminal-symbolic.symbolic.svg -> org.gnome.Terminal-symbolic.symbolic.svg
 x-calendar-app.svg -> org.gnome.Calendar.svg
 x-calendar-app-symbolic.symbolic.svg -> org.gnome.Calendar-symbolic.symbolic.svg
