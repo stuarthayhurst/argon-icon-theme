@@ -7,7 +7,7 @@ SVG_OBJS = $(wildcard ./$(BUILD_DIR)/scalable/*/*.svg) $(wildcard ./$(BUILD_DIR)
 PNG_OBJS = $(subst ./$(BUILD_DIR),./$(BUILD_DIR)/resolution,$(subst .svg,.png,$(SVG_OBJS)))
 PNG_LIST = $(wildcard ./$(BUILD_DIR)/*/*/*.png*)
 
-.PHONY: build regen check install uninstall clean autoclean index refresh
+.PHONY: build regen check install uninstall clean autoclean prune index refresh
 
 build: autoclean
 	#Generate a list of icons to build, then call make with all the icon svgs
