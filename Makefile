@@ -45,8 +45,9 @@ clean:
 	fi
 autoclean:
 	#Delete broken symlinks, left over pngs and empty directories
+	$(MAKE) prune apply-autoclean
+apply-autoclean:
 	./autoclean.py "$(BUILD_DIR)"
-	$(MAKE) prune
 prune:
 	#Clean up svgs
 	./clean-svgs.py
