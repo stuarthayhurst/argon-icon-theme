@@ -1,10 +1,8 @@
 #!/usr/bin/python3
 #Remove rubbish from svg files
-
 import glob
 import xml.etree.ElementTree as et
 
-buildDir = "argon"
 et = et.ElementTree()
 targetNamespaces = ["{http://www.inkscape.org/namespaces/inkscape}"]
 
@@ -36,7 +34,7 @@ def cleanFile(inputFile):
   et.write(inputFile)
   return 1 #File changed
 
-svgFiles = glob.glob(f"{buildDir}/scalable/*/*") + glob.glob(f"./guides/*") + glob.glob(f"./docs/*.svg")
+svgFiles = glob.glob(f"./argon/scalable/*/*.svg") + glob.glob(f"./guides/*.svg") + glob.glob(f"./docs/*.svg")
 if svgFiles == []:
   print("No svg files found to clean")
   exit(1)
