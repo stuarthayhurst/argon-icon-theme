@@ -1,13 +1,10 @@
 #!/usr/bin/python3
 import os, sys, shutil, csv
-from icon_builder import createContextDict, getResolutionDirs
+from icon_builder import createContextDict
 
 def generateIndex(buildDir):
   #Copy index/index.theme.template to buildDir/index.theme
   shutil.copy("index/index.theme.template", buildDir + "/index.theme")
-
-  #Create ordered array of resolution directories
-  resolutionDirs = getResolutionDirs(buildDir)
 
   #Arrays / variables for next loop
   directoryAccumulator = []
