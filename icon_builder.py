@@ -1,11 +1,6 @@
 #!/usr/bin/python3
 import sys, subprocess, glob, os, csv
 
-def orderDirs(dirList):
-  process = os.popen("echo " + " ".join(dirList) + '| tr " " "\n" | sort -V | tr "\n" " "')
-  output = process.read()
-  return output.split()
-
 def getResolutionDirs(searchPath):
   #Generate a list of directories matching searchPath/*x*
   resolutionDirs = []
@@ -13,9 +8,12 @@ def getResolutionDirs(searchPath):
     directory = directory.replace(searchPath + "/", "")
     if os.path.isdir(searchPath + "/" + directory):
       resolutionDirs.append(directory)
+
+  #Order directories numerically by resolution
+  resolutionDirs.sort(key=lambda x: int(x.split('x')[0]))
   resolutionDirs.append("scalable")
 
-  return orderDirs(resolutionDirs)
+  return resolutionDirs
 
 def isSymlinkBroken(path):
   if os.path.islink(path):
