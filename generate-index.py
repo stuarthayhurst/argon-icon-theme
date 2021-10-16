@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import os, sys, shutil, csv
+import sys, shutil, csv
 from icon_builder import createContextDict
 
 def generateIndex(buildDir):
