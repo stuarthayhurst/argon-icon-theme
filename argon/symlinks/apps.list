@@ -35,7 +35,7 @@ gtk3-widget-factory.svg -> org.gtk.WidgetFactory4.svg
 gtk3-widget-factory-symbolic.symbolic.svg -> org.gtk.WidgetFactory4-symbolic.symbolic.svg
 gvim.svg -> vim.svg
 hb-icon.svg -> fr.handbrake.ghb.svg
-inkscape-logo.svg -> inkscape.svg
+inkscape-logo-symbolic.symbolic.svg -> inkscape-symbolic.symbolic.svg
 kernel-notify-app.svg -> kernel-notify.svg
 multimedia-audio-player.svg -> org.gnome.Music.svg
 multimedia-audio-player-symbolic.symbolic.svg -> org.gnome.Music-symbolic.symbolic.svg
@@ -79,6 +79,7 @@ org.gnome.glade.svg -> org.gnome.Glade.svg
 org.gnome.glade-symbolic.symbolic.svg -> org.gnome.Glade-symbolic.symbolic.svg
 org.gtk.PrintEditor4.Devel-symbolic.symbolic.svg -> org.gtk.PrintEditor4-symbolic.symbolic.svg
 org.inkscape.Inkscape.svg -> inkscape.svg
+org.inkscape.Inkscape-symbolic.symbolic.svg -> inkscape-symbolic.symbolic.svg
 org.libretro.RetroArch.svg -> retroarch.svg
 org.videolan.VLC.svg -> vlc.svg
 preferences-desktop-font.svg -> org.gnome.font-viewer.svg
