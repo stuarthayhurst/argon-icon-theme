@@ -10,7 +10,7 @@ def getResolutionDirs(searchPath):
       resolutionDirs.append(directory)
 
   #Order directories numerically by resolution
-  resolutionDirs.sort(key=lambda x: int(x.split('x')[0]))
+  resolutionDirs.sort(key=lambda x: int(x.split("x")[0]))
   resolutionDirs.append("scalable")
 
   return resolutionDirs
