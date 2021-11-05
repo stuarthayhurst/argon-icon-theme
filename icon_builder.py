@@ -90,7 +90,7 @@ def listChangedIcons(buildDir, makeCommand):
     for resolution in iconResolutions:
       pngFile = svgFile.replace(buildDir + "/scalable", buildDir + "/" + str(resolution))
       pngFile = pngFile.replace(".svg", ".png")
-      if os.path.isfile(pngFile) == False:
+      if not os.path.isfile(pngFile):
         rebuildIcon = True
 
     #Convert file into the string used to build
@@ -132,7 +132,7 @@ def generateIcon(buildDir, outputFile):
 
     #Create the directories for the output file if missing
     outputDir = os.path.dirname(outputFile)
-    if os.path.exists(outputDir) == False:
+    if not os.path.exists(outputDir):
       os.makedirs(outputDir, exist_ok=True)
 
     #Get process ID for use as a temporary file, if required
@@ -180,7 +180,7 @@ def makeSymlinks(buildDir, installDir):
   symlinkDict = createSymlinkDict(buildDir)
 
   #Check permissions for creating symlinks
-  if os.access(installDir, os.W_OK) == False:
+  if not os.access(installDir, os.W_OK):
     print(f"No write permission for {installDir}, try running with root")
     exit(1)
 
@@ -193,7 +193,7 @@ def makeSymlinks(buildDir, installDir):
       path = (f"{installDir}/{resolutionDir}/{contextDir}/")
 
       #Create context dir if missing
-      if os.path.isdir(path) == False:
+      if not os.path.isdir(path):
         os.mkdir(path)
 
       for symlinkObject in symlinkDict[contextDir]:
@@ -215,7 +215,7 @@ def checkSymlinks(buildDir):
       symlinkTarget = f"{contextPath}/{symlinkObject['target']}.svg"
 
       #If the context would need to be created, generate an alternative path
-      if os.path.exists(f"{contextPath}/") == False:
+      if not os.path.exists(f"{contextPath}/"):
         symlinkTarget = symlinkTarget.replace(f"{contextPath}/../", f"{buildDir}/scalable/")
 
       #Check the file to be created doesn't exist
@@ -223,7 +223,7 @@ def checkSymlinks(buildDir):
         print(f"  {symlinkPath} failed: File exists in place of symlink path")
         failed = True
       #Check the file to link to exists
-      if os.path.exists(symlinkTarget) == False:
+      if not os.path.exists(symlinkTarget):
         print(f"  {symlinkTarget} failed: Symlink target doesn't exist")
         failed = True
 
