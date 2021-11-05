@@ -140,7 +140,7 @@ def generateIcon(buildDir, outputFile):
 
     #Generate the icon
     print(f"Processing {inputFile} -> {outputFile} ({tempFile})")
-    getCommandExitCode(["inkscape", f"--export-filename={tempFile}", "-w", resolution.split("x")[0], "-h", resolution.split("x")[0], inputFile])
+    getCommandExitCode(["inkscape", f"{inkscapeExport}={tempFile}", "-w", resolution.split("x")[0], "-h", resolution.split("x")[0], inputFile])
 
     #Compress the icon and move to final destination
     print(f"Compressing {outputFile}...")
@@ -229,6 +229,16 @@ def checkSymlinks(buildDir):
 
   if failed == True:
     exit(1)
+
+#Figure out inkscape generation option
+inkscapeVersion = getCommandOutput(["inkscape", "--version"])[0].split(" ")[1]
+inkscapeVersion = inkscapeVersion.split(".")
+inkscapeVersion = float(f"{inkscapeVersion[0]}.{inkscapeVersion[1]}")
+
+if inkscapeVersion >= 1.0:
+  inkscapeExport = "--export-filename"
+else:
+  inkscapeExport = "--export-png"
 
 if __name__ == "__main__":
   #Create context dictionary for future reference
