@@ -40,6 +40,7 @@ if svgFiles == []:
   print("No svg files found to clean")
   exit(1)
 
+#Spread files between available cores
 with mp.Pool(mp.cpu_count()) as pool:
   result = pool.map(cleanFile, svgFiles)
 
