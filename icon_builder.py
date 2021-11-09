@@ -4,9 +4,9 @@ import sys, subprocess, glob, os, csv
 def getResolutionDirs(searchPath):
   #Generate a list of directories matching searchPath/*x*
   resolutionDirs = []
-  for directory in glob.glob(searchPath + "/*x*"):
-    directory = directory.replace(searchPath + "/", "")
-    if os.path.isdir(searchPath + "/" + directory):
+  for directory in glob.glob(f"{searchPath}/*x*"):
+    directory = directory.replace(f"{searchPath}/", "")
+    if os.path.isdir(f"{searchPath}/{directory}"):
       resolutionDirs.append(directory)
 
   #Order directories numerically by resolution
