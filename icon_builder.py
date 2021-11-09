@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import sys, subprocess, glob, os, csv
+import sys, subprocess, glob, os, csv, re
 
 def getResolutionDirs(searchPath):
   #Generate a list of directories matching searchPath/*x*
@@ -7,7 +7,8 @@ def getResolutionDirs(searchPath):
   for directory in glob.glob(f"{searchPath}/*x*"):
     directory = directory.replace(f"{searchPath}/", "")
     if os.path.isdir(f"{searchPath}/{directory}"):
-      resolutionDirs.append(directory)
+      if re.search("^([0-9]+x[0-9]+)", directory):
+        resolutionDirs.append(directory)
 
   #Order directories numerically by resolution
   resolutionDirs.sort(key=lambda x: int(x.split("x")[0]))

@@ -48,6 +48,15 @@ def getIconList(themePath):
 
   return iconList
 
+#Attempt to find the theme on the system and return a valid path, or return False
+def findTheme(themePath):
+  themeName = themePath.rsplit("/", 1)
+  themeName = themeName[len(themeName) - 1]
+  if os.path.exists(f"/usr/share/icons/{themeName}"):
+    return f"/usr/share/icons/{themeName}"
+  else:
+    return False
+
 #Argument handling
 if len(sys.argv) <= 1:
   print("A path to a theme is required")
@@ -75,8 +84,10 @@ else:
 externalThemePath = str(sys.argv[1])
 if externalThemePath.endswith("/"):
   externalThemePath = externalThemePath.rsplit("/", 1)[0]
-if os.path.exists(externalThemePath) == False:
-  print(f"Path to theme is invalid ('{externalThemePath}')")
+
+externalThemePath = findTheme(externalThemePath)
+if externalThemePath == False:
+  print(f"Path to theme is invalid ('{sys.argv[1]}')")
   exit(1)
 
 #Get a full list of icons for the internal and external theme
