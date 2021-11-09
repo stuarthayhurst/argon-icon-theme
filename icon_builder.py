@@ -160,17 +160,22 @@ def createSymlinkDict(buildDir):
     processedSymlinks = []
     with open(listFile) as file:
       for line in file.readlines():
+
+        #Strip newline before checking for contents, otherwise empty lines aren't caught
         line = line.replace("\n", "")
 
-        #Remove file extensions (filled in later)
-        line = line.replace(".svg", "")
+        if line != "":
+          #Remove file extensions (filled in later)
+          line = line.replace(".svg", "")
 
-        line = line.split(" -> ")
-        line = {
-          "symlink": line[0],
-          "target": line[1]
-        }
-        processedSymlinks.append(line)
+          line = line.split(" -> ")
+          line = {
+            "symlink": line[0],
+            "target": line[1]
+          }
+          processedSymlinks.append(line)
+        else:
+          print(f"Empty line in '{listFile}', please fix this")
 
     symlinkDict[contextDir] = processedSymlinks
   return symlinkDict
