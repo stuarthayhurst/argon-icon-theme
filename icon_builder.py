@@ -99,9 +99,7 @@ def listChangedIcons(buildDir, makeCommand):
       pngFile = svgFile.replace(buildDir + "/scalable", buildDir + "/resolution/scalable")
       pngFile = pngFile.replace(".svg", ".png")
 
-      #Avoid duplicates
-      if pngFile not in buildList:
-        buildList.append(pngFile)
+      buildList.append(pngFile)
 
   #Add index to the build list
   buildList.append("index")
