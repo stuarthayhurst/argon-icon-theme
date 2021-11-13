@@ -9,18 +9,18 @@ PNG_LIST = $(wildcard ./$(BUILD_DIR)/*/*/*.png*)
 
 .PHONY: build regen check install uninstall clean autoclean prune index refresh
 
+#Generate a list of icons to build, then call make with all the icon svgs
 build: autoclean
-	#Generate a list of icons to build, then call make with all the icon svgs
 	./icon_builder.py "--list" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$(MAKE)"
 	$(MAKE) check
+#Clean all built files first, then generate each icon and the index
 regen: clean
-	#Clean all built files first, then generate each icon and the index
 	$(MAKE) $(PNG_OBJS) index
+#Check all symlinks are valid
 check:
-	#Check all symlinks are valid
 	./icon_builder.py "--check-symlinks" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)"
 install: check
-	if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
+	@if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
 	  make uninstall; \
 	  mkdir -p "$(INSTALL_DIR)"; \
 	  cp -r "./$(BUILD_DIR)/"* "$(INSTALL_DIR)"; \
@@ -33,32 +33,31 @@ install: check
 	fi
 uninstall:
 	rm -rf "$(INSTALL_DIR)"
+#Delete every generated icon and the index
 clean:
-	#Delete every generated icon and the index
-	PNG_LIST="$(PNG_LIST)"
-	if [[ -z "$$PNG_LIST" ]]; then \
+	@if [[ ! -z "$(PNG_LIST)" ]]; then \
 	  rm -r $(PNG_LIST); \
 	  $(MAKE) autoclean; \
 	fi
-	if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
+	@if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
 	  rm "$(BUILD_DIR)/index.theme"; \
 	fi
+#Delete broken symlinks, left over pngs and empty directories
 autoclean:
-	#Delete broken symlinks, left over pngs and empty directories
 	$(MAKE) prune apply-autoclean
 apply-autoclean:
 	./autoclean.py "$(BUILD_DIR)"
+#Clean up svgs
 prune:
-	#Clean up svgs
 	./clean-svgs.py
 $(PNG_OBJS): ./$(BUILD_DIR)/resolution/%.png: ./$(BUILD_DIR)/%.svg
 	mkdir -p "$(BUILD_DIR)"
 	./icon_builder.py "--generate" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$@"
 index:
 	./generate-index.py "--index" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)"
+#Refresh / generate icon cache
 refresh:
-	#Refresh icon cache
-	if command -v gtk-update-icon-cache > /dev/null; then \
-	  echo "Updating gtk-update-icon-cache"; touch "$(INSTALL_DIR)" > /dev/null; \
+	@if command -v gtk-update-icon-cache > /dev/null; then \
+	  echo "Updating gtk-update-icon-cache..."; touch "$(INSTALL_DIR)" > /dev/null; \
 	  gtk-update-icon-cache -f "$(INSTALL_DIR)"; \
 	fi
