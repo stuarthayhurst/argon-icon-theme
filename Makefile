@@ -21,13 +21,13 @@ check:
 	./icon_builder.py "--check-symlinks" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)"
 install: check
 	@if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
-	  make uninstall; \
+	  $(MAKE) uninstall; \
 	  mkdir -p "$(INSTALL_DIR)"; \
 	  cp -r "./$(BUILD_DIR)/"* "$(INSTALL_DIR)"; \
 	  #Install symlinks; \
 	  ./icon_builder.py "--install-symlinks" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$(INSTALL_DIR)"; \
 	  rm -rf "$(INSTALL_DIR)/symlinks"; \
-	  make refresh; \
+	  $(MAKE) refresh; \
 	else \
 	  echo "WARNING: $(BUILD_DIR)/index.theme is missing, run 'make index' and try again"; \
 	fi
