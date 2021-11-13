@@ -36,7 +36,7 @@ uninstall:
 #Delete every generated icon and the index
 clean:
 	@if [[ ! -z "$(PNG_LIST)" ]]; then \
-	  rm -r $(PNG_LIST); \
+	  rm -rv $(PNG_LIST); \
 	  $(MAKE) autoclean; \
 	fi
 	@if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
