@@ -21,6 +21,8 @@
   - `make prune` will delete rubbish elements and attributes from the svgs
   - `make index` will generate `index.theme` (Done automatically by `build` and `regen`)
   - `make check` will check all defined symlinks are valid
+  - `make install` will copy the theme in its current state to the install location, check and generate any symlinks, then run `make refresh`
+  - `make refresh` will generate an icon cache for the theme
 
 ## Contributing:
   - Contribution guidelines can be found in `docs/CONTRIBUTING.md`, but summarised:
