@@ -35,10 +35,8 @@ uninstall:
 	rm -rf "$(INSTALL_DIR)"
 #Delete every generated icon and the index
 clean:
-	@if [[ ! -z "$(PNG_LIST)" ]]; then \
-	  rm -rv $(PNG_LIST); \
-	  $(MAKE) autoclean; \
-	fi
+	rm -rfv $(PNG_LIST)
+	$(MAKE) autoclean
 	@if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
 	  rm "$(BUILD_DIR)/index.theme"; \
 	fi
