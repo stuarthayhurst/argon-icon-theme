@@ -1,5 +1,5 @@
 ## argon-icon-theme
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=G2REEPPNZK9GN)
+[![Donate](https://paypal.me/stuartahayhurst)
   - A minimalistic, material icon theme, designed for GNOME with Yaru
   - Currently, this theme looks best if Yaru is installed before it
   - Any donations are greatly appreciated :)
