@@ -3,6 +3,10 @@ accessories-calculator.svg -> ../apps/org.gnome.Calculator.svg
 accessories-calculator-symbolic.symbolic.svg -> ../apps/org.gnome.Calculator-symbolic.symbolic.svg
 applications-games.svg -> ../apps/preferences-desktop-gaming.svg
 applications-games-symbolic.symbolic.svg -> ../apps/preferences-desktop-gaming-symbolic.symbolic.svg
+applications-other.svg -> ../apps/org.gnome.Settings.svg
+applications-other-symbolic.symbolic.svg -> ../apps/org.gnome.Settings-symbolic.symbolic.svg
+applications-system.svg -> ../apps/org.gnome.Settings.svg
+applications-system-symbolic.symbolic.svg -> ../apps/org.gnome.Settings-symbolic.symbolic.svg
 add.svg -> gtk-add.svg
 battery.svg -> ../status/battery-symbolic.symbolic.svg
 battery-caution.svg -> ../status/battery-caution-symbolic.symbolic.svg
