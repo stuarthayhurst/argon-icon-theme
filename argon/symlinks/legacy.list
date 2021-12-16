@@ -1,4 +1,6 @@
 ac-adapter.svg -> ../status/battery-full-charged-symbolic.symbolic.svg
+accessories-calculator.svg -> ../apps/org.gnome.Calculator.svg
+accessories-calculator-symbolic.symbolic.svg -> ../apps/org.gnome.Calculator-symbolic.symbolic.svg
 add.svg -> gtk-add.svg
 battery.svg -> ../status/battery-symbolic.symbolic.svg
 battery-caution.svg -> ../status/battery-caution-symbolic.symbolic.svg
