@@ -84,6 +84,7 @@ org.libretro.RetroArch.svg -> retroarch.svg
 org.videolan.VLC.svg -> vlc.svg
 preferences-desktop-font.svg -> org.gnome.font-viewer.svg
 preferences-desktop-font-symbolic.symbolic.svg -> org.gnome.font-viewer-symbolic.symbolic.svg
+preferences-system-notifications-symbolic.symbolic.svg -> ../status/notification-symbolic.symbolic.svg
 system-file-manager.svg -> org.gnome.Nautilus.svg
 system-file-manager-symbolic.symbolic.svg -> org.gnome.Nautilus-symbolic.symbolic.svg
 utilities-terminal.svg -> org.gnome.Terminal.svg
