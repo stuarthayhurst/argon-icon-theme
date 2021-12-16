@@ -60,6 +60,8 @@ online.svg -> gtk-apply.svg
 paint-none.svg -> gtk-cancel.svg
 preferences-desktop-font.svg -> ../apps/org.gnome.font-viewer.svg
 preferences-desktop-font-symbolic.symbolic.svg -> ../apps/org.gnome.font-viewer-symbolic.symbolic.svg
+preferences-system.svg -> ../apps/org.gnome.Settings.svg
+preferences-system-symbolic.symbolic.svg -> ../apps/org.gnome.Settings-symbolic.symbolic.svg
 process-stop.svg -> gtk-cancel.svg
 remove.svg -> gtk-remove.svg
 selection-checked.svg -> gtk-apply.svg

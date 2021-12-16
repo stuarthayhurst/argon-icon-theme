@@ -1,4 +1,10 @@
 applications-games.svg -> ../apps/preferences-desktop-gaming.svg
 applications-games-symbolic.symbolic.svg -> ../apps/preferences-desktop-gaming-symbolic.symbolic.svg
+applications-system.svg -> ../apps/org.gnome.Settings.svg
+applications-system-symbolic.symbolic.svg -> ../apps/org.gnome.Settings-symbolic.symbolic.svg
 preferences-desktop-font.svg -> ../apps/org.gnome.font-viewer.svg
 preferences-desktop-font-symbolic.symbolic.svg -> ../apps/org.gnome.font-viewer-symbolic.symbolic.svg
+preferences-other.svg -> ../apps/org.gnome.Settings.svg
+preferences-other-symbolic.symbolic.svg -> ../apps/org.gnome.Settings-symbolic.symbolic.svg
+preferences-system.svg -> ../apps/org.gnome.Settings.svg
+preferences-system-symbolic.symbolic.svg -> ../apps/org.gnome.Settings-symbolic.symbolic.svg
