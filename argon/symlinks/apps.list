@@ -84,7 +84,7 @@ org.libretro.RetroArch.svg -> retroarch.svg
 org.videolan.VLC.svg -> vlc.svg
 preferences-desktop-font.svg -> org.gnome.font-viewer.svg
 preferences-desktop-font-symbolic.symbolic.svg -> org.gnome.font-viewer-symbolic.symbolic.svg
-preferences-system-time-symbolic.symbolic.svg -> ../apps/org.gnome.clocks.svg
+preferences-system-time.svg -> ../apps/org.gnome.clocks.svg
 preferences-system-time-symbolic.symbolic.svg -> ../apps/org.gnome.clocks-symbolic.symbolic.svg
 system-file-manager.svg -> org.gnome.Nautilus.svg
 system-file-manager-symbolic.symbolic.svg -> org.gnome.Nautilus-symbolic.symbolic.svg
