@@ -1,0 +1,8 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" ns1:docname="preferences-system-details-symbolic.symbolic.svg" id="svg8" version="1.1" viewBox="0 0 4.2333332 4.2333334" height="16" width="16">
+  <ns0:defs id="defs2" />
+  <ns1:namedview ns2:window-maximized="1" ns2:window-y="27" ns2:window-x="1920" ns2:window-height="1016" ns2:window-width="1920" units="px" showgrid="false" ns2:document-rotation="0" ns2:current-layer="layer3" ns2:document-units="px" ns2:cy="7.623495" ns2:cx="7.5130096" ns2:zoom="22.627417" ns2:pageshadow="2" ns2:pageopacity="0.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" ns2:lockguides="false" ns2:pagecheckerboard="0" width="1e-05px" />
+  <ns0:g ns2:groupmode="layer" id="layer3" ns2:label="Graphic" style="display:inline">
+    <ns0:path id="path835" style="display:inline;fill:#000000;fill-opacity:1;stroke-width:3.5673;stroke-linecap:round;stroke-miterlimit:1.6;paint-order:stroke markers fill" d="M 8 0 A 7.9999996 7.9999996 0 0 0 0 8 A 7.9999996 7.9999996 0 0 0 8 16 A 7.9999996 7.9999996 0 0 0 16 8 A 7.9999996 7.9999996 0 0 0 8 0 z M 8 1 A 7 7 0 0 1 15 8 A 7 7 0 0 1 8 15 A 7 7 0 0 1 1 8 A 7 7 0 0 1 8 1 z " transform="scale(0.26458333)" />
+    <ns0:path id="rect837" style="fill:#000000;stroke-width:0.0783867;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" d="M 2.1166665,0.75595718 A 0.30238098,0.30238098 0 0 0 1.8142905,1.0583332 0.30238098,0.30238098 0 0 0 2.1166665,1.3607092 0.30238098,0.30238098 0 0 0 2.4190426,1.0583332 0.30238098,0.30238098 0 0 0 2.1166665,0.75595718 Z M 1.8898759,1.6630853 V 3.4773759 H 2.3434571 V 1.6630853 Z" />
+  </ns0:g>
+</ns0:svg>
