@@ -88,6 +88,7 @@ org.inkscape.Inkscape.svg -> inkscape.svg
 org.inkscape.Inkscape-symbolic.symbolic.svg -> inkscape-symbolic.symbolic.svg
 org.libretro.RetroArch.svg -> retroarch.svg
 org.videolan.VLC.svg -> vlc.svg
+preferences-desktop-apps.svg -> preferences-desktop-apps-symbolic.symbolic.svg
 preferences-desktop-font.svg -> org.gnome.font-viewer.svg
 preferences-desktop-font-symbolic.symbolic.svg -> org.gnome.font-viewer-symbolic.symbolic.svg
 preferences-desktop-keyboard-shortcuts-symbolic.symbolic.svg -> preferences-desktop-keyboard-symbolic.symbolic.svg
