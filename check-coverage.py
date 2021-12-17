@@ -11,7 +11,7 @@ def processIcon(icon):
   return icon
 
 def appendSymlinkDefs(path, context, iconList):
-  #Return early if the symlinks doesn't exist
+  #Return early if the symlink definitions don't exist
   symlinkDefPath = f"{path}/symlinks/{context}.list"
   if os.path.exists(symlinkDefPath) == False:
     return iconList
@@ -64,21 +64,30 @@ if len(sys.argv) <= 1:
 else:
   if sys.argv[1] == "-h" or sys.argv[1] == "--help": #Display help page
     print("Help:")
-    print("  -x | --exclude : Exclude certain context directories from comparison")
+    print("  -i | --include : Only use certain contexts in comparison")
+    print("  -x | --exclude : Exclude certain contexts from comparison")
     print("  -h | --help    : Display this help page")
     exit(1)
 
-excludedContexts = []
+contextsMode = False
+customContexts = []
 if len(sys.argv) >= 3:
   if sys.argv[2] == "-x" or sys.argv[2] == "--exclude": #Get contexts to exclude
     if len(sys.argv) == 3:
       print("Contexts must be specified to exclude")
       exit(1)
     else:
-      for i in range(3, len(sys.argv)):
-        excludedContexts.append(sys.argv[i])
-else:
-  excludeContext = False
+      contextsMode = "exclude"
+  elif sys.argv[2] == "-i" or sys.argv[2] == "--include": #Get contexts to include
+    if len(sys.argv) == 3:
+      print("Contexts must be specified to exclude")
+      exit(1)
+    else:
+      contextsMode = "include"
+
+  #Save the specific contexts to include / exclude
+  for i in range(3, len(sys.argv)):
+    customContexts.append(sys.argv[i])
 
 #Set the external theme path
 externalThemePath = str(sys.argv[1])
@@ -98,9 +107,17 @@ totalIconCount = 0
 missingIconCount = 0
 
 #Remove excluded contexts
-for excludedContext in excludedContexts:
-  if excludedContext in externalIconList:
-    del externalIconList[excludedContext]
+if contextsMode == "exclude":
+  for customContext in customContexts:
+    if customContext in externalIconList:
+      del externalIconList[customContext]
+#If any of the keys from externalIconList are in customContexts, remove them
+elif contextsMode == "include":
+  #Iterate through keys beforehand, to avoid dictionary changing size while being iterated
+  keys = [ i for i in externalIconList.keys() ]
+  for customContext in keys:
+    if customContext not in customContexts:
+      del externalIconList[customContext]
 
 #Work out which icons are missing
 for context in list(internalIconList.keys()):
