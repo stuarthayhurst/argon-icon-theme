@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import sys, glob, os
-from icon_builder import getResolutionDirs
+from common import getResolutionDirs
 
 def isSymlinkBroken(path):
   if os.path.islink(path):

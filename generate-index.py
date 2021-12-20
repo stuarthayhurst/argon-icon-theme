@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-import sys, shutil, csv
-from icon_builder import createContextDict
+import sys, shutil
+from common import createContextDict
 
 def generateIndex(buildDir):
   #Copy index/index.theme.template to buildDir/index.theme

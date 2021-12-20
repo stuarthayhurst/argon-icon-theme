@@ -1,20 +1,6 @@
 #!/usr/bin/python3
-import sys, subprocess, glob, os, csv, re
-
-def getResolutionDirs(searchPath):
-  #Generate a list of directories matching searchPath/*x*
-  resolutionDirs = []
-  for directory in glob.glob(f"{searchPath}/*x*"):
-    directory = directory.replace(f"{searchPath}/", "")
-    if os.path.isdir(f"{searchPath}/{directory}"):
-      if re.search("^([0-9]+x[0-9]+)", directory):
-        resolutionDirs.append(directory)
-
-  #Order directories numerically by resolution
-  resolutionDirs.sort(key=lambda x: int(x.split("x")[0]))
-  resolutionDirs.append("scalable")
-
-  return resolutionDirs
+import sys, subprocess, glob, os
+from common import createContextDict
 
 def getCommandExitCode(command):
   return subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL).returncode
@@ -24,28 +10,6 @@ def getCommandOutput(command):
   if "" in output:
     output.remove("")
   return output
-
-def getMaxResolutionList(maxResolution, iconResolutions):
-  #Loop through given resolutions, add to a return array if it's less than the max
-  allowedResolutions = []
-  for resolution in iconResolutions:
-    if int(resolution) <= int(maxResolution):
-      allowedResolutions.append(f"{resolution}x{resolution}")
-  allowedResolutions.append("scalable")
-
-  #Return an array of valid resolutions to build for
-  return allowedResolutions
-
-def createContextDict(iconResolutions):
-  #Load info from index/context.csv into a dictionary
-  contextDict = {}
-  with open("index/context.csv", "r") as file:
-    reader = csv.reader(file)
-    for row in reader:
-      #contextDict stores the pretty name and array of max resolutions for the context
-      #contextDict["context"] = ["pretty name", ["allowed", "resolutions"]]
-      contextDict[row[0]] = [row[1], getMaxResolutionList(row[2], iconResolutions)]
-  return contextDict
 
 #Lists all changed, new and missing icons
 def listChangedIcons(buildDir, makeCommand):
@@ -146,94 +110,6 @@ def generateIcon(buildDir, outputFile):
     getCommandExitCode(["optipng", "-quiet", "-strip", "all", tempFile])
     os.rename(tempFile, outputFile)
 
-def createSymlinkDict(buildDir):
-  #Read all the symlinks to create into memory and create a data structure for them
-  #  symlinkDict["apps"][0]["symlink"] would return the name of a symlink to create
-  symlinkLists = glob.glob(buildDir + "/symlinks/*")
-  symlinkDict = {}
-
-  for listFile in symlinkLists:
-    contextDir = os.path.basename(listFile)
-    contextDir = "".join(contextDir.rsplit(".list", 1))
-
-    processedSymlinks = []
-    with open(listFile) as file:
-      for line in file.readlines():
-
-        #Strip newline before checking for contents, otherwise empty lines aren't caught
-        line = line.replace("\n", "")
-
-        if line != "":
-          #Remove file extensions (filled in later)
-          line = line.replace(".svg", "")
-
-          line = line.split(" -> ")
-          line = {
-            "symlink": line[0],
-            "target": line[1]
-          }
-          processedSymlinks.append(line)
-        else:
-          print(f"Empty line in '{listFile}', please fix this")
-
-    symlinkDict[contextDir] = processedSymlinks
-  return symlinkDict
-
-def makeSymlinks(buildDir, installDir):
-  #Create dictionary with symlink information
-  symlinkDict = createSymlinkDict(buildDir)
-
-  #Check permissions for creating symlinks
-  if not os.access(installDir, os.W_OK):
-    print(f"No write permission for {installDir}, try running with root")
-    exit(1)
-
-  #Loop through contexts
-  for contextDir in symlinkDict:
-    #Get resolutions to generate symlinks for specific context
-    resolutionDirs = contextDict[contextDir][1]
-    #Loop through resolutionDirs
-    for resolutionDir in resolutionDirs:
-      path = (f"{installDir}/{resolutionDir}/{contextDir}/")
-
-      #Create context dir if missing
-      if not os.path.isdir(path):
-        os.mkdir(path)
-
-      for symlinkObject in symlinkDict[contextDir]:
-        if resolutionDir == "scalable":
-          os.symlink(path + symlinkObject["target"] + ".svg", path + symlinkObject["symlink"] + ".svg")
-        else:
-          os.symlink(path + symlinkObject["target"] + ".png", path + symlinkObject["symlink"] + ".png")
-
-def checkSymlinks(buildDir):
-  #Create dictionary with symlink information
-  symlinkDict = createSymlinkDict(buildDir)
-  failed = False
-
-  #Loop through every symlink info object, and validate the contents
-  for context in symlinkDict:
-    for symlinkObject in symlinkDict[context]:
-      contextPath = f"{buildDir}/scalable/{context}"
-      symlinkPath = f"{contextPath}/{symlinkObject['symlink']}.svg"
-      symlinkTarget = f"{contextPath}/{symlinkObject['target']}.svg"
-
-      #If the context would need to be created, generate an alternative path
-      if not os.path.exists(f"{contextPath}/"):
-        symlinkTarget = symlinkTarget.replace(f"{contextPath}/../", f"{buildDir}/scalable/")
-
-      #Check the file to be created doesn't exist
-      if os.path.exists(symlinkPath):
-        print(f"  {symlinkPath} failed: File exists in place of symlink path")
-        failed = True
-      #Check the file to link to exists
-      if not os.path.exists(symlinkTarget):
-        print(f"  {symlinkTarget} failed: Symlink target doesn't exist")
-        failed = True
-
-  if failed == True:
-    exit(1)
-
 #Figure out inkscape generation option
 inkscapeVersion = getCommandOutput(["inkscape", "--version"])[0].split(" ")[1]
 inkscapeVersion = inkscapeVersion.split(".")
@@ -256,10 +132,3 @@ if __name__ == "__main__":
   elif sys.argv[1] == "--generate":
     #Pass generateIcon() the build directory and icon to build
     generateIcon(str(sys.argv[2]), str(sys.argv[4]))
-  elif sys.argv[1] == "--install-symlinks":
-    #Pass makeSymlinks() the build and install directory
-    print("Installing symlinks...")
-    makeSymlinks(str(sys.argv[2]), str(sys.argv[4]))
-  elif sys.argv[1] == "--check-symlinks":
-    #Pass checkSymlinks() the build directory
-    checkSymlinks(str(sys.argv[2]))

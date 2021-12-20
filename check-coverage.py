@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import sys, os
-from icon_builder import getResolutionDirs
+from common import getResolutionDirs
 
 def listFiles(path):
   return [f.path for f in os.scandir(path)]
