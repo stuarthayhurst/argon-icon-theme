@@ -3,7 +3,10 @@ import sys, subprocess, glob, os
 from common import createContextDict
 
 def getCommandExitCode(command):
-  return subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL).returncode
+  try:
+    return subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL).returncode
+  except FileNotFoundError:
+    return 1
 
 def getCommandOutput(command):
   output = subprocess.run(command, capture_output=True).stdout.decode("utf-8").split("\n")
@@ -15,9 +18,11 @@ def getCommandOutput(command):
 def listChangedIcons(buildDir, makeCommand):
   #Check git is present, and .git exists
   if getCommandExitCode(["git", "status"]):
-    print("Either git isn't installed, or .git missing")
-    print("This feature isn't available on releases, use 'sudo make install' to install")
-    print("index.theme can be generated using 'make index'")
+    print("\nDifferential build unsupported")
+    if os.path.exists(".git"):
+      print("git couldn't be found, so changed files could not be detected")
+    else:
+      print("This feature isn't available on releases, use 'sudo make install' to install")
     exit(1)
 
   buildList = []
