@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import sys, glob, os
+import sys, glob, os, shutil
 from common import createContextDict
 
 def createSymlinkDict(buildDir):
@@ -58,9 +58,9 @@ def makeSymlinks(buildDir, installDir):
 
       for symlinkObject in symlinkDict[contextDir]:
         if resolutionDir == "scalable":
-          os.symlink(path + symlinkObject["target"] + ".svg", path + symlinkObject["symlink"] + ".svg")
+          shutil.copy(f"{path}{symlinkObject['target']}.svg", f"{path}{symlinkObject['symlink']}.svg")
         else:
-          os.symlink(path + symlinkObject["target"] + ".png", path + symlinkObject["symlink"] + ".png")
+          shutil.copy(f"{path}{symlinkObject['target']}.png", f"{path}{symlinkObject['symlink']}.png")
 
 def checkSymlinks(buildDir):
   #Create dictionary with symlink information
