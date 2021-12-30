@@ -78,6 +78,8 @@ org.gimp.GIMP.svg -> gimp.svg
 org.gnome.Calculator.Devel-symbolic.symbolic.svg -> org.gnome.Calculator-symbolic.symbolic.svg
 org.gnome.Clocks.svg -> org.gnome.clocks.svg
 org.gnome.Clocks-symbolic.symbolic.svg -> org.gnome.clocks-symbolic.symbolic.svg
+org.gnome.Console.svg -> org.gnome.Terminal.svg
+org.gnome.Console-symbolic.symbolic.svg -> org.gnome.Terminal-symbolic.symbolic.svg
 org.gnome.Disks.svg -> org.gnome.DiskUtility.svg
 org.gnome.Disks-symbolic.symbolic.svg -> org.gnome.DiskUtility-symbolic.symbolic.svg
 org.gnome.FontManager.svg -> org.gnome.font-viewer.svg
