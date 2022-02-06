@@ -1,0 +1,19 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" ns1:docname="network-wired-symbolic.symbolic.svg" id="svg8" version="1.1" viewBox="0 0 4.2333333 4.2333334" height="16" width="16">
+  <ns0:defs id="defs2" />
+  <ns1:namedview ns2:window-maximized="1" ns2:window-y="27" ns2:window-x="1920" ns2:window-height="1016" ns2:window-width="1920" units="px" showgrid="false" ns2:document-rotation="0" ns2:current-layer="layer1" ns2:document-units="px" ns2:cy="3.8669902" ns2:cx="5.9662135" ns2:zoom="22.627417" ns2:pageshadow="2" ns2:pageopacity="0.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" ns2:pagecheckerboard="0" />
+  <ns0:g ns2:groupmode="layer" id="layer1" ns2:label="Background" style="display:inline">
+    <ns0:g style="display:inline" ns2:label="Colour" id="g1174" ns2:groupmode="layer" />
+    <ns0:g id="g2319">
+      <ns0:g id="g2305">
+        <ns0:path style="color:#000000;fill:#000000;stroke-linejoin:round;-inkscape-stroke:none" d="M 1.1914062,1.9179687 A 0.19845734,0.19845734 0 0 0 0.9921875,2.1171875 V 3.0429688 H 1.3886719 V 2.3144531 H 3.109375 V 3.0429688 H 3.5058594 V 2.1171875 A 0.19845734,0.19845734 0 0 0 3.3066406,1.9179687 Z" id="path1099" />
+        <ns0:rect style="fill:#000000;stroke-width:1.86737;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" id="rect2301" width="0.39687499" height="1.0583334" x="-2.4473958" y="-2.1166668" transform="scale(-1)" />
+      </ns0:g>
+      <ns0:g id="g2310">
+        <ns0:rect style="fill:#000000;stroke-width:0.362727;stroke-linecap:round;stroke-linejoin:round" id="rect1806" width="1.3229166" height="1.3229166" x="2.6458333" y="2.6458333" ry="0.26344416" />
+        <ns0:rect style="fill:#000000;stroke-width:0.362727;stroke-linecap:round;stroke-linejoin:round" id="rect2827" width="1.3229166" height="1.3229166" x="0.5291667" y="2.6458333" ry="0.26344416" />
+        <ns0:rect style="fill:#000000;stroke-width:0.362727;stroke-linecap:round;stroke-linejoin:round" id="rect2829" width="1.3229166" height="1.3229166" x="1.5875" y="0.26458335" ry="0.26344416" />
+      </ns0:g>
+    </ns0:g>
+  </ns0:g>
+  <ns0:g ns2:label="Graphic" id="g1156" ns2:groupmode="layer" style="display:inline" />
+</ns0:svg>
