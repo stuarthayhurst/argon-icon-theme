@@ -54,8 +54,7 @@ def findTheme(themePath):
   themeName = themeName[len(themeName) - 1]
   if os.path.exists(f"/usr/share/icons/{themeName}"):
     return f"/usr/share/icons/{themeName}"
-  else:
-    return False
+  return False
 
 #Argument handling
 if len(sys.argv) <= 1:
