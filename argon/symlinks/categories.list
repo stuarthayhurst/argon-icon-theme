@@ -9,5 +9,6 @@ preferences-other.svg -> ../apps/org.gnome.Settings.svg
 preferences-other-symbolic.symbolic.svg -> ../apps/org.gnome.Settings-symbolic.symbolic.svg
 preferences-system.svg -> ../apps/org.gnome.Settings.svg
 preferences-system-symbolic.symbolic.svg -> ../apps/org.gnome.Settings-symbolic.symbolic.svg
+org.gnome.Settings-notifications-symbolic.svg -> ../status/notification-symbolic.symbolic.svg
 system-help.svg -> ../apps/org.gnome.Yelp.svg
 system-help-symbolic.symbolic.svg -> ../apps/org.gnome.Yelp-symbolic.symbolic.svg
