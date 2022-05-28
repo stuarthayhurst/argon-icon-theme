@@ -16,6 +16,12 @@ com.valvesoftware.Steam.svg -> steam.svg
 com.valvesoftware.Steam-symbolic.symbolic.svg -> steam-symbolic.symbolic.svg
 eog.svg -> org.gnome.eog.svg
 eog-symbolic.symbolic.svg -> org.gnome.eog-symbolic.symbolic.svg
+gedit.svg -> org.gnome.TextEditor.svg
+org.gnome.gedit.svg -> org.gnome.TextEditor.svg
+org.gnome.Gedit.svg -> org.gnome.TextEditor.svg
+gedit-symbolic.symbolic.svg -> org.gnome.TextEditor-symbolic.symbolic.svg
+org.gnome.gedit-symbolic.symbolic.svg -> org.gnome.TextEditor-symbolic.symbolic.svg
+org.gnome.Gedit-symbolic.symbolic.svg -> org.gnome.TextEditor-symbolic.symbolic.svg
 gnome-calculator.svg -> org.gnome.Calculator.svg
 gnome-calculator-symbolic.symbolic.svg -> org.gnome.Calculator-symbolic.symbolic.svg
 gnome-calendar.svg -> org.gnome.Calendar.svg
