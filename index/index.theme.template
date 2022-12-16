@@ -1,4 +1,4 @@
 [Icon Theme]
 Name=Argon
 Comment=A minimalistic icon theme for Linux, designed for GNOME, but should work elsewhere
-Inherits=Yaru,Adwaita,hicolor
+Inherits=Adwaita,hicolor
