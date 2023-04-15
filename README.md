@@ -1,11 +1,17 @@
 ## argon-icon-theme
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/stuartahayhurst)
-  - A minimalistic icon theme for Linux, designed for GNOME, but should work elsewhere
+  - A minimalistic app icon theme for Linux, designed for GNOME, but should work elsewhere
   - Any donations are greatly appreciated :)
 
 <p align='center'>
   <img src='https://raw.githubusercontent.com/stuarthayhurst/argon-icon-theme/master/docs/Preview.png' alt="Icon Preview"/>
 </p>
+
+## Themed icons:
+  - This icon theme targets the following areas:
+    - App icons
+    - MIME types
+    - Weather icons
 
 ## Installing:
   - `sudo make install`
