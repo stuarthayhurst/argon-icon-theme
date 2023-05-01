@@ -1,7 +1,3 @@
-gtk-dialog-warning.svg -> dialog-warning.svg
-important.svg -> dialog-warning.svg
-messagebox_warning.svg -> dialog-warning.svg
-stock_dialog-warning.svg -> dialog-warning.svg
 weather-clear-large.svg -> weather-clear.svg
 weather-clear-night-large.svg -> weather-clear-night.svg
 weather-clear-night-small.svg -> weather-clear-night.svg
