@@ -109,8 +109,6 @@ preferences-desktop-apps.svg -> preferences-desktop-apps-symbolic.symbolic.svg
 preferences-desktop-font.svg -> org.gnome.font-viewer.svg
 preferences-desktop-font-symbolic.symbolic.svg -> org.gnome.font-viewer-symbolic.symbolic.svg
 preferences-desktop-keyboard-shortcuts-symbolic.symbolic.svg -> preferences-desktop-keyboard-symbolic.symbolic.svg
-preferences-system-notifications.svg -> ../status/notification-symbolic.symbolic.svg
-preferences-system-notifications-symbolic.symbolic.svg -> ../status/notification-symbolic.symbolic.svg
 preferences-system-time.svg -> ../apps/org.gnome.clocks.svg
 preferences-system-time-symbolic.symbolic.svg -> ../apps/org.gnome.clocks-symbolic.symbolic.svg
 system-file-manager.svg -> org.gnome.Nautilus.svg
