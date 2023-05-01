@@ -11,7 +11,7 @@
   - This icon theme targets the following areas:
     - App icons
     - MIME types
-    - Weather icons
+    - Weather, device and miscellaneous status icons
 
 ## Installing:
   - `sudo make install`
