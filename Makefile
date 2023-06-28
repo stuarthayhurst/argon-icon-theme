@@ -11,21 +11,21 @@ PNG_LIST = $(wildcard ./$(BUILD_DIR)/*/*/*.png*)
 
 #Generate a list of icons to build, then call make with all the icon svgs
 build: autoclean
-	./icon_builder.py "--list" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$(MAKE)"
+	./scripts/icon_builder.py "--list" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$(MAKE)"
 	$(MAKE) check
 #Clean all built files first, then generate each icon and the index
 regen: clean
 	$(MAKE) $(PNG_OBJS) index
 #Check all symlinks are valid
 check:
-	./symlinks.py "--check-symlinks" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)"
+	./scripts/symlinks.py "--check-symlinks" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)"
 install: check
 	@if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
 	  $(MAKE) uninstall; \
 	  mkdir -p "$(INSTALL_DIR)"; \
 	  cp -r "./$(BUILD_DIR)/"* "$(INSTALL_DIR)"; \
 	  #Install symlinks; \
-	  ./symlinks.py "--install-symlinks" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$(INSTALL_DIR)"; \
+	  ./scripts/symlinks.py "--install-symlinks" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$(INSTALL_DIR)"; \
 	  rm -rf "$(INSTALL_DIR)/symlinks"; \
 	  $(MAKE) refresh; \
 	else \
@@ -45,15 +45,15 @@ clean:
 autoclean:
 	$(MAKE) prune apply-autoclean
 apply-autoclean:
-	./autoclean.py "$(BUILD_DIR)"
+	./scripts/autoclean.py "$(BUILD_DIR)"
 #Clean up svgs
 prune:
-	./clean-svgs.py
+	./scripts/clean-svgs.py
 $(PNG_OBJS): ./$(BUILD_DIR)/resolution/%.png: ./$(BUILD_DIR)/%.svg
 	mkdir -p "$(BUILD_DIR)"
-	./icon_builder.py "--generate" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$@"
+	./scripts/icon_builder.py "--generate" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$@"
 index:
-	./generate-index.py "--index" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)"
+	./scripts/generate-index.py "--index" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)"
 #Refresh / generate icon cache
 refresh:
 	@if command -v gtk-update-icon-cache > /dev/null; then \
