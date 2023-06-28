@@ -1,7 +1,7 @@
-SHELL=bash
-BUILD_DIR=argon
-INSTALL_DIR=/usr/share/icons/Argon
-ICON_RESOLUTIONS=8 16 22 24 32 48 64 128 256
+SHELL = bash
+BUILD_DIR = argon
+INSTALL_DIR ?= /usr/share/icons/Argon
+ICON_RESOLUTIONS = 8 16 22 24 32 48 64 128 256
 
 SVG_OBJS = $(wildcard ./$(BUILD_DIR)/scalable/*/*.svg) $(wildcard ./$(BUILD_DIR)/scalable/*/*/*.svg)
 PNG_OBJS = $(subst ./$(BUILD_DIR),./$(BUILD_DIR)/resolution,$(subst .svg,.png,$(SVG_OBJS)))
