@@ -16,6 +16,8 @@
 ## Installing:
   - `sudo make install`
   - Set the icon theme using gnome-tweaks, or `gsettings set org.gnome.desktop.interface icon-theme Argon`
+  - Installation path can be configured using the environment variable `INSTALL_DIR`
+    - For example, `INSTALL_DIR=/usr/share/icons/Argon sudo make install`
 
 ## Building:
   - It's not necessary to rebuild the theme to install, only if modifications have been made
