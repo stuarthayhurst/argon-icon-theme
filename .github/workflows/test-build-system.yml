@@ -51,5 +51,6 @@ jobs:
         make clean
 
     - name: Test a complete fresh build
+      if: startsWith(github.event.ref, 'refs/tags/v')
       run: |
         make regen -j$(nproc)
