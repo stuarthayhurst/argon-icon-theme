@@ -45,12 +45,12 @@ clean:
 autoclean:
 	$(MAKE) prune apply-autoclean
 apply-autoclean:
-	./scripts/autoclean.py "$(BUILD_DIR)"
+	@./scripts/autoclean.py "$(BUILD_DIR)"
 #Clean up svgs
 prune:
-	./scripts/clean-svgs.py
+	@./scripts/clean-svgs.py
 $(PNG_OBJS): ./$(BUILD_DIR)/resolution/%.png: ./$(BUILD_DIR)/%.svg
-	mkdir -p "$(BUILD_DIR)"
+	@mkdir -p "$(BUILD_DIR)"
 	./scripts/icon-builder.py "--generate" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$@"
 index:
 	./scripts/generate-index.py "--index" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)"
