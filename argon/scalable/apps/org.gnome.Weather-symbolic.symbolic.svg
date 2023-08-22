@@ -1,0 +1,8 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" height="16" width="16" version="1.1" id="svg4" ns1:docname="org.gnome.Weather-symbolic.symbolic.svg">
+  <ns0:defs id="defs8" />
+  <ns1:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" ns2:pageopacity="0" ns2:pageshadow="2" ns2:window-width="1920" ns2:window-height="1011" id="namedview6" showgrid="false" ns2:zoom="29.466958" ns2:cx="2.5621919" ns2:cy="5.361938" ns2:window-x="1920" ns2:window-y="32" ns2:window-maximized="1" ns2:current-layer="layer1" ns2:document-rotation="0" ns2:showpageshadow="2" ns2:pagecheckerboard="0" ns2:deskcolor="#d1d1d1" />
+  <ns0:g ns2:groupmode="layer" id="layer1" ns2:label="Icon">
+    <ns0:circle style="opacity:1;fill:#000000;stroke-width:16.77;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill" id="path487" cx="4" cy="4" r="3" />
+    <ns0:path id="path2" style="line-height:normal;-inkscape-font-specification:sans-serif;text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;fill:#000000;stroke-width:0.750043;marker:none" d="M 10.480471,6.5 C 8.8619706,6.5015 7.4856146,7.4986811 6.8286144,8.9245949 l -0.045411,0.096691 -0.1040039,0.00732 C 5.1836997,9.1366232 4,10.431835 4,12.005515 4,13.650456 5.2869184,15 6.8784191,15 h 6.9624049 c 1.194001,0 2.159181,-1.012827 2.159181,-2.241468 a 2.2185008,2.2187549 0 0 0 -1.353517,-2.051017 l -0.102539,-0.04395 -0.0073,-0.111341 C 14.435375,8.3072154 12.671152,6.5015002 10.483401,6.5 Z" />
+  </ns0:g>
+</ns0:svg>
