@@ -42,9 +42,7 @@ reset:
 	  rm "$(BUILD_DIR)/index.theme"; \
 	fi
 #Delete broken symlinks, left over pngs and empty directories
-clean:
-	$(MAKE) prune apply-clean
-apply-clean:
+clean: prune
 	@./scripts/clean-dirs.py "$(BUILD_DIR)"
 #Clean up svgs
 prune:
