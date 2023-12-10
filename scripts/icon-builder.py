@@ -125,6 +125,7 @@ def generateIcon(buildDir, outputFile):
     os.rename(tempFile, outputFile)
 
 #Figure out inkscape generation option
+os.environ["SELF_CALL"] = "1"
 inkscapeVersion = getCommandOutput(["inkscape", "--version"])[0].split(" ")[1]
 inkscapeVersion = inkscapeVersion.split(".")
 inkscapeVersion = float(f"{inkscapeVersion[0]}.{inkscapeVersion[1]}")
