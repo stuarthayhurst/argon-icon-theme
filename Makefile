@@ -7,14 +7,14 @@ SVG_OBJS = $(wildcard ./$(BUILD_DIR)/scalable/*/*.svg) $(wildcard ./$(BUILD_DIR)
 PNG_OBJS = $(subst ./$(BUILD_DIR),./$(BUILD_DIR)/resolution,$(subst .svg,.png,$(SVG_OBJS)))
 PNG_LIST = $(wildcard ./$(BUILD_DIR)/*/*/*.png*)
 
-.PHONY: build regen check install uninstall clean autoclean prune index refresh
+.PHONY: build regen check install uninstall reset clean prune index refresh
 
 #Generate a list of icons to build, then call make with all the icon svgs
-build: autoclean
+build: clean
 	./scripts/icon-builder.py "--list" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$(MAKE)"
 	$(MAKE) check
 #Clean all built files first, then generate each icon and the index
-regen: clean
+regen: reset
 	$(MAKE) $(PNG_OBJS) index
 #Check all symlinks are valid
 check:
@@ -34,18 +34,18 @@ install: check
 uninstall:
 	rm -rf "$(INSTALL_DIR)"
 #Delete every generated icon and the index
-clean:
+reset:
 	cd "$(BUILD_DIR)"; \
 	find -type f -iname '*.png' -delete -print
-	$(MAKE) autoclean
+	$(MAKE) clean
 	@if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
 	  rm "$(BUILD_DIR)/index.theme"; \
 	fi
 #Delete broken symlinks, left over pngs and empty directories
-autoclean:
-	$(MAKE) prune apply-autoclean
-apply-autoclean:
-	@./scripts/autoclean.py "$(BUILD_DIR)"
+clean:
+	$(MAKE) prune apply-clean
+apply-clean:
+	@./scripts/clean-dirs.py "$(BUILD_DIR)"
 #Clean up svgs
 prune:
 	@./scripts/clean-svgs.py
