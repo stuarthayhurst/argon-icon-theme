@@ -18,14 +18,14 @@ regen: reset
 	$(MAKE) $(PNG_OBJS) index
 #Check all symlinks are valid
 check:
-	./scripts/symlinks.py "--check-symlinks" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)"
+	./scripts/symlink-tool.py "--check-symlinks" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)"
 install: check
 	@if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
 	  $(MAKE) uninstall; \
 	  mkdir -p "$(INSTALL_DIR)"; \
 	  cp -r "./$(BUILD_DIR)/"* "$(INSTALL_DIR)"; \
 	  #Install symlinks; \
-	  ./scripts/symlinks.py "--install-symlinks" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$(INSTALL_DIR)"; \
+	  ./scripts/symlink-tool.py "--install-symlinks" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$(INSTALL_DIR)"; \
 	  rm -rf "$(INSTALL_DIR)/symlinks"; \
 	  $(MAKE) refresh; \
 	else \
