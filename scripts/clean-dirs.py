@@ -52,3 +52,7 @@ while emptyDirs != []:
     print("  Delete " + emptyDir)
     os.rmdir(emptyDir)
   emptyDirs = listEmptyDirs(buildDir)
+
+#Print success message if it was already clean
+if len(deletionList) == 0 and len(emptyDirs) == 0:
+  print("Directories already clean")
