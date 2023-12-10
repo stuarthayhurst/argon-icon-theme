@@ -12,6 +12,14 @@ def isSymlinkBroken(path):
   #Either not a symlink, or not broken
   return False
 
+#Find empty directories and delete, repeat until no empty directories are found
+def listEmptyDirs(dirName):
+  emptyDirs = []
+  for (dirPath, dirNames, filenames) in os.walk(dirName):
+    if len(dirNames) == 0 and len(filenames) == 0 :
+      emptyDirs.append(dirPath)
+  return emptyDirs
+
 #Generate a list of directories matching buildDir/*x*
 buildDir = str(sys.argv[1])
 resolutionDirs = getResolutionDirs(buildDir)
@@ -37,14 +45,6 @@ for file in deletionList:
     os.remove(file)
   elif (os.path.exists(file) or isSymlinkBroken(file)):
     os.rmdir(file)
-
-#Find empty directories and delete, repeat until no empty directories are found
-def listEmptyDirs(dirName):
-  emptyDirs = []
-  for (dirPath, dirNames, filenames) in os.walk(dirName):
-    if len(dirNames) == 0 and len(filenames) == 0 :
-      emptyDirs.append(dirPath)
-  return emptyDirs
 
 emptyDirs = listEmptyDirs(buildDir)
 while emptyDirs != []:
