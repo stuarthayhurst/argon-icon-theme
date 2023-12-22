@@ -104,6 +104,13 @@ org.gnome.glade-symbolic.symbolic.svg -> org.gnome.Glade-symbolic.symbolic.svg
 org.gtk.PrintEditor4.Devel-symbolic.symbolic.svg -> org.gtk.PrintEditor4-symbolic.symbolic.svg
 org.inkscape.Inkscape.svg -> inkscape.svg
 org.inkscape.Inkscape-symbolic.symbolic.svg -> inkscape-symbolic.symbolic.svg
+org.libreoffice.LibreOffice.base.svg -> libreoffice-base.svg
+org.libreoffice.LibreOffice.calc.svg -> libreoffice-calc.svg
+org.libreoffice.LibreOffice.draw.svg -> libreoffice-draw.svg
+org.libreoffice.LibreOffice.impress.svg -> libreoffice-impress.svg
+org.libreoffice.LibreOffice.math.svg -> libreoffice-math.svg
+org.libreoffice.LibreOffice.startcenter.svg -> libreoffice-main.svg
+org.libreoffice.LibreOffice.writer.svg -> libreoffice-writer.svg
 org.libretro.RetroArch.svg -> retroarch.svg
 org.videolan.VLC.svg -> vlc.svg
 preferences-desktop-apps.svg -> preferences-desktop-apps-symbolic.symbolic.svg
