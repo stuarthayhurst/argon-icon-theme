@@ -49,6 +49,7 @@ help-faq.svg -> org.gnome.Yelp.svg
 help-faq-symbolic.symbolic.svg -> org.gnome.Yelp-symbolic.symbolic.svg
 inkscape-logo-symbolic.symbolic.svg -> inkscape-symbolic.symbolic.svg
 kernel-notify-app.svg -> kernel-notify.svg
+libreoffice-startcenter.svg -> libreoffice-main.svg
 multimedia-audio-player.svg -> org.gnome.Music.svg
 multimedia-audio-player-symbolic.symbolic.svg -> org.gnome.Music-symbolic.symbolic.svg
 multimedia-photo-manager.svg -> org.gnome.Photos.svg
