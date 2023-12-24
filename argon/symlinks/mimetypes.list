@@ -1,2 +1,16 @@
+application-gzip.svg -> application-zip.svg
+application-vnd.rar.svg -> application-zip.svg
+application-x-7z-compressed.svg -> application-zip.svg
+application-x-bzip1.svg -> application-zip.svg
+application-x-bzip1-compressed-tar.svg -> application-zip.svg
+application-x-bzip2.svg -> application-zip.svg
+application-x-bzip2-compressed-tar.svg -> application-zip.svg
+application-x-compressed-tar.svg -> application-zip.svg
+application-x-lzip.svg -> application-zip.svg
+application-x-lzip-compressed-tar.svg -> application-zip.svg
+application-x-lzma-compressed-tar.svg -> application-zip.svg
+application-x-lzma.svg -> application-zip.svg
 application-x-source-rpm.svg -> application-x-rpm.svg
+application-x-xz-compressed-tar.svg -> application-zip.svg
+application-x-xz.svg -> application-zip.svg
 text-x-gettext-translation.svg -> text-x-po.svg
