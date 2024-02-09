@@ -103,6 +103,8 @@ org.gnome.glade.svg -> org.gnome.Glade.svg
 org.gnome.glade-symbolic.symbolic.svg -> org.gnome.Glade-symbolic.symbolic.svg
 org.gnome.Loupe.svg -> org.gnome.eog.svg
 org.gnome.Loupe-symbolic.symbolic.svg -> org.gnome.eog-symbolic.symbolic.svg
+org.gnome.Snapshot.svg -> org.gnome.Cheese.svg
+org.gnome.Snapshot-symbolic.symbolic.svg -> org.gnome.Cheese-symbolic.symbolic.svg
 org.gtk.PrintEditor4.Devel-symbolic.symbolic.svg -> org.gtk.PrintEditor4-symbolic.symbolic.svg
 org.inkscape.Inkscape.svg -> inkscape.svg
 org.inkscape.Inkscape-symbolic.symbolic.svg -> inkscape-symbolic.symbolic.svg
