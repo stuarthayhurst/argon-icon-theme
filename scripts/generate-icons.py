@@ -72,12 +72,9 @@ def generateIcon(iconInfo):
   if not os.path.exists(outputDir):
     os.makedirs(outputDir, exist_ok=True)
 
-  #Get process ID for use as a temporary file, if required
-  tempFile = outputDir + "/" + str(os.getpid()) + ".png"
-
   #Generate the icon
-  print(f"Processing {sourceIcon} -> {newIcon} ({tempFile})")
-  exitCode = getCommandExitCode(["inkscape", f"{inkscapeExport}={tempFile}",
+  print(f"Processing {sourceIcon} -> {newIcon}")
+  exitCode = getCommandExitCode(["inkscape", f"{inkscapeExport}={newIcon}",
                                  "-w", resolution, "-h", resolution, sourceIcon])
   if exitCode != 0:
     print("Failed to generate icon, exiting")
@@ -85,12 +82,10 @@ def generateIcon(iconInfo):
 
   #Compress the icon and move to final destination
   print(f"Compressing {newIcon}...")
-  exitCode = getCommandExitCode(["optipng", "-quiet", "-strip", "all", tempFile])
+  exitCode = getCommandExitCode(["optipng", "-quiet", "-strip", "all", newIcon])
   if exitCode != 0:
     print("Failed to compress icon, exiting")
     exit(1)
-
-  os.rename(tempFile, newIcon)
 
 def generateIcons(iconList):
   with mp.Pool(mp.cpu_count()) as pool:
