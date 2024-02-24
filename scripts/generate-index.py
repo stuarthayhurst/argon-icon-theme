@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import sys, shutil
-from common import createContextDict
+import common
 
 def generateIndex(buildDir):
   #Copy index/index.theme.template to buildDir/index.theme
@@ -43,7 +43,7 @@ def generateIndex(buildDir):
 #Handle arguments
 if sys.argv[1] == "--index":
   #Load info from index/context.csv into a dictionary
-  contextDict = createContextDict(sys.argv[3].split())
+  contextDict = common.createContextDict(sys.argv[3].split())
 
   #Pass generateIndex() the build directory
   generateIndex(str(sys.argv[2]))

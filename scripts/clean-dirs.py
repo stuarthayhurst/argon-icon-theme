@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import sys, glob, os
-from common import getResolutionDirs
+import common
 
 def isSymlinkBroken(path):
   if os.path.islink(path):
@@ -22,7 +22,7 @@ def listEmptyDirs(dirName):
 
 #Generate a list of directories matching buildDir/*x*
 buildDir = str(sys.argv[1])
-resolutionDirs = getResolutionDirs(buildDir)
+resolutionDirs = common.getResolutionDirs(buildDir)
 
 #Loop through every file in each resolution directory, and delete if it's missing a matching svg, or it's a broken symlink
 deletionList = []

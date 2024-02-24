@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import sys, os
-from common import getResolutionDirs
+import common
 
 def listFiles(path):
   return [f.path for f in os.scandir(path)]
@@ -32,7 +32,7 @@ def getIconList(themePath):
   iconList = {}
 
   #Find all the icons in the given theme
-  for resolutionDir in getResolutionDirs(themePath):
+  for resolutionDir in common.getResolutionDirs(themePath):
     for contextDir in listFiles(f"{themePath}/{resolutionDir}"):
       contextString = f"{contextDir.rsplit('/', 1)[1]}"
       if contextString not in iconList:

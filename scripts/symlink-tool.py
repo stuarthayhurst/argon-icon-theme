@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import sys, glob, os, shutil
-from common import createContextDict
+import common
 
 def createSymlinkDict(buildDir):
   #Read all the symlinks to create into memory and create a data structure for them
@@ -94,7 +94,7 @@ def checkSymlinks(buildDir):
 if __name__ == "__main__":
   #Create context dictionary for future reference
   if len(sys.argv) >= 4:
-    contextDict = createContextDict(sys.argv[3].split())
+    contextDict = common.createContextDict(sys.argv[3].split())
 
   #Handle arguments
   if sys.argv[1] == "--install-symlinks":
