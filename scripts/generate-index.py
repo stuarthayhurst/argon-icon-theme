@@ -43,7 +43,7 @@ def generateIndex(buildDir):
 #Handle arguments
 if sys.argv[1] == "--index":
   #Load info from index/context.csv into a dictionary
-  contextDict = common.createContextDict(sys.argv[3].split())
+  contextDict = common.createContextDict()
 
   #Pass generateIndex() the build directory
   generateIndex(str(sys.argv[2]))

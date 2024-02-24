@@ -1,7 +1,6 @@
 SHELL = bash
 BUILD_DIR = argon
 INSTALL_DIR ?= /usr/share/icons/Argon
-ICON_RESOLUTIONS = 8 16 22 24 32 48 64 128 256
 
 SVG_OBJS = $(wildcard ./$(BUILD_DIR)/scalable/*/*.svg) $(wildcard ./$(BUILD_DIR)/scalable/*/*/*.svg)
 PNG_OBJS = $(subst ./$(BUILD_DIR),./$(BUILD_DIR)/resolution,$(subst .svg,.png,$(SVG_OBJS)))
@@ -11,21 +10,21 @@ PNG_LIST = $(wildcard ./$(BUILD_DIR)/*/*/*.png*)
 
 #Generate a list of icons to build, then call make with all the icon svgs
 build: clean
-	./scripts/icon-builder.py "--list" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$(MAKE)"
+	./scripts/icon-builder.py "--list" "$(BUILD_DIR)" "$(MAKE)"
 	$(MAKE) check
 #Clean all built files first, then generate each icon and the index
 regen: reset
 	$(MAKE) $(PNG_OBJS) index
 #Check all symlinks are valid
 check:
-	./scripts/symlink-tool.py "--check-symlinks" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)"
+	./scripts/symlink-tool.py "--check-symlinks" "$(BUILD_DIR)"
 install: check
 	@if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
 	  $(MAKE) uninstall; \
 	  mkdir -p "$(INSTALL_DIR)"; \
 	  cp -r "./$(BUILD_DIR)/"* "$(INSTALL_DIR)"; \
 	  #Install symlinks; \
-	  ./scripts/symlink-tool.py "--install-symlinks" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$(INSTALL_DIR)"; \
+	  ./scripts/symlink-tool.py "--install-symlinks" "$(BUILD_DIR)" "$(INSTALL_DIR)"; \
 	  rm -rf "$(INSTALL_DIR)/symlinks"; \
 	  $(MAKE) refresh; \
 	else \
@@ -49,9 +48,9 @@ prune:
 	@./scripts/clean-svgs.py
 $(PNG_OBJS): ./$(BUILD_DIR)/resolution/%.png: ./$(BUILD_DIR)/%.svg
 	@mkdir -p "$(BUILD_DIR)"
-	./scripts/icon-builder.py "--generate" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)" "$@"
+	./scripts/icon-builder.py "--generate" "$(BUILD_DIR)" "$@"
 index:
-	./scripts/generate-index.py "--index" "$(BUILD_DIR)" "$(ICON_RESOLUTIONS)"
+	./scripts/generate-index.py "--index" "$(BUILD_DIR)"
 #Refresh / generate icon cache
 refresh:
 	@if command -v gtk-update-icon-cache > /dev/null; then \

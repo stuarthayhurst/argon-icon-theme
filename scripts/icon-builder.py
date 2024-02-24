@@ -137,13 +137,12 @@ else:
 
 if __name__ == "__main__":
   #Create context dictionary for future reference
-  if len(sys.argv) >= 4:
-    contextDict = common.createContextDict(sys.argv[3].split())
+  contextDict = common.createContextDict()
 
   #Handle arguments
   if sys.argv[1] == "--list":
     #Pass listChangedIcons() the build directory and make command
-    listChangedIcons(str(sys.argv[2]), str(sys.argv[4]))
+    listChangedIcons(str(sys.argv[2]), str(sys.argv[3]))
   elif sys.argv[1] == "--generate":
     #Pass generateIcon() the build directory and icon to build
-    generateIcon(str(sys.argv[2]), str(sys.argv[4]))
+    generateIcon(str(sys.argv[2]), str(sys.argv[3]))
