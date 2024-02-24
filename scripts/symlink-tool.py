@@ -87,7 +87,7 @@ def checkSymlinks(buildDir):
         print(f"  {symlinkTarget} failed: Symlink target doesn't exist")
         failed = True
 
-  if failed == True:
+  if failed:
     exit(1)
 
 if __name__ == "__main__":
