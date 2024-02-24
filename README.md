@@ -44,6 +44,5 @@
 
 ## Build Dependencies: (Required when icon .svgs have been modified)
   - `Install dependencies`
-  - git
   - inkscape
   - optipng
