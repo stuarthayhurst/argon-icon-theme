@@ -40,10 +40,8 @@ def generateIndex(buildDir):
     for line in outputData:
       file.write(line + "\n")
 
-#Handle arguments
-if sys.argv[1] == "--index":
-  #Load info from index/context.csv into a dictionary
-  contextDict = common.createContextDict()
+#Load info from index/context.csv into a dictionary
+contextDict = common.createContextDict()
 
-  #Pass generateIndex() the build directory
-  generateIndex(str(sys.argv[2]))
+#Pass generateIndex() the build directory
+generateIndex(str(sys.argv[1]))
