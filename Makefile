@@ -47,6 +47,10 @@ index:
 #Refresh / generate icon cache
 refresh:
 	@if command -v gtk-update-icon-cache > /dev/null; then \
-	  echo "Updating gtk-update-icon-cache..."; touch "$(INSTALL_DIR)" > /dev/null; \
+	  touch "$(INSTALL_DIR)" > /dev/null; \
 	  gtk-update-icon-cache -f "$(INSTALL_DIR)"; \
+	fi
+	@if command -v gtk4-update-icon-cache > /dev/null; then \
+	  touch "$(INSTALL_DIR)" > /dev/null; \
+	  gtk4-update-icon-cache -f "$(INSTALL_DIR)"; \
 	fi
