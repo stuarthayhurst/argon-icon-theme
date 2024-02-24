@@ -2,19 +2,15 @@ SHELL = bash
 BUILD_DIR = argon
 INSTALL_DIR ?= /usr/share/icons/Argon
 
-SVG_OBJS = $(wildcard ./$(BUILD_DIR)/scalable/*/*.svg) $(wildcard ./$(BUILD_DIR)/scalable/*/*/*.svg)
-PNG_OBJS = $(subst ./$(BUILD_DIR),./$(BUILD_DIR)/resolution,$(subst .svg,.png,$(SVG_OBJS)))
-PNG_LIST = $(wildcard ./$(BUILD_DIR)/*/*/*.png*)
-
 .PHONY: build regen check install uninstall reset clean prune index refresh
 
 #Generate a list of icons to build, then call make with all the icon svgs
 build: clean
-	./scripts/icon-builder.py "--list" "$(BUILD_DIR)" "$(MAKE)"
-	$(MAKE) check
+	./scripts/generate-icons.py "$(BUILD_DIR)"
+	$(MAKE) check index
 #Clean all built files first, then generate each icon and the index
 regen: reset
-	$(MAKE) $(PNG_OBJS) index
+	$(MAKE) build
 #Check all symlinks are valid
 check:
 	./scripts/symlink-tool.py "--check-symlinks" "$(BUILD_DIR)"
@@ -46,9 +42,6 @@ clean: prune
 #Clean up svgs
 prune:
 	@./scripts/clean-svgs.py
-$(PNG_OBJS): ./$(BUILD_DIR)/resolution/%.png: ./$(BUILD_DIR)/%.svg
-	@mkdir -p "$(BUILD_DIR)"
-	./scripts/icon-builder.py "--generate" "$(BUILD_DIR)" "$@"
 index:
 	./scripts/generate-index.py "$(BUILD_DIR)"
 #Refresh / generate icon cache

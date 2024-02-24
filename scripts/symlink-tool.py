@@ -90,15 +90,14 @@ def checkSymlinks(buildDir):
   if failed:
     exit(1)
 
-if __name__ == "__main__":
-  #Handle arguments
-  if sys.argv[1] == "--install-symlinks":
-    #Create context dictionary for future reference
-    contextDict = common.createContextDict()
+#Handle arguments
+if sys.argv[1] == "--install-symlinks":
+  #Create context dictionary for future reference
+  contextDict = common.createContextDict()
 
-    #Pass makeSymlinks() the build and install directory
-    print("Installing symlinks...")
-    makeSymlinks(str(sys.argv[2]), str(sys.argv[4]))
-  elif sys.argv[1] == "--check-symlinks":
-    #Pass checkSymlinks() the build directory
-    checkSymlinks(str(sys.argv[2]))
+  #Pass makeSymlinks() the build and install directory
+  print("Installing symlinks...")
+  makeSymlinks(str(sys.argv[2]), str(sys.argv[4]))
+elif sys.argv[1] == "--check-symlinks":
+  #Pass checkSymlinks() the build directory
+  checkSymlinks(str(sys.argv[2]))
