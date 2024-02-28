@@ -93,10 +93,22 @@ def generateIcons(iconList):
 
 #Figure out inkscape generation option
 os.environ["SELF_CALL"] = "1"
+
+#Check Inkscape and optipng are present
+if getCommandExitCode(["inkscape", "--version"]):
+  print("Inkscape required to build icons")
+  print("If you're installing without making any changes, use 'make install'")
+  exit(1)
+
+if getCommandExitCode(["optipng", "--version"]):
+  print("Optipng required to build icons")
+  print("If you're installing without making any changes, use 'make install'")
+  exit(1)
+
+#Handle older versions of Inkscape
 inkscapeVersion = getCommandOutput(["inkscape", "--version"])[0].split(" ")[1]
 inkscapeVersion = inkscapeVersion.split(".")
 inkscapeVersion = float(f"{inkscapeVersion[0]}.{inkscapeVersion[1]}")
-
 if inkscapeVersion >= 1.0:
   inkscapeExport = "--export-filename"
 else:
