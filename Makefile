@@ -16,12 +16,11 @@ check:
 	./scripts/symlink-tool.py "--check-symlinks" "$(BUILD_DIR)"
 install: check
 	@if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
-	  $(MAKE) uninstall; \
-	  mkdir -p "$(INSTALL_DIR)"; \
-	  cp -r "./$(BUILD_DIR)/"* "$(INSTALL_DIR)"; \
-	  #Install symlinks; \
-	  ./scripts/symlink-tool.py "--install-symlinks" "$(BUILD_DIR)" "$(INSTALL_DIR)"; \
-	  rm -rf "$(INSTALL_DIR)/symlinks"; \
+	  $(MAKE) uninstall && \
+	  mkdir -p "$(INSTALL_DIR)" && \
+	  cp -r "./$(BUILD_DIR)/"* "$(INSTALL_DIR)" && \
+	  ./scripts/symlink-tool.py "--install-symlinks" "$(BUILD_DIR)" "$(INSTALL_DIR)" && \
+	  rm -rf "$(INSTALL_DIR)/symlinks" && \
 	  $(MAKE) refresh; \
 	else \
 	  echo "WARNING: $(BUILD_DIR)/index.theme is missing, run 'make index' and try again"; \
@@ -30,7 +29,7 @@ uninstall:
 	rm -rf "$(INSTALL_DIR)"
 #Delete every generated icon and the index
 reset:
-	cd "$(BUILD_DIR)"; \
+	cd "$(BUILD_DIR)" && \
 	find -type f -iname '*.png' -delete -print
 	$(MAKE) clean
 	@if [[ -f "$(BUILD_DIR)/index.theme" ]]; then \
@@ -47,10 +46,10 @@ index:
 #Refresh / generate icon cache
 refresh:
 	@if command -v gtk-update-icon-cache > /dev/null; then \
-	  touch "$(INSTALL_DIR)" > /dev/null; \
+	  touch "$(INSTALL_DIR)" > /dev/null && \
 	  gtk-update-icon-cache -f "$(INSTALL_DIR)"; \
 	fi
 	@if command -v gtk4-update-icon-cache > /dev/null; then \
-	  touch "$(INSTALL_DIR)" > /dev/null; \
+	  touch "$(INSTALL_DIR)" > /dev/null && \
 	  gtk4-update-icon-cache -f "$(INSTALL_DIR)"; \
 	fi
