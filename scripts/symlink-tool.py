@@ -97,7 +97,7 @@ if sys.argv[1] == "--install-symlinks":
 
   #Pass makeSymlinks() the build and install directory
   print("Installing symlinks...")
-  makeSymlinks(str(sys.argv[2]), str(sys.argv[4]))
+  makeSymlinks(str(sys.argv[2]), str(sys.argv[3]))
 elif sys.argv[1] == "--check-symlinks":
   #Pass checkSymlinks() the build directory
   checkSymlinks(str(sys.argv[2]))
