@@ -12,6 +12,7 @@ com.github.Eloston.UngoogledChromium.svg -> chromium.svg
 com.google.Chrome.svg -> google-chrome.svg
 com.mojang.Minecraft.svg -> minecraft-launcher.svg
 com.spotify.Client.svg -> spotify-client.svg
+com.spotify.Client-symbolic.symbolic.svg -> spotify-client-symbolic.symbolic.svg
 com.valvesoftware.Steam.svg -> steam.svg
 com.valvesoftware.Steam-symbolic.symbolic.svg -> steam-symbolic.symbolic.svg
 eog.svg -> org.gnome.eog.svg
