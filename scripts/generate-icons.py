@@ -91,7 +91,7 @@ def generateIcons(iconList):
   with mp.Pool(mp.cpu_count()) as pool:
     result = pool.map(generateIcon, iconList)
 
-#Figure out inkscape generation option
+#Prevent Inkscape crashing when multiple cores are used
 os.environ["SELF_CALL"] = "1"
 
 #Check Inkscape and optipng are present
