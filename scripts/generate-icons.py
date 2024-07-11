@@ -17,7 +17,7 @@ def getCommandOutput(command):
   if "" in errorOutput:
     errorOutput.remove("")
   if len(errorOutput) != 0:
-    print("\nError: " + "\n".join(errorOutput) + "\n")
+    print("\nERROR: " + "\n".join(errorOutput) + "\n")
 
   output = rawOutput.stdout.decode("utf-8").split("\n")
   if "" in output:
@@ -77,14 +77,14 @@ def generateIcon(iconInfo):
   exitCode = getCommandExitCode(["inkscape", f"{inkscapeExport}={newIcon}",
                                  "-w", resolution, "-h", resolution, sourceIcon])
   if exitCode != 0:
-    print("Failed to generate icon, exiting")
+    print("ERROR: Failed to generate icon, exiting")
     exit(1)
 
   #Compress the icon and move to final destination
   print(f"Compressing {newIcon}...")
   exitCode = getCommandExitCode(["optipng", "-quiet", "-strip", "all", newIcon])
   if exitCode != 0:
-    print("Failed to compress icon, exiting")
+    print("ERROR: Failed to compress icon, exiting")
     exit(1)
 
 def generateIcons(iconList):
@@ -96,12 +96,12 @@ os.environ["SELF_CALL"] = "1"
 
 #Check Inkscape and optipng are present
 if getCommandExitCode(["inkscape", "--version"]):
-  print("Inkscape required to build icons")
+  print("ERROR: Inkscape required to build icons")
   print("If you're installing without making any changes, use 'make install'")
   exit(1)
 
 if getCommandExitCode(["optipng", "--version"]):
-  print("Optipng required to build icons")
+  print("ERROR: Optipng required to build icons")
   print("If you're installing without making any changes, use 'make install'")
   exit(1)
 
