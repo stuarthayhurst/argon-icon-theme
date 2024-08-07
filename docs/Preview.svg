@@ -1,79 +1,700 @@
-<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" xmlns:ns3="http://www.w3.org/1999/xlink" ns1:docname="Preview.svg" id="svg8" version="1.1" viewBox="0 0 97.895833 68.262502" height="258" width="370">
-  <ns0:defs id="defs2">
-    <ns0:rect x="13.076657" y="21.572067" width="99.313454" height="17.21199" id="rect845" />
-  </ns0:defs>
-  <ns1:namedview ns2:window-maximized="1" ns2:window-y="27" ns2:window-x="1920" ns2:window-height="1016" ns2:window-width="1920" units="px" showgrid="false" ns2:document-rotation="0" ns2:current-layer="layer1" ns2:document-units="px" ns2:cy="128.54862" ns2:cx="206.92214" ns2:zoom="1.4142136" ns2:pageshadow="2" ns2:pageopacity="0.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" />
-  <ns0:g ns2:groupmode="layer" id="layer1" ns2:label="Background" style="display:inline">
-    <ns0:g style="display:inline" ns2:label="Colour" id="g1174" ns2:groupmode="layer">
-      <ns0:path id="rect1168" style="display:inline;fill:#373737;fill-opacity:1;stroke:#2f2f2f;stroke-width:2.77528;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" d="m 1.387642,1.387642 v 65.487217 h 95.12069 V 1.387642 Z" ns1:nodetypes="ccccc" />
-      <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Glade.svg" ns3:href="../argon/scalable/apps/org.gnome.Glade.svg" y="48.154167" x="78.316666" id="image2302" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-      <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Screenshot.svg" ns3:href="../argon/scalable/apps/org.gnome.Screenshot.svg" y="57.679169" x="49.741673" id="image2442" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-      <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.SoundRecorder.svg" ns3:href="../argon/scalable/apps/org.gnome.SoundRecorder.svg" y="57.679169" x="68.791664" id="image2564" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-      <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Totem.svg" ns3:href="../argon/scalable/apps/org.gnome.Totem.svg" y="48.154167" x="87.841667" id="image2742" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-      <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/openjdk.svg" ns3:href="../argon/scalable/apps/openjdk.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666672" height="8.4666672" style="image-rendering:optimizeQuality" id="image2442-3" x="11.641666" y="48.154167" />
-      <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Calendar.svg" ns3:href="../argon/scalable/apps/org.gnome.Calendar.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666672" height="8.4666672" style="image-rendering:optimizeQuality" id="image2832" x="11.641668" y="57.679169" />
-      <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Mines.svg" ns3:href="../argon/scalable/apps/org.gnome.Mines.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666672" height="8.4666672" style="image-rendering:optimizeQuality" id="image3065" x="11.641666" y="38.629166" />
-      <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Music.svg" ns3:href="../argon/scalable/apps/org.gnome.Music.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666672" height="8.4666672" style="image-rendering:optimizeQuality" id="image3439" x="59.26667" y="57.679169" />
-    </ns0:g>
-    <ns0:g ns2:label="Shadow" id="layer10" ns2:groupmode="layer" style="display:inline;opacity:1" />
-    <ns0:g ns2:groupmode="layer" id="layer2" ns2:label="Highlight" style="display:inline;opacity:0.1" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/com.github.maoschanz.drawing.svg" ns3:href="../argon/scalable/apps/com.github.maoschanz.drawing.svg" y="38.629166" x="78.316666" id="image2899" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/OpenRGB.svg" ns3:href="../argon/scalable/apps/OpenRGB.svg" y="29.104168" x="87.841667" id="image3085" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Cheese.svg" ns3:href="../argon/scalable/apps/org.gnome.Cheese.svg" y="57.679169" x="87.841667" id="image3208" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Firmware.svg" ns3:href="../argon/scalable/apps/org.gnome.Firmware.svg" y="38.629177" x="87.841667" id="image3500" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.font-viewer.svg" ns3:href="../argon/scalable/apps/org.gnome.font-viewer.svg" y="57.679169" x="40.216671" id="image3690" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Lollypop.svg" ns3:href="../argon/scalable/apps/org.gnome.Lollypop.svg" y="10.054167" x="87.841667" id="image3817" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Settings.svg" ns3:href="../argon/scalable/apps/org.gnome.Settings.svg" y="19.579166" x="87.841667" id="image3926" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Terminal.svg" ns3:href="../argon/scalable/apps/org.gnome.Terminal.svg" y="57.679169" x="78.316666" id="image4068" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gtk.IconBrowser4.svg" ns3:href="../argon/scalable/apps/org.gtk.IconBrowser4.svg" y="57.679169" x="21.16667" id="image4283" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gtk.PrintEditor4.svg" ns3:href="../argon/scalable/apps/org.gtk.PrintEditor4.svg" y="57.679169" x="30.691669" id="image4447" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gtk.WidgetFactory4.svg" ns3:href="../argon/scalable/apps/org.gtk.WidgetFactory4.svg" y="57.679169" x="2.1166689" id="image4661" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-  </ns0:g>
-  <ns0:g ns2:groupmode="layer" id="layer3" ns2:label="Icons" style="display:inline">
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.freedesktop.Piper.svg" ns3:href="../argon/scalable/apps/org.freedesktop.Piper.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image2294" x="2.1166677" y="10.05417" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/steam.svg" ns3:href="../argon/scalable/apps/steam.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image4386" x="11.641666" y="10.05417" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/spotify-client.svg" ns3:href="../argon/scalable/apps/spotify-client.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image4288" x="21.166666" y="10.05417" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/retroarch.svg" ns3:href="../argon/scalable/apps/retroarch.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image4178" x="78.316666" y="19.57918" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/google-chrome.svg" ns3:href="../argon/scalable/apps/google-chrome.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image1480" x="30.691668" y="10.05417" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/chromium.svg" ns3:href="../argon/scalable/apps/chromium.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image1034" x="40.216667" y="10.05417" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/audacity.svg" ns3:href="../argon/scalable/apps/audacity.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4335938" style="display:inline;image-rendering:optimizeQuality" id="image924" x="2.1166689" y="29.137257" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.eog.svg" ns3:href="../argon/scalable/apps/org.gnome.eog.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image3016" x="11.641667" y="29.104185" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.pitivi.Pitivi.svg" ns3:href="../argon/scalable/apps/org.pitivi.Pitivi.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image3508" x="21.166668" y="29.104185" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.clocks.svg" ns3:href="../argon/scalable/apps/org.gnome.clocks.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image2830" x="68.791672" y="19.57917" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Boxes.svg" ns3:href="../argon/scalable/apps/org.gnome.Boxes.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image2522" x="30.691669" y="29.104185" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/qemu.svg" ns3:href="../argon/scalable/apps/qemu.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image4032" x="40.216667" y="19.57918" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/nvidia-settings.svg" ns3:href="../argon/scalable/apps/nvidia-settings.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image2163" x="2.1166689" y="38.629181" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Nautilus.svg" ns3:href="../argon/scalable/apps/org.gnome.Nautilus.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image3202" x="40.216671" y="38.629173" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.tweaks.svg" ns3:href="../argon/scalable/apps/org.gnome.tweaks.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image3353" x="30.691671" y="48.154179" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Calculator.svg" ns3:href="../argon/scalable/apps/org.gnome.Calculator.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image2694" x="30.691671" y="38.629177" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/psensor.svg" ns3:href="../argon/scalable/apps/psensor.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image3886" x="49.741673" y="48.154175" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/gimp.svg" ns3:href="../argon/scalable/apps/gimp.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image1366" x="59.266666" y="29.104183" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.remmina.Remmina.svg" ns3:href="../argon/scalable/apps/org.remmina.Remmina.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image3718" x="21.166666" y="19.57918" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/minecraft-launcher.svg" ns3:href="../argon/scalable/apps/minecraft-launcher.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image2083" x="59.266666" y="38.629173" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/kernel-notify.svg" ns3:href="../argon/scalable/apps/kernel-notify.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image1913" x="30.691668" y="19.57918" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/com.obsproject.Studio.svg" ns3:href="../argon/scalable/apps/com.obsproject.Studio.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image1162" x="11.641666" y="19.57918" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/gparted.svg" ns3:href="../argon/scalable/apps/gparted.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image1618" x="68.791664" y="38.629177" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/discord.svg" ns3:href="../argon/scalable/apps/discord.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666662" height="8.4666662" style="display:inline;image-rendering:optimizeQuality" id="image1265" x="2.1166689" y="48.154182" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.ArchiveManager.svg" ns3:href="../argon/scalable/apps/org.gnome.ArchiveManager.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666672" height="8.4666672" style="display:inline;opacity:1;image-rendering:optimizeQuality" id="image1642" x="40.216667" y="29.104185" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/blender.svg" ns3:href="../argon/scalable/apps/blender.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666672" height="8.4666672" style="display:inline;opacity:1;image-rendering:optimizeQuality" id="image1765" x="49.741669" y="10.054168" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/mollusc-text-editor.svg" ns3:href="../argon/scalable/apps/mollusc-text-editor.svg" y="48.154179" x="59.266666" id="image1682" style="image-rendering:optimizeQuality" height="8.4666662" width="8.4666662" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Games.svg" ns3:href="../argon/scalable/apps/org.gnome.Games.svg" y="29.104185" x="49.741669" id="image1832" style="image-rendering:optimizeQuality" height="8.4666662" width="8.4666662" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/display-im6.q16.svg" ns3:href="../argon/scalable/apps/display-im6.q16.svg" preserveAspectRatio="none" ns2:svg-dpi="96" width="8.4666672" height="8.4666672" style="image-rendering:optimizeQuality" id="image2261" x="21.166668" y="48.154179" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/multimedia-volume-control.svg" ns3:href="../argon/scalable/apps/multimedia-volume-control.svg" y="19.57918" x="2.1166668" id="image1793" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/fr.handbrake.ghb.svg" ns3:href="../argon/scalable/apps/fr.handbrake.ghb.svg" y="19.579182" x="49.741669" id="image1971" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/htop.svg" ns3:href="../argon/scalable/apps/htop.svg" y="48.154179" x="40.216671" id="image2142" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/org.gnome.Photos.svg" ns3:href="../argon/scalable/apps/org.gnome.Photos.svg" y="19.57918" x="59.266666" id="image2290" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/vlc.svg" ns3:href="../argon/scalable/apps/vlc.svg" y="48.154179" x="68.791664" id="image2502" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/vim.svg" ns3:href="../argon/scalable/apps/vim.svg" y="29.104181" x="78.316666" id="image2599" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/winetricks.svg" ns3:href="../argon/scalable/apps/winetricks.svg" y="38.629181" x="49.741669" id="image2705" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/com.leinardi.gwe.svg" ns3:href="../argon/scalable/apps/com.leinardi.gwe.svg" y="38.629173" x="21.166668" id="image2865" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/inkscape.svg" ns3:href="../argon/scalable/apps/inkscape.svg" y="29.104172" x="68.791672" id="image2967" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/io.atom.Atom.svg" ns3:href="../argon/scalable/apps/io.atom.Atom.svg" y="10.054168" x="59.266666" id="image3064" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/atom-beta.svg" ns3:href="../argon/scalable/apps/atom-beta.svg" y="10.054168" x="68.791664" id="image3173" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-    <ns0:image ns1:absref="/home/ratus5/Downloads/Projects/Code/argon-icon-theme/argon/scalable/apps/atom-nightly.svg" ns3:href="../argon/scalable/apps/atom-nightly.svg" y="10.054167" x="78.316666" id="image3282" style="image-rendering:optimizeQuality" height="8.4666672" width="8.4666672" ns2:svg-dpi="96" preserveAspectRatio="none" />
-  </ns0:g>
-  <ns0:g ns2:groupmode="layer" id="layer4" ns2:label="Text" style="display:inline">
-    <ns0:text xml:space="preserve" id="text843" style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect845);display:inline;fill:#15fdff;fill-opacity:1;stroke:none;" transform="matrix(0.58697425,0,0,0.58697421,-4.5500731,-12.033452)"><ns0:tspan x="13.076172" y="31.44111"><ns0:tspan style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#15fdff;fill-opacity:1">Argon Icons</ns0:tspan></ns0:tspan></ns0:text>
-    <ns0:path style="fill:none;stroke:#ececec;stroke-width:0.800834;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M 1.3229167,8.5954166 H 39.683958 V 1.3229167" id="path3407" ns1:nodetypes="ccc" />
-  </ns0:g>
-</ns0:svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   sodipodi:docname="Preview.svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 97.895833 68.262502"
+   height="258"
+   width="370"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <rect
+       x="13.076657"
+       y="21.572067"
+       width="99.313454"
+       height="17.21199"
+       id="rect845" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="27"
+     inkscape:window-x="1920"
+     inkscape:window-height="1016"
+     inkscape:window-width="1920"
+     units="px"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="128.54862"
+     inkscape:cx="206.92214"
+     inkscape:zoom="1.4142136"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Background"
+     style="display:inline">
+    <g
+       style="display:inline"
+       inkscape:label="Colour"
+       id="g1174"
+       inkscape:groupmode="layer">
+      <path
+         id="rect1168"
+         style="display:inline;fill:#373737;fill-opacity:1;stroke:#2f2f2f;stroke-width:2.77528;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="m 1.387642,1.387642 v 65.487217 h 95.12069 V 1.387642 Z"
+         sodipodi:nodetypes="ccccc" />
+      <image
+         xlink:href="../argon/scalable/apps/org.gnome.Glade.svg"
+         y="48.154167"
+         x="78.316666"
+         id="image2302"
+         style="image-rendering:optimizeQuality"
+         height="8.4666672"
+         width="8.4666672"
+         inkscape:svg-dpi="96"
+         preserveAspectRatio="none" />
+      <image
+         xlink:href="../argon/scalable/apps/org.gnome.Screenshot.svg"
+         y="57.679169"
+         x="49.741673"
+         id="image2442"
+         style="image-rendering:optimizeQuality"
+         height="8.4666672"
+         width="8.4666672"
+         inkscape:svg-dpi="96"
+         preserveAspectRatio="none" />
+      <image
+         xlink:href="../argon/scalable/apps/org.gnome.SoundRecorder.svg"
+         y="57.679169"
+         x="68.791664"
+         id="image2564"
+         style="image-rendering:optimizeQuality"
+         height="8.4666672"
+         width="8.4666672"
+         inkscape:svg-dpi="96"
+         preserveAspectRatio="none" />
+      <image
+         xlink:href="../argon/scalable/apps/org.gnome.Totem.svg"
+         y="48.154167"
+         x="87.841667"
+         id="image2742"
+         style="image-rendering:optimizeQuality"
+         height="8.4666672"
+         width="8.4666672"
+         inkscape:svg-dpi="96"
+         preserveAspectRatio="none" />
+      <image
+         xlink:href="../argon/scalable/apps/openjdk.svg"
+         preserveAspectRatio="none"
+         inkscape:svg-dpi="96"
+         width="8.4666672"
+         height="8.4666672"
+         style="image-rendering:optimizeQuality"
+         id="image2442-3"
+         x="11.641666"
+         y="48.154167" />
+      <image
+         xlink:href="../argon/scalable/apps/org.gnome.Calendar.svg"
+         preserveAspectRatio="none"
+         inkscape:svg-dpi="96"
+         width="8.4666672"
+         height="8.4666672"
+         style="image-rendering:optimizeQuality"
+         id="image2832"
+         x="11.641668"
+         y="57.679169" />
+      <image
+         xlink:href="../argon/scalable/apps/org.gnome.Mines.svg"
+         preserveAspectRatio="none"
+         inkscape:svg-dpi="96"
+         width="8.4666672"
+         height="8.4666672"
+         style="image-rendering:optimizeQuality"
+         id="image3065"
+         x="11.641666"
+         y="38.629166" />
+      <image
+         xlink:href="../argon/scalable/apps/org.gnome.Music.svg"
+         preserveAspectRatio="none"
+         inkscape:svg-dpi="96"
+         width="8.4666672"
+         height="8.4666672"
+         style="image-rendering:optimizeQuality"
+         id="image3439"
+         x="59.26667"
+         y="57.679169" />
+    </g>
+    <g
+       inkscape:label="Shadow"
+       id="layer10"
+       inkscape:groupmode="layer"
+       style="display:inline;opacity:1" />
+    <g
+       inkscape:groupmode="layer"
+       id="layer2"
+       inkscape:label="Highlight"
+       style="display:inline;opacity:0.1" />
+    <image
+       xlink:href="../argon/scalable/apps/com.github.maoschanz.drawing.svg"
+       y="38.629166"
+       x="78.316666"
+       id="image2899"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/org.openrgb.OpenRGB.svg"
+       y="29.104168"
+       x="87.841667"
+       id="image3085"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/org.gnome.Cheese.svg"
+       y="57.679169"
+       x="87.841667"
+       id="image3208"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/org.gnome.Firmware.svg"
+       y="38.629177"
+       x="87.841667"
+       id="image3500"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/org.gnome.font-viewer.svg"
+       y="57.679169"
+       x="40.216671"
+       id="image3690"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/org.gnome.Lollypop.svg"
+       y="10.054167"
+       x="87.841667"
+       id="image3817"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/org.gnome.Settings.svg"
+       y="19.579166"
+       x="87.841667"
+       id="image3926"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/org.gnome.Terminal.svg"
+       y="57.679169"
+       x="78.316666"
+       id="image4068"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/org.gtk.IconBrowser4.svg"
+       y="57.679169"
+       x="21.16667"
+       id="image4283"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/org.gtk.PrintEditor4.svg"
+       y="57.679169"
+       x="30.691669"
+       id="image4447"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/org.gtk.WidgetFactory4.svg"
+       y="57.679169"
+       x="2.1166689"
+       id="image4661"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Icons"
+     style="display:inline">
+    <image
+       xlink:href="../argon/scalable/apps/org.freedesktop.Piper.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image2294"
+       x="2.1166677"
+       y="10.05417" />
+    <image
+       xlink:href="../argon/scalable/apps/steam.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image4386"
+       x="11.641666"
+       y="10.05417" />
+    <image
+       xlink:href="../argon/scalable/apps/spotify-client.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image4288"
+       x="21.166666"
+       y="10.05417" />
+    <image
+       xlink:href="../argon/scalable/apps/retroarch.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image4178"
+       x="78.316666"
+       y="19.57918" />
+    <image
+       xlink:href="../argon/scalable/apps/google-chrome.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image1480"
+       x="30.691668"
+       y="10.05417" />
+    <image
+       xlink:href="../argon/scalable/apps/chromium.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image1034"
+       x="40.216667"
+       y="10.05417" />
+    <image
+       xlink:href="../argon/scalable/apps/audacity.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4335938"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image924"
+       x="2.1166689"
+       y="29.137257" />
+    <image
+       xlink:href="../argon/scalable/apps/org.gnome.eog.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image3016"
+       x="11.641667"
+       y="29.104185" />
+    <image
+       xlink:href="../argon/scalable/apps/org.pitivi.Pitivi.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image3508"
+       x="21.166668"
+       y="29.104185" />
+    <image
+       xlink:href="../argon/scalable/apps/org.gnome.clocks.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image2830"
+       x="68.791672"
+       y="19.57917" />
+    <image
+       xlink:href="../argon/scalable/apps/org.gnome.Boxes.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image2522"
+       x="30.691669"
+       y="29.104185" />
+    <image
+       xlink:href="../argon/scalable/apps/qemu.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image4032"
+       x="40.216667"
+       y="19.57918" />
+    <image
+       xlink:href="../argon/scalable/apps/nvidia-settings.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image2163"
+       x="2.1166689"
+       y="38.629181" />
+    <image
+       xlink:href="../argon/scalable/apps/org.gnome.Nautilus.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image3202"
+       x="40.216671"
+       y="38.629173" />
+    <image
+       xlink:href="../argon/scalable/apps/org.gnome.tweaks.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image3353"
+       x="30.691671"
+       y="48.154179" />
+    <image
+       xlink:href="../argon/scalable/apps/org.gnome.Calculator.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image2694"
+       x="30.691671"
+       y="38.629177" />
+    <image
+       xlink:href="../argon/scalable/apps/psensor.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image3886"
+       x="49.741673"
+       y="48.154175" />
+    <image
+       xlink:href="../argon/scalable/apps/gimp.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image1366"
+       x="59.266666"
+       y="29.104183" />
+    <image
+       xlink:href="../argon/scalable/apps/org.remmina.Remmina.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image3718"
+       x="21.166666"
+       y="19.57918" />
+    <image
+       xlink:href="../argon/scalable/apps/minecraft-launcher.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image2083"
+       x="59.266666"
+       y="38.629173" />
+    <image
+       xlink:href="../argon/scalable/apps/kernel-notify.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image1913"
+       x="30.691668"
+       y="19.57918" />
+    <image
+       xlink:href="../argon/scalable/apps/com.obsproject.Studio.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image1162"
+       x="11.641666"
+       y="19.57918" />
+    <image
+       xlink:href="../argon/scalable/apps/gparted.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image1618"
+       x="68.791664"
+       y="38.629177" />
+    <image
+       xlink:href="../argon/scalable/apps/discord.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666662"
+       height="8.4666662"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image1265"
+       x="2.1166689"
+       y="48.154182" />
+    <image
+       xlink:href="../argon/scalable/apps/org.gnome.ArchiveManager.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666672"
+       height="8.4666672"
+       style="display:inline;opacity:1;image-rendering:optimizeQuality"
+       id="image1642"
+       x="40.216667"
+       y="29.104185" />
+    <image
+       xlink:href="../argon/scalable/apps/blender.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666672"
+       height="8.4666672"
+       style="display:inline;opacity:1;image-rendering:optimizeQuality"
+       id="image1765"
+       x="49.741669"
+       y="10.054168" />
+    <image
+       xlink:href="../argon/scalable/apps/mollusc-text-editor.svg"
+       y="48.154179"
+       x="59.266666"
+       id="image1682"
+       style="image-rendering:optimizeQuality"
+       height="8.4666662"
+       width="8.4666662"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/org.gnome.Games.svg"
+       y="29.104185"
+       x="49.741669"
+       id="image1832"
+       style="image-rendering:optimizeQuality"
+       height="8.4666662"
+       width="8.4666662"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/display-im6.q16.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666672"
+       height="8.4666672"
+       style="image-rendering:optimizeQuality"
+       id="image2261"
+       x="21.166668"
+       y="48.154179" />
+    <image
+       xlink:href="../argon/scalable/apps/multimedia-volume-control.svg"
+       y="19.57918"
+       x="2.1166668"
+       id="image1793"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/fr.handbrake.ghb.svg"
+       y="19.579182"
+       x="49.741669"
+       id="image1971"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/htop.svg"
+       y="48.154179"
+       x="40.216671"
+       id="image2142"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/org.gnome.Photos.svg"
+       y="19.57918"
+       x="59.266666"
+       id="image2290"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/vlc.svg"
+       y="48.154179"
+       x="68.791664"
+       id="image2502"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/vim.svg"
+       y="29.104181"
+       x="78.316666"
+       id="image2599"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/winetricks.svg"
+       y="38.629181"
+       x="49.741669"
+       id="image2705"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/com.leinardi.gwe.svg"
+       y="38.629173"
+       x="21.166668"
+       id="image2865"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/inkscape.svg"
+       y="29.104172"
+       x="68.791672"
+       id="image2967"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/io.atom.Atom.svg"
+       y="10.054168"
+       x="59.266666"
+       id="image3064"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/atom-beta.svg"
+       y="10.054168"
+       x="68.791664"
+       id="image3173"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+    <image
+       xlink:href="../argon/scalable/apps/atom-nightly.svg"
+       y="10.054167"
+       x="78.316666"
+       id="image3282"
+       style="image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Text"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       id="text843"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect845);display:inline;fill:#15fdff;fill-opacity:1;stroke:none"
+       transform="matrix(0.58697425,0,0,0.58697421,-4.5500731,-12.033452)"><tspan
+         x="13.076172"
+         y="31.44111"
+         id="tspan4"><tspan
+           style="font-family:ubuntu;-inkscape-font-specification:ubuntu"
+           id="tspan3">Argon Icons</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#ececec;stroke-width:0.800834;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1.3229167,8.5954166 H 39.683958 V 1.3229167"
+       id="path3407"
+       sodipodi:nodetypes="ccc" />
+  </g>
+</svg>
