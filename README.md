@@ -24,8 +24,7 @@
   - `make build -jX` will clean, then generate changed icons and `index.theme`
   - `make regen -jX` will regenerate all icons, whether they have been changed or not, and `index.theme`
   - `make reset` will delete all generated icons and `index.theme`
-  - `make clean` will delete icons missing a corresponding svg, broken symlinks and empty directories, then prune
-  - `make prune` will delete rubbish elements and attributes from the svgs
+  - `make clean` will delete icons missing a corresponding svg, broken symlinks and empty directories
   - `make index` will generate `index.theme` (Done automatically by `build` and `regen`)
   - `make check` will check all defined symlinks are valid
   - `make install` will copy the theme in its current state to the install location, check and generate any symlinks, then run `make refresh`

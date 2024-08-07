@@ -1,35 +1,127 @@
-<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.openswatchbook.org/uri/2009/osb" xmlns:ns3="http://www.inkscape.org/namespaces/inkscape" height="256" viewBox="0 0 256 256" width="256" version="1.1" id="svg76" ns1:docname="DevelLayer.svg">
-  <ns0:defs id="defs80">
-    <ns0:linearGradient id="linearGradient3270" ns2:paint="solid">
-      <ns0:stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop3268" />
-    </ns0:linearGradient>
-  </ns0:defs>
-  <ns1:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" ns3:pageopacity="0" ns3:pageshadow="2" ns3:window-width="1836" ns3:window-height="1043" id="namedview78" showgrid="false" ns3:zoom="1.6992187" ns3:cx="133.06129" ns3:cy="168.51758" ns3:window-x="84" ns3:window-y="0" ns3:window-maximized="1" ns3:current-layer="layer8" ns3:document-rotation="0" />
-  <ns0:clipPath id="a">
-    <ns0:rect height="128" width="128" id="rect2" x="0" y="0" />
-  </ns0:clipPath>
-  <ns0:clipPath id="b">
-    <ns0:rect height="128" width="128" id="rect5" x="0" y="0" />
-  </ns0:clipPath>
-  <ns0:filter id="c" height="1" width="1" x="0" y="0">
-    <ns0:feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" id="feColorMatrix8" />
-  </ns0:filter>
-  <ns0:mask id="e">
-    <ns0:g filter="url(#c)" id="g36">
-      <ns0:rect fill-opacity="0.8" height="128" width="128" id="rect34" x="0" y="0" />
-    </ns0:g>
-  </ns0:mask>
-  <ns0:linearGradient id="f" gradientTransform="matrix(0,0.73999996,-1.9692399,0,590.76999,-60.719991)" gradientUnits="userSpaceOnUse" x1="300" x2="428" y1="235" y2="235">
-    <ns0:stop offset="0" stop-color="#f9f06b" id="stop39" />
-    <ns0:stop offset="1" stop-color="#f5c211" id="stop41" />
-  </ns0:linearGradient>
-  <ns0:clipPath id="g">
-    <ns0:rect height="128" width="128" id="rect44" x="0" y="0" />
-  </ns0:clipPath>
-  <ns0:g ns3:groupmode="layer" id="layer8" ns3:label="Colour" style="display:inline">
-    <ns0:g id="g897">
-      <ns0:path d="M 255.99999,161.28125 V 256 H 4e-7 v -94.71875 z m 0,0" fill="url(#f)" id="path68" style="fill:url(#f);stroke-width:2" />
-      <ns0:path d="M 26.617187,161.28125 121.32812,256 H 163.7578 L 69.039059,161.28125 Z m 84.843743,0 L 206.18749,256 h 42.42968 l -94.72655,-94.71875 z m 84.85937,0 59.67969,59.67969 V 178.53906 L 238.74217,161.28125 Z M 4e-7,177.09375 v 42.42969 L 36.476561,256 h 42.429685 z m 0,0" id="path70" style="stroke-width:2" />
-    </ns0:g>
-  </ns0:g>
-</ns0:svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="256"
+   viewBox="0 0 256 256"
+   width="256"
+   version="1.1"
+   id="svg76"
+   sodipodi:docname="DevelLayer.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs80" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1836"
+     inkscape:window-height="1043"
+     id="namedview78"
+     showgrid="false"
+     inkscape:zoom="1.6992187"
+     inkscape:cx="133.06129"
+     inkscape:cy="168.51758"
+     inkscape:window-x="84"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer8"
+     inkscape:document-rotation="0"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <clipPath
+     id="a">
+    <rect
+       height="128"
+       width="128"
+       id="rect2"
+       x="0"
+       y="0" />
+  </clipPath>
+  <clipPath
+     id="b">
+    <rect
+       height="128"
+       width="128"
+       id="rect5"
+       x="0"
+       y="0" />
+  </clipPath>
+  <filter
+     id="c"
+     height="1"
+     width="1"
+     x="0"
+     y="0">
+    <feColorMatrix
+       in="SourceGraphic"
+       type="matrix"
+       values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"
+       id="feColorMatrix8" />
+  </filter>
+  <mask
+     id="e">
+    <g
+       filter="url(#c)"
+       id="g36">
+      <rect
+         fill-opacity="0.8"
+         height="128"
+         width="128"
+         id="rect34"
+         x="0"
+         y="0" />
+    </g>
+  </mask>
+  <linearGradient
+     id="f"
+     gradientTransform="matrix(0,0.73999996,-1.9692399,0,590.76999,-60.719991)"
+     gradientUnits="userSpaceOnUse"
+     x1="300"
+     x2="428"
+     y1="235"
+     y2="235">
+    <stop
+       offset="0"
+       stop-color="#f9f06b"
+       id="stop39" />
+    <stop
+       offset="1"
+       stop-color="#f5c211"
+       id="stop41" />
+  </linearGradient>
+  <clipPath
+     id="g">
+    <rect
+       height="128"
+       width="128"
+       id="rect44"
+       x="0"
+       y="0" />
+  </clipPath>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="Colour"
+     style="display:inline">
+    <g
+       id="g897">
+      <path
+         d="M 255.99999,161.28125 V 256 H 4e-7 v -94.71875 z m 0,0"
+         fill="url(#f)"
+         id="path68"
+         style="fill:url(#f);stroke-width:2" />
+      <path
+         d="M 26.617187,161.28125 121.32812,256 H 163.7578 L 69.039059,161.28125 Z m 84.843743,0 L 206.18749,256 h 42.42968 l -94.72655,-94.71875 z m 84.85937,0 59.67969,59.67969 V 178.53906 L 238.74217,161.28125 Z M 4e-7,177.09375 v 42.42969 L 36.476561,256 h 42.429685 z m 0,0"
+         id="path70"
+         style="stroke-width:2" />
+    </g>
+  </g>
+</svg>
