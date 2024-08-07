@@ -2,7 +2,7 @@ SHELL = bash
 BUILD_DIR = argon
 INSTALL_DIR ?= /usr/share/icons/Argon
 
-.PHONY: build regen check install uninstall reset clean prune index refresh
+.PHONY: build regen check install uninstall reset clean index refresh
 
 #Generate a list of icons to build, then call make with all the icon svgs
 build: clean
@@ -36,11 +36,8 @@ reset:
 	  rm "$(BUILD_DIR)/index.theme"; \
 	fi
 #Delete broken symlinks, left over pngs and empty directories
-clean: prune
+clean:
 	@./scripts/clean-dirs.py "$(BUILD_DIR)"
-#Clean up svgs
-prune:
-	@./scripts/clean-svgs.py
 index:
 	./scripts/generate-index.py "$(BUILD_DIR)"
 #Refresh / generate icon cache

@@ -1,10 +1,82 @@
-<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" ns1:docname="org.gnome.clocks-symbolic.symbolic.svg" id="svg4705" version="1.1" viewBox="0 0 4.2333333 4.2333333" height="16" width="16">
-  <ns0:defs id="defs4699" />
-  <ns1:namedview units="px" ns2:document-rotation="0" ns2:window-maximized="1" ns2:window-y="27" ns2:window-x="1920" ns2:window-height="1016" ns2:window-width="1920" fit-margin-bottom="0" fit-margin-right="0" fit-margin-left="0" fit-margin-top="0" showgrid="false" ns2:current-layer="layer1" ns2:document-units="px" ns2:cy="7.515625" ns2:cx="6.5625" ns2:zoom="32" ns2:pageshadow="2" ns2:pageopacity="0.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" ns2:pagecheckerboard="0" />
-  <ns0:g style="display:inline" transform="translate(-130.05163,-144.32544)" id="layer1" ns2:groupmode="layer" ns2:label="Graphic">
-    <ns0:path id="path11042" style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0188988;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new" d="m 131.62046,144.39756 c -1.12917,0.30256 -1.79927,1.46321 -1.49671,2.59238 0.30256,1.12917 1.46321,1.79927 2.59238,1.49671 1.12917,-0.30256 1.79927,-1.46321 1.49671,-2.59238 -0.30256,-1.12917 -1.46321,-1.79927 -2.59238,-1.49671 z m 0.0685,0.25557 c 0.98804,-0.26474 2.00359,0.32161 2.26833,1.30962 0.26475,0.98804 -0.32158,2.00359 -1.30962,2.26833 -0.98802,0.26474 -2.00359,-0.32158 -2.26833,-1.30962 -0.26474,-0.98802 0.32161,-2.00359 1.30962,-2.26833 z" />
-    <ns0:rect style="fill:#000000;fill-opacity:1;stroke-width:0.937686;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers" id="rect880" width="0.29643965" height="1.4821984" x="-165.72591" y="105.75338" transform="matrix(-0.96592583,-0.25881905,-0.25881905,0.96592583,0,0)" ry="0.14821982" ns2:transform-center-x="-0.19625304" ns2:transform-center-y="-0.73240759" />
-    <ns0:rect style="fill:#000000;fill-opacity:1;stroke-width:0.918354;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers" id="rect888" width="0.32459682" height="1.2983873" x="41.088753" y="-194.21613" ry="0.16229841" transform="matrix(0.8660254,-0.5,-0.5,-0.8660254,0,0)" />
-    <ns0:circle style="fill:#000000;fill-opacity:1;stroke-width:0.739487;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers" id="path874" cx="89.762764" cy="175.65988" r="0.33072916" ns2:transform-center-y="-0.018489615" transform="rotate(-15)" ns2:transform-center-x="0.0049601421" />
-  </ns0:g>
-</ns0:svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   sodipodi:docname="org.gnome.clocks-symbolic.symbolic.svg"
+   id="svg4705"
+   version="1.1"
+   viewBox="0 0 4.2333333 4.2333333"
+   height="16"
+   width="16"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4699" />
+  <sodipodi:namedview
+     units="px"
+     inkscape:document-rotation="0"
+     inkscape:window-maximized="1"
+     inkscape:window-y="27"
+     inkscape:window-x="1920"
+     inkscape:window-height="1016"
+     inkscape:window-width="1920"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="7.515625"
+     inkscape:cx="6.5625"
+     inkscape:zoom="32"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     style="display:inline"
+     transform="translate(-130.05163,-144.32544)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Graphic">
+    <path
+       id="path11042"
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0188988;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+       d="m 131.62046,144.39756 c -1.12917,0.30256 -1.79927,1.46321 -1.49671,2.59238 0.30256,1.12917 1.46321,1.79927 2.59238,1.49671 1.12917,-0.30256 1.79927,-1.46321 1.49671,-2.59238 -0.30256,-1.12917 -1.46321,-1.79927 -2.59238,-1.49671 z m 0.0685,0.25557 c 0.98804,-0.26474 2.00359,0.32161 2.26833,1.30962 0.26475,0.98804 -0.32158,2.00359 -1.30962,2.26833 -0.98802,0.26474 -2.00359,-0.32158 -2.26833,-1.30962 -0.26474,-0.98802 0.32161,-2.00359 1.30962,-2.26833 z" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:0.937686;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect880"
+       width="0.29643965"
+       height="1.4821984"
+       x="-165.72591"
+       y="105.75338"
+       transform="matrix(-0.96592583,-0.25881905,-0.25881905,0.96592583,0,0)"
+       ry="0.14821982"
+       inkscape:transform-center-x="-0.19625304"
+       inkscape:transform-center-y="-0.73240759" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:0.918354;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect888"
+       width="0.32459682"
+       height="1.2983873"
+       x="41.088753"
+       y="-194.21613"
+       ry="0.16229841"
+       transform="matrix(0.8660254,-0.5,-0.5,-0.8660254,0,0)" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke-width:0.739487;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="path874"
+       cx="89.762764"
+       cy="175.65988"
+       r="0.33072916"
+       inkscape:transform-center-y="-0.018489615"
+       transform="rotate(-15)"
+       inkscape:transform-center-x="0.0049601421" />
+  </g>
+</svg>

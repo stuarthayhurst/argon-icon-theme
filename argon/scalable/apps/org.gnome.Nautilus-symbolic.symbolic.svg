@@ -1,8 +1,54 @@
-<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" ns1:docname="org.gnome.Nautilus-symbolic.symbolic.svg" id="svg8" version="1.1" viewBox="0 0 4.2333333 4.2333334" height="16" width="16">
-  <ns0:defs id="defs2" />
-  <ns1:namedview ns2:window-maximized="1" ns2:window-y="27" ns2:window-x="1920" ns2:window-height="1016" ns2:window-width="1920" units="px" showgrid="false" ns2:document-rotation="0" ns2:current-layer="layer4" ns2:document-units="px" ns2:cy="10.094311" ns2:cx="13.772711" ns2:zoom="22.627417" ns2:pageshadow="2" ns2:pageopacity="0.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" />
-  <ns0:g ns2:groupmode="layer" id="layer4" ns2:label="Graphic" style="display:inline">
-    <ns0:path id="path869" style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.9;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999991;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1" d="M 2.3103419,1.0990662 2.1171834,1.2922825 c -0.5481463,0 -1.0672351,-7.9e-4 -1.59680326,0 -0.0460269,0.00214 -0.0898757,0.020741 -0.12402355,0.051675 v 0.456294 0.00413 0.00362 c 0.002855,-0.069243 0.0544907,-0.1188534 0.12505707,-0.1188534 h 0.007751 0.003617 1.66656654 c 0.052828,-1.442e-4 0.103416,-0.021346 0.1405608,-0.058908 L 2.6733505,1.2985582 2.9379341,1.03398 c -0.3630087,-0.199492 0,0 -0.3630087,-0.199492 z" ns1:nodetypes="cccccccscccccccc" />
-    <ns0:path id="path885" style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.396883;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" d="m 0.52159946,0.52295313 c -0.17902279,0 -0.3231576,0.14413785 -0.3231576,0.32316464 6e-8,0.84703113 -1.2e-7,1.69406213 -2.3e-7,2.54109323 -7e-8,0.1790307 0.14413491,0.3231692 0.32315761,0.3231692 H 3.711734 c 0.1790224,0 0.3231576,-0.1441385 0.3231577,-0.3231649 3e-7,-0.7165382 2e-7,-1.4330766 2e-7,-2.1496149 0,-0.1790274 -0.1441353,-0.32316485 -0.3231577,-0.32316485 H 2.5914824 L 2.2000082,0.52295313 Z" ns1:nodetypes="sccssccsccs" />
-  </ns0:g>
-</ns0:svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   sodipodi:docname="org.gnome.Nautilus-symbolic.symbolic.svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 4.2333333 4.2333334"
+   height="16"
+   width="16"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="27"
+     inkscape:window-x="1920"
+     inkscape:window-height="1016"
+     inkscape:window-width="1920"
+     units="px"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer4"
+     inkscape:document-units="px"
+     inkscape:cy="10.094311"
+     inkscape:cx="13.772711"
+     inkscape:zoom="22.627417"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Graphic"
+     style="display:inline">
+    <path
+       id="path869"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.9;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999991;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+       d="M 2.3103419,1.0990662 2.1171834,1.2922825 c -0.5481463,0 -1.0672351,-7.9e-4 -1.59680326,0 -0.0460269,0.00214 -0.0898757,0.020741 -0.12402355,0.051675 v 0.456294 0.00413 0.00362 c 0.002855,-0.069243 0.0544907,-0.1188534 0.12505707,-0.1188534 h 0.007751 0.003617 1.66656654 c 0.052828,-1.442e-4 0.103416,-0.021346 0.1405608,-0.058908 L 2.6733505,1.2985582 2.9379341,1.03398 c -0.3630087,-0.199492 0,0 -0.3630087,-0.199492 z"
+       sodipodi:nodetypes="cccccccscccccccc" />
+    <path
+       id="path885"
+       style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.396883;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 0.52159946,0.52295313 c -0.17902279,0 -0.3231576,0.14413785 -0.3231576,0.32316464 6e-8,0.84703113 -1.2e-7,1.69406213 -2.3e-7,2.54109323 -7e-8,0.1790307 0.14413491,0.3231692 0.32315761,0.3231692 H 3.711734 c 0.1790224,0 0.3231576,-0.1441385 0.3231577,-0.3231649 3e-7,-0.7165382 2e-7,-1.4330766 2e-7,-2.1496149 0,-0.1790274 -0.1441353,-0.32316485 -0.3231577,-0.32316485 H 2.5914824 L 2.2000082,0.52295313 Z"
+       sodipodi:nodetypes="sccssccsccs" />
+  </g>
+</svg>

@@ -1,8 +1,52 @@
-<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 16 16" style="display:inline;enable-background:new" version="1.0" id="svg11300" height="16" width="16" ns1:docname="org.gnome.tweaks-symbolic.symbolic.svg">
-  <ns1:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" ns2:pageopacity="0" ns2:pageshadow="2" ns2:window-width="1920" ns2:window-height="1016" id="namedview35" showgrid="false" ns2:zoom="22.627417" ns2:cx="9.9041713" ns2:cy="11.585199" ns2:window-x="1920" ns2:window-y="27" ns2:window-maximized="1" ns2:current-layer="layer6" ns2:document-rotation="0" />
-  <ns0:title id="title4162">Adwaita Icon Template</ns0:title>
-  <ns0:defs id="defs3" />
-  <ns0:g ns2:groupmode="layer" id="layer6" ns2:label="Graphic" style="display:inline">
-    <ns0:path id="rect840" style="fill:#000000;stroke:none;stroke-width:2.09957;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke" d="M 4.3242188 0 C 2.48267 0 1 1.48267 1 3.3242188 L 1 12.675781 C 1 14.51733 2.48267 16 4.3242188 16 L 11.675781 16 C 13.51733 16 15 14.51733 15 12.675781 L 15 3.3242188 C 15 1.4826699 13.51733 -2.9605947e-16 11.675781 0 L 4.3242188 0 z M 5.4375 2.5 L 10.5625 2.5 C 11.714944 2.5 12.642578 3.427634 12.642578 4.5800781 L 12.642578 4.7050781 C 12.642578 5.8575226 11.714944 6.7851562 10.5625 6.7851562 L 5.4375 6.7851562 C 4.2850555 6.7851562 3.3574219 5.8575226 3.3574219 4.7050781 L 3.3574219 4.5800781 C 3.3574219 3.427634 4.2850555 2.5 5.4375 2.5 z M 10.400391 2.6445312 A -2 -2 0 0 0 8.4003906 4.6445312 A -2 -2 0 0 0 10.400391 6.6445312 A -2 -2 0 0 0 12.400391 4.6445312 A -2 -2 0 0 0 10.400391 2.6445312 z M 5.4375 9.2148438 L 10.5625 9.2148438 C 11.714944 9.2148438 12.642578 10.142478 12.642578 11.294922 L 12.642578 11.419922 C 12.642578 12.572366 11.714944 13.5 10.5625 13.5 L 5.4375 13.5 C 4.2850555 13.5 3.3574219 12.572366 3.3574219 11.419922 L 3.3574219 11.294922 C 3.3574219 10.142478 4.2850555 9.2148438 5.4375 9.2148438 z M 5.5996094 9.3554688 A -2 -2 0 0 0 3.5996094 11.355469 A -2 -2 0 0 0 5.5996094 13.355469 A -2 -2 0 0 0 7.5996094 11.355469 A -2 -2 0 0 0 5.5996094 9.3554688 z " />
-  </ns0:g>
-</ns0:svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 16 16"
+   style="display:inline;enable-background:new"
+   version="1.0"
+   id="svg11300"
+   height="16"
+   width="16"
+   sodipodi:docname="org.gnome.tweaks-symbolic.symbolic.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     id="namedview35"
+     showgrid="false"
+     inkscape:zoom="22.627417"
+     inkscape:cx="9.9041713"
+     inkscape:cy="11.585199"
+     inkscape:window-x="1920"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer6"
+     inkscape:document-rotation="0"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <title
+     id="title4162">Adwaita Icon Template</title>
+  <defs
+     id="defs3" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Graphic"
+     style="display:inline">
+    <path
+       id="rect840"
+       style="fill:#000000;stroke:none;stroke-width:2.09957;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+       d="M 4.3242188 0 C 2.48267 0 1 1.48267 1 3.3242188 L 1 12.675781 C 1 14.51733 2.48267 16 4.3242188 16 L 11.675781 16 C 13.51733 16 15 14.51733 15 12.675781 L 15 3.3242188 C 15 1.4826699 13.51733 -2.9605947e-16 11.675781 0 L 4.3242188 0 z M 5.4375 2.5 L 10.5625 2.5 C 11.714944 2.5 12.642578 3.427634 12.642578 4.5800781 L 12.642578 4.7050781 C 12.642578 5.8575226 11.714944 6.7851562 10.5625 6.7851562 L 5.4375 6.7851562 C 4.2850555 6.7851562 3.3574219 5.8575226 3.3574219 4.7050781 L 3.3574219 4.5800781 C 3.3574219 3.427634 4.2850555 2.5 5.4375 2.5 z M 10.400391 2.6445312 A -2 -2 0 0 0 8.4003906 4.6445312 A -2 -2 0 0 0 10.400391 6.6445312 A -2 -2 0 0 0 12.400391 4.6445312 A -2 -2 0 0 0 10.400391 2.6445312 z M 5.4375 9.2148438 L 10.5625 9.2148438 C 11.714944 9.2148438 12.642578 10.142478 12.642578 11.294922 L 12.642578 11.419922 C 12.642578 12.572366 11.714944 13.5 10.5625 13.5 L 5.4375 13.5 C 4.2850555 13.5 3.3574219 12.572366 3.3574219 11.419922 L 3.3574219 11.294922 C 3.3574219 10.142478 4.2850555 9.2148438 5.4375 9.2148438 z M 5.5996094 9.3554688 A -2 -2 0 0 0 3.5996094 11.355469 A -2 -2 0 0 0 5.5996094 13.355469 A -2 -2 0 0 0 7.5996094 11.355469 A -2 -2 0 0 0 5.5996094 9.3554688 z " />
+  </g>
+</svg>

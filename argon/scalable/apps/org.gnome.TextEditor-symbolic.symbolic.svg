@@ -1,10 +1,59 @@
-<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" ns1:docname="org.gnome.TextEditor-symbolic.symbolic.svg" id="svg8" version="1.1" viewBox="0 0 4.2333333 4.2333334" height="16" width="16">
-  <ns0:defs id="defs2" />
-  <ns1:namedview ns2:window-maximized="1" ns2:window-y="27" ns2:window-x="1920" ns2:window-height="1016" ns2:window-width="1920" units="px" showgrid="false" ns2:document-rotation="0" ns2:current-layer="layer5" ns2:document-units="px" ns2:cy="10.054175" ns2:cx="6.4523494" ns2:zoom="22.627417" ns2:pageshadow="2" ns2:pageopacity="0.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" ns2:pagecheckerboard="0" ns2:showpageshadow="2" ns2:deskcolor="#d1d1d1" />
-  <ns0:g ns2:groupmode="layer" id="layer5" ns2:label="Graphic" style="display:inline">
-    <ns0:g id="g4373" style="display:inline" transform="rotate(135,44.562666,35.787695)">
-      <ns0:path id="path4339" style="display:inline;fill:#000000;stroke-width:0.0381588;stroke-linecap:round;stroke-linejoin:round" d="M 0.26458333,0.52916667 V 0.79375 H 2.9104167 V 0.52916667 Z m 0,0.52916663 V 1.3229167 H 2.9104167 V 1.0583333 Z m 0,0.5291667 V 1.8520833 H 2.38125 V 1.5875 Z m 0,0.5291667 V 2.38125 H 2.38125 V 2.1166667 Z m 0,0.5291666 V 2.9104167 H 1.8520833 V 2.6458333 Z m 0,0.5291667 V 3.4395833 H 1.3229167 V 3.175 Z" transform="rotate(-135,44.562667,35.787695)" />
-      <ns0:path id="path8834" style="fill:#000000;fill-opacity:1;stroke-width:0.00672404;stroke-linecap:round;stroke-linejoin:round" d="m 49.020521,88.986055 c 0.0089,0.0083 0.01983,0.01279 0.03179,0.01279 0.958829,8.51e-4 1.91766,1.33e-4 2.876489,0 l 0.293056,-0.172472 0.188916,-0.110719 -0.18855,-0.111084 -0.293788,-0.172472 c -0.958586,0 -1.917171,0 -2.875757,0 -0.02944,0 -0.05335,0.02969 -0.05335,0.0665 v 0.434104 c 0,0.02186 0.0082,0.04126 0.02119,0.05335 z" ns1:nodetypes="scccccccsss" />
-    </ns0:g>
-  </ns0:g>
-</ns0:svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   sodipodi:docname="org.gnome.TextEditor-symbolic.symbolic.svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 4.2333333 4.2333334"
+   height="16"
+   width="16"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="27"
+     inkscape:window-x="1920"
+     inkscape:window-height="1016"
+     inkscape:window-width="1920"
+     units="px"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer5"
+     inkscape:document-units="px"
+     inkscape:cy="10.054175"
+     inkscape:cx="6.4523494"
+     inkscape:zoom="22.627417"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Graphic"
+     style="display:inline">
+    <g
+       id="g4373"
+       style="display:inline"
+       transform="rotate(135,44.562666,35.787695)">
+      <path
+         id="path4339"
+         style="display:inline;fill:#000000;stroke-width:0.0381588;stroke-linecap:round;stroke-linejoin:round"
+         d="M 0.26458333,0.52916667 V 0.79375 H 2.9104167 V 0.52916667 Z m 0,0.52916663 V 1.3229167 H 2.9104167 V 1.0583333 Z m 0,0.5291667 V 1.8520833 H 2.38125 V 1.5875 Z m 0,0.5291667 V 2.38125 H 2.38125 V 2.1166667 Z m 0,0.5291666 V 2.9104167 H 1.8520833 V 2.6458333 Z m 0,0.5291667 V 3.4395833 H 1.3229167 V 3.175 Z"
+         transform="rotate(-135,44.562667,35.787695)" />
+      <path
+         id="path8834"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.00672404;stroke-linecap:round;stroke-linejoin:round"
+         d="m 49.020521,88.986055 c 0.0089,0.0083 0.01983,0.01279 0.03179,0.01279 0.958829,8.51e-4 1.91766,1.33e-4 2.876489,0 l 0.293056,-0.172472 0.188916,-0.110719 -0.18855,-0.111084 -0.293788,-0.172472 c -0.958586,0 -1.917171,0 -2.875757,0 -0.02944,0 -0.05335,0.02969 -0.05335,0.0665 v 0.434104 c 0,0.02186 0.0082,0.04126 0.02119,0.05335 z"
+         sodipodi:nodetypes="scccccccsss" />
+    </g>
+  </g>
+</svg>

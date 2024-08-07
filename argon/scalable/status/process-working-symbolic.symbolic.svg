@@ -1,13 +1,74 @@
-<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" xmlns:ns3="http://www.w3.org/1999/xlink" height="16" width="16" version="1.1" id="svg8" ns1:docname="process-working-symbolic.symbolic.svg">
-  <ns0:g ns2:groupmode="layer" id="layer6" ns2:label="Image" style="display:inline" transform="matrix(0.27113255,0,0,0.27113255,-1.2768328,-1.7330108)">
-    <ns0:path id="path831" style="fill:url(#linearGradient847);fill-opacity:1;stroke:none;stroke-width:4.90322;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers" d="M 8,8 13.65625,2.34375 C 12.156206,0.84338542 10.121609,3.2048045e-4 8,0 5.8783907,3.2048045e-4 3.843794,0.84338542 2.34375,2.34375 0.84338542,3.843794 3.2049144e-4,5.8783907 0,8" transform="matrix(3.6882329,0,0,3.6882329,4.7092568,6.3917475)" ns1:nodetypes="ccccc" />
-  </ns0:g>
-  <ns0:defs id="defs12">
-    <ns0:linearGradient ns2:collect="always" id="linearGradient845">
-      <ns0:stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop841" />
-      <ns0:stop style="stop-color:#000000;stop-opacity:0;" offset="1" id="stop843" />
-    </ns0:linearGradient>
-    <ns0:linearGradient ns2:collect="always" ns3:href="#linearGradient845" id="linearGradient847" x1="10.172897" y1="-5.2164025" x2="8" y2="8" gradientUnits="userSpaceOnUse" />
-  </ns0:defs>
-  <ns1:namedview pagecolor="#333333" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" ns2:pageopacity="0" ns2:pageshadow="2" ns2:window-width="1836" ns2:window-height="1016" id="namedview10" showgrid="false" ns2:zoom="22.627417" ns2:cx="10.819591" ns2:cy="8.2991004" ns2:window-x="2004" ns2:window-y="27" ns2:window-maximized="1" ns2:current-layer="layer6" ns2:document-rotation="0" />
-</ns0:svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="16"
+   width="16"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="process-working-symbolic.symbolic.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Image"
+     style="display:inline"
+     transform="matrix(0.27113255,0,0,0.27113255,-1.2768328,-1.7330108)">
+    <path
+       id="path831"
+       style="fill:url(#linearGradient847);fill-opacity:1;stroke:none;stroke-width:4.90322;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       d="M 8,8 13.65625,2.34375 C 12.156206,0.84338542 10.121609,3.2048045e-4 8,0 5.8783907,3.2048045e-4 3.843794,0.84338542 2.34375,2.34375 0.84338542,3.843794 3.2049144e-4,5.8783907 0,8"
+       transform="matrix(3.6882329,0,0,3.6882329,4.7092568,6.3917475)"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+  <defs
+     id="defs12">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient845">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop841" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop843" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient845"
+       id="linearGradient847"
+       x1="10.172897"
+       y1="-5.2164025"
+       x2="8"
+       y2="8"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#333333"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1836"
+     inkscape:window-height="1016"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="22.627417"
+     inkscape:cx="10.819591"
+     inkscape:cy="8.2991004"
+     inkscape:window-x="2004"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer6"
+     inkscape:document-rotation="0"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+</svg>
