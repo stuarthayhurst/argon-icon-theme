@@ -4,7 +4,7 @@
    height="256"
    id="svg11300"
    sodipodi:version="0.32"
-   sodipodi:docname="application-x-zip.svg"
+   sodipodi:docname="application-zip.svg"
    version="1.0"
    style="display:inline;enable-background:new"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -23,9 +23,9 @@
      borderopacity="1"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3406591"
-     inkscape:cx="76.827884"
-     inkscape:cy="102.5615"
+     inkscape:zoom="1.4735951"
+     inkscape:cx="92.969908"
+     inkscape:cy="104.84563"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:grid-bbox="true"
@@ -90,11 +90,11 @@
        inkscape:collect="always"
        id="linearGradient902">
       <stop
-         style="stop-color:#a58459;stop-opacity:1;"
+         style="stop-color:#9b7749;stop-opacity:1;"
          offset="0"
          id="stop898" />
       <stop
-         style="stop-color:#ae9678;stop-opacity:1;"
+         style="stop-color:#b48b56;stop-opacity:1;"
          offset="1"
          id="stop900" />
     </linearGradient>
