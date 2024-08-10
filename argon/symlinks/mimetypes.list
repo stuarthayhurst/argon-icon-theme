@@ -14,3 +14,4 @@ application-x-source-rpm.svg -> application-x-rpm.svg
 application-x-xz-compressed-tar.svg -> application-zip.svg
 application-x-xz.svg -> application-zip.svg
 text-x-gettext-translation.svg -> text-x-po.svg
+text-x-python.svg -> text-x-python3.svg
