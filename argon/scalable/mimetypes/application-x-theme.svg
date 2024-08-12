@@ -7,34 +7,37 @@
    sodipodi:docname="application-x-theme.svg"
    version="1.0"
    style="display:inline;enable-background:new"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title
      id="title3004">Suru Icon Theme Template</title>
   <sodipodi:namedview
      stroke="#ef2929"
      fill="#f57900"
      id="base"
-     pagecolor="#ffffff"
+     pagecolor="#cccccc"
      bordercolor="#666666"
      borderopacity="1"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.0000001"
-     inkscape:cx="110.22022"
-     inkscape:cy="124.1794"
-     inkscape:current-layer="layer5"
+     inkscape:cx="110.24999"
+     inkscape:cy="124.24999"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1016"
+     inkscape:window-height="1011"
      inkscape:window-x="1920"
-     inkscape:window-y="27"
+     inkscape:window-y="32"
      width="400px"
      height="300px"
      inkscape:snap-nodes="true"
@@ -89,30 +92,7 @@
        units="px" />
   </sodipodi:namedview>
   <defs
-     id="defs3">
-    <linearGradient
-       gradientUnits="userSpaceOnUse"
-       y2="401.58368"
-       x2="-57.564251"
-       y1="401.58368"
-       x1="529.65515"
-       id="linearGradient4226"
-       xlink:href="#linearGradient4338"
-       inkscape:collect="always"
-       gradientTransform="matrix(0,-0.453125,0.45309815,0,2.0441583,240)" />
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4338">
-      <stop
-         style="stop-color:#f2f2f2;stop-opacity:1"
-         offset="0"
-         id="stop4340" />
-      <stop
-         style="stop-color:#f9f9f9;stop-opacity:1"
-         offset="1"
-         id="stop4342" />
-    </linearGradient>
-  </defs>
+     id="defs3" />
   <g
      style="display:inline"
      inkscape:groupmode="layer"
@@ -120,27 +100,24 @@
      id="layer1">
     <g
        inkscape:groupmode="layer"
-       id="layer4"
+       id="layer4-6"
        inkscape:label="Shadow"
-       style="display:inline;opacity:0.4">
+       style="display:inline;opacity:0.4;enable-background:new">
       <path
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999985;marker:none;enable-background:accumulate"
-         d="M 78.925825,20 C 43.630184,20 39.832413,23.625418 40.005398,58.99353 V 132 205.00647 C 39.832413,240.37459 43.630184,244 78.925825,244 H 177.07958 C 212.37522,244 216,240.375 216,205.00647 V 132 58.99353 C 216,23.624997 212.37522,20 177.07958,20 Z"
-         id="path859"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="scccssscsss" />
+         id="rect3"
+         style="display:inline;opacity:0.4;fill:#000000;stroke-width:6.64319;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;enable-background:new"
+         d="m 40,128 v 97.37109 C 40,235.69114 48.308858,244 58.628906,244 H 197.37109 C 207.69114,244 216,235.69114 216,225.37109 V 128 Z" />
     </g>
     <g
        inkscape:groupmode="layer"
-       id="layer2"
+       id="layer2-7"
        inkscape:label="Background"
-       style="display:inline">
+       style="display:inline;enable-background:new">
       <path
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient4226);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999985;marker:none;enable-background:accumulate"
-         d="M 78.925825,16 C 43.630184,16 39.832413,19.625418 40.005398,54.99353 V 128 201.00647 C 39.832413,236.37459 43.630184,240 78.925825,240 H 177.07958 C 212.37522,240 216,236.375 216,201.00647 V 128 54.99353 C 216,19.624997 212.37522,16 177.07958,16 Z"
-         id="rect4158"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="scccssscsss" />
+         id="rect2"
+         style="display:inline;fill:#f9f9f9;stroke-width:6.64319;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;enable-background:new"
+         d="M 58.628906,16 C 48.308869,16 40,24.308869 40,34.628906 V 221.37109 C 40,231.69113 48.308869,240 58.628906,240 H 197.37109 C 207.69113,240 216,231.69113 216,221.37109 V 34.628906 C 216,24.309027 207.69294,16 197.37305,16 Z"
+         sodipodi:nodetypes="sssssssss" />
     </g>
     <g
        inkscape:groupmode="layer"
@@ -219,32 +196,35 @@
     </g>
     <g
        inkscape:groupmode="layer"
-       id="layer5"
+       id="layer3-3"
        inkscape:label="Highlights"
-       style="display:inline">
+       style="display:inline;enable-background:new">
       <path
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999985;marker:none;enable-background:accumulate"
-         d="M 128.0027,16.000003 V 240 h 49.07662 C 212.37496,240 215.08176,236.36345 216,201.00683 V 128 54.993168 c 0,-35.368534 -3.62504,-38.993165 -38.92068,-38.993165 z"
-         id="path4231"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccsscssc" />
+         id="path3"
+         style="display:inline;opacity:0.2;fill:#ffffff;stroke-width:6.64319;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;enable-background:new"
+         d="m 40,128 v 93.37109 C 40,231.69113 48.308869,240 58.628906,240 H 197.37109 C 207.69113,240 216,231.69113 216,221.37109 V 128 Z" />
       <path
-         inkscape:connector-curvature="0"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.2;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999985;marker:none;enable-background:accumulate"
-         d="m 40.005395,128 v 73.00683 C 39.83241,236.37495 43.630439,240 78.926085,240 H 177.07932 C 212.37496,240 215.08176,236.36345 216,201.00683 V 128 Z"
-         id="path4255"
-         sodipodi:nodetypes="ccssscc" />
+         id="path8"
+         style="display:inline;opacity:0.6;fill:#ffffff;stroke-width:6.64319;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;enable-background:new"
+         d="m 216,180 -60,60 h 41.37109 C 207.69113,240 216,231.69113 216,221.37109 Z" />
       <path
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.6;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.99988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-         d="M 156.00184,240 216,180 v 22.48388 C 215.94766,236.47969 212.19744,240 177.82707,240 Z"
-         id="path4254"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cccsc" />
+         id="path1"
+         style="display:inline;opacity:0.6;fill:#ffffff;stroke-width:6.64319;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;enable-background:new"
+         d="M 58.628906,16 C 48.308891,16 40,24.308891 40,34.628906 v 2 C 40,26.308891 48.308891,18 58.628906,18 H 197.37109 C 207.69111,18 216,26.308891 216,36.628906 v -2 C 216,24.308891 207.69111,16 197.37109,16 Z"
+         sodipodi:nodetypes="sscsscsss" />
       <path
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.6;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999985;marker:none;enable-background:accumulate"
-         d="m 78.926085,16.000003 c -35.295649,0 -39.093675,3.626029 -38.92069,38.994141 v 2 C 39.83241,21.626032 43.630436,18.000003 78.926085,18.000003 h 98.153235 c 35.29565,0 38.92068,3.625608 38.92068,38.994141 v -2 c 0,-35.368533 -3.62503,-38.994141 -38.92068,-38.994141 z"
-         id="path931"
-         inkscape:connector-curvature="0" />
+         id="path2"
+         style="display:inline;opacity:0.1;fill:#ffffff;stroke-width:6.64319;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;enable-background:new"
+         d="m 128,16 v 224 h 69.37109 C 207.69112,240 216,231.69112 216,221.37109 V 34.628906 C 216,24.309038 207.69293,16 197.37305,16 Z" />
     </g>
   </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Suru Icon Theme Template</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>
