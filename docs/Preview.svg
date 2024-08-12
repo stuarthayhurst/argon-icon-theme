@@ -6,34 +6,27 @@
    viewBox="0 0 97.895833 68.262502"
    height="258"
    width="370"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs2">
-    <rect
-       x="13.076657"
-       y="21.572067"
-       width="99.313454"
-       height="17.21199"
-       id="rect845" />
-  </defs>
-  <sodipodi:namedview
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs2" /><sodipodi:namedview
      inkscape:window-maximized="1"
-     inkscape:window-y="27"
+     inkscape:window-y="32"
      inkscape:window-x="1920"
-     inkscape:window-height="1016"
+     inkscape:window-height="1011"
      inkscape:window-width="1920"
      units="px"
      showgrid="false"
      inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer4"
      inkscape:document-units="px"
-     inkscape:cy="128.54862"
-     inkscape:cx="206.92214"
-     inkscape:zoom="1.4142136"
+     inkscape:cy="102.97361"
+     inkscape:cx="215.89505"
+     inkscape:zoom="1.8596999"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -42,230 +35,19 @@
      id="base"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1" />
-  <g
+     inkscape:deskcolor="#d1d1d1" /><g
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Background"
-     style="display:inline">
-    <g
-       style="display:inline"
-       inkscape:label="Colour"
-       id="g1174"
-       inkscape:groupmode="layer">
-      <path
-         id="rect1168"
-         style="display:inline;fill:#373737;fill-opacity:1;stroke:#2f2f2f;stroke-width:2.77528;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         d="m 1.387642,1.387642 v 65.487217 h 95.12069 V 1.387642 Z"
-         sodipodi:nodetypes="ccccc" />
-      <image
-         xlink:href="../argon/scalable/apps/org.gnome.Glade.svg"
-         y="48.154167"
-         x="78.316666"
-         id="image2302"
-         style="image-rendering:optimizeQuality"
-         height="8.4666672"
-         width="8.4666672"
-         inkscape:svg-dpi="96"
-         preserveAspectRatio="none" />
-      <image
-         xlink:href="../argon/scalable/apps/org.gnome.Screenshot.svg"
-         y="57.679169"
-         x="49.741673"
-         id="image2442"
-         style="image-rendering:optimizeQuality"
-         height="8.4666672"
-         width="8.4666672"
-         inkscape:svg-dpi="96"
-         preserveAspectRatio="none" />
-      <image
-         xlink:href="../argon/scalable/apps/org.gnome.SoundRecorder.svg"
-         y="57.679169"
-         x="68.791664"
-         id="image2564"
-         style="image-rendering:optimizeQuality"
-         height="8.4666672"
-         width="8.4666672"
-         inkscape:svg-dpi="96"
-         preserveAspectRatio="none" />
-      <image
-         xlink:href="../argon/scalable/apps/org.gnome.Totem.svg"
-         y="48.154167"
-         x="87.841667"
-         id="image2742"
-         style="image-rendering:optimizeQuality"
-         height="8.4666672"
-         width="8.4666672"
-         inkscape:svg-dpi="96"
-         preserveAspectRatio="none" />
-      <image
-         xlink:href="../argon/scalable/apps/openjdk.svg"
-         preserveAspectRatio="none"
-         inkscape:svg-dpi="96"
-         width="8.4666672"
-         height="8.4666672"
-         style="image-rendering:optimizeQuality"
-         id="image2442-3"
-         x="11.641666"
-         y="48.154167" />
-      <image
-         xlink:href="../argon/scalable/apps/org.gnome.Calendar.svg"
-         preserveAspectRatio="none"
-         inkscape:svg-dpi="96"
-         width="8.4666672"
-         height="8.4666672"
-         style="image-rendering:optimizeQuality"
-         id="image2832"
-         x="11.641668"
-         y="57.679169" />
-      <image
-         xlink:href="../argon/scalable/apps/org.gnome.Mines.svg"
-         preserveAspectRatio="none"
-         inkscape:svg-dpi="96"
-         width="8.4666672"
-         height="8.4666672"
-         style="image-rendering:optimizeQuality"
-         id="image3065"
-         x="11.641666"
-         y="38.629166" />
-      <image
-         xlink:href="../argon/scalable/apps/org.gnome.Music.svg"
-         preserveAspectRatio="none"
-         inkscape:svg-dpi="96"
-         width="8.4666672"
-         height="8.4666672"
-         style="image-rendering:optimizeQuality"
-         id="image3439"
-         x="59.26667"
-         y="57.679169" />
-    </g>
-    <g
-       inkscape:label="Shadow"
-       id="layer10"
-       inkscape:groupmode="layer"
-       style="display:inline;opacity:1" />
-    <g
-       inkscape:groupmode="layer"
-       id="layer2"
-       inkscape:label="Highlight"
-       style="display:inline;opacity:0.1" />
-    <image
-       xlink:href="../argon/scalable/apps/com.github.maoschanz.drawing.svg"
-       y="38.629166"
-       x="78.316666"
-       id="image2899"
-       style="image-rendering:optimizeQuality"
-       height="8.4666672"
-       width="8.4666672"
-       inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
-       xlink:href="../argon/scalable/apps/org.openrgb.OpenRGB.svg"
-       y="29.104168"
-       x="87.841667"
-       id="image3085"
-       style="image-rendering:optimizeQuality"
-       height="8.4666672"
-       width="8.4666672"
-       inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
-       xlink:href="../argon/scalable/apps/org.gnome.Cheese.svg"
-       y="57.679169"
-       x="87.841667"
-       id="image3208"
-       style="image-rendering:optimizeQuality"
-       height="8.4666672"
-       width="8.4666672"
-       inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
-       xlink:href="../argon/scalable/apps/org.gnome.Firmware.svg"
-       y="38.629177"
-       x="87.841667"
-       id="image3500"
-       style="image-rendering:optimizeQuality"
-       height="8.4666672"
-       width="8.4666672"
-       inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
-       xlink:href="../argon/scalable/apps/org.gnome.font-viewer.svg"
-       y="57.679169"
-       x="40.216671"
-       id="image3690"
-       style="image-rendering:optimizeQuality"
-       height="8.4666672"
-       width="8.4666672"
-       inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
-       xlink:href="../argon/scalable/apps/org.gnome.Lollypop.svg"
-       y="10.054167"
-       x="87.841667"
-       id="image3817"
-       style="image-rendering:optimizeQuality"
-       height="8.4666672"
-       width="8.4666672"
-       inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
-       xlink:href="../argon/scalable/apps/org.gnome.Settings.svg"
-       y="19.579166"
-       x="87.841667"
-       id="image3926"
-       style="image-rendering:optimizeQuality"
-       height="8.4666672"
-       width="8.4666672"
-       inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
-       xlink:href="../argon/scalable/apps/org.gnome.Terminal.svg"
-       y="57.679169"
-       x="78.316666"
-       id="image4068"
-       style="image-rendering:optimizeQuality"
-       height="8.4666672"
-       width="8.4666672"
-       inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
-       xlink:href="../argon/scalable/apps/org.gtk.IconBrowser4.svg"
-       y="57.679169"
-       x="21.16667"
-       id="image4283"
-       style="image-rendering:optimizeQuality"
-       height="8.4666672"
-       width="8.4666672"
-       inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
-       xlink:href="../argon/scalable/apps/org.gtk.PrintEditor4.svg"
-       y="57.679169"
-       x="30.691669"
-       id="image4447"
-       style="image-rendering:optimizeQuality"
-       height="8.4666672"
-       width="8.4666672"
-       inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
-       xlink:href="../argon/scalable/apps/org.gtk.WidgetFactory4.svg"
-       y="57.679169"
-       x="2.1166689"
-       id="image4661"
-       style="image-rendering:optimizeQuality"
-       height="8.4666672"
-       width="8.4666672"
-       inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-  </g>
-  <g
+     style="display:inline"><path
+       id="rect1168"
+       style="display:inline;fill:#373737;fill-opacity:1;stroke:#2f2f2f;stroke-width:2.77528;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 1.387642,1.387642 v 65.487217 h 95.12069 V 1.387642 Z"
+       sodipodi:nodetypes="ccccc" /></g><g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Icons"
-     style="display:inline">
-    <image
+     style="display:inline"><image
        xlink:href="../argon/scalable/apps/org.freedesktop.Piper.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -274,8 +56,7 @@
        style="display:inline;image-rendering:optimizeQuality"
        id="image2294"
        x="2.1166677"
-       y="10.05417" />
-    <image
+       y="10.05417" /><image
        xlink:href="../argon/scalable/apps/steam.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -284,8 +65,7 @@
        style="display:inline;image-rendering:optimizeQuality"
        id="image4386"
        x="11.641666"
-       y="10.05417" />
-    <image
+       y="10.05417" /><image
        xlink:href="../argon/scalable/apps/spotify-client.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -294,8 +74,7 @@
        style="display:inline;image-rendering:optimizeQuality"
        id="image4288"
        x="21.166666"
-       y="10.05417" />
-    <image
+       y="10.05417" /><image
        xlink:href="../argon/scalable/apps/retroarch.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -303,9 +82,8 @@
        height="8.4666662"
        style="display:inline;image-rendering:optimizeQuality"
        id="image4178"
-       x="78.316666"
-       y="19.57918" />
-    <image
+       x="30.691668"
+       y="19.57918" /><image
        xlink:href="../argon/scalable/apps/google-chrome.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -314,18 +92,7 @@
        style="display:inline;image-rendering:optimizeQuality"
        id="image1480"
        x="30.691668"
-       y="10.05417" />
-    <image
-       xlink:href="../argon/scalable/apps/chromium.svg"
-       preserveAspectRatio="none"
-       inkscape:svg-dpi="96"
-       width="8.4666662"
-       height="8.4666662"
-       style="display:inline;image-rendering:optimizeQuality"
-       id="image1034"
-       x="40.216667"
-       y="10.05417" />
-    <image
+       y="10.05417" /><image
        xlink:href="../argon/scalable/apps/audacity.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -334,8 +101,7 @@
        style="display:inline;image-rendering:optimizeQuality"
        id="image924"
        x="2.1166689"
-       y="29.137257" />
-    <image
+       y="29.137257" /><image
        xlink:href="../argon/scalable/apps/org.gnome.eog.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -344,8 +110,7 @@
        style="display:inline;image-rendering:optimizeQuality"
        id="image3016"
        x="11.641667"
-       y="29.104185" />
-    <image
+       y="29.104185" /><image
        xlink:href="../argon/scalable/apps/org.pitivi.Pitivi.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -354,8 +119,7 @@
        style="display:inline;image-rendering:optimizeQuality"
        id="image3508"
        x="21.166668"
-       y="29.104185" />
-    <image
+       y="29.104185" /><image
        xlink:href="../argon/scalable/apps/org.gnome.clocks.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -363,9 +127,8 @@
        height="8.4666662"
        style="display:inline;image-rendering:optimizeQuality"
        id="image2830"
-       x="68.791672"
-       y="19.57917" />
-    <image
+       x="40.216667"
+       y="10.054167" /><image
        xlink:href="../argon/scalable/apps/org.gnome.Boxes.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -374,8 +137,7 @@
        style="display:inline;image-rendering:optimizeQuality"
        id="image2522"
        x="30.691669"
-       y="29.104185" />
-    <image
+       y="29.104185" /><image
        xlink:href="../argon/scalable/apps/qemu.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -384,8 +146,7 @@
        style="display:inline;image-rendering:optimizeQuality"
        id="image4032"
        x="40.216667"
-       y="19.57918" />
-    <image
+       y="19.57918" /><image
        xlink:href="../argon/scalable/apps/nvidia-settings.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -394,8 +155,7 @@
        style="display:inline;image-rendering:optimizeQuality"
        id="image2163"
        x="2.1166689"
-       y="38.629181" />
-    <image
+       y="38.629181" /><image
        xlink:href="../argon/scalable/apps/org.gnome.Nautilus.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -404,8 +164,7 @@
        style="display:inline;image-rendering:optimizeQuality"
        id="image3202"
        x="40.216671"
-       y="38.629173" />
-    <image
+       y="38.629173" /><image
        xlink:href="../argon/scalable/apps/org.gnome.tweaks.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -414,8 +173,7 @@
        style="display:inline;image-rendering:optimizeQuality"
        id="image3353"
        x="30.691671"
-       y="48.154179" />
-    <image
+       y="48.154179" /><image
        xlink:href="../argon/scalable/apps/org.gnome.Calculator.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -424,8 +182,7 @@
        style="display:inline;image-rendering:optimizeQuality"
        id="image2694"
        x="30.691671"
-       y="38.629177" />
-    <image
+       y="38.629177" /><image
        xlink:href="../argon/scalable/apps/psensor.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -434,8 +191,7 @@
        style="display:inline;image-rendering:optimizeQuality"
        id="image3886"
        x="49.741673"
-       y="48.154175" />
-    <image
+       y="48.154175" /><image
        xlink:href="../argon/scalable/apps/gimp.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -444,8 +200,7 @@
        style="display:inline;image-rendering:optimizeQuality"
        id="image1366"
        x="59.266666"
-       y="29.104183" />
-    <image
+       y="29.104183" /><image
        xlink:href="../argon/scalable/apps/org.remmina.Remmina.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -454,8 +209,7 @@
        style="display:inline;image-rendering:optimizeQuality"
        id="image3718"
        x="21.166666"
-       y="19.57918" />
-    <image
+       y="19.57918" /><image
        xlink:href="../argon/scalable/apps/minecraft-launcher.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -464,18 +218,7 @@
        style="display:inline;image-rendering:optimizeQuality"
        id="image2083"
        x="59.266666"
-       y="38.629173" />
-    <image
-       xlink:href="../argon/scalable/apps/kernel-notify.svg"
-       preserveAspectRatio="none"
-       inkscape:svg-dpi="96"
-       width="8.4666662"
-       height="8.4666662"
-       style="display:inline;image-rendering:optimizeQuality"
-       id="image1913"
-       x="30.691668"
-       y="19.57918" />
-    <image
+       y="38.629173" /><image
        xlink:href="../argon/scalable/apps/com.obsproject.Studio.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -484,8 +227,7 @@
        style="display:inline;image-rendering:optimizeQuality"
        id="image1162"
        x="11.641666"
-       y="19.57918" />
-    <image
+       y="19.57918" /><image
        xlink:href="../argon/scalable/apps/gparted.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -494,8 +236,7 @@
        style="display:inline;image-rendering:optimizeQuality"
        id="image1618"
        x="68.791664"
-       y="38.629177" />
-    <image
+       y="38.629177" /><image
        xlink:href="../argon/scalable/apps/discord.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -504,8 +245,7 @@
        style="display:inline;image-rendering:optimizeQuality"
        id="image1265"
        x="2.1166689"
-       y="48.154182" />
-    <image
+       y="48.154182" /><image
        xlink:href="../argon/scalable/apps/org.gnome.ArchiveManager.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -514,8 +254,7 @@
        style="display:inline;opacity:1;image-rendering:optimizeQuality"
        id="image1642"
        x="40.216667"
-       y="29.104185" />
-    <image
+       y="29.104185" /><image
        xlink:href="../argon/scalable/apps/blender.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -524,28 +263,7 @@
        style="display:inline;opacity:1;image-rendering:optimizeQuality"
        id="image1765"
        x="49.741669"
-       y="10.054168" />
-    <image
-       xlink:href="../argon/scalable/apps/mollusc-text-editor.svg"
-       y="48.154179"
-       x="59.266666"
-       id="image1682"
-       style="image-rendering:optimizeQuality"
-       height="8.4666662"
-       width="8.4666662"
-       inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
-       xlink:href="../argon/scalable/apps/org.gnome.Games.svg"
-       y="29.104185"
-       x="49.741669"
-       id="image1832"
-       style="image-rendering:optimizeQuality"
-       height="8.4666662"
-       width="8.4666662"
-       inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
+       y="10.054168" /><image
        xlink:href="../argon/scalable/apps/display-im6.q16.svg"
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -554,8 +272,7 @@
        style="image-rendering:optimizeQuality"
        id="image2261"
        x="21.166668"
-       y="48.154179" />
-    <image
+       y="48.154179" /><image
        xlink:href="../argon/scalable/apps/multimedia-volume-control.svg"
        y="19.57918"
        x="2.1166668"
@@ -564,8 +281,7 @@
        height="8.4666672"
        width="8.4666672"
        inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
+       preserveAspectRatio="none" /><image
        xlink:href="../argon/scalable/apps/fr.handbrake.ghb.svg"
        y="19.579182"
        x="49.741669"
@@ -574,8 +290,7 @@
        height="8.4666672"
        width="8.4666672"
        inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
+       preserveAspectRatio="none" /><image
        xlink:href="../argon/scalable/apps/htop.svg"
        y="48.154179"
        x="40.216671"
@@ -584,8 +299,7 @@
        height="8.4666672"
        width="8.4666672"
        inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
+       preserveAspectRatio="none" /><image
        xlink:href="../argon/scalable/apps/org.gnome.Photos.svg"
        y="19.57918"
        x="59.266666"
@@ -594,8 +308,7 @@
        height="8.4666672"
        width="8.4666672"
        inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
+       preserveAspectRatio="none" /><image
        xlink:href="../argon/scalable/apps/vlc.svg"
        y="48.154179"
        x="68.791664"
@@ -604,8 +317,7 @@
        height="8.4666672"
        width="8.4666672"
        inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
+       preserveAspectRatio="none" /><image
        xlink:href="../argon/scalable/apps/vim.svg"
        y="29.104181"
        x="78.316666"
@@ -614,8 +326,7 @@
        height="8.4666672"
        width="8.4666672"
        inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
+       preserveAspectRatio="none" /><image
        xlink:href="../argon/scalable/apps/winetricks.svg"
        y="38.629181"
        x="49.741669"
@@ -624,8 +335,7 @@
        height="8.4666672"
        width="8.4666672"
        inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
+       preserveAspectRatio="none" /><image
        xlink:href="../argon/scalable/apps/com.leinardi.gwe.svg"
        y="38.629173"
        x="21.166668"
@@ -634,8 +344,7 @@
        height="8.4666672"
        width="8.4666672"
        inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
+       preserveAspectRatio="none" /><image
        xlink:href="../argon/scalable/apps/inkscape.svg"
        y="29.104172"
        x="68.791672"
@@ -644,8 +353,7 @@
        height="8.4666672"
        width="8.4666672"
        inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
+       preserveAspectRatio="none" /><image
        xlink:href="../argon/scalable/apps/io.atom.Atom.svg"
        y="10.054168"
        x="59.266666"
@@ -654,47 +362,242 @@
        height="8.4666672"
        width="8.4666672"
        inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
-       xlink:href="../argon/scalable/apps/atom-beta.svg"
-       y="10.054168"
-       x="68.791664"
-       id="image3173"
-       style="image-rendering:optimizeQuality"
-       height="8.4666672"
-       width="8.4666672"
-       inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-    <image
-       xlink:href="../argon/scalable/apps/atom-nightly.svg"
-       y="10.054167"
+       preserveAspectRatio="none" /><image
+       xlink:href="../argon/scalable/apps/com.github.maoschanz.drawing.svg"
+       y="38.629166"
        x="78.316666"
-       id="image3282"
-       style="image-rendering:optimizeQuality"
+       id="image2899"
+       style="display:inline;image-rendering:optimizeQuality"
        height="8.4666672"
        width="8.4666672"
        inkscape:svg-dpi="96"
-       preserveAspectRatio="none" />
-  </g>
-  <g
+       preserveAspectRatio="none" /><image
+       xlink:href="../argon/scalable/apps/org.gnome.Cheese.svg"
+       y="57.679169"
+       x="87.841667"
+       id="image3208"
+       style="display:inline;image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" /><image
+       xlink:href="../argon/scalable/apps/org.gnome.Firmware.svg"
+       y="38.629177"
+       x="87.841667"
+       id="image3500"
+       style="display:inline;image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" /><image
+       xlink:href="../argon/scalable/apps/org.gnome.font-viewer.svg"
+       y="57.679169"
+       x="40.216671"
+       id="image3690"
+       style="display:inline;image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" /><image
+       xlink:href="../argon/scalable/apps/org.gnome.Lollypop.svg"
+       y="10.054167"
+       x="87.841667"
+       id="image3817"
+       style="display:inline;image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" /><image
+       xlink:href="../argon/scalable/apps/org.gnome.Settings.svg"
+       y="10.054168"
+       x="78.316666"
+       id="image3926"
+       style="display:inline;image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" /><image
+       xlink:href="../argon/scalable/apps/org.gnome.Terminal.svg"
+       y="57.679169"
+       x="78.316666"
+       id="image4068"
+       style="display:inline;image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" /><image
+       xlink:href="../argon/scalable/apps/org.gtk.IconBrowser4.svg"
+       y="57.679169"
+       x="21.16667"
+       id="image4283"
+       style="display:inline;image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" /><image
+       xlink:href="../argon/scalable/apps/org.gtk.PrintEditor4.svg"
+       y="57.679169"
+       x="30.691669"
+       id="image4447"
+       style="display:inline;image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" /><image
+       xlink:href="../argon/scalable/apps/org.gtk.WidgetFactory4.svg"
+       y="57.679169"
+       x="2.1166689"
+       id="image4661"
+       style="display:inline;image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" /><image
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666672"
+       height="8.4666672"
+       style="display:inline;image-rendering:optimizeQuality"
+       xlink:href="../argon/scalable/apps/libreoffice-impress.svg"
+       id="image1-35"
+       x="78.316666"
+       y="19.57917" /><image
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666672"
+       height="8.4666672"
+       style="display:inline;image-rendering:optimizeQuality"
+       xlink:href="../argon/scalable/apps/libreoffice-writer.svg"
+       id="image1-1"
+       x="87.841667"
+       y="19.579166" /><image
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666672"
+       height="8.4666672"
+       style="display:inline;image-rendering:optimizeQuality"
+       xlink:href="../argon/scalable/apps/org.gnome.gitlab.somas.Apostrophe.svg"
+       id="image1-93"
+       x="68.791672"
+       y="19.579166" /><image
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666672"
+       height="8.4666672"
+       style="display:inline;image-rendering:optimizeQuality"
+       xlink:href="../argon/scalable/apps/org.gnome.TextEditor.svg"
+       id="image1-626"
+       x="87.841667"
+       y="29.104168" /><image
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666672"
+       height="8.4666672"
+       style="display:inline;image-rendering:optimizeQuality"
+       xlink:href="../argon/scalable/apps/org.gnome.Weather.svg"
+       id="image1-18"
+       x="59.266666"
+       y="48.154167" /><image
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666672"
+       height="8.4666672"
+       style="display:inline;image-rendering:optimizeQuality"
+       xlink:href="../argon/scalable/apps/org.wireshark.Wireshark.svg"
+       id="image1-23"
+       x="49.741669"
+       y="29.104168" /><image
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666672"
+       height="8.4666672"
+       style="display:inline;image-rendering:optimizeQuality"
+       xlink:href="../argon/scalable/apps/preferences-system-network.svg"
+       id="image1-75"
+       x="68.791664"
+       y="10.054168" /><image
+       xlink:href="../argon/scalable/apps/org.gnome.Glade.svg"
+       y="48.154167"
+       x="78.316666"
+       id="image2302"
+       style="display:inline;image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" /><image
+       xlink:href="../argon/scalable/apps/org.gnome.Screenshot.svg"
+       y="57.679169"
+       x="49.741673"
+       id="image2442"
+       style="display:inline;image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" /><image
+       xlink:href="../argon/scalable/apps/org.gnome.SoundRecorder.svg"
+       y="57.679169"
+       x="68.791664"
+       id="image2564"
+       style="display:inline;image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" /><image
+       xlink:href="../argon/scalable/apps/org.gnome.Totem.svg"
+       y="48.154167"
+       x="87.841667"
+       id="image2742"
+       style="display:inline;image-rendering:optimizeQuality"
+       height="8.4666672"
+       width="8.4666672"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" /><image
+       xlink:href="../argon/scalable/apps/openjdk.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666672"
+       height="8.4666672"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image2442-3"
+       x="11.641666"
+       y="48.154167" /><image
+       xlink:href="../argon/scalable/apps/org.gnome.Calendar.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666672"
+       height="8.4666672"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image2832"
+       x="11.641668"
+       y="57.679169" /><image
+       xlink:href="../argon/scalable/apps/org.gnome.Mines.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666672"
+       height="8.4666672"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image3065"
+       x="11.641666"
+       y="38.629166" /><image
+       xlink:href="../argon/scalable/apps/org.gnome.Music.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="8.4666672"
+       height="8.4666672"
+       style="display:inline;image-rendering:optimizeQuality"
+       id="image3439"
+       x="59.26667"
+       y="57.679169" /></g><g
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Text"
-     style="display:inline">
-    <text
-       xml:space="preserve"
+     style="display:inline"><path
+       style="font-size:10.5833px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;white-space:pre;fill:#15fdff"
+       d="m 18.886403,31.44111 q -0.179916,-0.476249 -0.338665,-0.93133 -0.15875,-0.465666 -0.328083,-0.941914 h -3.323156 l -0.666747,1.873244 h -1.068914 q 0.423332,-1.164163 0.793748,-2.14841 0.370415,-0.99483 0.719664,-1.883827 0.359832,-0.888997 0.709081,-1.693328 0.349249,-0.814914 0.730248,-1.608662 h 0.941914 q 0.380998,0.793748 0.730247,1.608662 0.349249,0.804331 0.698498,1.693328 0.359832,0.888997 0.730248,1.883827 0.370415,0.984247 0.793747,2.14841 z m -0.96308,-2.719908 q -0.338665,-0.920747 -0.677331,-1.777994 -0.328082,-0.867831 -0.687915,-1.661578 -0.370415,0.793747 -0.709081,1.661578 -0.328082,0.857247 -0.656164,1.777994 z m 5.048235,-2.899824 q 0.127,0 0.285749,0.02117 0.169333,0.01058 0.328083,0.04233 0.158749,0.02117 0.285749,0.05292 0.137583,0.02117 0.201082,0.04233 l -0.169332,0.857248 q -0.116417,-0.04233 -0.391582,-0.09525 -0.264583,-0.0635 -0.687915,-0.0635 -0.275166,0 -0.550332,0.0635 -0.264582,0.05292 -0.349248,0.07408 v 4.624902 h -0.984247 v -5.270483 q 0.349249,-0.127 0.86783,-0.232833 0.518582,-0.116416 1.164163,-0.116416 z m 5.503313,5.0694 q -0.127,0.08467 -0.497415,0.22225 -0.359833,0.126999 -0.846664,0.126999 -0.497415,0 -0.941914,-0.158749 -0.433915,-0.15875 -0.761998,-0.486832 -0.328082,-0.338666 -0.518581,-0.836081 -0.1905,-0.497415 -0.1905,-1.185329 0,-0.603248 0.179916,-1.100663 0.179916,-0.507999 0.518582,-0.867831 0.349249,-0.370415 0.846664,-0.571498 0.497415,-0.211666 1.12183,-0.211666 0.687914,0 1.195913,0.105833 0.518581,0.09525 0.86783,0.179916 v 4.910651 q 0,1.269996 -0.656164,1.841494 -0.656165,0.571498 -1.989661,0.571498 -0.518581,0 -0.984247,-0.08467 -0.455081,-0.08467 -0.793747,-0.201083 l 0.179916,-0.857247 q 0.296332,0.116416 0.719664,0.201083 0.433916,0.09525 0.899581,0.09525 0.878414,0 1.259413,-0.349249 0.391582,-0.349248 0.391582,-1.111246 z m -0.01058,-4.085153 q -0.148166,-0.04233 -0.402165,-0.07408 -0.243416,-0.04233 -0.666748,-0.04233 -0.793747,0 -1.227663,0.518582 -0.423332,0.518582 -0.423332,1.375829 0,0.476249 0.116417,0.814914 0.126999,0.338666 0.328082,0.560915 0.211666,0.222249 0.476248,0.328082 0.275166,0.105833 0.560915,0.105833 0.391582,0 0.719665,-0.105833 0.328082,-0.116416 0.518581,-0.264582 z m 7.5353,1.883827 q 0,0.656165 -0.190499,1.18533 -0.190499,0.529165 -0.539748,0.910163 -0.338666,0.380999 -0.814914,0.592665 -0.476249,0.201083 -1.037164,0.201083 -0.560915,0 -1.037163,-0.201083 -0.476249,-0.211666 -0.825497,-0.592665 -0.338666,-0.380998 -0.529165,-0.910163 -0.1905,-0.529165 -0.1905,-1.18533 0,-0.645581 0.1905,-1.174746 0.190499,-0.539749 0.529165,-0.920747 0.349248,-0.380999 0.825497,-0.582082 0.476248,-0.211666 1.037163,-0.211666 0.560915,0 1.037164,0.211666 0.476248,0.201083 0.814914,0.582082 0.349249,0.380998 0.539748,0.920747 0.190499,0.529165 0.190499,1.174746 z m -1.02658,0 q 0,-0.93133 -0.423332,-1.471079 -0.412748,-0.550331 -1.132413,-0.550331 -0.719664,0 -1.142996,0.550331 -0.412749,0.539749 -0.412749,1.471079 0,0.93133 0.412749,1.481662 0.423332,0.539748 1.142996,0.539748 0.719665,0 1.132413,-0.539748 0.423332,-0.550332 0.423332,-1.481662 z m 2.412994,-2.592908 q 0.338666,-0.08467 0.899581,-0.179916 0.560914,-0.09525 1.291162,-0.09525 0.656165,0 1.09008,0.190499 0.433915,0.179916 0.687914,0.518582 0.264583,0.328082 0.370416,0.793747 0.105833,0.465666 0.105833,1.02658 V 31.44111 H 40.84674 v -2.878658 q 0,-0.507998 -0.07408,-0.86783 -0.0635,-0.359832 -0.222249,-0.582082 -0.15875,-0.222249 -0.423332,-0.317499 -0.264583,-0.105833 -0.656165,-0.105833 -0.158749,0 -0.328082,0.01058 -0.169333,0.01058 -0.328082,0.03175 -0.148167,0.01058 -0.275166,0.03175 -0.116417,0.02117 -0.169333,0.03175 v 4.646069 h -0.984247 z m 8.58306,-1.989661 h 1.02658 v 7.334227 h -1.02658 z m 5.175225,7.461227 q -0.666748,0 -1.174747,-0.211666 -0.497415,-0.211666 -0.846663,-0.592665 -0.338666,-0.380999 -0.507999,-0.899581 -0.169333,-0.529165 -0.169333,-1.164163 0,-0.634998 0.179916,-1.164163 0.1905,-0.529165 0.529165,-0.910163 0.338666,-0.391582 0.825498,-0.603248 0.497415,-0.22225 1.100663,-0.22225 0.370415,0 0.740831,0.0635 0.370415,0.0635 0.709081,0.201083 l -0.222249,0.83608 q -0.22225,-0.105833 -0.518582,-0.169332 -0.285749,-0.0635 -0.613831,-0.0635 -0.825498,0 -1.269996,0.518581 -0.433916,0.518582 -0.433916,1.513412 0,0.444499 0.09525,0.814914 0.105833,0.370416 0.317499,0.634998 0.222249,0.264583 0.560915,0.412749 0.338666,0.137583 0.825497,0.137583 0.391582,0 0.709081,-0.07408 0.317499,-0.07408 0.497415,-0.15875 l 0.137583,0.825498 q -0.08467,0.05292 -0.243416,0.105833 -0.158749,0.04233 -0.359832,0.07408 -0.201082,0.04233 -0.433915,0.0635 -0.222249,0.03175 -0.433915,0.03175 z m 7.249554,-2.878658 q 0,0.656165 -0.190499,1.18533 -0.1905,0.529165 -0.539748,0.910163 -0.338666,0.380999 -0.814915,0.592665 -0.476248,0.201083 -1.037163,0.201083 -0.560915,0 -1.037163,-0.201083 -0.476249,-0.211666 -0.825498,-0.592665 -0.338665,-0.380998 -0.529165,-0.910163 -0.190499,-0.529165 -0.190499,-1.18533 0,-0.645581 0.190499,-1.174746 0.1905,-0.539749 0.529165,-0.920747 0.349249,-0.380999 0.825498,-0.582082 0.476248,-0.211666 1.037163,-0.211666 0.560915,0 1.037163,0.211666 0.476249,0.201083 0.814915,0.582082 0.349248,0.380998 0.539748,0.920747 0.190499,0.529165 0.190499,1.174746 z m -1.02658,0 q 0,-0.93133 -0.423332,-1.471079 -0.412749,-0.550331 -1.132413,-0.550331 -0.719664,0 -1.142996,0.550331 -0.412749,0.539749 -0.412749,1.471079 0,0.93133 0.412749,1.481662 0.423332,0.539748 1.142996,0.539748 0.719664,0 1.132413,-0.539748 0.423332,-0.550332 0.423332,-1.481662 z m 2.412994,-2.592908 q 0.338665,-0.08467 0.89958,-0.179916 0.560915,-0.09525 1.291163,-0.09525 0.656165,0 1.09008,0.190499 0.433915,0.179916 0.687914,0.518582 0.264583,0.328082 0.370416,0.793747 0.105833,0.465666 0.105833,1.02658 v 3.090324 h -0.984247 v -2.878658 q 0,-0.507998 -0.07408,-0.86783 -0.0635,-0.359832 -0.22225,-0.582082 -0.158749,-0.222249 -0.423331,-0.317499 -0.264583,-0.105833 -0.656165,-0.105833 -0.15875,0 -0.328082,0.01058 -0.169333,0.01058 -0.328083,0.03175 -0.148166,0.01058 -0.275165,0.03175 -0.116417,0.02117 -0.169333,0.03175 v 4.646069 h -0.984247 z m 7.355389,4.635485 q 0.603248,0 0.888997,-0.15875 0.296333,-0.158749 0.296333,-0.507998 0,-0.359832 -0.285749,-0.571498 -0.285749,-0.211666 -0.941914,-0.476249 -0.317499,-0.126999 -0.613831,-0.253999 -0.285749,-0.137583 -0.497415,-0.317499 -0.211666,-0.179916 -0.338666,-0.433915 -0.127,-0.253999 -0.127,-0.624415 0,-0.730247 0.539749,-1.153579 0.539748,-0.433916 1.471078,-0.433916 0.232833,0 0.465665,0.03175 0.232833,0.02117 0.433916,0.0635 0.201082,0.03175 0.349249,0.07408 0.158749,0.04233 0.243416,0.07408 l -0.179917,0.846664 q -0.158749,-0.08467 -0.497415,-0.169333 -0.338665,-0.09525 -0.814914,-0.09525 -0.412748,0 -0.719664,0.169332 -0.306916,0.15875 -0.306916,0.507999 0,0.179916 0.0635,0.317499 0.07408,0.137583 0.211666,0.253999 0.148166,0.105833 0.359832,0.201083 0.211666,0.09525 0.507999,0.201082 0.391582,0.148167 0.698497,0.296333 0.306916,0.137583 0.518582,0.328082 0.222249,0.190499 0.338666,0.465665 0.116416,0.264583 0.116416,0.656165 0,0.761997 -0.571498,1.153579 -0.560915,0.391583 -1.608662,0.391583 -0.730247,0 -1.142996,-0.127 -0.412749,-0.116416 -0.560915,-0.179916 l 0.179916,-0.846664 q 0.169333,0.0635 0.539748,0.190499 0.370416,0.127 0.984247,0.127 z"
        id="text843"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect845);display:inline;fill:#15fdff;fill-opacity:1;stroke:none"
-       transform="matrix(0.58697425,0,0,0.58697421,-4.5500731,-12.033452)"><tspan
-         x="13.076172"
-         y="31.44111"
-         id="tspan4"><tspan
-           style="font-family:ubuntu;-inkscape-font-specification:ubuntu"
-           id="tspan3">Argon Icons</tspan></tspan></text>
-    <path
+       transform="matrix(0.58697425,0,0,0.58697421,-4.5500731,-12.033452)"
+       aria-label="Argon Icons" /><path
        style="fill:none;stroke:#ececec;stroke-width:0.800834;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 1.3229167,8.5954166 H 39.683958 V 1.3229167"
        id="path3407"
-       sodipodi:nodetypes="ccc" />
-  </g>
-</svg>
+       sodipodi:nodetypes="ccc" /></g></svg>
