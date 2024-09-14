@@ -91,7 +91,7 @@ org.audacityteam.Audacity.svg -> audacity.svg
 org.audacityteam.Audacity-symbolic.symbolic.svg -> audacity-symbolic.symbolic.svg
 org.blender.Blender.svg -> blender.svg
 org.chromium.Chromium.svg -> chromium.svg
-org.gimp.GIMP.svg -> gimp.svg
+gimp.svg -> org.gimp.GIMP.svg
 org.gnome.Calculator.Devel-symbolic.symbolic.svg -> org.gnome.Calculator-symbolic.symbolic.svg
 org.gnome.Clocks.svg -> org.gnome.clocks.svg
 org.gnome.Clocks-symbolic.symbolic.svg -> org.gnome.clocks-symbolic.symbolic.svg
