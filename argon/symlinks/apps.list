@@ -15,6 +15,7 @@ com.spotify.Client.svg -> spotify-client.svg
 com.spotify.Client-symbolic.symbolic.svg -> spotify-client-symbolic.symbolic.svg
 com.valvesoftware.Steam.svg -> steam.svg
 com.valvesoftware.Steam-symbolic.symbolic.svg -> steam-symbolic.symbolic.svg
+display-im7.q16.svg -> display-im6.q16.svg
 eog.svg -> org.gnome.eog.svg
 eog-symbolic.symbolic.svg -> org.gnome.eog-symbolic.symbolic.svg
 gedit.svg -> org.gnome.TextEditor.svg
