@@ -1,9 +1,23 @@
 #!/usr/bin/python3
-import sys, os
-import common
+import sys, os, glob, re
 
 def listFiles(path):
   return [f.path for f in os.scandir(path)]
+
+def getResolutionDirs(searchPath):
+  #Generate a list of directories matching searchPath/*x*
+  resolutionDirs = []
+  for directory in glob.glob(f"{searchPath}/*x*"):
+    directory = directory.replace(f"{searchPath}/", "")
+    if os.path.isdir(f"{searchPath}/{directory}"):
+      if re.search("^([0-9]+x[0-9]+)", directory):
+        resolutionDirs.append(directory)
+
+  #Order directories numerically by resolution
+  resolutionDirs.sort(key=lambda x: int(x.split("x")[0]))
+  resolutionDirs.append("scalable")
+
+  return resolutionDirs
 
 def processIcon(icon):
   icon = icon.replace(".symbolic", "")
@@ -32,7 +46,7 @@ def getIconList(themePath):
   iconList = {}
 
   #Find all the icons in the given theme
-  for resolutionDir in common.getResolutionDirs(themePath):
+  for resolutionDir in getResolutionDirs(themePath):
     for contextDir in listFiles(f"{themePath}/{resolutionDir}"):
       contextString = f"{contextDir.rsplit('/', 1)[1]}"
       if contextString not in iconList:

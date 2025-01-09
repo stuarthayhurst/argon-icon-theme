@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 import sys, glob, os, shutil
-import common
 
 def createSymlinkDict(buildDir):
   #Read all the symlinks to create into memory and create a data structure for them
@@ -47,20 +46,15 @@ def makeSymlinks(buildDir, installDir):
   #Loop through contexts
   for contextDir in symlinkDict:
     #Get resolutions to generate symlinks for specific context
-    resolutionDirs = contextDict[contextDir][1]
-    #Loop through resolutionDirs
-    for resolutionDir in resolutionDirs:
-      path = (f"{installDir}/{resolutionDir}/{contextDir}/")
+    path = (f"{installDir}/scalable/{contextDir}/")
 
-      #Create context dir if missing
-      if not os.path.isdir(path):
-        os.mkdir(path)
+    #Create context directory if missing
+    if not os.path.isdir(path):
+      os.mkdir(path)
 
-      for symlinkObject in symlinkDict[contextDir]:
-        if resolutionDir == "scalable":
-          shutil.copy(f"{path}{symlinkObject['target']}.svg", f"{path}{symlinkObject['symlink']}.svg")
-        else:
-          shutil.copy(f"{path}{symlinkObject['target']}.png", f"{path}{symlinkObject['symlink']}.png")
+    #Install the icons for the context
+    for symlinkObject in symlinkDict[contextDir]:
+      shutil.copy(f"{path}{symlinkObject['target']}.svg", f"{path}{symlinkObject['symlink']}.svg")
 
 def checkSymlinks(buildDir):
   #Create dictionary with symlink information
@@ -92,9 +86,6 @@ def checkSymlinks(buildDir):
 
 #Handle arguments
 if sys.argv[1] == "--install-symlinks":
-  #Create context dictionary for future reference
-  contextDict = common.createContextDict()
-
   #Pass makeSymlinks() the build and install directory
   print("Installing symlinks...")
   makeSymlinks(str(sys.argv[2]), str(sys.argv[3]))

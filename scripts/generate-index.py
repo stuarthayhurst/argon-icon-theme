@@ -1,6 +1,16 @@
 #!/usr/bin/python3
-import sys, shutil
-import common
+import sys, shutil, csv
+
+def createContextDict():
+  #Load info from index/context.csv into a dictionary
+  contextDict = {}
+  with open("index/context.csv", "r") as file:
+    reader = csv.reader(file)
+    for row in reader:
+      #contextDict stores the pretty name of the context
+      contextDict[row[0]] = row[1]
+
+  return contextDict
 
 def generateIndex(buildDir):
   #Copy index/index.theme.template to buildDir/index.theme
@@ -10,27 +20,24 @@ def generateIndex(buildDir):
   directoryAccumulator = []
   directoryInfo = []
 
-  #Loop through all contexts
+  #Loop through all contexts to build the index
   for iconDir in contextDict:
-    #Loop through all resolutions that apply to current context
-    for iconResolution in contextDict[iconDir][1]:
-      #Generate values for index entry
-      if iconResolution == "scalable":
-        iconSize = 256
-        iconType = "Scalable"
-      else:
-        iconSize = iconResolution.split("x")[0]
-        iconType = "Fixed"
+    #Set icon size
+    iconSize = 256
+    if (iconDir == "status"):
+      iconSize = 16
 
-      #Keep running total of all dirs processed
-      directoryAccumulator.append(iconResolution + "/" + iconDir)
+    #Keep running total of all directories processed
+    directoryAccumulator.append("scalable" + "/" + iconDir)
 
-      #Fill in directory.template and index.theme
-      directoryInfo.append("")
-      directoryInfo.append("[" + iconResolution + "/" + iconDir + "]")
-      directoryInfo.append("Size=" + str(iconSize))
-      directoryInfo.append("Context=" + contextDict[iconDir][0])
-      directoryInfo.append("Type=" + iconType)
+    #Fill in directory.template and index.theme
+    directoryInfo.append("")
+    directoryInfo.append("[" + "scalable" + "/" + iconDir + "]")
+    directoryInfo.append("Size=" + str(iconSize))
+    directoryInfo.append("MinSize=8")
+    directoryInfo.append("MaxSize=512")
+    directoryInfo.append("Context=" + contextDict[iconDir])
+    directoryInfo.append("Type=" + "Scalable")
 
   #Prepare arrays to be written to file
   outputData = [""] + ["Directories=" + ",".join(directoryAccumulator)] + directoryInfo
@@ -41,7 +48,7 @@ def generateIndex(buildDir):
       file.write(line + "\n")
 
 #Load info from index/context.csv into a dictionary
-contextDict = common.createContextDict()
+contextDict = createContextDict()
 
 #Pass generateIndex() the build directory
 generateIndex(str(sys.argv[1]))
