@@ -1,16 +1,20 @@
 #!/usr/bin/python3
 import sys, shutil, csv
 
-def createContextDict():
-  #Load info from index/context.csv into a dictionary
-  contextDict = {}
+def createContextList():
+  #Load info from index/context.csv into a list
+  contextList = []
   with open("index/context.csv", "r") as file:
     reader = csv.reader(file)
     for row in reader:
-      #contextDict stores the pretty name of the context
-      contextDict[row[0]] = row[1]
+      contextList.append({
+        "context": row[0],
+        "name": row[1],
+        "type": row[2],
+        "size": row[3]
+      })
 
-  return contextDict
+  return contextList
 
 def generateIndex(buildDir):
   #Copy index/index.theme.template to buildDir/index.theme
@@ -21,23 +25,18 @@ def generateIndex(buildDir):
   directoryInfo = []
 
   #Loop through all contexts to build the index
-  for iconDir in contextDict:
-    #Set icon size
-    iconSize = 256
-    if (iconDir == "status"):
-      iconSize = 16
-
+  for dirInfo in contextList:
     #Keep running total of all directories processed
-    directoryAccumulator.append("scalable" + "/" + iconDir)
+    directoryAccumulator.append(f"{dirInfo['type']}/{dirInfo['context']}")
 
     #Fill in directory.template and index.theme
     directoryInfo.append("")
-    directoryInfo.append("[" + "scalable" + "/" + iconDir + "]")
-    directoryInfo.append("Size=" + str(iconSize))
+    directoryInfo.append(f"[{dirInfo['type']}/{dirInfo['context']}]")
+    directoryInfo.append(f"Size={dirInfo['size']}")
     directoryInfo.append("MinSize=8")
     directoryInfo.append("MaxSize=512")
-    directoryInfo.append("Context=" + contextDict[iconDir])
-    directoryInfo.append("Type=" + "Scalable")
+    directoryInfo.append(f"Context={dirInfo['name']}")
+    directoryInfo.append("Type=Scalable")
 
   #Prepare arrays to be written to file
   outputData = [""] + ["Directories=" + ",".join(directoryAccumulator)] + directoryInfo
@@ -47,8 +46,8 @@ def generateIndex(buildDir):
     for line in outputData:
       file.write(line + "\n")
 
-#Load info from index/context.csv into a dictionary
-contextDict = createContextDict()
+#Load info from index/context.csv into a list
+contextList = createContextList()
 
 #Pass generateIndex() the build directory
 generateIndex(str(sys.argv[1]))

@@ -10,7 +10,7 @@ check:
 install: check
 	  $(MAKE) uninstall
 	  mkdir -p "$(INSTALL_DIR)"
-	  cp -r "./$(BUILD_DIR)/"* "$(INSTALL_DIR)"
+	  cp -r "./$(BUILD_DIR)/scalable" "./$(BUILD_DIR)/symbolic" "$(INSTALL_DIR)"
 	  ./scripts/symlink-tool.py "--install-symlinks" "$(BUILD_DIR)" "$(INSTALL_DIR)"
 	  $(MAKE) index
 	  $(MAKE) refresh

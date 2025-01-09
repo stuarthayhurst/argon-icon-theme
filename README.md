@@ -33,4 +33,4 @@
 
 ## Install Dependencies:
   - make
-  - python3
+  - python3 (3.9+)

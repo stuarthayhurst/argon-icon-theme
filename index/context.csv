@@ -1,4 +1,8 @@
-apps,Applications,256
-devices,Devices,128
-mimetypes,MimeTypes,128
-status,Status,256
+apps,Applications,scalable,256
+apps,Applications,symbolic,16
+devices,Devices,scalable,256
+devices,Devices,symbolic,16
+mimetypes,MimeTypes,scalable,256
+mimetypes,MimeTypes,symbolic,16
+status,Status,scalable,256
+status,Status,symbolic,16
