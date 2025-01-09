@@ -16,6 +16,7 @@ def getResolutionDirs(searchPath):
   #Order directories numerically by resolution
   resolutionDirs.sort(key=lambda x: int(x.split("x")[0]))
   resolutionDirs.append("scalable")
+  resolutionDirs.append("symbolic")
 
   return resolutionDirs
 
