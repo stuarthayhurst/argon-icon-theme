@@ -34,9 +34,9 @@
    - Please use a relative path, as the symlinks are generated exactly with the given data in the install directory
 
 ## Installing the icon theme:
-  - Install with `sudo make install`
-  - Uninstall with `sudo make uninstall`
-  - Set the theme using GNOME Tweaks, or `gsettings set org.gnome.desktop.interface icon-theme Argon`
+ - Install with `sudo make install`
+ - Uninstall with `sudo make uninstall`
+ - Set the theme using GNOME Tweaks, or `gsettings set org.gnome.desktop.interface icon-theme Argon`
 
 ## Submitting a pull request:
  - When you believe your contribution to be complete, submit a pull request
