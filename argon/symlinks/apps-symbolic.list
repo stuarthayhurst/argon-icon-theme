@@ -10,6 +10,7 @@ eog-symbolic.svg -> org.gnome.eog-symbolic.svg
 gedit-symbolic.svg -> org.gnome.TextEditor-symbolic.svg
 org.gnome.gedit-symbolic.svg -> org.gnome.TextEditor-symbolic.svg
 org.gnome.Gedit-symbolic.svg -> org.gnome.TextEditor-symbolic.svg
+org.gnome.Showtime-symbolic.svg -> org.gnome.Totem-symbolic.svg
 gnome-calculator-symbolic.svg -> org.gnome.Calculator-symbolic.svg
 gnome-calendar-symbolic.svg -> org.gnome.Calendar-symbolic.svg
 gnome-mines-symbolic.svg -> org.gnome.Mines-symbolic.svg
