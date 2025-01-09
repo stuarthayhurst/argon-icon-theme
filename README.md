@@ -20,28 +20,17 @@
     - For example, `INSTALL_DIR=/usr/share/icons/Argon sudo make install`
 
 ## Building:
-  - It's not necessary to rebuild the theme to install, only if modifications have been made
-  - `make build -jX` will clean, then generate changed icons and `index.theme`
-  - `make regen -jX` will regenerate all icons, whether they have been changed or not, and `index.theme`
-  - `make reset` will delete all generated icons and `index.theme`
-  - `make clean` will delete icons missing a corresponding svg, broken symlinks and empty directories
-  - `make index` will generate `index.theme` (Done automatically by `build` and `regen`)
+  - `make index` will generate `index.theme`
   - `make check` will check all defined symlinks are valid
-  - `make install` will copy the theme in its current state to the install location, check and generate any symlinks, then run `make refresh`
+  - `make install` will copy the theme to the install location, check and generate symlinks, generate `index.theme`, then run `make refresh`
   - `make refresh` will generate an icon cache for the theme
 
 ## Contributing:
-  - Contribution guidelines can be found in `docs/CONTRIBUTING.md`, but summarised:
+  - Contribution guidelines can be found in `docs/CONTRIBUTING.md`, but in summary:
     - Create / modify / delete the appropriate .svg file(s)
-    - Run `make build` to clean up left over files, generate new icons and index
     - Submit a pull request with the changes
   - Guides to make icons can be found in `guides/`
 
-## Install Dependencies: (Required to install with no modifications)
+## Install Dependencies:
   - make
   - python3
-
-## Build Dependencies: (Required when icon .svgs have been modified)
-  - `Install dependencies`
-  - inkscape
-  - optipng

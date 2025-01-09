@@ -20,33 +20,24 @@
 
 ## Adding an icon:
  - **Icons should follow the guidelines in `docs/DESIGN_GUIDELINES.md`**
- - Icons are created via svg files in `argon/scalable/[context]/icon.svg`
+ - Icons are all SVG files, such as `argon/scalable/[context]/icon.svg`
  - Icon templates can be found in `guides/`, and should be followed to match the style of the theme
- - The icons need to be regenerated, as stated below
  - Any text used should be converted from text to a path
 
-## Building and installing the icon theme:
-  > Generating new icons:
-   - If new icons have been added, or existing icons changed, the build system can handle updating only changed icons:
-   - `make build -j$(nproc)`
-   - Alternatively, `make regen -j$(nproc)` will completely clear the project and regenerate all assets
-   - If a new icon category / context was added, or values were changed for an existing one, run `make index`
-  > Adding new symlinks:
-   - If a new symlink is required, do the following:
-     - Look in `argon/symlinks/` for the `.list` file corresponding to the icon's category
-     - Add a new line to the file, ensuring the alphabetical order is preserved
-     - Fill in the line with `newIcon.svg -> targetIcon.svg`
-     - `targetIcon.svg` should already exist, and `newIcon.svg` will be created at install time
-     - Run `make check`, to validate the symlinks
-     - Example: `blender.svg -> new-blender.svg`
-     - Please use a relative path, as the symlinks are generated exactly with the given data in the install directory
-  > Installing:
-   - Install with `sudo make install`
-   - Uninstall with `sudo make uninstall`
-   - Set the theme using gnome-tweaks, or `gsettings set org.gnome.desktop.interface icon-theme Argon`
-  > Cleaning assets:
-   - `make clean` will delete all generated icons and `index.theme`
-   - `make autoclean` will remove clutter (icons missing a corresponding svg, broken symlinks and empty directories)
+## Adding symlinks:
+ - If a new symlink is required, do the following:
+   - Look in `argon/symlinks/` for the `.list` file corresponding to the icon's category
+   - Add a new line to the file, ensuring the alphabetical order is preserved
+   - Fill in the line with `newIcon.svg -> targetIcon.svg`
+   - `targetIcon.svg` should already exist, and `newIcon.svg` will be created at install time
+   - Run `make check`, to validate the symlinks
+   - Example: `blender.svg -> new-blender.svg`
+   - Please use a relative path, as the symlinks are generated exactly with the given data in the install directory
+
+## Installing the icon theme:
+  - Install with `sudo make install`
+  - Uninstall with `sudo make uninstall`
+  - Set the theme using GNOME Tweaks, or `gsettings set org.gnome.desktop.interface icon-theme Argon`
 
 ## Submitting a pull request:
  - When you believe your contribution to be complete, submit a pull request
