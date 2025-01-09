@@ -3,6 +3,7 @@
  - Where possible, icons should follow the templates in `guides/`
  - Basic colours are defined here, which should be used when appropriate
  - Shadow usage is also defined here, when to use it and the strength of the shadow
+ - Any text used should be converted from text to a path
 
 ## Templates:
  - Templates for icons can be found in `guides/`

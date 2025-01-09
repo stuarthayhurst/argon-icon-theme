@@ -22,7 +22,6 @@
  - **Icons should follow the guidelines in `docs/DESIGN_GUIDELINES.md`**
  - Icons are all SVG files, such as `argon/scalable/[context]/icon.svg`
  - Icon templates can be found in `guides/`, and should be followed to match the style of the theme
- - Any text used should be converted from text to a path
 
 ## Adding symlinks:
  - If a new symlink is required, do the following:
