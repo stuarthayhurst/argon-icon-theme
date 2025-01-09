@@ -12,8 +12,8 @@ install: check
 	  mkdir -p "$(INSTALL_DIR)"
 	  cp -r "./$(BUILD_DIR)/"* "$(INSTALL_DIR)"
 	  ./scripts/symlink-tool.py "--install-symlinks" "$(BUILD_DIR)" "$(INSTALL_DIR)"
-	  rm -rf "$(INSTALL_DIR)/symlinks"
-	  $(MAKE) index refresh
+	  $(MAKE) index
+	  $(MAKE) refresh
 uninstall:
 	rm -rf "$(INSTALL_DIR)"
 index:
