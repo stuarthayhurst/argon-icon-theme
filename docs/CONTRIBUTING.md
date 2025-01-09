@@ -7,7 +7,7 @@
    - Create a merge request, and make any requested changes
 
 ## Suggestions for contributing:
- - New icons
+ - New icons or symlinks
  - Improved versions of existing icons
  - Bug fixes and performance improvements to the build system
  - Documentation fixes and clarity improvements
