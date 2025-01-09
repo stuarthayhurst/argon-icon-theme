@@ -12,12 +12,6 @@
  - Bug fixes and performance improvements to the build system
  - Documentation fixes and clarity improvements
 
-## Working with issues:
- - If someone else is already working on a reported, feel free help them out. Please don't try and commandeer the issue, if you want to work on something on your own, find another issue
- - Please report issues before submitting a pull request to fix them
- - If you are working on your own issue, use that report as a space to track information and progress relating to the issue
- - If any help is required, please make it known, instead of silently dropping the issue
-
 ## Adding an icon:
  - **Icons should follow the guidelines in `docs/DESIGN_GUIDELINES.md`**
  - Icons are all SVG files, such as `argon/scalable/[context]/icon.svg`
