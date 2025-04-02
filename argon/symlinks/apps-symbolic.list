@@ -33,6 +33,7 @@ org.gnome.Calculator.Devel-symbolic.svg -> org.gnome.Calculator-symbolic.svg
 org.gnome.Clocks-symbolic.svg -> org.gnome.clocks-symbolic.svg
 org.gnome.Console-symbolic.svg -> org.gnome.Terminal-symbolic.svg
 org.gnome.Disks-symbolic.svg -> org.gnome.DiskUtility-symbolic.svg
+org.gnome.FileRoller-symbolic.svg -> org.gnome.ArchiveManager-symbolic.svg
 org.gnome.FontManager-symbolic.svg -> org.gnome.font-viewer-symbolic.svg
 org.gnome.glade-symbolic.svg -> org.gnome.Glade-symbolic.svg
 org.gnome.Loupe-symbolic.svg -> org.gnome.eog-symbolic.svg

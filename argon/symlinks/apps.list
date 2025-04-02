@@ -70,6 +70,7 @@ gimp.svg -> org.gimp.GIMP.svg
 org.gnome.Clocks.svg -> org.gnome.clocks.svg
 org.gnome.Console.svg -> org.gnome.Terminal.svg
 org.gnome.Disks.svg -> org.gnome.DiskUtility.svg
+org.gnome.FileRoller.svg -> org.gnome.ArchiveManager.svg
 org.gnome.FontManager.svg -> org.gnome.font-viewer.svg
 org.gnome.glade.svg -> org.gnome.Glade.svg
 org.gnome.Loupe.svg -> org.gnome.eog.svg
