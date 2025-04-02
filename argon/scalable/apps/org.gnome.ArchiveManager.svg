@@ -23,9 +23,9 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="77.074635"
-     inkscape:cy="128.69343"
-     inkscape:current-layer="layer4"
+     inkscape:cx="100.0556"
+     inkscape:cy="65.760927"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
@@ -141,9 +141,9 @@
        inkscape:label="Highlight"
        style="display:inline;enable-background:new;opacity:0.1">
       <path
-         id="rect4158-36"
+         id="path3"
          style="display:inline;enable-background:accumulate;opacity:1;color:#000000;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.00002;marker:none"
-         d="M 58.628906,16 C 48.308876,16 40,24.30888 40,34.628906 v 2 C 40,26.30888 48.308876,18 58.628906,18 H 197.37305 C 207.69293,18 216,26.309038 216,36.628906 v -2 C 216,24.309038 207.69293,16 197.37305,16 Z" />
+         d="M 58.628906 16 C 48.308876 16 40 24.30888 40 34.628906 L 40 38.628906 C 40 28.30888 48.308876 20 58.628906 20 L 197.37305 20 C 207.69293 20 216 28.309038 216 38.628906 L 216 34.628906 C 216 24.309038 207.69293 16 197.37305 16 L 58.628906 16 z " />
     </g>
   </g>
   <g
@@ -184,12 +184,11 @@
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="Highlight"
+     inkscape:label="Large Highlight"
      style="display:inline;opacity:0.05">
     <path
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999985;marker:none;enable-background:accumulate"
-       d="M 128.0027,16.000007 V 240.00001 h 49.07077 c 35.29565,0 39.09366,-3.62602 38.92067,-38.99414 V 128.00001 54.994148 c 0.17299,-35.368112 -3.62502,-38.994141 -38.92067,-38.994141 z"
-       id="rect4158-3"
-       inkscape:connector-curvature="0" />
+       id="path2"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.00002;marker:none;enable-background:accumulate"
+       d="M 128 16 L 128 240 L 197.37109 240 C 207.69112 240 216 231.69112 216 221.37109 L 216 34.628906 C 216 24.309038 207.69293 16 197.37305 16 L 128 16 z " />
   </g>
 </svg>
