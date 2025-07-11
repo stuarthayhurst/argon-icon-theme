@@ -4,7 +4,7 @@
    height="256"
    id="svg11300"
    sodipodi:version="0.32"
-   sodipodi:docname="application-x-shellscript.svg"
+   sodipodi:docname="text-x-script.svg"
    version="1.0"
    style="display:inline;enable-background:new"
    inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
@@ -22,9 +22,9 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.7002697"
-     inkscape:cx="61.845675"
-     inkscape:cy="165.90935"
-     inkscape:current-layer="layer1"
+     inkscape:cx="61.845674"
+     inkscape:cy="106.65601"
+     inkscape:current-layer="layer8"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
@@ -126,7 +126,7 @@
         <path
            id="path23"
            style="display:inline;fill:#c6c6c6;fill-opacity:1;stroke-width:2.81803;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;enable-background:new"
-           d="M 65 133 L 65 141 L 191 141 L 191 133 L 65 133 z M 65 151 L 65 159 L 191 159 L 191 151 L 65 151 z M 65 169 L 65 177 L 191 177 L 191 169 L 65 169 z M 65 187 L 65 195 L 191 195 L 191 187 L 65 187 z M 65 205 L 65 213 L 191 213 L 191 205 L 65 205 z " />
+           d="m 65,133 v 8 h 126 v -8 z m 0,18 v 8 h 126 v -8 z m 0,18 v 8 h 126 v -8 z m 0,18 v 8 h 126 v -8 z m 0,18 v 8 h 126 v -8 z" />
         <g
            id="g1">
           <rect
