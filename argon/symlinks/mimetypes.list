@@ -1,4 +1,5 @@
 application-x-source-rpm.svg -> application-x-rpm.svg
 application-x-object.svg -> application-octet-stream.svg
 text-x-gettext-translation.svg -> text-x-po.svg
+application-json5.svg -> application-json.svg
 text-x-python.svg -> text-x-python3.svg
