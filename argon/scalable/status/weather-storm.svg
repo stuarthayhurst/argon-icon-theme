@@ -5,6 +5,7 @@
    version="1.1"
    id="svg8"
    sodipodi:docname="weather-storm.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -20,17 +21,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1836"
-     inkscape:window-height="1016"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
      id="namedview10"
      showgrid="false"
-     inkscape:zoom="19.047689"
-     inkscape:cx="7.2087872"
-     inkscape:cy="4.6148791"
-     inkscape:window-x="2004"
-     inkscape:window-y="27"
+     inkscape:zoom="13.46875"
+     inkscape:cx="1.5591647"
+     inkscape:cy="1.9303944"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g846"
      inkscape:document-rotation="0"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
@@ -51,15 +52,15 @@
         <path
            d="m 11.860649,10.775 -0.13,1.75 h 0.8065 l -0.19,1.75 1.3835,-2.5 h -0.955 l 0.162,-1 z"
            id="path4"
-           style="fill:#ffff00;stroke-width:0.5" />
+           style="fill:#ffeb00;stroke-width:0.5;fill-opacity:1" />
         <path
            d="m 3.7637799,11.512 -0.0975,1.312501 h 0.604874 L 4.1286549,14.137 5.1662799,12.262001 h -0.71625 L 4.5715289,11.512 Z"
            id="path834"
-           style="fill:#ffff00;stroke-width:0.375" />
+           style="fill:#ffeb00;stroke-width:0.375;fill-opacity:1" />
         <path
            d="m 7.3950564,10 -0.195,2.625 H 8.4098063 L 8.1248064,15.25 10.200056,11.5 H 8.7675564 l 0.243,-1.5 z"
            id="path836"
-           style="fill:#ffff00;stroke-width:0.75" />
+           style="fill:#ffeb00;stroke-width:0.75;fill-opacity:1" />
       </g>
     </g>
   </g>
