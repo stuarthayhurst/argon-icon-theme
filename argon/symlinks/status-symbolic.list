@@ -1,3 +1,15 @@
+battery-caution-charging-symbolic.svg -> battery-level-20-charging-symbolic.svg
+battery-caution-symbolic.svg -> battery-level-20-symbolic.svg
+battery-empty-charging-symbolic.svg -> battery-level-0-charging-symbolic.svg
+battery-empty-symbolic.svg -> battery-level-0-symbolic.svg
+battery-full-charged-symbolic.svg -> battery-level-100-charged-symbolic.svg
+battery-full-charging-symbolic.svg -> battery-level-100-charging-symbolic.svg
+battery-full-symbolic.svg -> battery-level-100-symbolic.svg
+battery-good-charging-symbolic.svg -> battery-level-70-charging-symbolic.svg
+battery-good-symbolic.svg -> battery-level-70-symbolic.svg
+battery-low-charging-symbolic.svg -> battery-level-40-charging-symbolic.svg
+battery-low-symbolic.svg -> battery-level-40-symbolic.svg
+battery-symbolic.svg -> battery-level-100-symbolic.svg
 weather-clear-large-symbolic.svg -> weather-clear-symbolic.svg
 weather-clear-night-large-symbolic.svg -> weather-clear-night-symbolic.svg
 weather-clear-night-small-symbolic.svg -> weather-clear-night-symbolic.svg

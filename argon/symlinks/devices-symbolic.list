@@ -1,5 +1,5 @@
-ac-adapter-symbolic.svg -> ../status/battery-full-charged-symbolic.svg
-battery-symbolic.svg -> ../status/battery-symbolic.svg
+ac-adapter-symbolic.svg -> ../status/battery-level-100-charged-symbolic.svg
+battery-symbolic.svg -> ../status/battery-level-100-symbolic.svg
 cdrom-unmount-symbolic.svg -> media-optical-symbolic.svg
 cdwriter-unmount-symbolic.svg -> media-optical-symbolic.svg
 drive-cdrom-symbolic.svg -> media-optical-symbolic.svg
