@@ -1,4 +1,4 @@
-# This workflow will test the build system (validate symlinks, index generator, cleaning, installing / uninstalling, full build)
+# This workflow will test the build system (validate symlinks, index generator and installing / uninstalling)
 name: Complete build system test
 
 on:
@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-24.04
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - name: Set up Python 3.13
       uses: actions/setup-python@v5
       with:
