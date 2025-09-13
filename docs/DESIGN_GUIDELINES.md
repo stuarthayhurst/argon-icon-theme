@@ -6,6 +6,11 @@
  - Any text used should be converted from text to a path
    - Cantarell should be used, except in specific edge cases
 
+## Fonts:
+ - Cantarell should be used for letters and symbols
+ - DejaVu Sans should be used for numbers
+ - Individual exceptions can be made, but all fonts must be converted to paths and definitions removed
+
 ## Templates:
  - Templates for icons can be found in `guides/`
  - These template have the correct sizing, layers and opacities for icons that may be designed
