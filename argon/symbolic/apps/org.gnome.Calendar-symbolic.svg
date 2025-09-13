@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   sodipodi:docname="org.gnome.Calendar-symbolic.symbolic.svg"
+   sodipodi:docname="org.gnome.Calendar-symbolic.svg"
    id="svg8"
    version="1.1"
    viewBox="0 0 4.2333333 4.2333334"
    height="16"
    width="16"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -14,17 +15,17 @@
      id="defs2" />
   <sodipodi:namedview
      inkscape:window-maximized="1"
-     inkscape:window-y="27"
-     inkscape:window-x="1920"
-     inkscape:window-height="1016"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="1011"
      inkscape:window-width="1920"
      units="px"
      showgrid="false"
      inkscape:document-rotation="0"
-     inkscape:current-layer="g1156"
+     inkscape:current-layer="g870"
      inkscape:document-units="px"
-     inkscape:cy="10.407728"
-     inkscape:cx="11.799844"
+     inkscape:cy="7.8665629"
+     inkscape:cx="2.6516504"
      inkscape:zoom="22.627417"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -43,10 +44,11 @@
     <g
        id="g870">
       <path
-         id="path839"
-         style="font-size:33.8667px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell;white-space:pre;stroke-width:0.313457"
-         d="M 9.9511719 4.2109375 C 8.5637696 4.2414988 7.5859375 5.2298922 7.5859375 6.640625 C 7.5859375 7.9675933 8.4565813 8.8496094 9.7304688 8.8496094 C 10.632806 8.8496094 11.387365 8.4132771 11.769531 7.6914062 L 11.769531 7.9042969 C 11.769531 9.9743672 11.015591 11.015625 9.4550781 11.015625 C 8.9455234 11.015625 8.402639 10.898462 7.9355469 10.654297 L 7.6816406 11.34375 C 8.2655058 11.651608 8.8176282 11.789063 9.4121094 11.789062 C 11.450329 11.789062 12.628906 10.292425 12.628906 7.7871094 C 12.628906 5.5259556 11.673631 4.2109356 10.017578 4.2109375 C 9.9953514 4.2109375 9.9731941 4.2104524 9.9511719 4.2109375 z M 5.25 4.3164062 L 2.6289062 5.6757812 L 2.9472656 6.2792969 L 4.921875 5.3359375 L 4.921875 11.736328 L 5.7597656 11.736328 L 5.7597656 4.3164062 L 5.25 4.3164062 z M 9.9101562 4.9746094 C 10.897419 4.9746094 11.513995 5.6532476 11.705078 6.9589844 C 11.418454 7.6914708 10.781405 8.1171875 9.9746094 8.1171875 C 9.0191936 8.1171875 8.4238281 7.5011888 8.4238281 6.5351562 C 8.4238281 5.6009704 8.9865883 4.9746094 9.9101562 4.9746094 z "
-         transform="scale(0.26458333)" />
+         style="font-size:4px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell;white-space:pre;stroke-width:0.376782"
+         d="m -12.322844,6.444657 h 0.316 v -2.796 h -0.192 l -0.988,0.512 0.12,0.228 0.848,-0.404 -0.104,-0.1 z m 1.920002,-2.836 c -0.536,0 -0.916,0.376 -0.916,0.916 0,0.5 0.328,0.832 0.808,0.832 0.416,0 0.7439996,-0.244 0.8399996,-0.632 l -0.068,-0.168 c -0.088,0.332 -0.3479996,0.524 -0.6799996,0.524 -0.36,0 -0.584,-0.232 -0.584,-0.596 0,-0.352 0.212,-0.588 0.56,-0.588 0.4559996,0 0.6999996,0.384 0.6999996,1.104 0,0.78 -0.2839996,1.172 -0.8719996,1.172 -0.192,0 -0.396,-0.044 -0.572,-0.136 l -0.096,0.26 c 0.22,0.116 0.428,0.168 0.652,0.168 0.7679996,0 1.2119996,-0.564 1.2119996,-1.508 0,-0.852 -0.36,-1.348 -0.9839996,-1.348 z"
+         id="text1"
+         transform="matrix(0.70221978,0,0,0.70221978,9.9479793,-1.4201732)"
+         aria-label="19" />
       <g
          id="g888">
         <path
