@@ -140,7 +140,7 @@
        inkscape:groupmode="layer"
        id="layer3-3"
        inkscape:label="Highlights"
-       style="display:none;enable-background:new">
+       style="display:inline;enable-background:new">
       <path
          id="path3"
          style="display:inline;opacity:0.08;fill:#ffffff;stroke-width:6.64319;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;enable-background:new"
