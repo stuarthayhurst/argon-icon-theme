@@ -1,5 +1,4 @@
 ## argon-icon-theme
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/stuartahayhurst)
   - A minimalistic app icon theme for Linux, designed for GNOME, but should work elsewhere
   - Any donations are greatly appreciated :)
 
