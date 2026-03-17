@@ -44,6 +44,7 @@
      style="display:inline">
     <path
        id="path835"
+       color-rendering="auto"
        style="display:inline;fill:#000000;fill-opacity:1;stroke-width:3.5673;stroke-linecap:round;stroke-miterlimit:1.6;paint-order:stroke markers fill"
        d="M 8 0 A 7.9999996 7.9999996 0 0 0 0 8 A 7.9999996 7.9999996 0 0 0 8 16 A 7.9999996 7.9999996 0 0 0 16 8 A 7.9999996 7.9999996 0 0 0 8 0 z M 8 1 A 7 7 0 0 1 15 8 A 7 7 0 0 1 8 15 A 7 7 0 0 1 1 8 A 7 7 0 0 1 8 1 z "
        transform="scale(0.26458333)" />
