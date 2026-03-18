@@ -43,6 +43,7 @@
      inkscape:label="Icon">
     <path
        id="path3"
+       color-rendering="auto"
        class="error"
        style="line-height:normal;-inkscape-font-specification:sans-serif;text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;fill:#000000;marker:none"
        d="M 7.0986562,6 7.297875,12.533203 H 8.7177969 L 8.9170156,6 Z m 0.9101563,7.556641 c -0.7386363,0 -1.2226561,0.511896 -1.2226563,1.236328 0,0.696022 0.48402,1.207031 1.2226563,1.207031 0.7244319,0 1.2070313,-0.511009 1.2070313,-1.207031 0,-0.724432 -0.4825994,-1.236328 -1.2070313,-1.236328 z" />

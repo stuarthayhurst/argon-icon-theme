@@ -46,6 +46,7 @@
        transform="matrix(0.07692308,0,0,0.07692308,-0.46810897,-0.46810897)">
       <path
          id="rect1197"
+         color-rendering="auto"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:9.27969;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:markers fill stroke"
          d="m 189,161 c 0,9.33333 0,18.66667 0,28 -9.33333,0 -18.66667,0 -28,0 v 14 c 9.33333,0 18.66667,0 28,0 0,9.33333 0,18.66667 0,28 h 14 c 0,-9.33333 0,-18.66667 0,-28 9.33333,0 18.66667,0 28,0 v -14 c -9.33333,0 -18.66667,0 -28,0 0,-9.33333 0,-18.66667 0,-28 z"
          transform="scale(0.26458333)"

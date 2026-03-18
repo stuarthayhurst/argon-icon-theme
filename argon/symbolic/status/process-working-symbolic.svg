@@ -18,6 +18,7 @@
      transform="matrix(0.27113255,0,0,0.27113255,-1.2768328,-1.7330108)">
     <path
        id="path831"
+       color-rendering="auto"
        style="fill:url(#linearGradient847);fill-opacity:1;stroke:none;stroke-width:4.90322;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        d="M 8,8 13.65625,2.34375 C 12.156206,0.84338542 10.121609,3.2048045e-4 8,0 5.8783907,3.2048045e-4 3.843794,0.84338542 2.34375,2.34375 0.84338542,3.843794 3.2049144e-4,5.8783907 0,8"
        transform="matrix(3.6882329,0,0,3.6882329,4.7092568,6.3917475)"

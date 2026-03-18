@@ -41,6 +41,7 @@
      inkscape:label="Icon">
     <path
        id="path2"
+       color-rendering="auto"
        style="line-height:normal;-inkscape-font-specification:sans-serif;text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;marker:none;fill:#000000"
        d="M 8.640625 1.6679688 C 6.482625 1.6699688 4.6474844 2.9993906 3.7714844 4.9003906 L 3.7109375 5.0292969 L 3.5722656 5.0390625 C 1.5782656 5.1830625 5.9211895e-16 6.9098125 0 9.0078125 C 0 11.200813 1.7158906 13 3.8378906 13 L 13.121094 13 C 14.713094 13 16 11.649719 16 10.011719 A 2.958 2.958 0 0 0 14.195312 7.2773438 L 14.058594 7.21875 L 14.048828 7.0703125 C 13.913828 4.0773125 11.561531 1.6699688 8.6445312 1.6679688 L 8.640625 1.6679688 z " />
   </g>
