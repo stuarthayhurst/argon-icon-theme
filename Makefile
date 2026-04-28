@@ -1,6 +1,6 @@
 SHELL = bash
 BUILD_DIR = argon
-INSTALL_DIR ?= /usr/share/icons/Argon
+INSTALL_DIR ?= /usr/local/share/icons/Argon
 
 .PHONY: check install uninstall index refresh
 
