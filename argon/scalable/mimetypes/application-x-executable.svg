@@ -7,7 +7,7 @@
    sodipodi:docname="application-x-executable.svg"
    version="1.0"
    style="display:inline;enable-background:new"
-   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -21,16 +21,16 @@
      borderopacity="1"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="73.5"
-     inkscape:cy="122.5"
-     inkscape:current-layer="g99"
+     inkscape:zoom="4"
+     inkscape:cx="98.125"
+     inkscape:cy="128.625"
+     inkscape:current-layer="layer2-7"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1011"
+     inkscape:window-height="1043"
      inkscape:window-x="0"
      inkscape:window-y="0"
      width="400px"
@@ -74,19 +74,8 @@
     </g>
     <g
        inkscape:groupmode="layer"
-       id="g99"
-       inkscape:label="Background B"
-       style="display:inline;enable-background:new">
-      <path
-         id="path99"
-         style="display:inline;fill:#388fe6;fill-opacity:1;stroke:none;stroke-width:39.5303;stroke-linecap:round;stroke-linejoin:round;enable-background:new"
-         d="m 128,11.248047 c -4.76197,0 -9.52319,1.825925 -13.17188,5.474609 L 16.722656,114.82812 c -7.2973699,7.29738 -7.2973676,19.04639 0,26.34376 l 98.105464,98.10546 c 7.29738,7.29738 19.04639,7.29738 26.34376,0 l 98.10546,-98.10546 c 7.29725,-7.29726 7.29961,-19.04649 0.002,-26.34376 L 141.17188,16.722656 C 137.52319,13.073972 132.76197,11.248047 128,11.248047 Z"
-         sodipodi:nodetypes="sccssssccs" />
-    </g>
-    <g
-       inkscape:groupmode="layer"
        id="layer2-7"
-       inkscape:label="Background A"
+       inkscape:label="Background"
        style="display:inline;enable-background:new">
       <path
          id="rect5"
