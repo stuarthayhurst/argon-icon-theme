@@ -29,7 +29,7 @@ jobs:
 
     - name: Test index generator
       run: |
-        INSTALL_DIR=./ make index
+        PREFIX_DIR=~/.local make index
 
     - name: Test install and uninstall targets
       run: |
