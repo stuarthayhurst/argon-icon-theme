@@ -18,6 +18,7 @@ install: check
 uninstall:
 	rm -rf "$(THEME_DIR)"
 index:
+	@mkdir -p "$(THEME_DIR)"
 	./scripts/generate-index.py "$(THEME_DIR)"
 #Refresh / generate icon cache
 refresh:
