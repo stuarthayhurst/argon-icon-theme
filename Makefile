@@ -1,6 +1,7 @@
 SHELL = bash
 BUILD_DIR = argon
-INSTALL_DIR ?= /usr/share/icons/Argon
+PREFIX_DIR ?= /usr
+THEME_DIR := $(PREFIX_DIR)/share/icons/Argon
 
 .PHONY: check install uninstall index refresh
 
@@ -9,22 +10,22 @@ check:
 	./scripts/symlink-tool.py "--check-symlinks" "$(BUILD_DIR)"
 install: check
 	  $(MAKE) uninstall
-	  mkdir -p "$(INSTALL_DIR)"
-	  cp -r "./$(BUILD_DIR)/scalable" "./$(BUILD_DIR)/symbolic" "$(INSTALL_DIR)"
-	  ./scripts/symlink-tool.py "--install-symlinks" "$(BUILD_DIR)" "$(INSTALL_DIR)"
+	  mkdir -p "$(THEME_DIR)"
+	  cp -r "./$(BUILD_DIR)/scalable" "./$(BUILD_DIR)/symbolic" "$(THEME_DIR)"
+	  ./scripts/symlink-tool.py "--install-symlinks" "$(BUILD_DIR)" "$(THEME_DIR)"
 	  $(MAKE) index
 	  $(MAKE) refresh
 uninstall:
-	rm -rf "$(INSTALL_DIR)"
+	rm -rf "$(THEME_DIR)"
 index:
-	./scripts/generate-index.py "$(INSTALL_DIR)"
+	./scripts/generate-index.py "$(THEME_DIR)"
 #Refresh / generate icon cache
 refresh:
 	@if command -v gtk-update-icon-cache > /dev/null; then \
-	  touch "$(INSTALL_DIR)" > /dev/null && \
-	  gtk-update-icon-cache -f "$(INSTALL_DIR)"; \
+	  touch "$(THEME_DIR)" > /dev/null && \
+	  gtk-update-icon-cache -f "$(THEME_DIR)"; \
 	fi
 	@if command -v gtk4-update-icon-cache > /dev/null; then \
-	  touch "$(INSTALL_DIR)" > /dev/null && \
-	  gtk4-update-icon-cache -f "$(INSTALL_DIR)"; \
+	  touch "$(THEME_DIR)" > /dev/null && \
+	  gtk4-update-icon-cache -f "$(THEME_DIR)"; \
 	fi
