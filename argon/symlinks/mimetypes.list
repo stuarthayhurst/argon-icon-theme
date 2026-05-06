@@ -1,6 +1,7 @@
 application-json5.svg -> application-json.svg
 application-vnd.efi.img.svg -> application-vnd.efi.iso.svg
 application-x-compressed-iso.svg -> application-vnd.efi.iso.svg
+application-x-raw-disk-image-xz-compressed.svg -> package-x-generic.svg
 application-x-source-rpm.svg -> application-x-rpm.svg
 application-x-object.svg -> application-octet-stream.svg
 text-x-gettext-translation.svg -> text-x-po.svg
