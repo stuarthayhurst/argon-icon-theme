@@ -4,5 +4,12 @@ application-x-compressed-iso.svg -> application-vnd.efi.iso.svg
 application-x-raw-disk-image-xz-compressed.svg -> package-x-generic.svg
 application-x-source-rpm.svg -> application-x-rpm.svg
 application-x-object.svg -> application-octet-stream.svg
+model-3mf.svg -> model-obj.svg
+model-gltf-binary.svg -> model-obj.svg
+model-gltf+json.svg -> model-obj.svg
+model-iges.svg -> model-obj.svg
+model-mtl.svg -> model-obj.svg
+model-stl.svg -> model-obj.svg
+model-vrml.svg -> model-obj.svg
 text-x-gettext-translation.svg -> text-x-po.svg
 text-x-python.svg -> text-x-python3.svg
