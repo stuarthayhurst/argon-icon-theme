@@ -1,5 +1,5 @@
-SHELL = bash
-BUILD_DIR = argon
+SHELL := bash
+BUILD_DIR := argon
 PREFIX_DIR ?= /usr
 THEME_DIR := $(PREFIX_DIR)/share/icons/Argon
 
