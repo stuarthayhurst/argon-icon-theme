@@ -22,11 +22,11 @@
      units="px"
      showgrid="false"
      inkscape:document-rotation="0"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="g1174"
      inkscape:document-units="px"
-     inkscape:cy="125.25"
-     inkscape:cx="80.75"
-     inkscape:zoom="2"
+     inkscape:cy="127.98633"
+     inkscape:cx="-155.56349"
+     inkscape:zoom="0.70710678"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -60,15 +60,15 @@
        inkscape:groupmode="layer">
       <path
          id="path77"
-         style="fill:#3be93b;fill-opacity:1;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+         style="fill:#54ec54;fill-opacity:1;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
          d="M 9.2257935 4.2333333 C 6.4601935 4.2333333 4.2333333 6.4601943 4.2333333 9.2257935 L 4.2333333 29.552201 L 8.5477987 33.866667 L 33.866667 33.866667 L 33.866667 4.2333333 L 9.2257935 4.2333333 z " />
       <path
          id="rect17"
-         style="fill:#3b6ef8;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke;fill-opacity:1"
+         style="fill:#537ef3;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke;fill-opacity:1"
          d="M 33.866667,4.2333333 V 33.866667 H 63.5 V 9.2257935 c 0,-2.7655991 -2.22686,-4.9924602 -4.99246,-4.9924602 z" />
       <path
          id="path66"
-         style="fill:#3fe53f;fill-opacity:1;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+         style="fill:#4fe14f;fill-opacity:1;stroke-width:8.46667;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
          d="M 33.866667 33.866667 L 33.866667 59.185535 L 38.181132 63.5 L 58.50754 63.5 C 61.27314 63.5 63.5 61.273139 63.5 58.50754 L 63.5 33.866667 L 33.866667 33.866667 z " />
       <path
          id="path67"
